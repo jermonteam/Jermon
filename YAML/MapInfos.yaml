@@ -1,0 +1,50 @@
+---
+1: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Intro
+  order: 1
+  parent_id: 0
+  scroll_x: 320
+  scroll_y: 240
+32: !ruby/object:RPG::MapInfo
+  expanded: true
+  name: City
+  order: 2
+  parent_id: 0
+  scroll_x: 656
+  scroll_y: 760
+33: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: House
+  order: 3
+  parent_id: 32
+  scroll_x: 320
+  scroll_y: 240
+42: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Route 1
+  order: 4
+  parent_id: 32
+  scroll_x: 640
+  scroll_y: 488
+43: !ruby/object:RPG::MapInfo
+  expanded: true
+  name: Jermon Intro
+  order: 5
+  parent_id: 0
+  scroll_x: 320
+  scroll_y: 240
+48: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Jerma House
+  order: 6
+  parent_id: 43
+  scroll_x: 640
+  scroll_y: 640
+76: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Outside Balloon
+  order: 7
+  parent_id: 43
+  scroll_x: 640
+  scroll_y: 640
