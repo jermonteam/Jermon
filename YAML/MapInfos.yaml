@@ -12,7 +12,7 @@
   order: 2
   parent_id: 0
   scroll_x: 656
-  scroll_y: 760
+  scroll_y: 640
 33: !ruby/object:RPG::MapInfo
   expanded: false
   name: House
@@ -26,7 +26,7 @@
   order: 4
   parent_id: 32
   scroll_x: 640
-  scroll_y: 488
+  scroll_y: 640
 43: !ruby/object:RPG::MapInfo
   expanded: true
   name: Jermon Intro

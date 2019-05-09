@@ -227,7 +227,7 @@ events:
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'Kernel.pbItemBall(:MASTERBALL)']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbAddPokemon(:SQUIRTLE,10)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbAddPokemon(:RAT,10)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
