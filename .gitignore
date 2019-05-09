@@ -1,1 +1,4 @@
 .DS_Store
+/Data/*.rxdata
+!/Data/*PkmnAnimations.rxdata
+!/Data/*Scripts.rxdata
