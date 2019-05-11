@@ -4,3 +4,8 @@ GRILLER
 Grillmaster
 1
 GRILLMON,10
+
+TRAINER
+Vroomer
+1
+RAT,10
