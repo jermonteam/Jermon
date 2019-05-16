@@ -1,0 +1,4 @@
+[POKEDEXES]
+pokedex1=Amrej
+pokedex2=Johto
+
