@@ -205,7 +205,7 @@ Pokedex=Although the jermaSnail adopted a shell dripping with magma upon its bac
 BattlerEnemyY=16
 Shape=2
 [9]
-Name=Raptor
+Name=Squeektor
 InternalName=RAPTOR
 Type1=ROCK
 BaseStats=67,125,40,58,30,30
@@ -230,7 +230,7 @@ BattlerEnemyY=18
 Evolutions=REX,Level,30
 Shape=6
 [10]
-Name=Rex
+Name=Tyranascreech
 InternalName=REX
 Type1=ROCK
 BaseStats=97,165,60,58,65,50
@@ -921,6 +921,7 @@ Weight=5
 Color=Black
 Kind=Dachschund
 Pokedex=1
+RegionalNumber=1
 Shape=8
 Evolutions=OTTOUGH,Level,16
 [38]
@@ -942,7 +943,8 @@ Height=0.5
 Weight=6.5
 Color=Black
 Kind=Dachschund
-Pokedex=2
+Pokedex=Sometimes in times of need, Otto can grow in strength and size, capable of carrying even the largest tennis balls.
+RegionalNumber=2
 Shape=8
 Evolutions=GODTTO,Level,36
 [39]
@@ -964,8 +966,9 @@ StepsToHatch=9120
 Height=1.0
 Weight=8
 Color=Black
-Kind=Divine-Dachschund
-Pokedex=3
+Kind=Divine Dachschund
+Pokedex=It's Godtto! May he empower us with his divine licks and holy defiance.
+RegionalNumber=3
 Shape=8
 [40]
 Name=Vineshroom
