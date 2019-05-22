@@ -524,7 +524,7 @@ class PokeBattle_Move
 ################################################################################
 # Damage calculation and modifiers
 ################################################################################
-  def pbCritialOverride(attacker,opponent)
+  def pbCriticalOverride(attacker,opponent)
     return false
   end
 
@@ -536,7 +536,10 @@ class PokeBattle_Move
       end
     end
     return false if opponent.pbOwnSide.effects[PBEffects::LuckyChant]>0
-    return true if pbCritialOverride(attacker,opponent)
+    return true if pbCriticalOverride(attacker,opponent)
+    if attacker.hasWorkingAbility(:MERCILESS) && opponent.status==PBStatuses::POISON
+      return true
+    end
     c=0
     ratios=(USENEWBATTLEMECHANICS) ? [16,8,2,1,1] : [16,8,4,3,2]
     c+=attacker.effects[PBEffects::FocusEnergy]
