@@ -6,6 +6,27 @@
   parent_id: 0
   scroll_x: 320
   scroll_y: 240
+2: !ruby/object:RPG::MapInfo
+  expanded: true
+  name: Goodsprings
+  order: 8
+  parent_id: 0
+  scroll_x: 640
+  scroll_y: 640
+3: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Doc Mitchell House
+  order: 9
+  parent_id: 2
+  scroll_x: 480
+  scroll_y: 480
+4: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Saloon
+  order: 10
+  parent_id: 2
+  scroll_x: 480
+  scroll_y: 480
 32: !ruby/object:RPG::MapInfo
   expanded: true
   name: City
