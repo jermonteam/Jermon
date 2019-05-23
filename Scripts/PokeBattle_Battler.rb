@@ -2496,7 +2496,7 @@ class PokeBattle_Battler
       override=true if !miss && turneffects[PBEffects::SkipAccuracyCheck] # Called by another move
       if !override && (miss || !thismove.pbAccuracyCheck(user,target)) # Includes Counter/Mirror Coat
         PBDebug.log(sprintf("[Move failed] Failed pbAccuracyCheck (function code %02X) or target is semi-invulnerable",thismove.function))
-        if user.pbOpposing1.species.kind=="Bottle"
+        if (isConst?(user.pbOpposing1.species, PBSpecies, :BANDOTTLE) || isConst?(user.pbOpposing1.species, PBSpecies, :DESPEROTTLE))
           @battle.pbDisplay(_INTL("{1} avoided the attack! TRY ANOTHER!",target.pbThis))
         elsif thismove.target==PBTargets::AllOpposing && 
            (!user.pbOpposing1.fainted? ? 1 : 0) + (!user.pbOpposing2.fainted? ? 1 : 0) > 1

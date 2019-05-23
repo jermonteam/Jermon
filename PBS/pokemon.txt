@@ -1025,4 +1025,4 @@ Weight=40
 Color=Brown
 Kind=Bottle
 Pokedex=Haha, you missed that one.
-Shape=9
+Shape=5
