@@ -150,7 +150,7 @@ Pokedex=Legends say that the Watermen are responsible for recycling and purifyin
 BattlerEnemyY=17
 Shape=6
 [7]
-Name=jermaSlug
+Name=Jerslug
 InternalName=SLUG
 Type1=FIRE
 BaseStats=40,40,40,20,70,40
@@ -172,12 +172,12 @@ Color=Red
 Habitat=Mountain
 RegionalNumbers=10
 Kind=Lava
-Pokedex=Reaching peak speeds of 0.29 miles per hour, jermaSlug are known instead for their lethal defense mechanisms, infused in the sludge they leave as a trail.
+Pokedex=Reaching peak speeds of 0.29 miles per hour, Jerslug are known instead for their lethal defense mechanisms, infused in the sludge they leave as a trail.
 BattlerEnemyY=24
 Evolutions=SNAIL,Level,38
 Shape=2
 [8]
-Name=jermaSnail
+Name=Jersnail
 InternalName=SNAIL
 Type1=FIRE
 Type2=ROCK
@@ -199,7 +199,7 @@ Color=Red
 Habitat=Mountain
 RegionalNumbers=11
 Kind=Lava
-Pokedex=Although the jermaSnail adopted a shell dripping with magma upon its back, it is still virtually unthreatening due to its pitiful speed.
+Pokedex=Although the Jersnail adopted a shell expelling poison gas upon its back, it is still virtually unthreatening due to its pitiful speed.
 BattlerEnemyY=16
 Shape=2
 [9]
