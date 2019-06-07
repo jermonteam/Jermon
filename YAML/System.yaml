@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 37213463
+magic_number: 93775488
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -72,9 +72,9 @@ shop_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-start_map_id: 43
-start_x: 8
-start_y: 6
+start_map_id: 1
+start_x: 9
+start_y: 7
 switches:
 - 
 - Starting over

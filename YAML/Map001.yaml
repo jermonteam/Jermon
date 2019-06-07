@@ -104,7 +104,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [3, 15, 1, 0, 256, 172, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [18]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHello! Sorry to keep you waiting!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJXZWxjb21lIHRvIHRoZSB3b3JsZCBvZiBQb2vDqW1vbi4="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bWelcome to the world of Jermon]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bMy name is Oak.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJQZW9wbGUgY2FsbCBtZSB0aGUgUG9rw6ltb24gUHJvZmVzc29yLg=="]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: [Help Choices]}
@@ -284,8 +284,8 @@ events:
       walk_anime: true
     x: 0
     y: 0
-  2: !ruby/object:RPG::Event
-    id: 2
+  3: !ruby/object:RPG::Event
+    id: 3
     name: Quick start intro
     pages:
     - !ruby/object:RPG::Event::Page
@@ -316,7 +316,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbChangePlayer(0)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerName("Jerma")]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 33, 10, 6, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 3, 10, 17, 2, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
