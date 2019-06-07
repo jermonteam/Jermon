@@ -567,7 +567,7 @@ events:
         pattern: 0
         tile_id: 819
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Gym closed due to renovations]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Gym closed due to renovations.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -995,7 +995,7 @@ events:
     y: 1
   14: !ruby/object:RPG::Event
     id: 14
-    name: Gym Entrance
+    name: House Entrance
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1037,7 +1037,7 @@ events:
     y: 17
   15: !ruby/object:RPG::Event
     id: 15
-    name: Gym Entrance
+    name: Broken House
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1061,7 +1061,8 @@ events:
         pattern: 0
         tile_id: 819
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Locked]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Collapsed roofing and piles of debris bar entrance to ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this ramshackle shell of a home.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

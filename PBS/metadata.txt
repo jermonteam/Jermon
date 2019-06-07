@@ -23,12 +23,38 @@ Outdoor=true
 ShowArea=true
 #-------------------------------
 [003]
-# Doc Mitchell House
+# Doc Mitchell's House
 BattleBack=IndoorB
 MapPosition=0,13,12
-HealingSpot=2,8,8
+HealingSpot=2,7,31
+ShowArea=true
 #-------------------------------
 [004]
-# Saloon
+# Prospector Saloon
 MapPosition=0,13,12
-ShowArea=false
+ShowArea=true
+#-------------------------------
+[005]
+# Goodsprings General Store
+ShowArea=true
+#-------------------------------
+[006]
+# Goodsprings Cemetery
+SnapEdges=true
+BattleBack=Mountain
+Outdoor=true
+#-------------------------------
+[010]
+# Balloon Crash Site
+SnapEdges=true
+Outdoor=true
+#-------------------------------
+[011]
+# Route 1 - Dusty Trail
+SnapEdges=true
+Outdoor=true
+#-------------------------------
+[013]
+# Bewwie Town
+SnapEdges=true
+Outdoor=true

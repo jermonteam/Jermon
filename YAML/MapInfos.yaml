@@ -12,25 +12,81 @@
   order: 2
   parent_id: 0
   scroll_x: 570
-  scroll_y: 793
+  scroll_y: 524
 3: !ruby/object:RPG::MapInfo
   expanded: false
-  name: Doc Mitchell House
+  name: Doc Mitchell's House
   order: 3
   parent_id: 2
   scroll_x: 480
   scroll_y: 410
 4: !ruby/object:RPG::MapInfo
   expanded: false
-  name: Saloon
+  name: Prospector Saloon
   order: 4
   parent_id: 2
   scroll_x: 480
   scroll_y: 549
 5: !ruby/object:RPG::MapInfo
   expanded: false
-  name: Goodsprings Shop
+  name: Goodsprings General Store
   order: 5
   parent_id: 2
   scroll_x: 368
   scroll_y: 368
+6: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Goodsprings Cemetery
+  order: 6
+  parent_id: 2
+  scroll_x: 320
+  scroll_y: 240
+7: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: House
+  order: 7
+  parent_id: 2
+  scroll_x: 320
+  scroll_y: 240
+8: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Dusty Nook
+  order: 8
+  parent_id: 2
+  scroll_x: 320
+  scroll_y: 240
+9: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Ranch
+  order: 9
+  parent_id: 2
+  scroll_x: 320
+  scroll_y: 240
+10: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Balloon Crash Site
+  order: 10
+  parent_id: 2
+  scroll_x: 320
+  scroll_y: 240
+11: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Route 1 - Dusty Trail
+  order: 11
+  parent_id: 2
+  scroll_x: 320
+  scroll_y: 240
+12: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Dynamite Gym
+  order: 12
+  parent_id: 2
+  scroll_x: 320
+  scroll_y: 240
+13: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Bewwie Town
+  order: 13
+  parent_id: 0
+  scroll_x: 320
+  scroll_y: 240
