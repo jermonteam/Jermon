@@ -1,11 +1,11 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 GRILLER
-Grillmaster
+Grillmaster,3
 1
 GRILLMON,10
-
-TRAINER
-Vroomer
+#-------------------------------
+GRILLER
+Grillmaster
 1
-RAT,10
+FIREMAN,10,,SCRATCH,GROWL,EMBER,SMOKESCREEN
