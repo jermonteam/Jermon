@@ -1354,7 +1354,7 @@ ItemHandlers::BattleUseOnBattler.add(:BEER,proc{|item,battler,scene|
    scene.pbDisplay(_INTL("{1} used the {2}.",playername,PBItems.getName(item)))
    if battler.pbCanIncreaseStatStage?(PBStats::ATTACK,battler,false)
     if isConst?(battler.species,PBSpecies,:BANDOTTLE) || isConst?(battler.species,PBSpecies,:DESPEROTTLE)
-      scene.pbDisplay(_INTL("Beer for beer... Attack up increased!"))
+      scene.pbDisplay(_INTL("Beer for beer... Attack up increased! HP restored!"))
       pbBattleHPItem(battler.pokemon, battler, 50, scene)
       battler.pbIncreaseStat(PBStats::ATTACK,3,battler,true)
       return true
