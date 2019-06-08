@@ -357,7 +357,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Shop, Information, Rockslide, Goodbye], 4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Shop]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbPokemonMart([']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [':BEER']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [':BEER, :SARSAPARILLA']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['], "I''m sure I''ve got something ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['you''ll like.", "Always got more on ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['tap.", ']}

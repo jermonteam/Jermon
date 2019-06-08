@@ -393,6 +393,10 @@ ItemHandlers::UseOnPokemon.add(:SWEETHEART,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,20,scene)
 })
 
+ItemHandlers::UseOnPokemon.add(:SARSAPARILLA,proc{|item,pokemon,scene|
+   next pbHPItem(pokemon,30,scene)
+})
+
 ItemHandlers::UseOnPokemon.add(:FRESHWATER,proc{|item,pokemon,scene|
    next pbHPItem(pokemon,50,scene)
 })
@@ -1024,6 +1028,10 @@ ItemHandlers::BattleUseOnPokemon.add(:RAGECANDYBAR,proc{|item,pokemon,battler,sc
 
 ItemHandlers::BattleUseOnPokemon.add(:SWEETHEART,proc{|item,pokemon,battler,scene|
    next pbBattleHPItem(pokemon,battler,20,scene)
+})
+
+ItemHandlers::BattleUseOnPokemon.add(:SARSAPARILLA,proc{|item,pokemon,battler,scene|
+   next pbBattleHPItem(pokemon,battler,30,scene)
 })
 
 ItemHandlers::BattleUseOnPokemon.add(:FRESHWATER,proc{|item,pokemon,battler,scene|
