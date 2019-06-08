@@ -1,5 +1,5 @@
 module MessageConfig
-  FontName        = "Power Green"
+  FontName        = "Power Green With BLD"
   # in Graphics/Windowskins/ (specify empty string to use the default windowskin)
   TextSkinName    = "speech hgss 1"
   ChoiceSkinName  = "choice 1"
@@ -15,12 +15,12 @@ module MessageConfig
   # 2 = Pause cursor is displayed at lower middle side
   CURSORMODE      = 1
   FontSubstitutes = {
-     "Power Red and Blue"  => "Pokemon RS",
-     "Power Red and Green" => "Pokemon FireLeaf",
-     "Power Green"         => "Pokemon Emerald",
-     "Power Green Narrow"  => "Pokemon Emerald Narrow",
-     "Power Green Small"   => "Pokemon Emerald Small",
-     "Power Clear"         => "Pokemon DP"
+     "Power Red and Blue With BLD"  => "Pokemon RS With BLD",
+     "Power Red and Green With BLD" => "Pokemon FireLeaf With BLD",
+     "Power Green With BLD"         => "Pokemon Emerald With BLD",
+     "Power Green Narrow With BLD"  => "Pokemon Emerald Narrow With BLD",
+     "Power Green Small With BLD"   => "Pokemon Emerald Small With BLD",
+     "Power Clear With BLD"         => "Pokemon DP With BLD"
   }
   @@systemFrame     = nil
   @@defaultTextSkin = nil
@@ -362,13 +362,13 @@ end
 #===============================================================================
 # Gets the name of the system small font.
 def pbSmallFontName
-  return MessageConfig.pbTryFonts("Power Green Small","Pokemon Emerald Small",
+  return MessageConfig.pbTryFonts("Power Green Small With BLD","Pokemon Emerald Small With BLD",
      "Arial Narrow","Arial")
 end
 
 # Gets the name of the system narrow font.
 def pbNarrowFontName
-  return MessageConfig.pbTryFonts("Power Green Narrow","Pokemon Emerald Narrow",
+  return MessageConfig.pbTryFonts("Power Green Narrow With BLD","Pokemon Emerald Narrow With BLD",
      "Arial Narrow","Arial")
 end
 
@@ -376,9 +376,9 @@ end
 def pbSetSystemFont(bitmap)
   fontname=MessageConfig.pbGetSystemFontName
   bitmap.font.name=fontname
-  if fontname=="Pokemon FireLeaf" || fontname=="Power Red and Green"
+  if fontname=="Pokemon FireLeaf With BLD" || fontname=="Power Red and Green With BLD"
     bitmap.font.size=29
-  elsif fontname=="Pokemon Emerald Small" || fontname=="Power Green Small"
+  elsif fontname=="Pokemon Emerald Small With BLD" || fontname=="Power Green Small With BLD"
     bitmap.font.size=25
   else
     bitmap.font.size=31

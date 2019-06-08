@@ -473,21 +473,21 @@ end
 module FontInstaller
   # filenames of fonts to be installed
   Filenames = [
-     'pkmnem.ttf',
-     'pkmnemn.ttf',
-     'pkmnems.ttf',
-     'pkmnrs.ttf',
-     'pkmndp.ttf',
-     'pkmnfl.ttf'
+     'jrmnem.ttf',
+     'jrmnemn.ttf',
+     'jrmnems.ttf',
+     'jrmnrs.ttf',
+     'jrmndp.ttf',
+     'jrmnfl.ttf'
   ]    
   # names (not filenames) of fonts to be installed
   Names = [
-    'Power Green',
-    'Power Green Narrow',
-    'Power Green Small',
-    'Power Red and Blue',
-    'Power Clear',
-    'Power Red and Green'
+    'Power Green With BLD',
+    'Power Green Narrow With BLD',
+    'Power Green Small With BLD',
+    'Power Red and Blue With BLD',
+    'Power Clear With BLD',
+    'Power Red and Green With BLD'
   ]
   # whether to notify player (via pop-up message) that fonts were installed
   Notify = true

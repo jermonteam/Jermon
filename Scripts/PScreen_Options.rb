@@ -130,9 +130,9 @@ $TextFrames = [
 
 $VersionStyles = [
   [MessageConfig::FontName], # Default font style - Power Green/"Pokemon Emerald"
-  ["Power Red and Blue"],
-  ["Power Red and Green"],
-  ["Power Clear"]
+  ["Power Red and Blue With BLD"],
+  ["Power Red and Green With BLD"],
+  ["Power Clear With BLD"]
 ]
 
 def pbSettingToTextSpeed(speed)
