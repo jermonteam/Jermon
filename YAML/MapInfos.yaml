@@ -29,7 +29,7 @@
   scroll_y: 416
 5: !ruby/object:RPG::MapInfo
   expanded: false
-  name: Goodsprings General Store
+  name: Goodsprings Gen. Store
   order: 5
   parent_id: 2
   scroll_x: 352

@@ -1349,6 +1349,24 @@ ItemHandlers::BattleUseOnBattler.add(:XATTACK,proc{|item,battler,scene|
    next false  
 })
 
+ItemHandlers::BattleUseOnBattler.add(:BEER,proc{|item,battler,scene|
+   playername=battler.battle.pbPlayer.name
+   scene.pbDisplay(_INTL("{1} used the {2}.",playername,PBItems.getName(item)))
+   if battler.pbCanIncreaseStatStage?(PBStats::ATTACK,battler,false)
+    if isConst?(battler.species,PBSpecies,:BANDOTTLE) || isConst?(battler.species,PBSpecies,:DESPEROTTLE)
+      scene.pbDisplay(_INTL("Beer for beer... Attack up increased!"))
+      pbBattleHPItem(battler.pokemon, battler, 50, scene)
+      battler.pbIncreaseStat(PBStats::ATTACK,3,battler,true)
+      return true
+    else
+      battler.pbIncreaseStat(PBStats::ATTACK,1,battler,true)
+      return true
+    end
+   end
+   scene.pbDisplay(_INTL("But it had no effect!"))
+   return false  
+})
+
 ItemHandlers::BattleUseOnBattler.add(:XATTACK2,proc{|item,battler,scene|
    playername=battler.battle.pbPlayer.name
    scene.pbDisplay(_INTL("{1} used the {2}.",playername,PBItems.getName(item)))

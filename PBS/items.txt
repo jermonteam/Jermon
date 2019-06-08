@@ -524,3 +524,4 @@
 524,OVALCHARM,Oval Charm,Oval Charms,8,0,"An oval charm said to increase the chance of Eggs being found at the Day Care.",0,0,6,
 525,SHINYCHARM,Shiny Charm,Shiny Charms,8,0,"A shiny charm said to increase the chance of finding a Shiny Jermon.",0,0,6,
 526,POOPYTOOTHBRUSH,Poopy Toothbrush,Poopy Toothbrushes,1,0,"A toothbrush with tiny claw and bite marks on it. Looks like it's been through the toilet.",1,0,7,
+527,BEER,Beer,Beers,7,350,"It raises the Attack stat of a Jermon in battle. Has extra effect on bottle-like Jermon.",0,2,0,

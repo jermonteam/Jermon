@@ -320,6 +320,82 @@ events:
       walk_anime: true
     x: 20
     y: 4
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: Trudy
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 28
+        direction: 4
+        opacity: 255
+        pattern: 1
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [2, A, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['You''re the one causing up the stir in these parts. ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Happy to meet you. Welcome to the Prospector ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Saloon, I''m Trudy.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: [Questions]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['So what''ll it be?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Shop, Information, Rockslide, Goodbye], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Shop]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbPokemonMart([']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [':BEER']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['], "I''m sure I''ve got something ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['you''ll like.", "Always got more on ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['tap.", ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['"Be careful out there.")']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Information]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Goodsprings? It''s a quaint little town. We get ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [travelers due to the water tower.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Although I''d watch yourself over there. Some nasty ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Jermon there that spy out from the water.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 119, p: [Questions]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Rockslide]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['When your balloon crashed, it shook the cliifside.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['It might be a little bit before we get it cleared. Of ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['course, if Pete helped...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Ugh, not worth it with that old boomer']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 119, p: [Questions]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Goodbye]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [Be careful out there.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 11
 height: 26
 tileset_id: 3
 width: 33
