@@ -19,7 +19,7 @@ battle_start_se: !ruby/object:RPG::AudioFile
 battle_transition: Battle
 battleback_name: 003-Forest01
 battler_hue: 0
-battler_name: battlers
+battler_name: ''
 buzzer_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 4
+edit_map_id: 10
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 38734129
+magic_number: 13930152
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
