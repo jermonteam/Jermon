@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 0
+edit_map_id: 5
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 41835737
+magic_number: 2980791
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -138,7 +138,7 @@ switches:
 - Boulder down hole rock cave
 - Boulder down hole ice cave
 - Beginning
-- ''
+- Stop Time
 - ''
 - ''
 - ''
@@ -222,8 +222,8 @@ variables:
 - '----RESERVED-----'
 - '----RESERVED-----'
 - '----RESERVED-----'
-- ''
-- ''
+- Pass Seconds
+- Pass Days
 - ''
 - ''
 - ''

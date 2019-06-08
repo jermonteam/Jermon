@@ -789,7 +789,8 @@ end
 
 
 
-def pbPokemonMart(stock,speech=nil,cantsell=false)
+def pbPokemonMart(stock,speech=nil,switchSpeech=nil, 
+                  byeSpeech=nil,cantsell=false)
   for i in 0...stock.length
     stock[i]=getID(PBItems,stock[i]) if !stock[i].is_a?(Integer)
     if !stock[i] || stock[i]==0 ||
@@ -818,11 +819,12 @@ def pbPokemonMart(stock,speech=nil,cantsell=false)
       screen=PokemonMartScreen.new(scene,stock)
       screen.pbSellScreen
     else
-      Kernel.pbMessage(_INTL("Please come again!"))
+      Kernel.pbMessage(byeSpeech ? byeSpeech : _INTL("Please come again!"))
       break
     end
     cmd=Kernel.pbMessage(
-       _INTL("Is there anything else I can help you with?"),commands,cmdQuit+1)
+    switchSpeech ? switchSpeech : _INTL("Is there anything else I can help you with?"),
+    commands,cmdQuit+1)
   end
   $game_temp.clear_mart_prices
 end

@@ -1,10 +1,150 @@
 #===============================================================================
 # Day and night system
 #===============================================================================
+
+# Set false to disable this system (returns Time.now)
+NTN_ENABLED=true 
+
+# Make this true to time only pass at field (Scene_Map) 
+# A note to scripters: To make time pass on other scenes, put line
+# '$PokemonGlobal.addNewFrameCount' near to line 'Graphics.update'
+NTN_TIMESTOPS=true 
+
+# Make this true to time pass in battle, during turns and command selection.
+# This won't affect the Pokémon and Bag submenus.
+# Only works if NTN_TIMESTOPS=true.
+NTN_BATTLEPASS=true
+
+# Make this true to time pass when the Dialog box or the main menu are open.
+# This won't affect the submenus like Pokémon and Bag.
+# Only works if NTN_TIMESTOPS=true.
+NTN_TALKPASS=true
+
+# Time proportion here. 
+# So if it is 100, one second in real time will be 100 seconds in game.
+# If it is 60, one second in real time will be one minute in game.
+NTS_TIMEPROPORTION=6
+
+# Choose switch number that when true the time won't pass (or -1 to cancel). 
+# Only works if NTN_TIMESTOPS=true.
+NTN_SWITCHSTOPS=60
+
+# Choose variable(s) number(s) that can hold time passage (or -1 to cancel).
+# The time in this variable isn't affected by NTS_TIMEPROPORTION.
+# Example: When the player sleeps you wish to the time in game advance
+# 8 hours, so put in NTN_EXTRASECONDS a game variable number and sum 
+# 28800 (60*60*8) in this variable every time that the players sleeps.
+NTN_EXTRASECONDS=26
+NTN_EXTRADAYS=27
+
+# Initial values
+NTN_INITIALYEAR=2019 # Can ONLY holds around range 1970-2038
+NTN_INITIALMONTH=6
+NTN_INITIALDAY=7
+NTN_INITIALHOUR=12
+NTN_INITIALMINUTE=0
+
 def pbGetTimeNow
-  return Time.now
+  return Time.now if !NTN_ENABLED
+  
+  if(NTN_TIMESTOPS)
+    # Sum the extra values to newFrameCount
+    if(NTN_EXTRASECONDS>0)
+      $PokemonGlobal.newFrameCount+=(
+        pbGet(NTN_EXTRASECONDS)*Graphics.frame_rate)/NTS_TIMEPROPORTION
+      $game_variables[NTN_EXTRASECONDS]=0
+    end  
+    if(NTN_EXTRADAYS>0)
+      $PokemonGlobal.newFrameCount+=((60*60*24)*
+        pbGet(NTN_EXTRADAYS)*Graphics.frame_rate)/NTS_TIMEPROPORTION
+      $game_variables[NTN_EXTRADAYS]=0
+    end
+  elsif(NTN_EXTRASECONDS>0 && NTN_EXTRADAYS>0)
+    # Checks to regulate the max/min values at NTN_EXTRASECONDS
+    while (pbGet(NTN_EXTRASECONDS)>=(60*60*24))
+      $game_variables[NTN_EXTRASECONDS]-=(60*60*24)
+      $game_variables[NTN_EXTRADAYS]+=1
+    end
+    while (pbGet(NTN_EXTRASECONDS)<=-(60*60*24))
+      $game_variables[NTN_EXTRASECONDS]+=(60*60*24)
+      $game_variables[NTN_EXTRADAYS]-=1
+    end  
+  end  
+  start_time=Time.local(NTN_INITIALYEAR,NTN_INITIALMONTH,NTN_INITIALDAY,
+    NTN_INITIALHOUR,NTN_INITIALMINUTE)
+  time_played=(NTN_TIMESTOPS && $PokemonGlobal) ? 
+    $PokemonGlobal.newFrameCount : Graphics.frame_count
+  time_played=(time_played*NTS_TIMEPROPORTION)/Graphics.frame_rate
+  time_jumped=0
+  time_jumped+=pbGet(NTN_EXTRASECONDS) if NTN_EXTRASECONDS>-1 
+  time_jumped+=pbGet(NTN_EXTRADAYS)*(60*60*24) if NTN_EXTRADAYS>-1 
+  time_ret = nil
+  # To prevent crashes due to year limit, every time that you reach in year 
+  # 2036 the system will subtract 6 years (to works with leap year) from
+  # your date and sum in $PokemonGlobal.extraYears. You can sum your actual
+  # year with this extraYears when displaying years.
+  loop do
+    extraYears=($PokemonGlobal) ? $PokemonGlobal.extraYears : 0
+    time_fix=extraYears*60*60*24*(365*6+1)/6
+    time_ret=start_time+(time_played+time_jumped-time_fix)
+    break if time_ret.year<2036
+    $PokemonGlobal.extraYears+=6
+  end
+  return time_ret
 end
 
+if NTN_ENABLED
+  class PokemonGlobalMetadata
+    attr_accessor :newFrameCount
+    attr_accessor :extraYears 
+    
+    def addNewFrameCount
+      self.newFrameCount+=1 if !(
+        NTN_SWITCHSTOPS>0 && $game_switches[NTN_SWITCHSTOPS])
+    end
+    
+    def newFrameCount
+      @newFrameCount=0 if !@newFrameCount
+      return @newFrameCount
+    end
+    
+    def extraYears
+      @extraYears=0 if !@extraYears
+      return @extraYears
+    end
+  end  
+
+  if NTN_TIMESTOPS  
+    class Scene_Map
+      alias :updateold :update
+    
+      def update
+        $PokemonGlobal.addNewFrameCount
+        updateold
+      end
+    
+      if NTN_TALKPASS  
+        alias :miniupdateold :miniupdate
+        
+        def miniupdate
+          $PokemonGlobal.addNewFrameCount 
+          miniupdateold
+        end
+      end
+    end  
+  
+    if NTN_BATTLEPASS
+      class PokeBattle_Scene
+        alias :pbGraphicsUpdateold :pbGraphicsUpdate
+        
+        def pbGraphicsUpdate
+          $PokemonGlobal.addNewFrameCount 
+          pbGraphicsUpdateold
+        end
+      end
+    end
+  end
+end
 
 
 module PBDayNight

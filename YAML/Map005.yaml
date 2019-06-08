@@ -72,8 +72,8 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 06c4 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0823 0824 0825 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 082b 082c 082d 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06c9 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06d1 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0618 0000 0000 0000 0000 0000
@@ -245,7 +245,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: NPC 17
+        character_name: NPC 19
         direction: 4
         opacity: 255
         pattern: 2
@@ -293,12 +293,23 @@ events:
         pattern: 2
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [2, A, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Ah, you''re the one Doc Mitchell was fixing up.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['I''m Chet, I run the general store here. If you''ve got ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['BaldCoin, I''ve got stuff to help out your Jermon.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['I also sell other goods, but I don''t think you''d be in the ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['mood for furniture. Maybe some new clothes?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbPokemonMart([']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':POKEBALL,:POTION,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':BURNHEAL,:PARALYZEHEAL,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':ANTIDOTE,:ESCAPEROPE,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':REPEL']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['])']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['], "So, what''ll it be? Buying or ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['selling?", "Anything else, fella?", ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['"Take it easy now.")']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

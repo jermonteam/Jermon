@@ -11,22 +11,22 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 570
-  scroll_y: 524
+  scroll_x: 576
+  scroll_y: 488
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
   order: 3
   parent_id: 2
   scroll_x: 480
-  scroll_y: 410
+  scroll_y: 480
 4: !ruby/object:RPG::MapInfo
   expanded: false
   name: Prospector Saloon
   order: 4
   parent_id: 2
-  scroll_x: 480
-  scroll_y: 549
+  scroll_x: 528
+  scroll_y: 416
 5: !ruby/object:RPG::MapInfo
   expanded: false
   name: Goodsprings General Store

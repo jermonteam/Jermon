@@ -1,13 +1,13 @@
 ﻿#-------------------------------
 [000]
-PlayerA=POKEMONTRAINER_Red,trchar000,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,xxx
-PlayerB=POKEMONTRAINER_Leaf,trchar001,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,xxx
+PlayerA=POKEMONTRAINER_Jerma,trchar000,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,xxx
+PlayerB=TRAINER,trchar001,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,xxx
 TrainerVictoryME=Battle victory trainer.ogg
 WildVictoryME=Battle victory wild.ogg
 TrainerBattleBGM=Battle trainer.mid
 SurfBGM=Surfing.mid
 BicycleBGM=Bicycle.mid
-Home=3,7,5,8
+Home=3,10,17,8
 WildBattleBGM=Battle wild.mid
 #-------------------------------
 [001]
