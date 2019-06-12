@@ -317,8 +317,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerName("Jerma")]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [76, 76, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 3, 7, 19, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 14, 8, 13, 2, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [77, 77, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

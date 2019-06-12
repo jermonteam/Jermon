@@ -7,12 +7,12 @@
   scroll_x: 320
   scroll_y: 240
 2: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Goodsprings
   order: 2
   parent_id: 0
   scroll_x: 576
-  scroll_y: 426
+  scroll_y: 608
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -95,5 +95,5 @@
   name: Balloon Basket
   order: 14
   parent_id: 0
-  scroll_x: 368
+  scroll_x: 1192
   scroll_y: 352
