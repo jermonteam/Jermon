@@ -17,7 +17,7 @@ ShowArea=false
 #-------------------------------
 [002]
 # Goodsprings
-SnapEdges=true
+SnapEdges=false
 MapPosition=0,13,12
 Outdoor=true
 ShowArea=true
@@ -35,12 +35,12 @@ MapPosition=0,13,12
 ShowArea=true
 #-------------------------------
 [005]
-# Goodsprings General Store
+# Goodsprings Gen. Store
 ShowArea=true
 #-------------------------------
 [006]
 # Goodsprings Cemetery
-SnapEdges=true
+SnapEdges=false
 BattleBack=Mountain
 Outdoor=true
 #-------------------------------
