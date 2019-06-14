@@ -1,2 +1,4 @@
 # Goodsprings (2) - Goodsprings Cemetery (6)
-2,East,0,6,West,6
+2,East,0,6,West,0
+# Balloon Crash Site (10) - Goodsprings (2)
+10,North,0,2,South,3

@@ -43,10 +43,11 @@ ShowArea=true
 SnapEdges=false
 BattleBack=Mountain
 Outdoor=true
+ShowArea=true
 #-------------------------------
 [010]
 # Balloon Crash Site
-SnapEdges=true
+SnapEdges=false
 Outdoor=true
 #-------------------------------
 [011]

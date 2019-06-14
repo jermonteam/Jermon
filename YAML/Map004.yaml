@@ -125,7 +125,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 20, 8, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 28, 15, 2, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
@@ -171,7 +171,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 20, 8, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 28, 15, 2, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
@@ -186,7 +186,7 @@ events:
       through: false
       trigger: 1
       walk_anime: true
-    x: 20
+    x: 22
     y: 21
   3: !ruby/object:RPG::Event
     id: 3
@@ -217,7 +217,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 20, 8, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 28, 15, 2, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
@@ -232,7 +232,7 @@ events:
       through: false
       trigger: 1
       walk_anime: true
-    x: 22
+    x: 20
     y: 21
   4: !ruby/object:RPG::Event
     id: 4
