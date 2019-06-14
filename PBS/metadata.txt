@@ -52,8 +52,9 @@ Outdoor=true
 #-------------------------------
 [011]
 # Route 1 - Dusty Trail
-SnapEdges=true
+SnapEdges=false
 Outdoor=true
+ShowArea=true
 #-------------------------------
 [013]
 # Bewwie Town
