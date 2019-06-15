@@ -11,8 +11,8 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 816
-  scroll_y: 479
+  scroll_x: 686
+  scroll_y: 573
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -25,7 +25,7 @@
   name: Prospector Saloon
   order: 4
   parent_id: 2
-  scroll_x: 528
+  scroll_x: 521
   scroll_y: 416
 5: !ruby/object:RPG::MapInfo
   expanded: false
@@ -67,15 +67,15 @@
   name: Balloon Crash Site
   order: 10
   parent_id: 2
-  scroll_x: 752
-  scroll_y: 464
+  scroll_x: 600
+  scroll_y: 297
 11: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 1 - Dusty Trail
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 800
+  scroll_y: 1248
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym

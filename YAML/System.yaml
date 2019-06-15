@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 11
+edit_map_id: 4
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 86442676
+magic_number: 37618814
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -157,8 +157,8 @@ switches:
 - Doc Mitchell's Intro
 - Intro Cutscene
 - Goodsprings Tutorial
-- ''
-- ''
+- Meeting Sunny
+- Last Goodsprings Cutscene
 - ''
 - ''
 - ''
@@ -247,7 +247,7 @@ variables:
 - ''
 - ''
 - ''
-- ''
+- Rat Outcome
 - ''
 - ''
 - ''

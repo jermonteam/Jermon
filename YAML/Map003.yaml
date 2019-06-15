@@ -482,8 +482,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Amrej? Whatever. It''s dream gibberish.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDoc Mitchell: Here, that''s about all the ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [information I need.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Let''s get you over to that mirror, to make sure']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you can recognize yourself after my patch job.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bLet''s get you over to that mirror, to make ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [sure you can recognize yourself after my patch]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [job.]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 209
@@ -559,7 +560,7 @@ events:
           repeat: false
           skippable: false
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*52]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDoc Mitchell: Take a look']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDoc Mitchell: Take a look.']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 209
@@ -754,6 +755,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [78, 78, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [79, 79, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
