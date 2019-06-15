@@ -15,6 +15,22 @@ BANDOTTLE,5
 BANDOTTLE,5
 BANDOTTLE,5
 #-------------------------------
+006 # Goodsprings Cemetery
+25,10,10
+Land
+SPYCRAB,2,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+#-------------------------------
 010 # Balloon Crash Site
 25,10,10
 Land
@@ -30,3 +46,19 @@ FIREMAN,6
 BALLOON,6
 FIREMAN,7
 BALLOON,7
+#-------------------------------
+011 # Route 1 - Dusty Trail
+25,10,10
+Land
+RAT,2,5
+BALLOON,2,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5
+RAT,5

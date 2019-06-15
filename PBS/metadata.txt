@@ -18,8 +18,10 @@ ShowArea=false
 [002]
 # Goodsprings
 SnapEdges=false
+BattleBack=
 MapPosition=0,13,12
 Outdoor=true
+HealingSpot=3,22,18
 ShowArea=true
 #-------------------------------
 [003]

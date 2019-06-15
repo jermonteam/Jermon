@@ -67,7 +67,7 @@
   name: Balloon Crash Site
   order: 10
   parent_id: 2
-  scroll_x: 600
+  scroll_x: 372
   scroll_y: 297
 11: !ruby/object:RPG::MapInfo
   expanded: false
