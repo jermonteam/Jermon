@@ -433,7 +433,7 @@ events:
       move_speed: 3
       move_type: 0
       step_anime: false
-      through: false
+      through: true
       trigger: 0
       walk_anime: true
     x: 21
@@ -474,7 +474,7 @@ events:
       move_speed: 3
       move_type: 0
       step_anime: false
-      through: false
+      through: true
       trigger: 0
       walk_anime: true
     x: 21
@@ -594,7 +594,8 @@ events:
           - &11 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
           - &12 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
           - &13 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-          - &14 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - &14 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &15 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
           repeat: false
           skippable: false
@@ -603,10 +604,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*12]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*13]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*14]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 202, p: [8, 0, 32, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*15]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 209
@@ -614,32 +612,37 @@ events:
         - 7
         - !ruby/object:RPG::MoveRoute
           list:
-          - &15 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
           - &16 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
           - &17 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
           - &18 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
           - &19 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-          - &20 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-          - &21 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-          - &22 !ruby/object:RPG::MoveCommand {code: 15, parameters: [20]}
-          - &23 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-          - &24 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - &20 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
           repeat: false
           skippable: false
-      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*15]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*16]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*17]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*18]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*19]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*20]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*21]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*22]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*23]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*24]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 202, p: [7, 0, 30, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 202, p: [8, 0, 32, 25, 8]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 7
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &21 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 202, p: [7, 0, 31, 25, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [79, 79, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
@@ -651,7 +654,7 @@ events:
       move_speed: 3
       move_type: 0
       step_anime: false
-      through: false
+      through: true
       trigger: 3
       walk_anime: true
     x: 26
@@ -731,11 +734,11 @@ events:
         - 10
         - !ruby/object:RPG::MoveRoute
           list:
-          - &25 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+          - &22 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
           repeat: false
           skippable: false
-      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*25]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*22]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSunny Smiles: Don''t worry, I''ll be alright ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [without Cheyenne.]}
@@ -810,11 +813,11 @@ events:
         - 10
         - !ruby/object:RPG::MoveRoute
           list:
-          - &26 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - &23 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
           repeat: false
           skippable: false
-      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*26]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*23]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [80, 80, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3

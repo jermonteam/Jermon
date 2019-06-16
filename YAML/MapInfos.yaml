@@ -25,7 +25,7 @@
   name: Prospector Saloon
   order: 4
   parent_id: 2
-  scroll_x: 521
+  scroll_x: 528
   scroll_y: 416
 5: !ruby/object:RPG::MapInfo
   expanded: false
@@ -67,8 +67,8 @@
   name: Balloon Crash Site
   order: 10
   parent_id: 2
-  scroll_x: 372
-  scroll_y: 297
+  scroll_x: 752
+  scroll_y: 464
 11: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 1 - Dusty Trail
