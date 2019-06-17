@@ -288,27 +288,41 @@ def isDarkWindowskin(windowskin)
 end
 
 def getSkinColor(windowskin,color,isDarkSkin)
-  if !windowskin || windowskin.disposed? || 
+  if !windowskin || windowskin.disposed? ||
      windowskin.width!=128 || windowskin.height!=128
-    textcolors=[
-       isDarkSkin ? shadowc3tag(MessageConfig::LIGHTTEXTBASE, MessageConfig::LIGHTTEXTSHADOW) :
-                    shadowc3tag(MessageConfig::DARKTEXTBASE, MessageConfig::DARKTEXTSHADOW),
-       "<c2=7E105D08>",   # Blue
-       "<c2=421F2117>",   # Red
-       "<c2=43F022E8>",   # Green
-       "<c2=7FF05EE8>",   # Cyan
-       "<c2=7E1F5D17>",   # Magenta
-       "<c2=43FF22F7>",   # Yellow
-       "<c2=63184210>",   # Grey
-       "<c2=7FFF5EF7>"    # White
+    # Base color, shadow color (these are reversed on dark windowskins)
+    textcolors = [
+       "1880F8","B0C0F8",   # 1  Blue
+       "F83018","F8B0A0",   # 2  Red
+       "18C020","A8E8A8",   # 3  Green
+       "40C0D0","A8E0E8",   # 4  Cyan
+       "D030C0","E8B0D8",   # 5  Magenta
+       "E0D820","F8F0A8",   # 6  Yellow
+       "98A0B0","D0D0D8",   # 7  Grey
+       "F0F0F0","C0C0C0",   # 8  White
+       "9018F8","D0A0F0",   # 9  Purple
+       "F89810","F8D0A0",   # 10 Orange
+       "A0D0F8","D8E0F8",   # 11 Light Blue
+       "F8A8D8","F0D8E0"    # 12 Pink
     ]
-    color=0 if color>textcolors.length
-    return textcolors[color]
-  else # VX windowskin
-    color=0 if color>=32
+    if color==0 || color>textcolors.length/2   # No special colour, use default
+      if isDarkSkin   # Dark background, light text
+        return shadowc3tag(MessageConfig::LIGHTTEXTBASE, MessageConfig::LIGHTTEXTSHADOW)
+      end
+      # Light background, dark text
+      return shadowc3tag(MessageConfig::DARKTEXTBASE, MessageConfig::DARKTEXTSHADOW)
+    end
+    # Special colour as listed above
+    if isDarkSkin   # Dark background, light text
+      return sprintf("<c3=%s,%s>",textcolors[2*(color-1)+1],textcolors[2*(color-1)])
+    end
+    # Light background, dark text
+    return sprintf("<c3=%s,%s>",textcolors[2*(color-1)],textcolors[2*(color-1)+1])
+  else   # VX windowskin
+    color = 0 if color>=32
     x = 64 + (color % 8) * 8
     y = 96 + (color / 8) * 8
-    pixel=windowskin.get_pixel(x, y)
+    pixel = windowskin.get_pixel(x, y)
     return shadowctagFromColor(pixel)
   end
 end
