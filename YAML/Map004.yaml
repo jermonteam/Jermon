@@ -340,7 +340,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: NPC 28
+        character_name: NPC Trudy
         direction: 4
         opacity: 255
         pattern: 1

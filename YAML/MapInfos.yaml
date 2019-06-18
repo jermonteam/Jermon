@@ -11,15 +11,15 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 816
-  scroll_y: 820
+  scroll_x: 970
+  scroll_y: 555
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
   order: 3
   parent_id: 2
   scroll_x: 480
-  scroll_y: 480
+  scroll_y: 348
 4: !ruby/object:RPG::MapInfo
   expanded: false
   name: Prospector Saloon
@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 800
+  scroll_y: 695
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
