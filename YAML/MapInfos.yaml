@@ -11,8 +11,8 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 858
-  scroll_y: 340
+  scroll_x: 816
+  scroll_y: 696
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 695
+  scroll_y: 340
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
@@ -84,16 +84,44 @@
   scroll_x: 320
   scroll_y: 240
 13: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Bewwie Town
   order: 13
   parent_id: 0
-  scroll_x: 320
-  scroll_y: 240
+  scroll_x: 736
+  scroll_y: 560
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Basket
-  order: 14
+  order: 18
   parent_id: 0
   scroll_x: 1280
   scroll_y: 352
+15: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: JermoCenter
+  order: 14
+  parent_id: 13
+  scroll_x: 320
+  scroll_y: 240
+16: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Ragged Shack
+  order: 15
+  parent_id: 13
+  scroll_x: 320
+  scroll_y: 240
+17: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Flower House
+  order: 16
+  parent_id: 13
+  scroll_x: 320
+  scroll_y: 240
+18: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Rock House
+  order: 17
+  parent_id: 13
+  scroll_x: 320
+  scroll_y: 240

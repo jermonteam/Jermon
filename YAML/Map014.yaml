@@ -280,7 +280,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHey]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTruth is, the game was rigged from the start.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -322,7 +322,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHey.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI'm gettin' too old. I've seen this shit before.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

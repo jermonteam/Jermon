@@ -135,7 +135,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 39, 11, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 39, 10, 2, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3

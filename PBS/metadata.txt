@@ -47,6 +47,9 @@ BattleBack=Mountain
 Outdoor=true
 ShowArea=true
 #-------------------------------
+[008]
+# Dusty Nook
+#-------------------------------
 [010]
 # Balloon Crash Site
 SnapEdges=false
@@ -62,3 +65,8 @@ ShowArea=true
 # Bewwie Town
 SnapEdges=true
 Outdoor=true
+ShowArea=true
+#-------------------------------
+[014]
+# Balloon Basket
+Outdoor=false
