@@ -88,8 +88,8 @@
   name: Bewwie Town
   order: 13
   parent_id: 0
-  scroll_x: 901
-  scroll_y: 560
+  scroll_x: 704
+  scroll_y: 600
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Basket
