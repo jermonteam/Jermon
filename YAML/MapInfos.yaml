@@ -19,7 +19,7 @@
   order: 3
   parent_id: 2
   scroll_x: 480
-  scroll_y: 348
+  scroll_y: 410
 4: !ruby/object:RPG::MapInfo
   expanded: false
   name: Prospector Saloon
@@ -61,7 +61,7 @@
   order: 9
   parent_id: 2
   scroll_x: 400
-  scroll_y: 451
+  scroll_y: 400
 10: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Crash Site
@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 340
+  scroll_y: 402
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
