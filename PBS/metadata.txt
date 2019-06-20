@@ -63,7 +63,7 @@ ShowArea=true
 #-------------------------------
 [013]
 # Bewwie Town
-SnapEdges=true
+SnapEdges=false
 Outdoor=true
 ShowArea=true
 #-------------------------------

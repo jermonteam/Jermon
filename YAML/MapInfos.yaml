@@ -88,7 +88,7 @@
   name: Bewwie Town
   order: 13
   parent_id: 0
-  scroll_x: 736
+  scroll_x: 901
   scroll_y: 560
 14: !ruby/object:RPG::MapInfo
   expanded: false

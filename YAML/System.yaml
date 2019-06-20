@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 40302877
+magic_number: 41923474
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
