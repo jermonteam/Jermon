@@ -588,9 +588,7 @@ events:
           repeat: false
           skippable: false
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*55]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Ok, let''s see-...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Ok, let''s see-...\n...\n...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "d2FpdCBhIG1pbnV0ZS4gVGhhdOKAmXMgbXkgZmFjZS4="]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDoc Mitchell: Well, yes. I''d certainly hope ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['so, heh heh.']}

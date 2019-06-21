@@ -11,7 +11,7 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 816
+  scroll_x: 822
   scroll_y: 696
 3: !ruby/object:RPG::MapInfo
   expanded: false
@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 402
+  scroll_y: 467
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
@@ -88,10 +88,10 @@
   name: Bewwie Town
   order: 13
   parent_id: 0
-  scroll_x: 704
-  scroll_y: 600
+  scroll_x: 736
+  scroll_y: 652
 14: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Balloon Basket
   order: 18
   parent_id: 0
@@ -112,7 +112,7 @@
   scroll_x: 320
   scroll_y: 240
 17: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Flower House
   order: 16
   parent_id: 13

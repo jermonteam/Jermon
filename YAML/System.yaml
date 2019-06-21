@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 13
+edit_map_id: 16
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 90867094
+magic_number: 80997349
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -159,13 +159,13 @@ switches:
 - Goodsprings Tutorial
 - Meeting Sunny
 - Last Goodsprings Cutscene
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
+- Bewwie Cutscene 1
+- Bewwie Cutscene 2
+- Center Cutscene
+- Bewwie Cutscene 3
+- Center Cutscene 2
+- Final Bewwie Cutscene
+- Rival Trigger 1
 - ''
 - ''
 - ''
@@ -248,7 +248,7 @@ variables:
 - ''
 - ''
 - Rat Outcome
-- ''
+- Twitch chat Outcome 1
 - ''
 - ''
 - ''
