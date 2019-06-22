@@ -150,7 +150,7 @@ events:
     y: 0
   3: !ruby/object:RPG::Event
     id: 3
-    name: Quick start intro
+    name: Real Start Intro
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -174,9 +174,6 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['This is the Debug intro, used to quickly start a game. ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: ['The player''s name and trainer type are chosen ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [automatically.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbChangePlayer(0)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerName("Jerma")]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}

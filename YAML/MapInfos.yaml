@@ -12,7 +12,7 @@
   order: 2
   parent_id: 0
   scroll_x: 822
-  scroll_y: 696
+  scroll_y: 479
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 467
+  scroll_y: 1015
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym

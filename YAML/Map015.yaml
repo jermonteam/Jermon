@@ -678,6 +678,48 @@ events:
       walk_anime: true
     x: 7
     y: 8
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [This panel is curently damaged.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 1
+    y: 1
   7: !ruby/object:RPG::Event
     id: 7
     name: Center Cutscene 1
@@ -758,7 +800,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trchar025
+        character_name: trchar056
         direction: 8
         opacity: 255
         pattern: 0
@@ -878,7 +920,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trchar025
+        character_name: trchar056
         direction: 8
         opacity: 255
         pattern: 0
@@ -919,7 +961,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trchar019
+        character_name: trchar056
         direction: 8
         opacity: 255
         pattern: 0

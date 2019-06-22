@@ -281,6 +281,7 @@ events:
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTruth is, the game was rigged from the start.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bSee ya around kiddo.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -323,6 +324,9 @@ events:
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI'm gettin' too old. I've seen this shit before.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bFeels like I was making movies yesterday. Or was it ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['wrestling?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBut this balloon? It feels real everytime.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
