@@ -1218,7 +1218,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Fighting types that are super effective to those]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [at the Studiopolis gym.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Thank you, officer.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOfficer: See you around!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOfficer: The name''s Officer Nick. See you around!']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 209
@@ -1258,7 +1258,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 3
       walk_anime: true
     x: 29
     y: 28
