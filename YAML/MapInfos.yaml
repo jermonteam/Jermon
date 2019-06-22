@@ -12,7 +12,7 @@
   order: 2
   parent_id: 0
   scroll_x: 822
-  scroll_y: 479
+  scroll_y: 1205
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -74,8 +74,8 @@
   name: Route 1 - Dusty Trail
   order: 11
   parent_id: 2
-  scroll_x: 608
-  scroll_y: 1015
+  scroll_x: 359
+  scroll_y: 962
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
@@ -89,7 +89,7 @@
   order: 13
   parent_id: 0
   scroll_x: 736
-  scroll_y: 632
+  scroll_y: 652
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Basket

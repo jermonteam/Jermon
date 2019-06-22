@@ -542,11 +542,11 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: ''
+        character_name: doors7
         direction: 2
         opacity: 0
-        pattern: 0
-        tile_id: 819
+        pattern: 2
+        tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Gym closed due to renovations.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1944,6 +1944,238 @@ events:
       walk_anime: true
     x: 36
     y: 38
+  27: !ruby/object:RPG::Event
+    id: 27
+    name: NPC1
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar007
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThis old house has been condemned for quite ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [some time. Don't quite know what happened to it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAll we really know is that one night the roof ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [fell in and it's been abandoned since.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 2
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 32
+    y: 25
+  28: !ruby/object:RPG::Event
+    id: 28
+    name: NPC2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar033
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThis here''s the old Goodsprings Ranch. Pride ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and joy of the community I think.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHm? Where are the animals? Oh uh, they''re all ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [inside.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWho calls it the pride and joy of Goodsprings? ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Well, I don''t quite...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bLook just get out of my face alright?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 1
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 1
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 26
+    y: 38
+  29: !ruby/object:RPG::Event
+    id: 29
+    name: NPC3
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar029
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHere in Goodsprings we don''t have an official ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Jermon center, never been able to afford one. So']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Doc Mitchell patches up anyone or anything that]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['needs it, free of charge.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHe's a real good man that doctor.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 1
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 24
+    y: 42
+  30: !ruby/object:RPG::Event
+    id: 30
+    name: NPC4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar018
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOh sorry, I didn''t see you there. If you''re ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [looking to get through this path you can't.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Rockslide closed it off the other day.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bMay have been caused by that big crash that ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [happened just outside of town. We'll try and get]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [these cleared out eventually.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 9
+    y: 28
+  31: !ruby/object:RPG::Event
+    id: 31
+    name: EV031
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar010
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAh, want to know what this building is? Well ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [right next to me is a sign with that exact]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [information.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSo how about you read it instead of pestering ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['me about it. What are you illiterate?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 2
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 1
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 28
+    y: 17
 height: 52
 tileset_id: 1
 width: 51

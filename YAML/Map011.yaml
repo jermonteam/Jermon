@@ -1,8 +1,8 @@
 --- !ruby/object:RPG::Map
-autoplay_bgm: false
+autoplay_bgm: true
 autoplay_bgs: false
 bgm: !ruby/object:RPG::AudioFile
-  name: ''
+  name: 3Edx
   pitch: 100
   volume: 100
 bgs: !ruby/object:RPG::AudioFile
@@ -337,7 +337,7 @@ events:
     y: 16
   5: !ruby/object:RPG::Event
     id: 5
-    name: EV005
+    name: Rock
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -376,6 +376,99 @@ events:
       walk_anime: true
     x: 14
     y: 29
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 05
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI can see some kind of item over behind me, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but there's this big rock in the way. I can't]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [get past it no matter how hard I try.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhat? Why don''t I just climb over it? What is ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['this the Olympics? How about you try climbing']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [over a small rock.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 32
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: EV007
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 02
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAny time you walk through tall grass there''s a ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [chance of being jumped by wild Jermon.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAlways remember to keep yours healthy, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [otherwise you may find yourself in a tight spot]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you can't get out of.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 37
 height: 50
 tileset_id: 1
 width: 38

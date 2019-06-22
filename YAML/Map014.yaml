@@ -395,7 +395,7 @@ events:
     y: 11
   5: !ruby/object:RPG::Event
     id: 5
-    name: EV005
+    name: Jerma
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
