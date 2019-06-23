@@ -250,7 +250,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: Pokemon 04
+        character_name: owcheyenne
         direction: 2
         opacity: 255
         pattern: 0
@@ -923,7 +923,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: Pokemon 02
+        character_name: owrat
         direction: 2
         opacity: 255
         pattern: 0
@@ -964,7 +964,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: Pokemon 02
+        character_name: owrat
         direction: 2
         opacity: 255
         pattern: 0
@@ -1005,7 +1005,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: Pokemon 02
+        character_name: owrat
         direction: 2
         opacity: 255
         pattern: 0
@@ -1046,7 +1046,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: Pokemon 02
+        character_name: owrat
         direction: 2
         opacity: 255
         pattern: 0
