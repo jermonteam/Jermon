@@ -7,33 +7,29 @@ WildVictoryME=Battle victory wild.ogg
 TrainerBattleBGM=Battle trainer.mid
 SurfBGM=Surfing.mid
 BicycleBGM=Bicycle.mid
-Home=3,10,17,8
+Home=3,10,16,8
 WildBattleBGM=Battle wild.mid
 #-------------------------------
 [001]
 # Intro
-MapPosition=0,13,12
 ShowArea=false
 #-------------------------------
 [002]
 # Goodsprings
 SnapEdges=false
 BattleBack=
-MapPosition=0,13,12
+Bicycle=true
 Outdoor=true
-HealingSpot=3,22,18
 ShowArea=true
 #-------------------------------
 [003]
 # Doc Mitchell's House
 BattleBack=IndoorB
-MapPosition=0,13,12
 HealingSpot=2,7,31
 ShowArea=true
 #-------------------------------
 [004]
 # Prospector Saloon
-MapPosition=0,13,12
 ShowArea=true
 #-------------------------------
 [005]
@@ -47,26 +43,54 @@ BattleBack=Mountain
 Outdoor=true
 ShowArea=true
 #-------------------------------
+[007]
+# House
+#-------------------------------
 [008]
 # Dusty Nook
+#-------------------------------
+[009]
+# Ranch
 #-------------------------------
 [010]
 # Balloon Crash Site
 SnapEdges=false
+BattleBack=Field
+Bicycle=true
 Outdoor=true
+ShowArea=false
 #-------------------------------
 [011]
 # Route 1 - Dusty Trail
 SnapEdges=false
+BattleBack=Field
+Bicycle=true
 Outdoor=true
 ShowArea=true
 #-------------------------------
 [013]
 # Bewwie Town
 SnapEdges=false
+BattleBack=Field
+Bicycle=true
 Outdoor=true
 ShowArea=true
 #-------------------------------
 [014]
 # Balloon Basket
-Outdoor=false
+Outdoor=true
+#-------------------------------
+[015]
+# Bewwie Town JermoCenter
+HealingSpot=13,29,24
+ShowArea=true
+#-------------------------------
+[016]
+# Ragged Shack
+BattleBack=EliteD
+#-------------------------------
+[017]
+# Flower House
+#-------------------------------
+[018]
+# Rock House

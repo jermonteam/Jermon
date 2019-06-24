@@ -1121,7 +1121,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGIgSeKAmXZlIG5ldmVyIHBlcnNvbmFsbHkgc2VlbiBhIHJhdCBiZWZvcmUs\nIGJ1dCA="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJJ4oCZdmUgbmV2ZXIgcGVyc29uYWxseSBzZWVuIGEgcmF0IGJlZm9yZSwg\nYnV0IA=="]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [from what I understand they are truly horrible]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [creatures.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThey can supposedly grow to be over six feet ']}
