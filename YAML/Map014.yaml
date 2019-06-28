@@ -110,7 +110,6 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::AudioFile {name: Alecs Log House - MOTHER 3, pitch: 100, volume: 0}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bConductor: Shall we?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Let's go, Not yet], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Let's go]}
@@ -133,6 +132,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: Vegas, HERE I COME! I can''t wait to get ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [everything set up in my new home!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::AudioFile {name: Alecs Log House - MOTHER 3, pitch: 100, volume: 0}]}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 209
@@ -145,6 +145,7 @@ events:
           repeat: false
           skippable: false
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Wind Blowing, pitch: 150, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bConductor: Hmm... It''s pretty gusty today.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [3, 1, 20]}
       - !ruby/object:RPG::EventCommand
@@ -227,13 +228,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Wind (DBZ Sound Effects), pitch: 100, volume: 75}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 2, 35]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [61, 61, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Voltorb Flip explosion, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: explosion, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {a: 255.0, b: 255.0, g: 255.0, r: 255.0}, 15]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bWhat the FUCK?!?!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: explosion, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 3, 40]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: explosion, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bKim was right, I should have just drove to ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Vegas!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 3, 15]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: explosion, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 203, p: [8, 6, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 3, 15]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbToneChangeAll(Tone.new(-255,-255,-255,0),20)']}
@@ -241,7 +245,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [61, 61, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [60, 60, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [27, 27, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 251, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 3, 7, 19, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: Ow... My head...\nIs this a dream?....']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\nWhere am I?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Not yet]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bConductor: Tell me when you change your mind, ']}
