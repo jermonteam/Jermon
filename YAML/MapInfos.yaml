@@ -95,7 +95,7 @@
   name: Balloon Basket
   order: 18
   parent_id: 0
-  scroll_x: 1280
+  scroll_x: 1276
   scroll_y: 352
 15: !ruby/object:RPG::MapInfo
   expanded: false

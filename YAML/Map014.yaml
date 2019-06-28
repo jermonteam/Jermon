@@ -110,6 +110,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::AudioFile {name: Alecs Log House - MOTHER 3, pitch: 100, volume: 0}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bConductor: Shall we?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Let's go, Not yet], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Let's go]}
@@ -185,6 +186,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: What was that?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [3, 1, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Wind (DBZ Sound Effects), pitch: 70, volume: 40}]}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 209
@@ -222,6 +224,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*28]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*29]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bHeh, getting a lil'' bit shaky.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Wind (DBZ Sound Effects), pitch: 100, volume: 75}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 2, 30]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [\bWhat the FUCK]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 3, 40]}
@@ -371,6 +374,7 @@ events:
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 208, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Wind Blowing, pitch: 150, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 203, p: [6, 34, 4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [140]}
@@ -380,6 +384,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bConductor: Jeremy, you are awake, we''re really ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [high right now. Let me now when you are ready to]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [move on!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::AudioFile {name: Alecs Log House - MOTHER 3, pitch: 100, volume: 65}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
