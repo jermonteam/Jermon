@@ -74,7 +74,7 @@
   name: Route 1 - Dusty Trail
   order: 11
   parent_id: 2
-  scroll_x: 359
+  scroll_x: 608
   scroll_y: 962
 12: !ruby/object:RPG::MapInfo
   expanded: false
@@ -89,7 +89,7 @@
   order: 13
   parent_id: 0
   scroll_x: 736
-  scroll_y: 632
+  scroll_y: 560
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Basket

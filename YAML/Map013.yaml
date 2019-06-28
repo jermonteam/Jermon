@@ -1473,6 +1473,241 @@ events:
       walk_anime: true
     x: 35
     y: 0
+  16: !ruby/object:RPG::Event
+    id: 16
+    name: NPC5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 14
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe bewwies are what bind us together, they ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [make us one. They give us life. I hope you'll]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['try at least one, everyone who has never wants']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to leave.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTry the bewwies won''t you? They''re quite ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [something.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 2
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 1
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 32
+    y: 15
+  17: !ruby/object:RPG::Event
+    id: 17
+    name: NPC1
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar011
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWelcome to Bewwie Town traveler. We hope you ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [have a pleasant stay.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTry the bewwies won''t you? They''re quite ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [something.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 2
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 23
+    y: 24
+  18: !ruby/object:RPG::Event
+    id: 18
+    name: NPC2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 26
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTake a moment to reflect on life won''t you ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['traveler? Reflect on your victories and your']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['failures, the ups and downs. How you got here in']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [your short little existence.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHave you lived a good life up until this ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['point? I hope so stranger.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTry the bewwies won''t you? They''re quite ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [something.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 20
+    y: 21
+  19: !ruby/object:RPG::Event
+    id: 19
+    name: NPC3
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 10
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOur little town has been here for quite some ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['time, traveler. We hope you will respect it as']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [we respect you.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe bewwies grow here in abundance, like ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [nowhere else. They bring the town life.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTry the bewwies won''t you? They''re quite ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [something.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 26
+    y: 17
+  20: !ruby/object:RPG::Event
+    id: 20
+    name: NPC4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar016
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOh a newcomer. We so do love travelers here, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [they always bring some much needed variety to]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [our home. I think you'd make a lovely addition.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTry the bewwies won''t you? They''re quite ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [something.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 2
+      move_type: 1
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 12
 height: 35
 tileset_id: 1
 width: 46
