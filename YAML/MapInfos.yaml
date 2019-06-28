@@ -12,7 +12,7 @@
   order: 2
   parent_id: 0
   scroll_x: 822
-  scroll_y: 896
+  scroll_y: 1184
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -25,7 +25,7 @@
   name: Prospector Saloon
   order: 4
   parent_id: 2
-  scroll_x: 468
+  scroll_x: 528
   scroll_y: 416
 5: !ruby/object:RPG::MapInfo
   expanded: false

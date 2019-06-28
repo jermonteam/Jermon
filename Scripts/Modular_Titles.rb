@@ -144,7 +144,7 @@ MTS_MODIFIERS = [
 #                                  PRESETS
 #-------------------------------------------------------------------------------
   # Electric Nightmare
-  #"background1", "logo:bounce", "effect9", "logo:shine", "intro:4"
+  "background1", "logo:bounce", "effect9", "logo:shine", "intro:4"
 
   # Trainer Adventure
   #"background6", "misc1", "overlay5", "effect8", "logo:glow", "bgm:title_hgss", "intro:2"
