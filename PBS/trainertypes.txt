@@ -1,8 +1,6 @@
-# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
 0,POKEMONTRAINER_Jerma,Pokémon Trainer,60,,,,Male,,
 1,TRAINER,Trainer,20,,,,Male,,
-2,RIVAL,Twitch Chat,60,,,,Mixed,,
+2,RIVAL,Rival,60,,,,Mixed,,
 3,GRILLER,Griller,20,,,,Male,,
 59,LEADER_Dastardly,Gym Leader,100,Battle Gym Leader,,,Male,,
 60,LEADER_Glueman,Gym Leader,100,Battle Gym Leader,,,Male,,

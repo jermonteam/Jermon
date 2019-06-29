@@ -1,4 +1,4 @@
-#-------------------------------
+#########################
 006 # Goodsprings Cemetery
 25,10,10
 Land
@@ -14,7 +14,7 @@ SPYCRAB,2,5
 MACKERAL,5
 SPYCRAB,2,5
 MACKERAL,6
-#-------------------------------
+#########################
 010 # Balloon Crash Site
 25,10,10
 Land
@@ -28,9 +28,9 @@ WASP,2,5
 BALLOON,2,5
 WASP,2,5
 BALLOON,2,5
-WASP,2,5
-BALLOON,2,5
-#-------------------------------
+FIREMAN,2,5
+FIREMAN,2,5
+#########################
 011 # Route 1 - Dusty Trail
 25,10,10
 Land

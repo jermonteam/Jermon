@@ -1,6 +1,5 @@
 #==============================
 RIVAL
 Twitch Chat
-2
-SMILE,4
+1
 SMILE,5

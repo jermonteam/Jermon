@@ -714,7 +714,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: ''
+        character_name: owsunnysmiles
         direction: 2
         opacity: 255
         pattern: 0
