@@ -12,7 +12,7 @@
   order: 2
   parent_id: 0
   scroll_x: 822
-  scroll_y: 1068
+  scroll_y: 565
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House

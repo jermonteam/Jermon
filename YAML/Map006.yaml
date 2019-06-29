@@ -695,7 +695,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Here lies: Moo Jon']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Here lies: Doctor Clay']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

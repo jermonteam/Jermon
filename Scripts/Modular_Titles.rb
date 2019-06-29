@@ -144,7 +144,7 @@ MTS_MODIFIERS = [
 #                                  PRESETS
 #-------------------------------------------------------------------------------
   # Electric Nightmare
-  "background1", "logo:bounce", "effect9", "logo:shine", "intro:4"
+  #"background1", "logo:bounce", "effect9", "logo:shine", "intro:4"
 
   # Trainer Adventure
   #"background6", "misc1", "overlay5", "effect8", "logo:glow", "bgm:title_hgss", "intro:2"
@@ -162,7 +162,7 @@ MTS_MODIFIERS = [
   #"background8", "effect7_y272", "effect6_y272", "effect4_y272", "effect5_y272", "logoY:172", "misc4_y312", "overlay5", "bgm:title_rse", "intro:3"
 
   # Burning Red (gen 1)
-  #"background:frlg", "intro:1", "effect10_y308", "overlay:frlg", "logoX:204", "logoY:164", "logo:sparkle", "misc5:charizard_x284_y142", "bgm:title_frlg"
+  "background:frlg", "intro:1", "effect10_y308", "overlay:frlg", "logoX:204", "logoY:164", "logo:sparkle", "misc5:fireman_x315_y142", "bgm:title_frlg"
 
   # Heart of Gold (gen 2)
   #"background:dawn", "intro:2", "logoY:172", "logo:glow", "misc2", "effect11_x368_y112", "effect6_x368_y112", "effect4_x368_y112", "overlay3", "bgm:title_hgss"
