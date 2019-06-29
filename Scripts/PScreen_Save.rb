@@ -71,7 +71,7 @@ class PokemonSave_Scene
     loctext+=_ISPRINTF("Time<r><c3={1:s}>{2:02d}:{3:02d}</c3><br>",textColor,hour,min)
     loctext+=_INTL("Badges<r><c3={1}>{2}</c3><br>",textColor,$Trainer.numbadges)
     if $Trainer.pokedex
-      loctext+=_INTL("Pokédex<r><c3={1}>{2}/{3}</c3>",textColor,$Trainer.pokedexOwned,$Trainer.pokedexSeen)
+      loctext+=_INTL("Jermodex<r><c3={1}>{2}/{3}</c3>",textColor,$Trainer.pokedexOwned,$Trainer.pokedexSeen)
     end
     @sprites["locwindow"]=Window_AdvancedTextPokemon.new(loctext)
     @sprites["locwindow"].viewport=@viewport
@@ -115,7 +115,7 @@ class PokemonSaveScreen
         if $PokemonTemp.begunNewGame
           Kernel.pbMessage(_INTL("WARNING!"))
           Kernel.pbMessage(_INTL("There is a different game file that is already saved."))
-          Kernel.pbMessage(_INTL("If you save now, the other file's adventure, including items and Pokémon, will be entirely lost."))
+          Kernel.pbMessage(_INTL("If you save now, the other file's adventure, including items and Jermon, will be entirely lost."))
           if !Kernel.pbConfirmMessageSerious(
              _INTL("Are you sure you want to save now and overwrite the other save file?"))
             @scene.pbEndScreen

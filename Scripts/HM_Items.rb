@@ -303,7 +303,7 @@ if USING_DIVE_ITEM
     divemap = pbGetMetadata($game_map.map_id,MetadataDiveMap)
     return false if !divemap
     if !pbCheckHiddenMoveBadge(BADGEFORDIVE,false) || !$DEBUG 
-      Kernel.pbMessage(_INTL("The sea is deep here. A Pokémon may be able to go underwater."))
+      Kernel.pbMessage(_INTL("The sea is deep here. A Jermon may be able to go underwater."))
       return false
     end
     if Kernel.pbConfirmMessage(_INTL("The sea is deep here. Would you like to use Dive?"))
@@ -336,7 +336,7 @@ if USING_DIVE_ITEM
     end
     return if !divemap
     if !pbCheckHiddenMoveBadge(BADGEFORDIVE,false) || !$DEBUG
-      Kernel.pbMessage(_INTL("Light is filtering down from above. A Pokémon may be able to surface here."))
+      Kernel.pbMessage(_INTL("Light is filtering down from above. A Jermon may be able to surface here."))
       return false
     end
     if Kernel.pbConfirmMessage(_INTL("Light is filtering down from above. Would you like to use Dive?"))

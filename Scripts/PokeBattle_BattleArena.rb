@@ -109,7 +109,7 @@ class PokeBattle_BattleArena < PokeBattle_Battle
     super
     return if @decision!=0
     # Update mind rating (asserting that a move was chosen)
-    # TODO: Actually done at Pokémon's turn
+    # TODO: Actually done at Jermon's turn
     for i in 0...2
       if @choices[i][2] && @choices[i][0]==1
         @mind[i]+=pbMindScore(@choices[i][2])
@@ -265,15 +265,15 @@ class PokeBattle_Scene
       end
       updateJudgment(infowindow,1,battler1,battler2,ratings1,ratings2)
       Kernel.pbMessageDisplay(msgwindow,
-         _INTL("REFEREE: Judging category 1, Mind!\nThe Pokémon showing the most guts!\\wtnp[40]")) { 
+         _INTL("REFEREE: Judging category 1, Mind!\nThe Jermon showing the most guts!\\wtnp[40]")) { 
          pbUpdate; dimmingvp.update; infowindow.update } 
       updateJudgment(infowindow,2,battler1,battler2,ratings1,ratings2)
       Kernel.pbMessageDisplay(msgwindow,
-         _INTL("REFEREE: Judging category 2, Skill!\nThe Pokémon using moves the best!\\wtnp[40]")) { 
+         _INTL("REFEREE: Judging category 2, Skill!\nThe Jermon using moves the best!\\wtnp[40]")) { 
          pbUpdate; dimmingvp.update; infowindow.update } 
       updateJudgment(infowindow,3,battler1,battler2,ratings1,ratings2)
       Kernel.pbMessageDisplay(msgwindow,
-         _INTL("REFEREE: Judging category 3, Body!\nThe Pokémon with the most vitality!\\wtnp[40]")) { 
+         _INTL("REFEREE: Judging category 3, Body!\nThe Jermon with the most vitality!\\wtnp[40]")) { 
          pbUpdate; dimmingvp.update; infowindow.update }
       total1=0
       total2=0

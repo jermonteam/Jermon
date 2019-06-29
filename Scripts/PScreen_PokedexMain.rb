@@ -210,7 +210,7 @@ end
 
 
 #===============================================================================
-# Pokédex main screen
+# Jermodex main screen
 #===============================================================================
 class PokemonPokedex_Scene
   MODENUMERICAL = 0
@@ -238,9 +238,9 @@ class PokemonPokedex_Scene
 =begin
 # Suggestion for changing the background depending on region. You can change
 # the line above with the following:
-    if pbGetPokedexRegion==-1 # Using national Pokédex
+    if pbGetPokedexRegion==-1 # Using national Jermodex
       addBackgroundPlane(@sprites,"background","Pokedex/bg_national",@viewport)
-    elsif pbGetPokedexRegion==0 # Using first regional Pokédex
+    elsif pbGetPokedexRegion==0 # Using first regional Jermodex
       addBackgroundPlane(@sprites,"background","Pokedex/bg_regional",@viewport)
     end
 =end
@@ -274,7 +274,7 @@ class PokemonPokedex_Scene
     @viewport.dispose
   end
 
-  # Gets the region used for displaying Pokédex entries. Species will be listed
+  # Gets the region used for displaying Jermodex entries. Species will be listed
   # according to the given region's numbering and the returned region can have
   # any value defined in the town map data file. It is currently set to the
   # return value of pbGetCurrentRegion, and thus will change according to the
@@ -317,7 +317,7 @@ class PokemonPokedex_Scene
     region = pbGetPokedexRegion
     regionalSpecies = pbAllRegionalSpecies(region)
     if regionalSpecies.length==1
-      # If no Regional Dex defined for the given region, use National Pokédex
+      # If no Regional Dex defined for the given region, use National Jermodex
       for i in 1..PBSpecies.maxValue
         regionalSpecies.push(i)
       end
@@ -392,7 +392,7 @@ class PokemonPokedex_Scene
     iconspecies = @sprites["pokedex"].species
     iconspecies = 0 if !$Trainer.seen[iconspecies]
     # Write various bits of text
-    dexname = _INTL("Pokédex")
+    dexname = _INTL("Jermodex")
     if $PokemonGlobal.pokedexUnlocked.length>1
       thisdex = pbDexNames[pbGetSavePositionIndex]
       if thisdex!=nil
@@ -414,7 +414,7 @@ class PokemonPokedex_Scene
     end
     # Draw all text
     pbDrawTextPositions(overlay,textpos)
-    # Set Pokémon sprite
+    # Set Jermon sprite
     setIconBitmap(iconspecies)
     # Draw slider arrows
     itemlist = @sprites["pokedex"]
@@ -1113,7 +1113,7 @@ class PokemonPokedex_Scene
         elsif index==8 # Start search (filter)
           dexlist = pbSearchDexList(params)
           if dexlist.length==0
-            Kernel.pbMessage(_INTL("No matching Pokémon were found."))
+            Kernel.pbMessage(_INTL("No matching Jermon were found."))
           else
             @dexlist = dexlist
             @sprites["pokedex"].commands = @dexlist

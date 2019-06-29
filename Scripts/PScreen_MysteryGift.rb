@@ -29,18 +29,18 @@ end
 ################################################################################
 # Creating a new Mystery Gift for the Master file, and editing an existing one.
 ################################################################################
-# type: 0=Pokémon; 1 or higher=item (is the item's quantity).
-# item: The thing being turned into a Mystery Gift (Pokémon object or item ID).
+# type: 0=Jermon; 1 or higher=item (is the item's quantity).
+# item: The thing being turned into a Mystery Gift (Jermon object or item ID).
 def pbEditMysteryGift(type,item,id=0,giftname="")
   begin
-    if type==0   # Pokémon
+    if type==0   # Jermon
       commands=[_INTL("Mystery Gift"),
                 _INTL("Faraway place")]
       commands.push(item.obtainText) if item.obtainText && item.obtainText!=""
       commands.push(_INTL("[Custom]"))
       loop do
         command=Kernel.pbMessage(
-           _INTL("Choose a phrase to be where the gift Pokémon was obtained from."),commands,-1)
+           _INTL("Choose a phrase to be where the gift Jermon was obtained from."),commands,-1)
         if command<0
           return nil if Kernel.pbConfirmMessage(_INTL("Stop editing this gift?"))
         elsif command<commands.length-1
@@ -322,7 +322,7 @@ def pbDownloadMysteryGift(trainer)
           end
           sprites["msgwindow"].visible=true
           Kernel.pbMessageDisplay(sprites["msgwindow"],_INTL("The gift has been received!")) { sprite.update }
-          Kernel.pbMessageDisplay(sprites["msgwindow"],_INTL("Please pick up your gift from the deliveryman in any Poké Mart.")) { sprite.update }
+          Kernel.pbMessageDisplay(sprites["msgwindow"],_INTL("Please pick up your gift from the deliveryman in any Jermo Mart.")) { sprite.update }
           trainer.mysterygift.push(gift)
           pending[command]=nil; pending.compact!
           begin

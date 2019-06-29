@@ -540,7 +540,7 @@ end
 
 module PocketProperty
   def self.pocketnames
-    return [_INTL("Items"),_INTL("Medicine"),_INTL("Poké Balls"),
+    return [_INTL("Items"),_INTL("Medicine"),_INTL("Jermo Balls"),
        _INTL("TMs & HMs"),_INTL("Berries"),_INTL("Mail"),
        _INTL("Battle Items"),_INTL("Key Items")]
   end
@@ -566,12 +566,12 @@ module BaseStatsProperty
   def self.set(settingname,oldsetting)
     return oldsetting if !oldsetting
     properties = [
-       [_INTL("Base HP"),NonzeroLimitProperty.new(255),_INTL("Base HP stat of the Pokémon.")],
-       [_INTL("Base Attack"),NonzeroLimitProperty.new(255),_INTL("Base Attack stat of the Pokémon.")],
-       [_INTL("Base Defense"),NonzeroLimitProperty.new(255),_INTL("Base Defense stat of the Pokémon.")],
-       [_INTL("Base Speed"),NonzeroLimitProperty.new(255),_INTL("Base Speed stat of the Pokémon.")],
-       [_INTL("Base Special Attack"),NonzeroLimitProperty.new(255),_INTL("Base Special Attack stat of the Pokémon.")],
-       [_INTL("Base Special Defense"),NonzeroLimitProperty.new(255),_INTL("Base Special Defense stat of the Pokémon.")]
+       [_INTL("Base HP"),NonzeroLimitProperty.new(255),_INTL("Base HP stat of the Jermon.")],
+       [_INTL("Base Attack"),NonzeroLimitProperty.new(255),_INTL("Base Attack stat of the Jermon.")],
+       [_INTL("Base Defense"),NonzeroLimitProperty.new(255),_INTL("Base Defense stat of the Jermon.")],
+       [_INTL("Base Speed"),NonzeroLimitProperty.new(255),_INTL("Base Speed stat of the Jermon.")],
+       [_INTL("Base Special Attack"),NonzeroLimitProperty.new(255),_INTL("Base Special Attack stat of the Jermon.")],
+       [_INTL("Base Special Defense"),NonzeroLimitProperty.new(255),_INTL("Base Special Defense stat of the Jermon.")]
     ]
     if !pbPropertyList(settingname,oldsetting,properties,true)
       oldsetting = nil
@@ -596,12 +596,12 @@ module EVProperty
   def self.set(settingname,oldsetting)
     return oldsetting if !oldsetting
     properties = [
-       [_INTL("HP EVs"),LimitProperty.new(255),_INTL("Number of HP Effort Value points gained from the Pokémon.")],
-       [_INTL("Attack EVs"),LimitProperty.new(255),_INTL("Number of Attack Effort Value points gained from the Pokémon.")],
-       [_INTL("Defense EVs"),LimitProperty.new(255),_INTL("Number of Defense Effort Value points gained from the Pokémon.")],
-       [_INTL("Speed EVs"),LimitProperty.new(255),_INTL("Number of Speed Effort Value points gained from the Pokémon.")],
-       [_INTL("Special Attack EVs"),LimitProperty.new(255),_INTL("Number of Special Attack Effort Value points gained from the Pokémon.")],
-       [_INTL("Special Defense EVs"),LimitProperty.new(255),_INTL("Number of Special Defense Effort Value points gained from the Pokémon.")]
+       [_INTL("HP EVs"),LimitProperty.new(255),_INTL("Number of HP Effort Value points gained from the Jermon.")],
+       [_INTL("Attack EVs"),LimitProperty.new(255),_INTL("Number of Attack Effort Value points gained from the Jermon.")],
+       [_INTL("Defense EVs"),LimitProperty.new(255),_INTL("Number of Defense Effort Value points gained from the Jermon.")],
+       [_INTL("Speed EVs"),LimitProperty.new(255),_INTL("Number of Speed Effort Value points gained from the Jermon.")],
+       [_INTL("Special Attack EVs"),LimitProperty.new(255),_INTL("Number of Special Attack Effort Value points gained from the Jermon.")],
+       [_INTL("Special Defense EVs"),LimitProperty.new(255),_INTL("Number of Special Defense Effort Value points gained from the Jermon.")]
     ]
     if !pbPropertyList(settingname,oldsetting,properties,true)
       oldsetting = nil

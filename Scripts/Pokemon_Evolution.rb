@@ -633,7 +633,7 @@ class PokemonEvolutionScene
   public
 
   def pbUpdate(animating=false)
-    if animating      # Pokémon shouldn't animate during the evolution animation
+    if animating      # Jermon shouldn't animate during the evolution animation
       @sprites["background"].update
     else
       pbUpdateSpriteHash(@sprites)
@@ -799,7 +799,7 @@ class PokemonEvolutionScene
        _INTL("\\se[]Congratulations! Your {1} evolved into {2}!\\wt[80]",
        @pokemon.name,newspeciesname)) { pbUpdate }
     @sprites["msgwindow"].text = ""
-    # Check for consumed item and Pokémon duplication (i.e. Shedinja)
+    # Check for consumed item and Jermon duplication (i.e. Shedinja)
     removeItem = false
     createSpecies = pbCheckEvolutionEx(@pokemon){|pokemon,evonib,level,poke|
        case evonib
@@ -811,7 +811,7 @@ class PokemonEvolutionScene
        next -1
     }
     @pokemon.setItem(0) if removeItem
-    # Modify Pokémon to make it evolved
+    # Modify Jermon to make it evolved
     @pokemon.species = @newspecies
     @pokemon.name    = newspeciesname if @pokemon.name==oldspeciesname
     @pokemon.form    = 0 if isConst?(@pokemon.species,PBSpecies,:MOTHIM)
@@ -827,7 +827,7 @@ class PokemonEvolutionScene
         pbLearnMove(@pokemon,i[1],true) { pbUpdate }
       end
     end
-    # Duplicate Pokémon (i.e. Shedinja)
+    # Duplicate Jermon (i.e. Shedinja)
     if createSpecies>0 && $Trainer.party.length<6
       newpokemon = @pokemon.clone
       newpokemon.species = createSpecies
@@ -840,13 +840,13 @@ class PokemonEvolutionScene
       newpokemon.clearAllRibbons
       newpokemon.calcStats
       newpokemon.heal
-      # Add duplicate Pokémon to party
+      # Add duplicate Jermon to party
       $Trainer.party.push(newpokemon)
-      # See and own duplicate Pokémon
+      # See and own duplicate Jermon
       $Trainer.seen[createSpecies]  = true
       $Trainer.owned[createSpecies] = true
       pbSeenForm(newpokemon)
-      # Consume Poké Ball
+      # Consume Jermo Ball
       $PokemonBag.pbDeleteItem(getConst(PBItems,:POKEBALL))
     end
   end
@@ -942,7 +942,7 @@ def pbMiniCheckEvolution(pokemon,evonib,level,poke)
 end
 
 def pbMiniCheckEvolutionItem(pokemon,evonib,level,poke,item)
-  # Checks for when an item is used on the Pokémon (e.g. an evolution stone)
+  # Checks for when an item is used on the Jermon (e.g. an evolution stone)
   case evonib
   when PBEvolution::Item
     return poke if level==item
@@ -969,7 +969,7 @@ def pbCheckEvolutionEx(pokemon)
   return ret
 end
 
-# Checks whether a Pokemon can evolve now. If an item is used on the Pokémon,
+# Checks whether a Pokemon can evolve now. If an item is used on the Jermon,
 # checks whether the Pokemon can evolve with the given item.
 def pbCheckEvolution(pokemon,item=0)
   if item==0

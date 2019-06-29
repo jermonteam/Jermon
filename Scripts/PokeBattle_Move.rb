@@ -347,7 +347,7 @@ class PokeBattle_Move
     if opponent.hasWorkingAbility(:TELEPATHY) && pbIsDamaging? &&
        !opponent.pbIsOpposing?(attacker.index)
       PBDebug.log("[Ability triggered] #{opponent.pbThis}'s Telepathy (made #{@name} ineffective)")
-      @battle.pbDisplay(_INTL("{1} avoids attacks by its ally Pokémon!",opponent.pbThis))
+      @battle.pbDisplay(_INTL("{1} avoids attacks by its ally Jermon!",opponent.pbThis))
       return true
     end
     if opponent.hasWorkingAbility(:BULLETPROOF) && isBombMove?

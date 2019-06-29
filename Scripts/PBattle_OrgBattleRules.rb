@@ -565,7 +565,7 @@ class SameSpeciesClause
   end
 
   def errorMessage
-    return _INTL("Pokémon can't be the same.")
+    return _INTL("Jermon can't be the same.")
   end
 end
 
@@ -583,7 +583,7 @@ class SpeciesClause
   end
 
   def errorMessage
-    return _INTL("Pokémon can't be the same.")
+    return _INTL("Jermon can't be the same.")
   end
 end
 
@@ -923,11 +923,11 @@ class PokemonRuleSet
   # Pokemon in the team must be valid.
   def isValid?(team,error=nil)
     if team.length<self.minLength
-      error.push(_INTL("Choose a Pokémon.")) if error && self.minLength==1
-      error.push(_INTL("{1} Pokémon are needed.",self.minLength)) if error && self.minLength>1
+      error.push(_INTL("Choose a Jermon.")) if error && self.minLength==1
+      error.push(_INTL("{1} Jermon are needed.",self.minLength)) if error && self.minLength>1
       return false
     elsif team.length>self.maxLength
-      error.push(_INTL("No more than {1} Pokémon may enter.",self.maxLength)) if error  
+      error.push(_INTL("No more than {1} Jermon may enter.",self.maxLength)) if error  
       return false
     end
     for pokemon in team
@@ -1584,12 +1584,12 @@ PokemonChallengeRules.new
 
 
 # Battle Time (includes animations)
-If the time runs out, the team with the most Pok�mon left wins. If both teams have
-the same number of Pokémon left, total HP remaining breaks the tie. If both HP
+If the time runs out, the team with the most Pok?on left wins. If both teams have
+the same number of Jermon left, total HP remaining breaks the tie. If both HP
 totals are identical, the battle is a draw.
 
 # Command Time
-If the player is in the process of switching Pokémon when the time runs out, the
+If the player is in the process of switching Jermon when the time runs out, the
 one that can still battle that's closest to the top of the roster is chosen.
 Otherwise, the attack on top of the list is chosen.
 =end

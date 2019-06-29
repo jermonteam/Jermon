@@ -12,8 +12,8 @@ class PokeBattle_Trainer
   attr_accessor(:formlastseen)
   attr_accessor(:shadowcaught)
   attr_accessor(:party)
-  attr_accessor(:pokedex)    # Whether the Pokédex was obtained
-  attr_accessor(:pokegear)   # Whether the Pokégear was obtained
+  attr_accessor(:pokedex)    # Whether the Jermodex was obtained
+  attr_accessor(:pokegear)   # Whether the Jermogear was obtained
   attr_accessor(:language)
 
   def trainerTypeName   # Name of this trainer type (localized)
@@ -191,7 +191,7 @@ class PokeBattle_Trainer
     return p[p.length-1]
   end
 
-  def pokedexSeen(region=-1)   # Number of Pokémon seen
+  def pokedexSeen(region=-1)   # Number of Jermon seen
     ret=0
     if region==-1
       for i in 0..PBSpecies.maxValue
@@ -206,7 +206,7 @@ class PokeBattle_Trainer
     return ret
   end
 
-  def pokedexOwned(region=-1)   # Number of Pokémon owned
+  def pokedexOwned(region=-1)   # Number of Jermon owned
     ret=0
     if region==-1
       for i in 0..PBSpecies.maxValue

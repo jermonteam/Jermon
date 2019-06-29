@@ -85,7 +85,7 @@ begin
     Roar               = 80
     Rollout            = 81
     Roost              = 82
-    SkipTurn           = 83 # For when using Poké Balls/Poké Dolls
+    SkipTurn           = 83 # For when using Jermo Balls/Jermo Dolls
     SkyDrop            = 84
     SmackDown          = 85
     Snatch             = 86

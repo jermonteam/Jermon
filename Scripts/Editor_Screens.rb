@@ -150,19 +150,19 @@ def pbEncounterEditorDensity(enc)
   params.setRange(0,100)
   params.setDefaultValue(enc[0][EncounterTypes::Land])
   enc[0][EncounterTypes::Land] = Kernel.pbMessageChooseNumber(
-     _INTL("Set the density of Pokémon on land (default {1}).",
+     _INTL("Set the density of Jermon on land (default {1}).",
      EncounterTypes::EnctypeDensities[EncounterTypes::Land]),params)
   params = ChooseNumberParams.new
   params.setRange(0,100)
   params.setDefaultValue(enc[0][EncounterTypes::Cave])
   enc[0][EncounterTypes::Cave] = Kernel.pbMessageChooseNumber(
-     _INTL("Set the density of Pokémon in caves (default {1}).",
+     _INTL("Set the density of Jermon in caves (default {1}).",
      EncounterTypes::EnctypeDensities[EncounterTypes::Cave]),params)
   params = ChooseNumberParams.new
   params.setRange(0,100)
   params.setDefaultValue(enc[0][EncounterTypes::Water])
   enc[0][EncounterTypes::Water] = Kernel.pbMessageChooseNumber(
-      _INTL("Set the density of Pokémon on water (default {1}).",
+      _INTL("Set the density of Jermon on water (default {1}).",
       EncounterTypes::EnctypeDensities[EncounterTypes::Water]),params)
   for i in 0...EncounterTypes::EnctypeCompileDens.length
     t = EncounterTypes::EnctypeCompileDens[i]
@@ -306,7 +306,7 @@ def pbTrainerTypeEditor
   trainerTypes = [
     [_INTL("Internal Name"),ReadOnlyProperty,_INTL("Internal name that appears in constructs like PBTrainers::XXX.")],
     [_INTL("Trainer Name"),StringProperty,_INTL("Name of the trainer type as displayed by the game.")],
-    [_INTL("Money Per Level"),LimitProperty.new(255),_INTL("Player earns this amount times the highest level among the trainer's Pokémon.")],
+    [_INTL("Money Per Level"),LimitProperty.new(255),_INTL("Player earns this amount times the highest level among the trainer's Jermon.")],
     [_INTL("Battle BGM"),BGMProperty,_INTL("BGM played in battles against trainers of this type.")],
     [_INTL("Battle End ME"),MEProperty,_INTL("ME played when player wins battles against trainers of this type.")],
     [_INTL("Battle Intro ME"),MEProperty,_INTL("ME played before battles against trainers of this type.")],
@@ -362,12 +362,12 @@ module TrainerBattleProperty
        [_INTL("Trainer Type"),TrainerTypeProperty,_INTL("Name of the trainer type for this Trainer.")],
        [_INTL("Trainer Name"),StringProperty,_INTL("Name of the Trainer.")],
        [_INTL("Battle ID"),LimitProperty.new(255),_INTL("ID used to distinguish Trainers with the same name and trainer type.")],
-       [_INTL("Pokémon 1"),TrainerPokemonProperty,_INTL("First Pokémon.")],
-       [_INTL("Pokémon 2"),TrainerPokemonProperty,_INTL("Second Pokémon.")],
-       [_INTL("Pokémon 3"),TrainerPokemonProperty,_INTL("Third Pokémon.")],
-       [_INTL("Pokémon 4"),TrainerPokemonProperty,_INTL("Fourth Pokémon.")],
-       [_INTL("Pokémon 5"),TrainerPokemonProperty,_INTL("Fifth Pokémon.")],
-       [_INTL("Pokémon 6"),TrainerPokemonProperty,_INTL("Sixth Pokémon.")],
+       [_INTL("Jermon 1"),TrainerPokemonProperty,_INTL("First Jermon.")],
+       [_INTL("Jermon 2"),TrainerPokemonProperty,_INTL("Second Jermon.")],
+       [_INTL("Jermon 3"),TrainerPokemonProperty,_INTL("Third Jermon.")],
+       [_INTL("Jermon 4"),TrainerPokemonProperty,_INTL("Fourth Jermon.")],
+       [_INTL("Jermon 5"),TrainerPokemonProperty,_INTL("Fifth Jermon.")],
+       [_INTL("Jermon 6"),TrainerPokemonProperty,_INTL("Sixth Jermon.")],
        [_INTL("Item 1"),ItemProperty,_INTL("Item used by the trainer during battle.")],
        [_INTL("Item 2"),ItemProperty,_INTL("Item used by the trainer during battle.")],
        [_INTL("Item 3"),ItemProperty,_INTL("Item used by the trainer during battle.")],
@@ -456,12 +456,12 @@ def pbTrainerBattleEditor
              trainerdata[0],      # Trainer type
              trainerdata[1],      # Trainer name
              trainerdata[4],      # ID
-             trainerdata[3][0],   # Pokémon 1
-             trainerdata[3][1],   # Pokémon 2
-             trainerdata[3][2],   # Pokémon 3
-             trainerdata[3][3],   # Pokémon 4
-             trainerdata[3][4],   # Pokémon 5
-             trainerdata[3][5],   # Pokémon 6
+             trainerdata[3][0],   # Jermon 1
+             trainerdata[3][1],   # Jermon 2
+             trainerdata[3][2],   # Jermon 3
+             trainerdata[3][3],   # Jermon 4
+             trainerdata[3][4],   # Jermon 5
+             trainerdata[3][5],   # Jermon 6
              trainerdata[2][0],   # Item 1
              trainerdata[2][1],   # Item 2
              trainerdata[2][2],   # Item 3
@@ -479,11 +479,11 @@ def pbTrainerBattleEditor
                  data[0],
                  data[1],
                  [data[9],data[10],data[11],data[12],data[13],data[14],data[15],data[16]].find_all {|i| i && i!=0 },   # Item list
-                 [data[3],data[4],data[5],data[6],data[7],data[8]].find_all {|i| i && i[TPSPECIES]!=0 },   # Pokémon list
+                 [data[3],data[4],data[5],data[6],data[7],data[8]].find_all {|i| i && i[TPSPECIES]!=0 },   # Jermon list
                  data[2]
               ]
               if trainerdata[3].length==0
-                Kernel.pbMessage(_INTL("Can't save. The Pokémon list is empty."))
+                Kernel.pbMessage(_INTL("Can't save. The Jermon list is empty."))
               elsif !trainerdata[1] || trainerdata[1].length==0
                 Kernel.pbMessage(_INTL("Can't save. No name was entered."))
               else
@@ -509,29 +509,29 @@ end
 
 
 #===============================================================================
-# Trainer Pokémon editor
+# Trainer Jermon editor
 #===============================================================================
 module TrainerPokemonProperty
   def self.set(settingname,oldsetting)
     oldsetting = TPDEFAULTS.clone if !oldsetting
     properties = [
-       [_INTL("Species"),SpeciesProperty,_INTL("Species of the Pokémon.")],
-       [_INTL("Level"),NonzeroLimitProperty.new(PBExperience::MAXLEVEL),_INTL("Level of the Pokémon.")],
-       [_INTL("Held item"),ItemProperty,_INTL("Item held by the Pokémon.")],
+       [_INTL("Species"),SpeciesProperty,_INTL("Species of the Jermon.")],
+       [_INTL("Level"),NonzeroLimitProperty.new(PBExperience::MAXLEVEL),_INTL("Level of the Jermon.")],
+       [_INTL("Held item"),ItemProperty,_INTL("Item held by the Jermon.")],
        [_INTL("Move 1"),MoveProperty2.new(oldsetting),_INTL("First move. Leave all moves blank (use Z key) to give it a wild move set.")],
        [_INTL("Move 2"),MoveProperty2.new(oldsetting),_INTL("Second move. Leave all moves blank (use Z key) to give it a wild move set.")],
        [_INTL("Move 3"),MoveProperty2.new(oldsetting),_INTL("Third move. Leave all moves blank (use Z key) to give it a wild move set.")],
        [_INTL("Move 4"),MoveProperty2.new(oldsetting),_INTL("Fourth move. Leave all moves blank (use Z key) to give it a wild move set.")],
        [_INTL("Ability"),LimitProperty.new(5),_INTL("Ability flag. 0=first ability, 1=second ability, 2-5=hidden ability.")],
        [_INTL("Gender"),LimitProperty.new(1),_INTL("Gender flag. 0=male, 1=female.")],
-       [_INTL("Form"),LimitProperty.new(100),_INTL("Form of the Pokémon.")],
-       [_INTL("Shiny"),BooleanProperty,_INTL("If set to true, the Pokémon is a different-colored Pokémon.")],
-       [_INTL("Nature"),NatureProperty,_INTL("Nature of the Pokémon.")],
-       [_INTL("IVs"),LimitProperty.new(31),_INTL("Individual values of each of the Pokémon's stats.")],
-       [_INTL("Happiness"),LimitProperty.new(255),_INTL("Happiness of the Pokémon.")],
-       [_INTL("Nickname"),StringProperty,_INTL("Name of the Pokémon.")],
-       [_INTL("Shadow"),BooleanProperty,_INTL("If set to true, the Pokémon is a Shadow Pokémon.")],
-       [_INTL("Ball"),BallProperty.new(oldsetting),_INTL("Number of the Poké Ball the Pokémon is kept in.")]
+       [_INTL("Form"),LimitProperty.new(100),_INTL("Form of the Jermon.")],
+       [_INTL("Shiny"),BooleanProperty,_INTL("If set to true, the Jermon is a different-colored Jermon.")],
+       [_INTL("Nature"),NatureProperty,_INTL("Nature of the Jermon.")],
+       [_INTL("IVs"),LimitProperty.new(31),_INTL("Individual values of each of the Jermon's stats.")],
+       [_INTL("Happiness"),LimitProperty.new(255),_INTL("Happiness of the Jermon.")],
+       [_INTL("Nickname"),StringProperty,_INTL("Name of the Jermon.")],
+       [_INTL("Shadow"),BooleanProperty,_INTL("If set to true, the Jermon is a Shadow Jermon.")],
+       [_INTL("Ball"),BallProperty.new(oldsetting),_INTL("Number of the Jermo Ball the Jermon is kept in.")]
     ]
     pbPropertyList(settingname,oldsetting,properties,false)
     for i in 0...TPDEFAULTS.length
@@ -597,16 +597,16 @@ def pbItemEditor
      [_INTL("Purchase price"),LimitProperty.new(999999),_INTL("Purchase price of the item.")],
      [_INTL("Description"),StringProperty,_INTL("Description of the item")],
      [_INTL("Use Out of Battle"),EnumProperty.new([
-        _INTL("Can't Use"),_INTL("On a Pokémon"),_INTL("Use directly"),
-        _INTL("TM"),_INTL("HM"),_INTL("On Pokémon reusable")]),
+        _INTL("Can't Use"),_INTL("On a Jermon"),_INTL("Use directly"),
+        _INTL("TM"),_INTL("HM"),_INTL("On Jermon reusable")]),
         _INTL("Specifies how this item can be used outside of battle.")],
      [_INTL("Use In Battle"),EnumProperty.new([
-        _INTL("Can't Use"),_INTL("On a Pokémon"),_INTL("Use directly"),
-        _INTL("On Pokémon reusable"),_INTL("Use directly reusable")]),
+        _INTL("Can't Use"),_INTL("On a Jermon"),_INTL("Use directly"),
+        _INTL("On Jermon reusable"),_INTL("Use directly reusable")]),
         _INTL("Specifies how this item can be used within a battle.")],
      [_INTL("Special Items"),EnumProperty.new([
         _INTL("None of Below"),_INTL("Mail"),_INTL("Mail with Pictures"),
-        _INTL("Snag Ball"),_INTL("Poké Ball"),_INTL("Plantable Berry"),
+        _INTL("Snag Ball"),_INTL("Jermo Ball"),_INTL("Plantable Berry"),
         _INTL("Key Item"),_INTL("Evolution Stone"),_INTL("Fossil"),
         _INTL("Apricorn"),_INTL("Type-boosting Gem"),_INTL("Mulch"),
         _INTL("Mega Stone")]),
@@ -743,16 +743,16 @@ end
 
 
 #===============================================================================
-# Pokémon species editor
+# Jermon species editor
 #===============================================================================
 def pbPokemonEditor
   selection = 0
   species = [
-     [_INTL("Name"),LimitStringProperty.new(10),_INTL("Name of the Pokémon.")],
-     [_INTL("InternalName"),ReadOnlyProperty,_INTL("Internal name of the Pokémon.")],
-     [_INTL("Type1"),TypeProperty,_INTL("Pokémon's type. If same as Type2, this Pokémon has a single type.")],
-     [_INTL("Type2"),TypeProperty,_INTL("Pokémon's type. If same as Type1, this Pokémon has a single type.")],
-     [_INTL("BaseStats"),BaseStatsProperty,_INTL("Base stats of the Pokémon.")],
+     [_INTL("Name"),LimitStringProperty.new(10),_INTL("Name of the Jermon.")],
+     [_INTL("InternalName"),ReadOnlyProperty,_INTL("Internal name of the Jermon.")],
+     [_INTL("Type1"),TypeProperty,_INTL("Jermon's type. If same as Type2, this Jermon has a single type.")],
+     [_INTL("Type2"),TypeProperty,_INTL("Jermon's type. If same as Type1, this Jermon has a single type.")],
+     [_INTL("BaseStats"),BaseStatsProperty,_INTL("Base stats of the Jermon.")],
      [_INTL("GenderRate"),EnumProperty.new([
         _INTL("AlwaysMale"),_INTL("FemaleOneEighth"),_INTL("Female25Percent"),
         _INTL("Female50Percent"),_INTL("Female75Percent"),_INTL("FemaleSevenEighths"),
@@ -761,19 +761,19 @@ def pbPokemonEditor
      [_INTL("GrowthRate"),EnumProperty.new([
         _INTL("Medium"),_INTL("Erratic"),_INTL("Fluctuating"),_INTL("Parabolic"),
         _INTL("Fast"),_INTL("Slow")]),
-        _INTL("Pokémon's growth rate.")],
+        _INTL("Jermon's growth rate.")],
      [_INTL("BaseEXP"),LimitProperty.new(65535),_INTL("Base experience earned when this species is defeated.")],
      [_INTL("EffortPoints"),EVProperty,_INTL("Effort Value points earned when this species is defeated.")],
      [_INTL("Rareness"),LimitProperty.new(255),_INTL("Catch rate of this species (max=255).")],
      [_INTL("Happiness"),LimitProperty.new(255),_INTL("Base happiness of this species (max=255).")],
-     [_INTL("Ability1"),AbilityProperty,_INTL("One ability which the Pokémon can have.")],
-     [_INTL("Ability2"),AbilityProperty,_INTL("Another ability which the Pokémon can have.")],
-     [_INTL("HiddenAbility 1"),AbilityProperty,_INTL("A secret ability which the Pokémon can have.")],
-     [_INTL("HiddenAbility 2"),AbilityProperty,_INTL("A secret ability which the Pokémon can have.")],
-     [_INTL("HiddenAbility 3"),AbilityProperty,_INTL("A secret ability which the Pokémon can have.")],
-     [_INTL("HiddenAbility 4"),AbilityProperty,_INTL("A secret ability which the Pokémon can have.")],
-     [_INTL("Moves"),MovePoolProperty,_INTL("Moves which the Pokémon learns while levelling up.")],
-     [_INTL("EggMoves"),EggMovesProperty,_INTL("Moves which the Pokémon can learn via breeding.")],
+     [_INTL("Ability1"),AbilityProperty,_INTL("One ability which the Jermon can have.")],
+     [_INTL("Ability2"),AbilityProperty,_INTL("Another ability which the Jermon can have.")],
+     [_INTL("HiddenAbility 1"),AbilityProperty,_INTL("A secret ability which the Jermon can have.")],
+     [_INTL("HiddenAbility 2"),AbilityProperty,_INTL("A secret ability which the Jermon can have.")],
+     [_INTL("HiddenAbility 3"),AbilityProperty,_INTL("A secret ability which the Jermon can have.")],
+     [_INTL("HiddenAbility 4"),AbilityProperty,_INTL("A secret ability which the Jermon can have.")],
+     [_INTL("Moves"),MovePoolProperty,_INTL("Moves which the Jermon learns while levelling up.")],
+     [_INTL("EggMoves"),EggMovesProperty,_INTL("Moves which the Jermon can learn via breeding.")],
      [_INTL("Compat1"),EnumProperty.new([
         "Undiscovered","Monster","Water 1","Bug","Flying",
         "Field","Fairy","Grass","Human-like","Water 3",
@@ -785,32 +785,32 @@ def pbPokemonEditor
         "Mineral","Amorphous","Water 2","Ditto","Dragon"]),
         _INTL("Compatibility group (egg group) for breeding purposes.")],
      [_INTL("StepsToHatch"),LimitProperty.new(65535),_INTL("Number of steps until an egg of this species hatches.")],
-     [_INTL("Height"),NonzeroLimitProperty.new(999),_INTL("Height of the Pokémon in 0.1 metres (e.g. 42 = 4.2m).")],
-     [_INTL("Weight"),NonzeroLimitProperty.new(9999),_INTL("Weight of the Pokémon in 0.1 kilograms (e.g. 42 = 4.2kg).")],
+     [_INTL("Height"),NonzeroLimitProperty.new(999),_INTL("Height of the Jermon in 0.1 metres (e.g. 42 = 4.2m).")],
+     [_INTL("Weight"),NonzeroLimitProperty.new(9999),_INTL("Weight of the Jermon in 0.1 kilograms (e.g. 42 = 4.2kg).")],
      [_INTL("Color"),EnumProperty.new([
         _INTL("Red"),_INTL("Blue"),_INTL("Yellow"),_INTL("Green"),_INTL("Black"),
         _INTL("Brown"),_INTL("Purple"),_INTL("Gray"),_INTL("White"),_INTL("Pink")]),
-        _INTL("Pokémon's body color.")],
+        _INTL("Jermon's body color.")],
      [_INTL("Shape"),LimitProperty.new(14),_INTL("Body shape of this species (max=14).")],
      [_INTL("Habitat"),EnumProperty.new([
         _INTL("None"),_INTL("Grassland"),_INTL("Forest"),_INTL("WatersEdge"),
         _INTL("Sea"),_INTL("Cave"),_INTL("Mountain"),_INTL("RoughTerrain"),
         _INTL("Urban"),_INTL("Rare")]),
         _INTL("The habitat of this species.")],
-     [_INTL("RegionalNumbers"),ReadOnlyProperty,_INTL("Regional Dex numbers for the Pokémon. These are edited elsewhere.")],
-     [_INTL("Kind"),LimitStringProperty.new(13),_INTL("Kind of Pokémon species.")],
-     [_INTL("Pokédex"),StringProperty,_INTL("Description of the Pokémon as displayed in the Pokédex.")],
-     [_INTL("FormName"),StringProperty,_INTL("Name of this form of the Pokémon.")],
-     [_INTL("WildItemCommon"),ItemProperty,_INTL("Item commonly held by wild Pokémon of this species.")],
-     [_INTL("WildItemUncommon"),ItemProperty,_INTL("Item uncommonly held by wild Pokémon of this species.")],
-     [_INTL("WildItemRare"),ItemProperty,_INTL("Item rarely held by wild Pokémon of this species.")],
-     [_INTL("BattlerPlayerY"),ReadOnlyProperty,_INTL("Affects positioning of the Pokémon in battle. These are edited elsewhere.")],
-     [_INTL("BattlerEnemyY"),ReadOnlyProperty,_INTL("Affects positioning of the Pokémon in battle. These are edited elsewhere.")],
-     [_INTL("BattlerAltitude"),ReadOnlyProperty,_INTL("Affects positioning of the Pokémon in battle. These are edited elsewhere.")],
+     [_INTL("RegionalNumbers"),ReadOnlyProperty,_INTL("Regional Dex numbers for the Jermon. These are edited elsewhere.")],
+     [_INTL("Kind"),LimitStringProperty.new(13),_INTL("Kind of Jermon species.")],
+     [_INTL("Jermodex"),StringProperty,_INTL("Description of the Jermon as displayed in the Jermodex.")],
+     [_INTL("FormName"),StringProperty,_INTL("Name of this form of the Jermon.")],
+     [_INTL("WildItemCommon"),ItemProperty,_INTL("Item commonly held by wild Jermon of this species.")],
+     [_INTL("WildItemUncommon"),ItemProperty,_INTL("Item uncommonly held by wild Jermon of this species.")],
+     [_INTL("WildItemRare"),ItemProperty,_INTL("Item rarely held by wild Jermon of this species.")],
+     [_INTL("BattlerPlayerY"),ReadOnlyProperty,_INTL("Affects positioning of the Jermon in battle. These are edited elsewhere.")],
+     [_INTL("BattlerEnemyY"),ReadOnlyProperty,_INTL("Affects positioning of the Jermon in battle. These are edited elsewhere.")],
+     [_INTL("BattlerAltitude"),ReadOnlyProperty,_INTL("Affects positioning of the Jermon in battle. These are edited elsewhere.")],
      [_INTL("Evolutions"),EvolutionsProperty.new(PBEvolution::EVONAMES),_INTL("Evolution paths of this species.")],
      [_INTL("Incense"),ItemProperty,_INTL("Item needed to be held by a parent to produce an egg of this species.")],
   ]
-  pbListScreenBlock(_INTL("Pokémon species"),SpeciesLister.new(selection,false)){|button,index|
+  pbListScreenBlock(_INTL("Jermon species"),SpeciesLister.new(selection,false)){|button,index|
     if index
       if button==Input::A
         if index>=0
@@ -832,7 +832,7 @@ def pbPokemonEditor
           dexdata = File.open("Data/dexdata.dat","rb") rescue nil
           messages = Messages.new("Data/messages.dat") rescue nil
           if !dexdata || !messages
-            raise _INTL("Couldn't find dexdata.dat or messages.dat to get Pokémon data from.")
+            raise _INTL("Couldn't find dexdata.dat or messages.dat to get Jermon data from.")
           end
           speciesname = messages.get(MessageTypes::Species,selection)
           kind        = messages.get(MessageTypes::Kinds,selection)

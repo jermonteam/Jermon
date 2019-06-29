@@ -1,6 +1,6 @@
 =begin
 -  def pbChooseNewEnemy(index,party)
-Use this method to choose a new Pokémon for the enemy
+Use this method to choose a new Jermon for the enemy
 The enemy's party is guaranteed to have at least one 
 choosable member.
 index - Index to the battler to be replaced (use e.g. @battle.battlers[index] to 
@@ -8,7 +8,7 @@ access the battler)
 party - Enemy's party
 
 - def pbWildBattleSuccess
-This method is called when the player wins a wild Pokémon battle.
+This method is called when the player wins a wild Jermon battle.
 This method can change the battle's music for example.
 
 - def pbTrainerBattleSuccess
@@ -16,8 +16,8 @@ This method is called when the player wins a Trainer battle.
 This method can change the battle's music for example.
 
 - def pbFainted(pkmn)
-This method is called whenever a Pokémon faints.
-pkmn - PokeBattle_Battler object indicating the Pokémon that fainted
+This method is called whenever a Jermon faints.
+pkmn - PokeBattle_Battler object indicating the Jermon that fainted
 
 - def pbChooseEnemyCommand(index)
 Use this method to choose a command for the enemy.
@@ -31,13 +31,13 @@ index - Index of battler (use e.g. @battle.battlers[index] to
 access the battler)
 Return values:
 0 - Fight
-1 - Pokémon
+1 - Jermon
 2 - Bag
 3 - Run
 =end
 
 #===============================================================================
-# Command menu (Fight/Pokémon/Bag/Run)
+# Command menu (Fight/Jermon/Bag/Run)
 #===============================================================================
 class CommandMenuDisplay
   attr_accessor :mode
@@ -627,9 +627,9 @@ class PokemonDataBox < SpriteWrapper
     pbSetSystemFont(self.bitmap)
     textpos = []
     imagepos = []
-    # Draw Pokémon's name
+    # Draw Jermon's name
     textpos.push([@battler.name,@spritebaseX+8,6,false,base,shadow])
-    # Draw Pokémon's gender symbol
+    # Draw Jermon's gender symbol
     genderX = self.bitmap.text_size(@battler.name).width
     genderX += @spritebaseX+14
     case @battler.displayGender
@@ -639,14 +639,14 @@ class PokemonDataBox < SpriteWrapper
       textpos.push([_INTL("♀"),genderX,6,false,Color.new(248,88,40),shadow])
     end
     pbDrawTextPositions(self.bitmap,textpos)
-    # Draw Pokémon's level
+    # Draw Jermon's level
     pbSetSmallFont(self.bitmap)
     imagepos.push(["Graphics/Pictures/Battle/overlay_lv",
        @spritebaseX+180-self.bitmap.text_size(@battler.level.to_s).width,16,0,0,-1,-1])
     textpos = [
        [@battler.level.to_s,@spritebaseX+202,8,true,base,shadow]
     ]
-    # Draw Pokémon's HP numbers
+    # Draw Jermon's HP numbers
     if @showhp
       hpstring = _ISPRINTF("{1: 2d}/{2: 2d}",self.hp,@battler.totalhp)
       textpos.push([hpstring,@spritebaseX+188,48,true,base,shadow])
@@ -667,7 +667,7 @@ class PokemonDataBox < SpriteWrapper
         imagepos.push(["Graphics/Pictures/Battle/icon_primal_Groudon",@spritebaseX+140,4,0,0,-1,-1])
       end
     end
-    # Draw owned icon (foe Pokémon only)
+    # Draw owned icon (foe Jermon only)
     if @battler.owned && (@battler.index&1)==1
       imagepos.push(["Graphics/Pictures/Battle/icon_own",@spritebaseX+8,36,0,0,-1,-1])
     end
@@ -754,7 +754,7 @@ class PokemonDataBox < SpriteWrapper
     end
     # Move data box onto the screen
     if @appearing
-      if (@battler.index&1)==0 # if player's Pokémon
+      if (@battler.index&1)==0 # if player's Jermon
         self.x -= 12
         self.x = @spriteX if self.x<@spriteX
         @appearing = false if self.x<=@spriteX
@@ -768,7 +768,7 @@ class PokemonDataBox < SpriteWrapper
     end
     self.x = @spriteX
     self.y = @spriteY
-    # Data box bobbing while Pokémon is selected
+    # Data box bobbing while Jermon is selected
     if @selected==1 || @selected==2   # Choosing commands/targeted or damaged
       if (@frame/6).floor==1
         self.y = @spriteY-2
@@ -782,7 +782,7 @@ end
 
 
 #===============================================================================
-# Shows the enemy trainer(s)'s Pokémon being thrown out.  It appears at coords
+# Shows the enemy trainer(s)'s Jermon being thrown out.  It appears at coords
 # (@spritex,@spritey), and moves in y to @endspritey where it stays for the rest
 # of the battle, i.e. the latter is the more important value.
 # Doesn't show the ball itself being thrown.
@@ -928,7 +928,7 @@ end
 
 
 #===============================================================================
-# Shows the player's (or partner's) Pokémon being thrown out.  It appears at
+# Shows the player's (or partner's) Jermon being thrown out.  It appears at
 # (@spritex,@spritey), and moves in y to @endspritey where it stays for the rest
 # of the battle, i.e. the latter is the more important value.
 # Doesn't show the ball itself being thrown.
@@ -1042,7 +1042,7 @@ end
 
 #===============================================================================
 # Shows the enemy trainer(s) and the enemy party lineup sliding off screen.
-# Doesn't show the ball thrown or the Pokémon.
+# Doesn't show the ball thrown or the Jermon.
 #===============================================================================
 class TrainerFadeAnimation
   def initialize(sprites)
@@ -1076,7 +1076,7 @@ end
 #===============================================================================
 # Shows the player (and partner) and the player party lineup sliding off screen.
 # Shows the player's/partner's throwing animation (if they have one).
-# Doesn't show the ball thrown or the Pokémon.
+# Doesn't show the ball thrown or the Jermon.
 #===============================================================================
 class PlayerFadeAnimation
   def initialize(sprites)
@@ -1147,7 +1147,7 @@ end
 
 
 #===============================================================================
-# Shows the player's Poké Ball being thrown to capture a Pokémon.
+# Shows the player's Jermo Ball being thrown to capture a Jermon.
 #===============================================================================
 def pokeballThrow(ball,shakes,critical,targetBattler,scene,battler,burst=-1,showplayer=false)
   balltype=pbGetBallType(ball)
@@ -1378,7 +1378,7 @@ class PokeBattle_Scene
   def pbSetMessageMode(mode)
     @messagemode=mode
     msgwindow=@sprites["messagewindow"]
-    if mode # Within Pokémon command
+    if mode # Within Jermon command
       msgwindow.baseColor=PokeBattle_SceneConstants::MENUBASECOLOR
       msgwindow.shadowColor=PokeBattle_SceneConstants::MENUSHADOWCOLOR
       msgwindow.opacity=255
@@ -2046,7 +2046,7 @@ class PokeBattle_Scene
       @sprites["partybarfoe"].visible=true
       @sprites["partybarplayer"].visible=true
     else
-      pbPlayCry(@battle.party2[0])   # Play cry for wild Pokémon
+      pbPlayCry(@battle.party2[0])   # Play cry for wild Jermon
       @sprites["battlebox1"].appear
       @sprites["battlebox3"].appear if @battle.party2.length==2 
       appearing=true
@@ -2067,7 +2067,7 @@ class PokeBattle_Scene
           appearing=(appearing || @sprites["battlebox3"].appearing)
         end
       end while appearing
-      # Show shiny animation for wild Pokémon
+      # Show shiny animation for wild Jermon
       if @battle.battlers[1].isShiny? && @battle.battlescene
         pbCommonAnimation("Shiny",@battle.battlers[1],nil)
       end
@@ -2176,7 +2176,7 @@ class PokeBattle_Scene
     pbRefresh
   end
 
-  def pbSendOut(battlerindex,pkmn) # Player sending out Pokémon
+  def pbSendOut(battlerindex,pkmn) # Player sending out Jermon
     while inPartyAnimation?; end
     illusionpoke=@battle.battlers[battlerindex].effects[PBEffects::Illusion]
     balltype=pkmn.ballused
@@ -2311,14 +2311,14 @@ class PokeBattle_Scene
   end
 
 # Use this method to display the list of commands.
-# Return values: 0=Fight, 1=Bag, 2=Pokémon, 3=Run, 4=Call
+# Return values: 0=Fight, 1=Bag, 2=Jermon, 3=Run, 4=Call
   def pbCommandMenu(index)
     shadowTrainer=(hasConst?(PBTypes,:SHADOW) && @battle.opponent)
     ret=pbCommandMenuEx(index,[
        _INTL("What will\n{1} do?",@battle.battlers[index].name),
        _INTL("Fight"),
        _INTL("Bag"),
-       _INTL("Pokémon"),
+       _INTL("Jermon"),
        shadowTrainer ? _INTL("Call") : _INTL("Run")
     ],(shadowTrainer ? 1 : 0))
     ret=4 if ret==3 && shadowTrainer   # Convert "Run" to "Call"
@@ -2326,7 +2326,7 @@ class PokeBattle_Scene
   end
 
   def pbCommandMenuEx(index,texts,mode=0)      # Mode: 0 - regular battle
-    pbShowWindow(COMMANDBOX)                   #       1 - Shadow Pokémon battle
+    pbShowWindow(COMMANDBOX)                   #       1 - Shadow Jermon battle
     cw=@sprites["commandwindow"]               #       2 - Safari Zone
     cw.setTexts(texts)                         #       3 - Bug Catching Contest
     cw.index=@lastcmd[index]
@@ -2363,7 +2363,7 @@ class PokeBattle_Scene
     end 
   end
 
-# Use this method to display the list of moves for a Pokémon
+# Use this method to display the list of moves for a Jermon
   def pbFightMenu(index)
     pbShowWindow(FIGHTBOX)
     cw = @sprites["fightwindow"]
@@ -2451,7 +2451,7 @@ class PokeBattle_Scene
           pkmnlist=PokemonParty_Scene.new
           pkmnscreen=PokemonPartyScreen.new(pkmnlist,modparty)
           itemscene.pbEndScene
-          pkmnscreen.pbStartScene(_INTL("Use on which Pokémon?"),@battle.doublebattle)
+          pkmnscreen.pbStartScene(_INTL("Use on which Jermon?"),@battle.doublebattle)
           activecmd=pkmnscreen.pbChoosePokemon
           pkmnid=@battle.party1order[activecmd]
           if activecmd>=0 && pkmnid>=0 && ItemHandlers.hasBattleUseOnPokemon(item)
@@ -2482,7 +2482,7 @@ class PokeBattle_Scene
     return [ret,retindex]
   end
 
-# Called whenever a Pokémon should forget a move.  It should return -1 if the
+# Called whenever a Jermon should forget a move.  It should return -1 if the
 # selection is canceled, or 0 to 3 to indicate the move to forget.  The function
 # should not allow HM moves to be forgotten.
   def pbForgetMove(pokemon,moveToLearn)
@@ -2495,7 +2495,7 @@ class PokeBattle_Scene
     return ret
   end
 
-# Called whenever a Pokémon needs one of its moves chosen. Used for Ether.
+# Called whenever a Jermon needs one of its moves chosen. Used for Ether.
   def pbChooseMove(pokemon,message)
     ret=-1
     pbFadeOutIn(99999){
@@ -2631,10 +2631,10 @@ class PokeBattle_Scene
     end
     scene=PokemonParty_Scene.new
     @switchscreen=PokemonPartyScreen.new(scene,modparty)
-    @switchscreen.pbStartScene(_INTL("Choose a Pokémon."),
+    @switchscreen.pbStartScene(_INTL("Choose a Jermon."),
        @battle.doublebattle && !@battle.fullparty1)
     loop do
-      scene.pbSetHelpText(_INTL("Choose a Pokémon."))
+      scene.pbSetHelpText(_INTL("Choose a Jermon."))
       activecmd=@switchscreen.pbChoosePokemon
       if cancancel && activecmd==-1
         ret=-1
@@ -2707,7 +2707,7 @@ class PokeBattle_Scene
     sprite.visible=oldvisible
   end
 
-# This method is called whenever a Pokémon's HP changes.
+# This method is called whenever a Jermon's HP changes.
 # Used to animate the HP bar.
   def pbHPChanged(pkmn,oldhp,anim=false)
     @briefmessage=false
@@ -2735,7 +2735,7 @@ class PokeBattle_Scene
     end
   end
 
-# This method is called whenever a Pokémon faints.
+# This method is called whenever a Jermon faints.
   def pbFainted(pkmn)
     frames=pbCryFrameLength(pkmn.pokemon)
     pbPlayCry(pkmn.pokemon)
@@ -2786,13 +2786,13 @@ class PokeBattle_Scene
     @battle.pbDefaultChooseEnemyCommand(index)
   end
 
-# Use this method to choose a new Pokémon for the enemy
+# Use this method to choose a new Jermon for the enemy
 # The enemy's party is guaranteed to have at least one choosable member.
   def pbChooseNewEnemy(index,party)
     @battle.pbDefaultChooseNewEnemy(index,party)
   end
 
-# This method is called when the player wins a wild Pokémon battle.
+# This method is called when the player wins a wild Jermon battle.
 # This method can change the battle's music for example.
   def pbWildBattleSuccess
     pbBGMPlay(pbGetWildVictoryME())
@@ -3189,7 +3189,7 @@ class PokeBattle_Scene
       picturePlayer.moveSrc(40,0,0)
       picturePlayer.moveXY(0,40,playerpos[0],playerpos[1])
     end
-    # Show Pokémon jumping before eating the bait
+    # Show Jermon jumping before eating the bait
     picturePoke.moveSE(50,"Audio/SE/Player jump")
     picturePoke.moveXY(8,50,pokecenter[0],pokecenter[1]-8)
     picturePoke.moveXY(8,58,pokecenter[0],pokecenter[1])
@@ -3197,7 +3197,7 @@ class PokeBattle_Scene
     picturePoke.moveSE(66,"Audio/SE/Player jump")
     picturePoke.moveXY(8,66,pokecenter[0],pokecenter[1]-8)
     picturePoke.moveXY(8,74,pokecenter[0],pokecenter[1])
-    # TODO: Show Pokémon eating the bait (pivots at the bottom right corner)
+    # TODO: Show Jermon eating the bait (pivots at the bottom right corner)
     picturePoke.moveOrigin(picturePoke.totalDuration,PictureOrigin::TopLeft)
     picturePoke.moveXY(0,picturePoke.totalDuration,dims[0],dims[1])
     loop do
@@ -3275,7 +3275,7 @@ class PokeBattle_Scene
       picturePlayer.moveXY(0,40,playerpos[0],playerpos[1])
     end
     pictureBall.moveVisible(40,false)
-    # Show Pokémon being angry
+    # Show Jermon being angry
     pictureAnger.moveSE(48,"Audio/SE/Player jump")
     pictureAnger.moveVisible(48,true)
     pictureAnger.moveZoom(8,48,130)

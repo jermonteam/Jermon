@@ -685,7 +685,7 @@ end
 
 
 ################################################################################
-# Cures all party Pokémon of permanent status problems. (Aromatherapy, Heal Bell)
+# Cures all party Jermon of permanent status problems. (Aromatherapy, Heal Bell)
 ################################################################################
 class PokeBattle_Move_019 < PokeBattle_Move
   def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
@@ -3680,7 +3680,7 @@ end
 
 ################################################################################
 # Power is multiplied by the number of consecutive rounds in which this move was
-# used by any Pokémon on the user's side. (Echoed Voice)
+# used by any Jermon on the user's side. (Echoed Voice)
 ################################################################################
 class PokeBattle_Move_092 < PokeBattle_Move
   def pbBaseDamage(basedmg,attacker,opponent)
@@ -4764,7 +4764,7 @@ end
 
 
 ################################################################################
-# Uses a random move known by any non-user Pokémon in the user's party. (Assist)
+# Uses a random move known by any non-user Jermon in the user's party. (Assist)
 ################################################################################
 class PokeBattle_Move_0B5 < PokeBattle_Move
   def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
@@ -5207,7 +5207,7 @@ end
 
 ################################################################################
 # Hits X times, where X is 1 (the user) plus the number of non-user unfainted
-# status-free Pokémon in the user's party (the participants). Fails if X is 0.
+# status-free Jermon in the user's party (the participants). Fails if X is 0.
 # Base power of each hit depends on the base Attack stat for the species of that
 # hit's participant. (Beat Up)
 ################################################################################
@@ -5668,7 +5668,7 @@ end
 # Two turn attack. Skips first turn, attacks second turn. (Sky Drop)
 # (Handled in Battler's pbSuccessCheck):  Is semi-invulnerable during use.
 # Target is also semi-invulnerable during use, and can't take any action.
-# Doesn't damage airborne Pokémon (but still makes them unable to move during).
+# Doesn't damage airborne Jermon (but still makes them unable to move during).
 ################################################################################
 class PokeBattle_Move_0CE < PokeBattle_Move
   def unusableInGravity?
@@ -5713,7 +5713,7 @@ end
 
 
 ################################################################################
-# Trapping move. Traps for 5 or 6 rounds. Trapped Pokémon lose 1/16 of max HP
+# Trapping move. Traps for 5 or 6 rounds. Trapped Jermon lose 1/16 of max HP
 # at end of each round.
 ################################################################################
 class PokeBattle_Move_0CF < PokeBattle_Move
@@ -5754,7 +5754,7 @@ end
 
 
 ################################################################################
-# Trapping move. Traps for 5 or 6 rounds. Trapped Pokémon lose 1/16 of max HP
+# Trapping move. Traps for 5 or 6 rounds. Trapped Jermon lose 1/16 of max HP
 # at end of each round. (Whirlpool)
 # Power is doubled if target is using Dive.
 # (Handled in Battler's pbSuccessCheck): Hits some semi-invulnerable targets.
@@ -6053,7 +6053,7 @@ end
 
 
 ################################################################################
-# Rings the user. Ringed Pokémon gain 1/16 of max HP at the end of each round.
+# Rings the user. Ringed Jermon gain 1/16 of max HP at the end of each round.
 # (Aqua Ring)
 ################################################################################
 class PokeBattle_Move_0DA < PokeBattle_Move
@@ -6076,7 +6076,7 @@ end
 
 
 ################################################################################
-# Ingrains the user. Ingrained Pokémon gain 1/16 of max HP at the end of each
+# Ingrains the user. Ingrained Jermon gain 1/16 of max HP at the end of each
 # round, and cannot flee or switch out. (Ingrain)
 ################################################################################
 class PokeBattle_Move_0DB < PokeBattle_Move
@@ -6099,8 +6099,8 @@ end
 
 
 ################################################################################
-# Seeds the target. Seeded Pokémon lose 1/8 of max HP at the end of each round,
-# and the Pokémon in the user's position gains the same amount. (Leech Seed)
+# Seeds the target. Seeded Jermon lose 1/8 of max HP at the end of each round,
+# and the Jermon in the user's position gains the same amount. (Leech Seed)
 ################################################################################
 class PokeBattle_Move_0DC < PokeBattle_Move
   def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
@@ -6288,7 +6288,7 @@ end
 
 
 ################################################################################
-# User faints. The Pokémon that replaces the user is fully healed (HP and
+# User faints. The Jermon that replaces the user is fully healed (HP and
 # status). Fails if user won't be replaced. (Healing Wish)
 ################################################################################
 class PokeBattle_Move_0E3 < PokeBattle_Move
@@ -6311,7 +6311,7 @@ end
 
 
 ################################################################################
-# User faints. The Pokémon that replaces the user is fully healed (HP, PP and
+# User faints. The Jermon that replaces the user is fully healed (HP, PP and
 # status). Fails if user won't be replaced. (Lunar Dance)
 ################################################################################
 class PokeBattle_Move_0E4 < PokeBattle_Move
@@ -6351,7 +6351,7 @@ class PokeBattle_Move_0E5 < PokeBattle_Move
       return -1
     end
     pbShowAnimation(@id,attacker,nil,hitnum,alltargets,showanimation)
-    @battle.pbDisplay(_INTL("All Pokémon that hear the song will faint in three turns!"))
+    @battle.pbDisplay(_INTL("All Jermon that hear the song will faint in three turns!"))
     for i in 0...4
       if @battle.battlers[i].effects[PBEffects::PerishSong]==0
         if !attacker.hasMoldBreaker && @battle.battlers[i].hasWorkingAbility(:SOUNDPROOF)
@@ -6652,7 +6652,7 @@ end
 
 ################################################################################
 # User steals the target's item, if the user has none itself. (Covet, Thief)
-# Items stolen from wild Pokémon are kept after the battle.
+# Items stolen from wild Jermon are kept after the battle.
 ################################################################################
 class PokeBattle_Move_0F1 < PokeBattle_Move
   def pbEffectAfterHit(attacker,opponent,turneffects)
@@ -7076,7 +7076,7 @@ class PokeBattle_Move_0F9 < PokeBattle_Move
     else
       pbShowAnimation(@id,attacker,opponent,hitnum,alltargets,showanimation)
       @battle.field.effects[PBEffects::MagicRoom]=5
-      @battle.pbDisplay(_INTL("It created a bizarre area in which Pokémon's held items lose their effects!"))
+      @battle.pbDisplay(_INTL("It created a bizarre area in which Jermon's held items lose their effects!"))
     end
     return 0
   end
@@ -7802,7 +7802,7 @@ end
 # User is not Ghost: Decreases the user's Speed, increases the user's Attack &
 # Defense by 1 stage each.
 # User is Ghost: User loses 1/2 of max HP, and curses the target.
-# Cursed Pokémon lose 1/4 of their max HP at the end of each round.
+# Cursed Jermon lose 1/4 of their max HP at the end of each round.
 # (Curse)
 ################################################################################
 class PokeBattle_Move_10D < PokeBattle_Move
@@ -8154,7 +8154,7 @@ end
 
 
 ################################################################################
-# For 5 rounds, increases gravity on the field. Pokémon cannot become airborne.
+# For 5 rounds, increases gravity on the field. Jermon cannot become airborne.
 # (Gravity)
 ################################################################################
 class PokeBattle_Move_118 < PokeBattle_Move
@@ -8337,7 +8337,7 @@ end
 
 
 ################################################################################
-# For 5 rounds, for each priority bracket, slow Pokémon move before fast ones.
+# For 5 rounds, for each priority bracket, slow Jermon move before fast ones.
 # (Trick Room)
 ################################################################################
 class PokeBattle_Move_11F < PokeBattle_Move
@@ -8370,7 +8370,7 @@ class PokeBattle_Move_120 < PokeBattle_Move
     a=@battle.battlers[attacker.index]
     b=@battle.battlers[attacker.pbPartner.index]
     temp=a; a=b; b=temp
-    # Swap effects that point at the position rather than the Pokémon
+    # Swap effects that point at the position rather than the Jermon
     # NOT PerishSongUser (no need to swap), Attract, MultiTurnUser
     effectstoswap=[PBEffects::BideTarget,
                    PBEffects::CounterTarget,
@@ -8410,7 +8410,7 @@ end
 
 
 ################################################################################
-# Only damages Pokémon that share a type with the user. (Synchronoise)
+# Only damages Jermon that share a type with the user. (Synchronoise)
 ################################################################################
 class PokeBattle_Move_123 < PokeBattle_Move
   def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
@@ -8704,8 +8704,8 @@ end
 
 
 ################################################################################
-# Increases the Attack and Special Attack of all Grass-type Pokémon on the field
-# by 1 stage each. Doesn't affect airborne Pokémon. (Rototiller)
+# Increases the Attack and Special Attack of all Grass-type Jermon on the field
+# by 1 stage each. Doesn't affect airborne Jermon. (Rototiller)
 ################################################################################
 class PokeBattle_Move_13E < PokeBattle_Move
   def pbEffect(attacker,opponent,hitnum=0,alltargets=nil,showanimation=true)
@@ -8739,7 +8739,7 @@ end
 
 
 ################################################################################
-# Increases the Defense of all Grass-type Pokémon on the field by 1 stage each.
+# Increases the Defense of all Grass-type Jermon on the field by 1 stage each.
 # (Flower Shield)
 ################################################################################
 class PokeBattle_Move_13F < PokeBattle_Move
@@ -9306,7 +9306,7 @@ end
 
 
 ################################################################################
-# No Pokémon can switch out or flee until the end of the next round, as long as
+# No Jermon can switch out or flee until the end of the next round, as long as
 # the user remains active. (Fairy Lock)
 ################################################################################
 class PokeBattle_Move_152 < PokeBattle_Move
@@ -9348,7 +9348,7 @@ end
 
 ################################################################################
 # For 5 rounds, creates an electric terrain which boosts Electric-type moves and
-# prevents Pokémon from falling asleep. Affects non-airborne Pokémon only.
+# prevents Jermon from falling asleep. Affects non-airborne Jermon only.
 # (Electric Terrain)
 ################################################################################
 class PokeBattle_Move_154 < PokeBattle_Move
@@ -9370,7 +9370,7 @@ end
 
 ################################################################################
 # For 5 rounds, creates a grassy terrain which boosts Grass-type moves and heals
-# Pokémon at the end of each round. Affects non-airborne Pokémon only.
+# Jermon at the end of each round. Affects non-airborne Jermon only.
 # (Grassy Terrain)
 ################################################################################
 class PokeBattle_Move_155 < PokeBattle_Move
@@ -9392,7 +9392,7 @@ end
 
 ################################################################################
 # For 5 rounds, creates a misty terrain which weakens Dragon-type moves and
-# protects Pokémon from status problems. Affects non-airborne Pokémon only.
+# protects Jermon from status problems. Affects non-airborne Jermon only.
 # (Misty Terrain)
 ################################################################################
 class PokeBattle_Move_156 < PokeBattle_Move

@@ -1,5 +1,5 @@
 #===============================================================================
-# Load Pokémon sprites
+# Load Jermon sprites
 #===============================================================================
 def pbPokemonBitmapFile(species,shiny,back=false)   # Unused
   if shiny
@@ -137,7 +137,7 @@ end
 
 
 #===============================================================================
-# Load Pokémon icons
+# Load Jermon icons
 #===============================================================================
 def pbLoadPokemonIcon(pokemon)
   return AnimatedBitmap.new(pbPokemonIconFile(pokemon)).deanimate
@@ -216,9 +216,9 @@ end
 
 
 #===============================================================================
-# Load Pokémon footprint graphics
+# Load Jermon footprint graphics
 #===============================================================================
-def pbPokemonFootprintFile(pokemon,form=0)   # Used by the Pokédex
+def pbPokemonFootprintFile(pokemon,form=0)   # Used by the Jermodex
   return nil if !pokemon
   if pokemon.is_a?(Numeric)
     bitmapFileName = sprintf("Graphics/Icons/Footprints/footprint%s_%d",getConstantName(PBSpecies,pokemon),form) rescue nil
@@ -441,7 +441,7 @@ end
 
 
 #===============================================================================
-# Load/play Pokémon cry files
+# Load/play Jermon cry files
 #===============================================================================
 def pbPlayCry(pokemon,volume=90,pitch=nil)
   return if !pokemon

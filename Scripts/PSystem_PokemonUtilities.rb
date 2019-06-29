@@ -1,5 +1,5 @@
 #===============================================================================
-# Nicknaming and storing Pokémon
+# Nicknaming and storing Jermon
 #===============================================================================
 def pbBoxesFull?
   return !$Trainer || ($Trainer.party.length==6 && $PokemonStorage.full?)
@@ -16,8 +16,8 @@ end
 
 def pbStorePokemon(pokemon)
   if pbBoxesFull?
-    Kernel.pbMessage(_INTL("There's no more room for Pokémon!\1"))
-    Kernel.pbMessage(_INTL("The Pokémon Boxes are full and can't accept any more!"))
+    Kernel.pbMessage(_INTL("There's no more room for Jermon!\1"))
+    Kernel.pbMessage(_INTL("The Jermon Boxes are full and can't accept any more!"))
     return
   end
   pokemon.pbRecordFirstMoves
@@ -50,8 +50,8 @@ end
 
 def pbNicknameAndStore(pokemon)
   if pbBoxesFull?
-    Kernel.pbMessage(_INTL("There's no more room for Pokémon!\1"))
-    Kernel.pbMessage(_INTL("The Pokémon Boxes are full and can't accept any more!"))
+    Kernel.pbMessage(_INTL("There's no more room for Jermon!\1"))
+    Kernel.pbMessage(_INTL("The Jermon Boxes are full and can't accept any more!"))
     return
   end
   $Trainer.seen[pokemon.species]  = true
@@ -63,13 +63,13 @@ end
 
 
 #===============================================================================
-# Giving Pokémon to the player (will send to storage if party is full)
+# Giving Jermon to the player (will send to storage if party is full)
 #===============================================================================
 def pbAddPokemon(pokemon,level=nil,seeform=true)
   return if !pokemon || !$Trainer 
   if pbBoxesFull?
-    Kernel.pbMessage(_INTL("There's no more room for Pokémon!\1"))
-    Kernel.pbMessage(_INTL("The Pokémon Boxes are full and can't accept any more!"))
+    Kernel.pbMessage(_INTL("There's no more room for Jermon!\1"))
+    Kernel.pbMessage(_INTL("The Jermon Boxes are full and can't accept any more!"))
     return false
   end
   if pokemon.is_a?(String) || pokemon.is_a?(Symbol)
@@ -108,7 +108,7 @@ end
 
 
 #===============================================================================
-# Giving Pokémon/eggs to the player (can only add to party)
+# Giving Jermon/eggs to the player (can only add to party)
 #===============================================================================
 def pbAddToParty(pokemon,level=nil,seeform=true)
   return false if !pokemon || !$Trainer || $Trainer.party.length>=6
@@ -160,9 +160,9 @@ def pbAddForeignPokemon(pokemon,level=nil,ownerName=nil,nickname=nil,ownerGender
   # Recalculate stats
   pokemon.calcStats
   if ownerName
-    Kernel.pbMessage(_INTL("\\me[Pkmn get]{1} received a Pokémon from {2}.\1",$Trainer.name,ownerName))
+    Kernel.pbMessage(_INTL("\\me[Pkmn get]{1} received a Jermon from {2}.\1",$Trainer.name,ownerName))
   else
-    Kernel.pbMessage(_INTL("\\me[Pkmn get]{1} received a Pokémon.\1",$Trainer.name))
+    Kernel.pbMessage(_INTL("\\me[Pkmn get]{1} received a Jermon.\1",$Trainer.name))
   end
   pbStorePokemon(pokemon)
   $Trainer.seen[pokemon.species]  = true
@@ -201,7 +201,7 @@ end
 
 
 #===============================================================================
-# Removing Pokémon from the party (fails if trying to remove last able Pokémon)
+# Removing Jermon from the party (fails if trying to remove last able Jermon)
 #===============================================================================
 def pbRemovePokemonAt(index)
   return false if index<0 || !$Trainer || index>=$Trainer.party.length
@@ -218,7 +218,7 @@ end
 
 
 #===============================================================================
-# Recording Pokémon forms as seen
+# Recording Jermon forms as seen
 #===============================================================================
 def pbSeenForm(poke,gender=0,form=0)
   $Trainer.formseen     = [] if !$Trainer.formseen
@@ -255,11 +255,11 @@ end
 
 
 #===============================================================================
-# Choose a Pokémon in the party
+# Choose a Jermon in the party
 #===============================================================================
-# Choose a Pokémon/egg from the party.
-# Stores result in variable _variableNumber_ and the chosen Pokémon's name in
-# variable _nameVarNumber_; result is -1 if no Pokémon was chosen
+# Choose a Jermon/egg from the party.
+# Stores result in variable _variableNumber_ and the chosen Jermon's name in
+# variable _nameVarNumber_; result is -1 if no Jermon was chosen
 def pbChoosePokemon(variableNumber,nameVarNumber,ableProc=nil,allowIneligible=false)
   chosen = 0
   pbFadeOutIn(99999){
@@ -268,7 +268,7 @@ def pbChoosePokemon(variableNumber,nameVarNumber,ableProc=nil,allowIneligible=fa
     if ableProc
       chosen=screen.pbChooseAblePokemon(ableProc,allowIneligible)      
     else
-      screen.pbStartScene(_INTL("Choose a Pokémon."),false)
+      screen.pbStartScene(_INTL("Choose a Jermon."),false)
       chosen = screen.pbChoosePokemon
       screen.pbEndScene
     end
@@ -293,7 +293,7 @@ def pbChooseAblePokemon(variableNumber,nameVarNumber)
   })
 end
 
-# Same as pbChoosePokemon, but prevents choosing an egg or a Shadow Pokémon.
+# Same as pbChoosePokemon, but prevents choosing an egg or a Shadow Jermon.
 def pbChooseTradablePokemon(variableNumber,nameVarNumber,ableProc=nil,allowIneligible=false)
   chosen = 0
   pbFadeOutIn(99999){
@@ -302,7 +302,7 @@ def pbChooseTradablePokemon(variableNumber,nameVarNumber,ableProc=nil,allowIneli
     if ableProc
       chosen=screen.pbChooseTradablePokemon(ableProc,allowIneligible)      
     else
-      screen.pbStartScene(_INTL("Choose a Pokémon."),false)
+      screen.pbStartScene(_INTL("Choose a Jermon."),false)
       chosen = screen.pbChoosePokemon
       screen.pbEndScene
     end
@@ -328,9 +328,9 @@ end
 
 
 #===============================================================================
-# Analyse Pokémon in the party
+# Analyse Jermon in the party
 #===============================================================================
-# Returns the first unfainted, non-egg Pokémon in the player's party.
+# Returns the first unfainted, non-egg Jermon in the player's party.
 def pbFirstAblePokemon(variableNumber)
   for i in 0...$Trainer.party.length
     p = $Trainer.party[i]
@@ -343,8 +343,8 @@ def pbFirstAblePokemon(variableNumber)
   return nil
 end
 
-# Checks whether the player would still have an unfainted Pokémon if the
-# Pokémon given by _pokemonIndex_ were removed from the party.
+# Checks whether the player would still have an unfainted Jermon if the
+# Jermon given by _pokemonIndex_ were removed from the party.
 def pbCheckAble(pokemonIndex)
   for i in 0...$Trainer.party.length
     next if i==pokemonIndex
@@ -354,12 +354,12 @@ def pbCheckAble(pokemonIndex)
   return false
 end
 
-# Returns true if there are no usable Pokémon in the player's party.
+# Returns true if there are no usable Jermon in the player's party.
 def pbAllFainted
   return $Trainer.ablePokemonCount==0
 end
 
-# Returns true if there is a Pokémon of the given species in the player's party.
+# Returns true if there is a Jermon of the given species in the player's party.
 def pbHasSpecies?(species)
   if species.is_a?(String) || species.is_a?(Symbol)
     species = getID(PBSpecies,species)
@@ -370,7 +370,7 @@ def pbHasSpecies?(species)
   return false
 end
 
-# Returns true if there is a fatefully met Pokémon of the given species in the
+# Returns true if there is a fatefully met Jermon of the given species in the
 # player's party.
 def pbHasFatefulSpecies?(species)
   if species.is_a?(String) || species.is_a?(Symbol)
@@ -382,7 +382,7 @@ def pbHasFatefulSpecies?(species)
   return false
 end
 
-# Returns true if there is a Pokémon with the given type in the player's party.
+# Returns true if there is a Jermon with the given type in the player's party.
 def pbHasType?(type)
   if type.is_a?(String) || type.is_a?(Symbol)
     type = getID(PBTypes,type)
@@ -393,8 +393,8 @@ def pbHasType?(type)
   return false
 end
 
-# Checks whether any Pokémon in the party knows the given move, and returns
-# the index of that Pokémon, or nil if no Pokémon has that move.
+# Checks whether any Jermon in the party knows the given move, and returns
+# the index of that Jermon, or nil if no Jermon has that move.
 def pbCheckMove(move)
   if move.is_a?(String) || move.is_a?(Symbol)
     move = getID(PBMoves,move)
@@ -412,7 +412,7 @@ end
 
 
 #===============================================================================
-# Fully heal all Pokémon in the party
+# Fully heal all Jermon in the party
 #===============================================================================
 def pbHealAll
   return if !$Trainer
@@ -424,9 +424,9 @@ end
 
 
 #===============================================================================
-# Look through Pokémon in storage
+# Look through Jermon in storage
 #===============================================================================
-# Yields every Pokémon/egg in storage in turn.
+# Yields every Jermon/egg in storage in turn.
 def pbEachPokemon
   for i in -1...$PokemonStorage.maxBoxes
     for j in 0...$PokemonStorage.maxPokemon(i)
@@ -436,7 +436,7 @@ def pbEachPokemon
   end
 end
 
-# Yields every Pokémon in storage in turn.
+# Yields every Jermon in storage in turn.
 def pbEachNonEggPokemon
   pbEachPokemon{|pokemon,box|
      yield(pokemon,box) if !pokemon.egg?
@@ -446,7 +446,7 @@ end
 
 
 #===============================================================================
-# Return a level value based on Pokémon in a party
+# Return a level value based on Jermon in a party
 #===============================================================================
 def pbBalancedLevel(party)
   return 1 if party.length==0
@@ -500,7 +500,7 @@ end
 
 
 #===============================================================================
-# Calculates a Pokémon's size (in millimeters)
+# Calculates a Jermon's size (in millimeters)
 #===============================================================================
 def pbSize(pokemon)
   dexdata = pbOpenDexData

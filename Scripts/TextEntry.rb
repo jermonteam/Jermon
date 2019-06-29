@@ -933,7 +933,7 @@ class PokemonEntryScene
           @sprites["subject"].y = 38*2 - charheight/4
         end
       end
-    when 2   # Pokémon
+    when 2   # Jermon
       if pokemon
         @sprites["shadow"]=IconSprite.new(0,0,@viewport)
         @sprites["shadow"].setBitmap("Graphics/Pictures/Naming/icon_shadow")
@@ -1211,7 +1211,7 @@ class PokemonEntryScene2
           @sprites["subject"].y = 38*2 - charheight/4
         end
       end
-    when 2   # Pokémon
+    when 2   # Jermon
       if pokemon
         @sprites["shadow"]=IconSprite.new(0,0,@viewport)
         @sprites["shadow"].setBitmap("Graphics/Pictures/Naming/icon_shadow")

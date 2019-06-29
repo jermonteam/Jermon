@@ -133,9 +133,9 @@ module Events
   def self.onEndBattle; @@OnEndBattle; end
   def self.onEndBattle=(v); @@OnEndBattle = v; end
 
-  # Triggers whenever a wild Pokémon is created
+  # Triggers whenever a wild Jermon is created
   # Parameters: 
-  # e[0] - Pokémon being created
+  # e[0] - Jermon being created
   def self.onWildPokemonCreate; @@OnWildPokemonCreate; end
   def self.onWildPokemonCreate=(v); @@OnWildPokemonCreate = v; end
 
@@ -144,15 +144,15 @@ module Events
   def self.onWildBattleOverride; @@OnWildBattleOverride; end
   def self.onWildBattleOverride=(v); @@OnWildBattleOverride = v; end
 
-  # Triggers whenever a wild Pokémon battle ends
+  # Triggers whenever a wild Jermon battle ends
   # Parameters: 
-  # e[0] - Pokémon species
-  # e[1] - Pokémon level
+  # e[0] - Jermon species
+  # e[1] - Jermon level
   # e[2] - Battle result (1-win, 2-loss, 3-escaped, 4-caught, 5-draw)
   def self.onWildBattleEnd; @@OnWildBattleEnd; end
   def self.onWildBattleEnd=(v); @@OnWildBattleEnd = v; end
 
-  # Triggers whenever an NPC trainer's Pokémon party is loaded
+  # Triggers whenever an NPC trainer's Jermon party is loaded
   # Parameters: 
   # e[0] - Trainer
   # e[1] - Items possessed by the trainer
@@ -172,7 +172,7 @@ end
 #===============================================================================
 # Constant checks
 #===============================================================================
-# Pokérus check
+# Jermorus check
 Events.onMapUpdate+=proc {|sender,e|
   last = $PokemonGlobal.pokerusTime
   now = pbGetTimeNow
@@ -186,8 +186,8 @@ Events.onMapUpdate+=proc {|sender,e|
   end
 }
 
-# Returns whether the Poké Center should explain Pokérus to the player, if a
-# healed Pokémon has it.
+# Returns whether the Jermo Center should explain Jermorus to the player, if a
+# healed Jermon has it.
 def Kernel.pbPokerus?
   return false if $game_switches[SEEN_POKERUS_SWITCH]
   for i in $Trainer.party
@@ -255,7 +255,7 @@ Events.onMapUpdate+=proc {|sender,e|
 #===============================================================================
 # Checks per step
 #===============================================================================
-# Party Pokémon gain happiness from walking
+# Party Jermon gain happiness from walking
 Events.onStepTaken+=proc {
   $PokemonGlobal.happinessSteps = 0 if !$PokemonGlobal.happinessSteps
   $PokemonGlobal.happinessSteps += 1
@@ -267,7 +267,7 @@ Events.onStepTaken+=proc {
   end
 }
 
-# Poison party Pokémon
+# Poison party Jermon
 Events.onStepTakenTransferPossible+=proc {|sender,e|
   handled = e[0]
   next if handled[0]
@@ -300,7 +300,7 @@ Events.onStepTakenTransferPossible+=proc {|sender,e|
 
 def pbCheckAllFainted
   if pbAllFainted
-    Kernel.pbMessage(_INTL("You have no more Pokémon that can fight!\1"))
+    Kernel.pbMessage(_INTL("You have no more Jermon that can fight!\1"))
     Kernel.pbMessage(_INTL("You blacked out!"))
     pbBGMFade(1.0)
     pbBGSFade(1.0)
@@ -774,12 +774,12 @@ def pbFishing(hasencounter,rodtype=1)
       if !pbWaitForInput(msgwindow,message+_INTL("\r\nOh! A bite!"),frames)
         pbFishingEnd
         $game_player.setDefaultCharName(nil,oldpattern)
-        Kernel.pbMessageDisplay(msgwindow,_INTL("The Pokémon got away..."))
+        Kernel.pbMessageDisplay(msgwindow,_INTL("The Jermon got away..."))
         break
       end
       if FISHINGAUTOHOOK || rand(100)<hookchance
         pbFishingEnd
-        Kernel.pbMessageDisplay(msgwindow,_INTL("Landed a Pokémon!")) if !FISHINGAUTOHOOK
+        Kernel.pbMessageDisplay(msgwindow,_INTL("Landed a Jermon!")) if !FISHINGAUTOHOOK
         $game_player.setDefaultCharName(nil,oldpattern)
         ret = true
         break

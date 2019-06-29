@@ -873,7 +873,7 @@ end
 
 
 #===============================================================================
-# Regional and National Pokédexes utilities
+# Regional and National Jermodexes utilities
 #===============================================================================
 # Gets the ID number for the current region based on the player's current
 # position.  Returns the value of "defaultRegion" (optional, default is -1) if
@@ -884,7 +884,7 @@ def pbGetCurrentRegion(defaultRegion=-1)
   return (mappos) ? mappos[0] : defaultRegion
 end
 
-# Gets the Regional Pokédex number of the national species for the specified
+# Gets the Regional Jermodex number of the national species for the specified
 # Regional Dex.  The parameter "region" is zero-based.  For example, if two
 # regions are defined, they would each be specified as 0 and 1.
 def pbGetRegionalNumber(region,nationalSpecies)
@@ -904,7 +904,7 @@ def pbGetRegionalNumber(region,nationalSpecies)
   return 0
 end
 
-# Gets the National Pokédex number of the specified species and region.  The
+# Gets the National Jermodex number of the specified species and region.  The
 # parameter "region" is zero-based.  For example, if two regions are defined,
 # they would each be specified as 0 and 1.
 def pbGetNationalNumber(region,regionalSpecies)
@@ -972,7 +972,7 @@ end
 # (National Dex comes after regional dexes).
 # If the Dex list shown depends on the player's location, this just decides if
 # a species in the current region has been seen - doesn't look at other regions.
-# Here, just used to decide whether to show the Pokédex in the Pause menu.
+# Here, just used to decide whether to show the Jermodex in the Pause menu.
 def pbSetViableDexes
   $PokemonGlobal.pokedexViable = []
   if DEXDEPENDSONLOCATION
@@ -1068,7 +1068,7 @@ def pbMoveTutorChoose(move,movelist=nil,bymachine=false)
     annot = pbMoveTutorAnnotations(move,movelist)
     scene = PokemonParty_Scene.new
     screen = PokemonPartyScreen.new(scene,$Trainer.party)
-    screen.pbStartScene(_INTL("Teach which Pokémon?"),false,annot)
+    screen.pbStartScene(_INTL("Teach which Jermon?"),false,annot)
     loop do
       chosen = screen.pbChoosePokemon
       if chosen>=0
@@ -1076,7 +1076,7 @@ def pbMoveTutorChoose(move,movelist=nil,bymachine=false)
         if pokemon.egg?
           Kernel.pbMessage(_INTL("Eggs can't be taught any moves."))
         elsif (pokemon.isShadow? rescue false)
-          Kernel.pbMessage(_INTL("Shadow Pokémon can't be taught any moves."))
+          Kernel.pbMessage(_INTL("Shadow Jermon can't be taught any moves."))
         elsif movelist && !movelist.any?{|j| j==pokemon.species }
           Kernel.pbMessage(_INTL("{1} can't learn {2}.",pokemon.name,movename))
         elsif !pokemon.isCompatibleWithMove?(move)

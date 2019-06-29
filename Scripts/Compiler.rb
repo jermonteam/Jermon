@@ -46,7 +46,7 @@ def pbPrintException(e)
     end
   end
   btrace.gsub!(/Section(\d+)/){$RGSS_SCRIPTS[$1.to_i][1]}
-  message = "[Pokémon Essentials version #{ESSENTIALSVERSION}]\r\n#{ERRORTEXT}Exception: #{e.class}\r\nMessage: #{emessage}\r\n#{btrace}"
+  message = "[Jermon Essentials version #{ESSENTIALSVERSION}]\r\n#{ERRORTEXT}Exception: #{e.class}\r\nMessage: #{emessage}\r\n#{btrace}"
   errorlog = "errorlog.txt"
   if (Object.const_defined?(:RTP) rescue false)
     errorlog = RTP.getSaveFileName("errorlog.txt")
@@ -1596,7 +1596,7 @@ def pbCompileBerryPlants
 end
 
 #===============================================================================
-# Compile Pokémon
+# Compile Jermon
 #===============================================================================
 def pbCompilePokemonData
   # Free bytes: 0, 1, 59-75
@@ -1671,7 +1671,7 @@ def pbCompilePokemonData
       theseevos  = []
       if !lastsection["Type2"] || lastsection["Type2"]==""
         if !lastsection["Type1"] || lastsection["Type1"]==""
-          raise _INTL("No Pokémon type is defined in section {1} (PBS/pokemon.txt)",sectionDisplay)
+          raise _INTL("No Jermon type is defined in section {1} (PBS/pokemon.txt)",sectionDisplay)
           next
         end
         lastsection["Type2"] = lastsection["Type1"].clone
@@ -1682,7 +1682,7 @@ def pbCompilePokemonData
           maxValue = [maxValue,currentmap].max
           next if hash[key][0]<0
           if currentmap==0
-            raise _INTL("A Pokémon species can't be numbered 0 (PBS/pokemon.txt)")
+            raise _INTL("A Jermon species can't be numbered 0 (PBS/pokemon.txt)")
           end
           if !lastsection[key] || lastsection[key]==""
             raise _INTL("Required entry {1} is missing or empty in section {2} (PBS/pokemon.txt)",key,sectionDisplay) if hash==requiredtypes
@@ -1791,7 +1791,7 @@ def pbCompilePokemonData
     }
   }
   if dexdatas.length==0
-    raise _INTL("No Pokémon species are defined in pokemon.txt")
+    raise _INTL("No Jermon species are defined in pokemon.txt")
   end
   count = dexdatas.compact.length
   code = "module PBSpecies\r\n#{constants}"
@@ -1925,7 +1925,7 @@ def pbCompilePokemonData
 end
 
 #===============================================================================
-# Compile Pokémon forms
+# Compile Jermon forms
 #===============================================================================
 def pbCompilePokemonForms
   # Free bytes: 0, 1, 59-75
@@ -2542,8 +2542,8 @@ def pbCompileTrainers
     end
     FileLineData.setLine(lines[i+2],linenos[i+2])
     items = strsplit(lines[i+2],/\s*,\s*/)
-    items[0].gsub!(/^\s+/,"")   # Number of Pokémon
-    raise _INTL("Expected a number for the number of Pokémon\r\n{1}",FileLineData.linereport) if !items[0][/^\d+$/]
+    items[0].gsub!(/^\s+/,"")   # Number of Jermon
+    raise _INTL("Expected a number for the number of Jermon\r\n{1}",FileLineData.linereport) if !items[0][/^\d+$/]
     numpoke = items[0].to_i
     realitems = []
     for j in 1...items.length   # Items held by Trainer
@@ -2756,7 +2756,7 @@ def pbCompileMetadata
 end
 
 #===============================================================================
-# Compile Battle Tower and other Cups trainers/Pokémon
+# Compile Battle Tower and other Cups trainers/Jermon
 #===============================================================================
 def pbCompileBTTrainers(filename)
   sections = []
@@ -4388,13 +4388,13 @@ def pbCompileAllData(mustcompile)
     yield(_INTL("Compiling berry plant data"))
     pbCompileBerryPlants
     # Depends on PBMoves, PBItems, PBTypes, PBAbilities
-    yield(_INTL("Compiling Pokémon data"))
+    yield(_INTL("Compiling Jermon data"))
     pbCompilePokemonData
     # Depends on PBSpecies, PBMoves
     yield(_INTL("Compiling machine data"))
     pbCompileMachines
     # Depends on PBSpecies, PBMoves
-    yield(_INTL("Compiling Pokémon forms data"))
+    yield(_INTL("Compiling Jermon forms data"))
     pbCompilePokemonForms
     # Depends on PBSpecies, PBItems, PBMoves
     yield(_INTL("Compiling Trainer data"))

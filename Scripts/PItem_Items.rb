@@ -255,7 +255,7 @@ end
 
 
 #===============================================================================
-# Change a Pokémon's level
+# Change a Jermon's level
 #===============================================================================
 def pbChangeLevel(pokemon,newlevel,scene)
   newlevel=1 if newlevel<1
@@ -532,7 +532,7 @@ def pbLearnMove(pokemon,move,ignoreifknown=false,bymachine=false,&block)
     return false
   end
   if pokemon.respond_to?("isShadow?") && pokemon.isShadow?
-    Kernel.pbMessage(_INTL("Shadow Pokémon can't be taught any moves."),&block)
+    Kernel.pbMessage(_INTL("Shadow Jermon can't be taught any moves."),&block)
     return false
   end
   pkmnname=pokemon.name
@@ -586,20 +586,20 @@ def pbSpeciesCompatible?(species,move)
 end
 
 #===============================================================================
-# Use an item from the Bag and/or on a Pokémon
+# Use an item from the Bag and/or on a Jermon
 #===============================================================================
 def pbUseItem(bag,item,bagscene=nil)
   found=false
   if $ItemData[item][ITEMUSE]==3 || $ItemData[item][ITEMUSE]==4    # TM or HM
     if $Trainer.pokemonCount==0
-      Kernel.pbMessage(_INTL("There is no Pokémon."))
+      Kernel.pbMessage(_INTL("There is no Jermon."))
       return 0
     end
     machine=pbGetMachine(item)
     return 0 if machine==nil
     movename=PBMoves.getName(machine)
     Kernel.pbMessage(_INTL("\\se[PC access]You booted up {1}.\1",PBItems.getName(item)))
-    if !Kernel.pbConfirmMessage(_INTL("Do you want to teach {1} to a Pokémon?",movename))
+    if !Kernel.pbConfirmMessage(_INTL("Do you want to teach {1} to a Jermon?",movename))
       return 0
     elsif pbMoveTutorChoose(machine,nil,true)
       bag.pbDeleteItem(item) if pbIsTechnicalMachine?(item) && !INFINITETMS
@@ -607,9 +607,9 @@ def pbUseItem(bag,item,bagscene=nil)
     else
       return 0
     end
-  elsif $ItemData[item][ITEMUSE]==1 || $ItemData[item][ITEMUSE]==5 # Item is usable on a Pokémon
+  elsif $ItemData[item][ITEMUSE]==1 || $ItemData[item][ITEMUSE]==5 # Item is usable on a Jermon
     if $Trainer.pokemonCount==0
-      Kernel.pbMessage(_INTL("There is no Pokémon."))
+      Kernel.pbMessage(_INTL("There is no Jermon."))
       return 0
     end
     ret=false
@@ -624,15 +624,15 @@ def pbUseItem(bag,item,bagscene=nil)
     pbFadeOutIn(99999){
       scene = PokemonParty_Scene.new
       screen = PokemonPartyScreen.new(scene,$Trainer.party)
-      screen.pbStartScene(_INTL("Use on which Pokémon?"),false,annot)
+      screen.pbStartScene(_INTL("Use on which Jermon?"),false,annot)
       loop do
-        scene.pbSetHelpText(_INTL("Use on which Pokémon?"))
+        scene.pbSetHelpText(_INTL("Use on which Jermon?"))
         chosen=screen.pbChoosePokemon
         if chosen>=0
           pokemon=$Trainer.party[chosen]
           if pbCheckUseOnPokemon(item,pokemon,screen)
             ret=ItemHandlers.triggerUseOnPokemon(item,pokemon,screen)
-            if ret && $ItemData[item][ITEMUSE]==1 # Usable on Pokémon, consumed
+            if ret && $ItemData[item][ITEMUSE]==1 # Usable on Jermon, consumed
               bag.pbDeleteItem(item)
             end
             if !bag.pbHasItem?(item)
@@ -666,14 +666,14 @@ def pbUseItem(bag,item,bagscene=nil)
 end
 
 # Only called when in the party screen and having chosen an item to be used on
-# the selected Pokémon
+# the selected Jermon
 def pbUseItemOnPokemon(item,pokemon,scene)
   if $ItemData[item][ITEMUSE]==3 || $ItemData[item][ITEMUSE]==4    # TM or HM
     machine=pbGetMachine(item)
     return false if machine==nil
     movename=PBMoves.getName(machine)
     if (pokemon.isShadow? rescue false)
-      Kernel.pbMessage(_INTL("Shadow Pokémon can't be taught any moves."))
+      Kernel.pbMessage(_INTL("Shadow Jermon can't be taught any moves."))
     elsif !pokemon.isCompatibleWithMove?(machine)
       Kernel.pbMessage(_INTL("{1} can't learn {2}.",pokemon.name,movename))
     else
@@ -690,7 +690,7 @@ def pbUseItemOnPokemon(item,pokemon,scene)
     ret=ItemHandlers.triggerUseOnPokemon(item,pokemon,scene)
     scene.pbClearAnnotations
     scene.pbHardRefresh
-    if ret && $ItemData[item][ITEMUSE]==1 # Usable on Pokémon, consumed
+    if ret && $ItemData[item][ITEMUSE]==1 # Usable on Jermon, consumed
       $PokemonBag.pbDeleteItem(item)
     end
     if !$PokemonBag.pbHasItem?(item)
@@ -735,7 +735,7 @@ def pbCheckUseOnPokemon(item,pokemon,screen)
 end
 
 #===============================================================================
-# Give an item to a Pokémon to hold, and take a held item from a Pokémon
+# Give an item to a Jermon to hold, and take a held item from a Jermon
 #===============================================================================
 def pbGiveItemToPokemon(item,pokemon,scene,pkmnid=0)
   newitemname = PBItems.getName(item)
@@ -761,7 +761,7 @@ def pbGiveItemToPokemon(item,pokemon,scene,pkmnid=0)
         if !$PokemonBag.pbStoreItem(item)
           raise _INTL("Could't re-store deleted item in Bag somehow")
         end
-        scene.pbDisplay(_INTL("The Bag is full. The Pokémon's item could not be removed."))
+        scene.pbDisplay(_INTL("The Bag is full. The Jermon's item could not be removed."))
       else
         if pbIsMail?(item)
           if pbWriteMail(item,pokemon,pkmnid,scene)
@@ -796,7 +796,7 @@ def pbTakeItemFromPokemon(pokemon,scene)
   if !pokemon.hasItem?
     scene.pbDisplay(_INTL("{1} isn't holding anything.",pokemon.name))
   elsif !$PokemonBag.pbCanStore?(pokemon.item)
-    scene.pbDisplay(_INTL("The Bag is full. The Pokémon's item could not be removed."))
+    scene.pbDisplay(_INTL("The Bag is full. The Jermon's item could not be removed."))
   elsif pokemon.mail
     if scene.pbConfirm(_INTL("Save the removed mail in your PC?"))
       if !pbMoveToMailbox(pokemon)

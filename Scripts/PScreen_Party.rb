@@ -1,5 +1,5 @@
 #===============================================================================
-# Pokémon party buttons and menu
+# Jermon party buttons and menu
 #===============================================================================
 class PokemonPartyConfirmCancelSprite < SpriteWrapper
   attr_reader :selected
@@ -129,7 +129,7 @@ end
 
 
 #===============================================================================
-# Pokémon party panels
+# Jermon party panels
 #===============================================================================
 class PokemonPartyBlankPanel < SpriteWrapper
   attr_accessor :text
@@ -351,7 +351,7 @@ class PokemonPartyPanel < SpriteWrapper
       shadowcolor = Color.new(40,40,40)
       pbSetSystemFont(@overlaysprite.bitmap)
       textpos = []
-      # Draw Pokémon name
+      # Draw Jermon name
       textpos.push([@pokemon.name,96,16,0,basecolor,shadowcolor])
       if !@pokemon.egg?
         if !@text || @text.length==0
@@ -416,7 +416,7 @@ end
 
 
 #===============================================================================
-# Pokémon party visuals
+# Jermon party visuals
 #===============================================================================
 class PokemonParty_Scene
   def pbStartScene(party,starthelptext,annotations=nil,multiselect=false)
@@ -436,7 +436,7 @@ class PokemonParty_Scene
     @sprites["helpwindow"].visible  = true
     pbBottomLeftLines(@sprites["helpwindow"],1)
     pbSetHelpText(starthelptext)
-    # Add party Pokémon sprites
+    # Add party Jermon sprites
     for i in 0...6
       if @party[i]
         @sprites["pokemon#{i}"] = PokemonPartyPanel.new(@party[i],i,@viewport)
@@ -451,7 +451,7 @@ class PokemonParty_Scene
     else
       @sprites["pokemon6"] = PokemonPartyCancelSprite.new(@viewport)
     end
-    # Select first Pokémon
+    # Select first Jermon
     @activecmd = 0
     @sprites["pokemon0"].selected = true
     pbFadeInAndShow(@sprites) { update }
@@ -799,7 +799,7 @@ end
 
 
 #===============================================================================
-# Pokémon party mechanics
+# Jermon party mechanics
 #===============================================================================
 class PokemonPartyScreen
   attr_reader :scene
@@ -820,7 +820,7 @@ class PokemonPartyScreen
   end
 
   def pbPokemonGiveScreen(item)
-    @scene.pbStartScene(@party,_INTL("Give to which Pokémon?"))
+    @scene.pbStartScene(@party,_INTL("Give to which Jermon?"))
     pkmnid = @scene.pbChoosePokemon
     ret = false
     if pkmnid>=0
@@ -832,12 +832,12 @@ class PokemonPartyScreen
   end
 
   def pbPokemonGiveMailScreen(mailIndex)
-    @scene.pbStartScene(@party,_INTL("Give to which Pokémon?"))
+    @scene.pbStartScene(@party,_INTL("Give to which Jermon?"))
     pkmnid = @scene.pbChoosePokemon
     if pkmnid>=0
       pkmn = @party[pkmnid]
       if pkmn.hasItem? || pkmn.mail
-        pbDisplay(_INTL("This Pokémon is holding an item. It can't hold mail."))
+        pbDisplay(_INTL("This Jermon is holding an item. It can't hold mail."))
       elsif pkmn.egg?
         pbDisplay(_INTL("Eggs can't hold mail."))
       else
@@ -963,7 +963,7 @@ class PokemonPartyScreen
     for i in 0...@party.length
       annot[i] = ordinals[statuses[i]]
     end
-    @scene.pbStartScene(@party,_INTL("Choose Pokémon and confirm."),annot,true)
+    @scene.pbStartScene(@party,_INTL("Choose Jermon and confirm."),annot,true)
     loop do
       realorder = []
       for i in 0...@party.length
@@ -984,7 +984,7 @@ class PokemonPartyScreen
       if realorder.length==ruleset.number && addedEntry
         @scene.pbSelect(6)
       end
-      @scene.pbSetHelpText(_INTL("Choose Pokémon and confirm."))
+      @scene.pbSetHelpText(_INTL("Choose Jermon and confirm."))
       pkmnid = @scene.pbChoosePokemon
       addedEntry = false
       if pkmnid==6 # Confirm was chosen
@@ -1011,7 +1011,7 @@ class PokemonPartyScreen
       command = @scene.pbShowCommands(_INTL("Do what with {1}?",pkmn.name),commands) if pkmn
       if cmdEntry>=0 && command==cmdEntry
         if realorder.length>=ruleset.number && ruleset.number>0
-          pbDisplay(_INTL("No more than {1} Pokémon may enter.",ruleset.number))
+          pbDisplay(_INTL("No more than {1} Jermon may enter.",ruleset.number))
         else
           statuses[pkmnid] = realorder.length+3
           addedEntry = true
@@ -1038,14 +1038,14 @@ class PokemonPartyScreen
     end
     ret = -1
     @scene.pbStartScene(@party,
-       (@party.length>1) ? _INTL("Choose a Pokémon.") : _INTL("Choose Pokémon or cancel."),annot)
+       (@party.length>1) ? _INTL("Choose a Jermon.") : _INTL("Choose Jermon or cancel."),annot)
     loop do
       @scene.pbSetHelpText(
-         (@party.length>1) ? _INTL("Choose a Pokémon.") : _INTL("Choose Pokémon or cancel."))
+         (@party.length>1) ? _INTL("Choose a Jermon.") : _INTL("Choose Jermon or cancel."))
       pkmnid = @scene.pbChoosePokemon
       break if pkmnid<0
       if !eligibility[pkmnid] && !allowIneligible
-        pbDisplay(_INTL("This Pokémon can't be chosen."))
+        pbDisplay(_INTL("This Jermon can't be chosen."))
       else
         ret = pkmnid
         break
@@ -1066,14 +1066,14 @@ class PokemonPartyScreen
     end
     ret = -1
     @scene.pbStartScene(@party,
-       (@party.length>1) ? _INTL("Choose a Pokémon.") : _INTL("Choose Pokémon or cancel."),annot)
+       (@party.length>1) ? _INTL("Choose a Jermon.") : _INTL("Choose Jermon or cancel."),annot)
     loop do
       @scene.pbSetHelpText(
-         (@party.length>1) ? _INTL("Choose a Pokémon.") : _INTL("Choose Pokémon or cancel."))
+         (@party.length>1) ? _INTL("Choose a Jermon.") : _INTL("Choose Jermon or cancel."))
       pkmnid = @scene.pbChoosePokemon
       break if pkmnid<0
       if !eligibility[pkmnid] && !allowIneligible
-        pbDisplay(_INTL("This Pokémon can't be chosen."))
+        pbDisplay(_INTL("This Jermon can't be chosen."))
       else
         ret = pkmnid
         break
@@ -1085,9 +1085,9 @@ class PokemonPartyScreen
 
   def pbPokemonScreen
     @scene.pbStartScene(@party,
-       (@party.length>1) ? _INTL("Choose a Pokémon.") : _INTL("Choose Pokémon or cancel."),nil)
+       (@party.length>1) ? _INTL("Choose a Jermon.") : _INTL("Choose Jermon or cancel."),nil)
     loop do
-      @scene.pbSetHelpText((@party.length>1) ? _INTL("Choose a Pokémon.") : _INTL("Choose Pokémon or cancel."))
+      @scene.pbSetHelpText((@party.length>1) ? _INTL("Choose a Jermon.") : _INTL("Choose Jermon or cancel."))
       pkmnid = @scene.pbChoosePokemon(false,-1,1)
       break if (pkmnid.is_a?(Numeric) && pkmnid<0) || (pkmnid.is_a?(Array) && pkmnid[1]<0)
       if pkmnid.is_a?(Array) && pkmnid[0]==1   # Switch
@@ -1140,7 +1140,7 @@ class PokemonPartyScreen
               pbDisplay(_INTL("Not enough HP..."))
               break
             end
-            @scene.pbSetHelpText(_INTL("Use on which Pokémon?"))
+            @scene.pbSetHelpText(_INTL("Use on which Jermon?"))
             oldpkmnid = pkmnid
             loop do
               @scene.pbPreSelect(oldpkmnid)
@@ -1153,7 +1153,7 @@ class PokemonPartyScreen
               elsif newpkmn.egg?
                 pbDisplay(_INTL("{1} can't be used on an Egg!",movename))
               elsif newpkmn.hp==0 || newpkmn.hp==newpkmn.totalhp
-                pbDisplay(_INTL("{1} can't be used on that Pokémon.",movename))
+                pbDisplay(_INTL("{1} can't be used on that Jermon.",movename))
               else
                 pkmn.hp -= amt
                 hpgain = pbItemRestoreHP(newpkmn,amt)
@@ -1177,7 +1177,7 @@ class PokemonPartyScreen
                   return [pkmn,pkmn.moves[i].id]
                 end
                 @scene.pbStartScene(@party,
-                   (@party.length>1) ? _INTL("Choose a Pokémon.") : _INTL("Choose Pokémon or cancel."))
+                   (@party.length>1) ? _INTL("Choose a Jermon.") : _INTL("Choose Jermon or cancel."))
                 break
               end
               return [pkmn,pkmn.moves[i].id]

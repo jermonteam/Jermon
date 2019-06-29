@@ -11,12 +11,12 @@ NTN_ENABLED=true
 NTN_TIMESTOPS=true 
 
 # Make this true to time pass in battle, during turns and command selection.
-# This won't affect the Pokémon and Bag submenus.
+# This won't affect the Jermon and Bag submenus.
 # Only works if NTN_TIMESTOPS=true.
 NTN_BATTLEPASS=true
 
 # Make this true to time pass when the Dialog box or the main menu are open.
-# This won't affect the submenus like Pokémon and Bag.
+# This won't affect the submenus like Jermon and Bag.
 # Only works if NTN_TIMESTOPS=true.
 NTN_TALKPASS=true
 

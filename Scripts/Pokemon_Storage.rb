@@ -73,13 +73,13 @@ class PokemonStorage
        _INTL("Forest"),_INTL("City"),_INTL("Desert"),_INTL("Savanna"),
        _INTL("Crag"),_INTL("Volcano"),_INTL("Snow"),_INTL("Cave"),
        _INTL("Beach"),_INTL("Seafloor"),_INTL("River"),_INTL("Sky"),
-       _INTL("Poké Center"),_INTL("Machine"),_INTL("Checks"),_INTL("Simple"),
+       _INTL("Jermo Center"),_INTL("Machine"),_INTL("Checks"),_INTL("Simple"),
        # Special wallpapers
        _INTL("Space"),_INTL("Backyard"),_INTL("Nostalgic 1"),_INTL("Torchic"),
        _INTL("Trio 1"),_INTL("PikaPika 1"),_INTL("Legend 1"),_INTL("Team Galactic 1"),
        _INTL("Distortion"),_INTL("Contest"),_INTL("Nostalgic 2"),_INTL("Croagunk"),
        _INTL("Trio 2"),_INTL("PikaPika 2"),_INTL("Legend 2"),_INTL("Team Galactic 2"),
-       _INTL("Heart"),_INTL("Soul"),_INTL("Big Brother"),_INTL("Pokéathlon"),
+       _INTL("Heart"),_INTL("Soul"),_INTL("Big Brother"),_INTL("Jermoathlon"),
        _INTL("Trio 3"),_INTL("Spiky Pika"),_INTL("Kimono Girl"),_INTL("Revival")
     ]
   end
@@ -148,7 +148,7 @@ class PokemonStorage
       return (x==-1) ? self.party : @boxes[x]
     else
       for i in @boxes
-        raise "Box is a Pokémon, not a box" if i.is_a?(PokeBattle_Pokemon)
+        raise "Box is a Jermon, not a box" if i.is_a?(PokeBattle_Pokemon)
       end
       return (x==-1) ? self.party[y] : @boxes[x][y]
     end

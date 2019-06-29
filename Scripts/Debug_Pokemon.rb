@@ -6,7 +6,7 @@ module PokemonDebugMixin
       commands.add("hpstatusmenu","setstatus",_INTL("Set status"))
       commands.add("hpstatusmenu","fullheal",_INTL("Fully heal"))
       commands.add("hpstatusmenu","makefainted",_INTL("Make fainted"))
-      commands.add("hpstatusmenu","setpokerus",_INTL("Set Pokérus"))
+      commands.add("hpstatusmenu","setpokerus",_INTL("Set Jermorus"))
     
     commands.add("main","levelstats",_INTL("Level/stats..."))
       commands.add("levelstats","setlevel",_INTL("Set level"))
@@ -35,7 +35,7 @@ module PokemonDebugMixin
     
     commands.add("main","cosmetic",_INTL("Cosmetic info..."))
       commands.add("cosmetic","setshininess",_INTL("Set shininess"))
-      commands.add("cosmetic","setpokeball",_INTL("Set Poké Ball"))
+      commands.add("cosmetic","setpokeball",_INTL("Set Jermo Ball"))
       commands.add("cosmetic","setribbons",_INTL("Set ribbons"))
       commands.add("cosmetic","setnickname",_INTL("Set nickname"))
       commands.add("cosmetic","ownership",_INTL("Ownership..."))
@@ -96,7 +96,7 @@ module PokemonDebugMixin
               params.setRange(0,9)
               params.setDefaultValue(3)
               count = Kernel.pbMessageChooseNumber(
-                 _INTL("Set the Pokémon's sleep count."),params) { @scene.update }
+                 _INTL("Set the Jermon's sleep count."),params) { @scene.update }
               cancel = true if count<=0
             end
             if !cancel
@@ -129,13 +129,13 @@ module PokemonDebugMixin
       cmd = 0
       loop do
         pokerus = (pkmn.pokerus) ? pkmn.pokerus : 0
-        msg = [_INTL("{1} doesn't have Pokérus.",pkmn.name),
+        msg = [_INTL("{1} doesn't have Jermorus.",pkmn.name),
                _INTL("Has strain {1}, infectious for {2} more days.",pokerus/16,pokerus%16),
                _INTL("Has strain {1}, not infectious.",pokerus/16)][pkmn.pokerusStage]
         cmd = @scene.pbShowCommands(msg,[
            _INTL("Give random strain"),
            _INTL("Make not infectious"),
-           _INTL("Clear Pokérus")],cmd)
+           _INTL("Clear Jermorus")],cmd)
         break if cmd<0
         case cmd
         when 0   # Give random strain
@@ -148,7 +148,7 @@ module PokemonDebugMixin
             pkmn.pokerus = p
             pbRefreshSingle(pkmnid)
           end
-        when 2   # Clear Pokérus
+        when 2   # Clear Jermorus
           pkmn.pokerus = 0
           pbRefreshSingle(pkmnid)
         end
@@ -162,7 +162,7 @@ module PokemonDebugMixin
         params.setRange(1,PBExperience::MAXLEVEL)
         params.setDefaultValue(pkmn.level)
         level = Kernel.pbMessageChooseNumber(
-           _INTL("Set the Pokémon's level (max. {1}).",PBExperience::MAXLEVEL),params) { @scene.update }
+           _INTL("Set the Jermon's level (max. {1}).",PBExperience::MAXLEVEL),params) { @scene.update }
         if level!=pkmn.level
           pkmn.level = level
           pkmn.calcStats
@@ -183,7 +183,7 @@ module PokemonDebugMixin
           params.setRange(minxp,maxxp-1)
           params.setDefaultValue(pkmn.exp)
           newexp = Kernel.pbMessageChooseNumber(
-             _INTL("Set the Pokémon's Exp (range {1}-{2}).",minxp,maxxp-1),params) { @scene.update }
+             _INTL("Set the Jermon's Exp (range {1}-{2}).",minxp,maxxp-1),params) { @scene.update }
           if newexp!=pkmn.exp
             pkmn.exp = newexp
             pkmn.calcStats
@@ -273,7 +273,7 @@ module PokemonDebugMixin
       params.setRange(0,255)
       params.setDefaultValue(pkmn.happiness)
       h = Kernel.pbMessageChooseNumber(
-         _INTL("Set the Pokémon's happiness (max. 255)."),params) { @scene.update }
+         _INTL("Set the Jermon's happiness (max. 255)."),params) { @scene.update }
       if h!=pkmn.happiness
         pkmn.happiness = h
         pbRefreshSingle(pkmnid)
@@ -292,7 +292,7 @@ module PokemonDebugMixin
       params.setRange(0,255)
       params.setDefaultValue(defval)
       newval = Kernel.pbMessageChooseNumber(
-         _INTL("Set the Pokémon's {1} (max. 255).",statname),params) { @scene.update }
+         _INTL("Set the Jermon's {1} (max. 255).",statname),params) { @scene.update }
       if newval!=defval
         case command
         when "setbeauty"; pkmn.beauty = newval
@@ -511,7 +511,7 @@ module PokemonDebugMixin
           if formcmds[0].length<=1
             pbDisplay(_INTL("Species {1} only has one form.",pkmn.speciesName))
           else
-            cmd2 = @scene.pbShowCommands(_INTL("Set the Pokémon's form."),formcmds[1],cmd2)
+            cmd2 = @scene.pbShowCommands(_INTL("Set the Jermon's form."),formcmds[1],cmd2)
             next if cmd2<0
             f = formcmds[0][cmd2]
             if f!=pkmn.form
@@ -633,8 +633,8 @@ module PokemonDebugMixin
       cmd = 0
       loop do
         gender = [_INTL("Male"),_INTL("Female"),_INTL("Unknown")][pkmn.otgender]
-        msg = [_INTL("Player's Pokémon\n{1}\n{2}\n{3} ({4})",pkmn.ot,gender,pkmn.publicID,pkmn.trainerID),
-               _INTL("Foreign Pokémon\n{1}\n{2}\n{3} ({4})",pkmn.ot,gender,pkmn.publicID,pkmn.trainerID)
+        msg = [_INTL("Player's Jermon\n{1}\n{2}\n{3} ({4})",pkmn.ot,gender,pkmn.publicID,pkmn.trainerID),
+               _INTL("Foreign Jermon\n{1}\n{2}\n{3} ({4})",pkmn.ot,gender,pkmn.publicID,pkmn.trainerID)
               ][pkmn.isForeign?($Trainer) ? 1 : 0]
         cmd = @scene.pbShowCommands(msg,[
              _INTL("Make player's"),
@@ -675,7 +675,7 @@ module PokemonDebugMixin
                _INTL("Egg with eggsteps: {1}.",pkmn.eggsteps)][pkmn.egg? ? 1 : 0]
         cmd = @scene.pbShowCommands(msg,[
              _INTL("Make egg"),
-             _INTL("Make Pokémon"),
+             _INTL("Make Jermon"),
              _INTL("Set eggsteps to 1")],cmd)
         break if cmd<0
         case cmd
@@ -693,7 +693,7 @@ module PokemonDebugMixin
             pkmn.obtainMode = 1
             pbRefreshSingle(pkmnid)
           end
-        when 1   # Make Pokémon
+        when 1   # Make Jermon
           if pkmn.egg?
             pkmn.name       = PBSpecies.getName(pkmn.species)
             pkmn.eggsteps   = 0
@@ -709,7 +709,7 @@ module PokemonDebugMixin
     when "shadowpkmn"
       cmd = 0
       loop do
-        msg = [_INTL("Not a Shadow Pokémon."),
+        msg = [_INTL("Not a Shadow Jermon."),
                _INTL("Heart gauge is {1} (stage {2}).",pkmn.heartgauge,pkmn.heartStage)
               ][(pkmn.isShadow? rescue false) ? 1 : 0]
         cmd = @scene.pbShowCommands(msg,[
@@ -722,7 +722,7 @@ module PokemonDebugMixin
             pkmn.makeShadow
             pbRefreshSingle(pkmnid)
           else
-            pbDisplay(_INTL("{1} is already a Shadow Pokémon.",pkmn.name))
+            pbDisplay(_INTL("{1} is already a Shadow Jermon.",pkmn.name))
           end
         when 1   # Set heart gauge
           if (pkmn.isShadow? rescue false)
@@ -738,7 +738,7 @@ module PokemonDebugMixin
               pbReadyToPurify(pkmn)
             end
           else
-            pbDisplay(_INTL("{1} is not a Shadow Pokémon.",pkmn.name))
+            pbDisplay(_INTL("{1} is not a Shadow Jermon.",pkmn.name))
           end
         end
       end
@@ -747,18 +747,18 @@ module PokemonDebugMixin
       pbCreateMysteryGift(0,pkmn)
     #===========================================================================
     when "duplicate"
-      if pbConfirm(_INTL("Are you sure you want to copy this Pokémon?"))
+      if pbConfirm(_INTL("Are you sure you want to copy this Jermon?"))
         clonedpkmn = pkmn.clone
         clonedpkmn.iv = pkmn.iv.clone
         clonedpkmn.ev = pkmn.ev.clone
         if self.is_a?(PokemonPartyScreen)
           pbStorePokemon(clonedpkmn)
           pbHardRefresh
-          pbDisplay(_INTL("The Pokémon was duplicated."))
+          pbDisplay(_INTL("The Jermon was duplicated."))
         elsif self.is_a?(PokemonStorageScreen)
           if @storage.pbMoveCaughtToParty(clonedpkmn)
             if pkmnid[0]!=-1
-              pbDisplay(_INTL("The duplicated Pokémon was moved to your party."))
+              pbDisplay(_INTL("The duplicated Jermon was moved to your party."))
             end
           else
             oldbox = @storage.currentBox
@@ -766,7 +766,7 @@ module PokemonDebugMixin
             if newbox<0
               pbDisplay(_INTL("All boxes are full."))
             elsif newbox!=oldbox
-              pbDisplay(_INTL("The duplicated Pokémon was moved to box \"{1}.\"",@storage[newbox].name))
+              pbDisplay(_INTL("The duplicated Jermon was moved to box \"{1}.\"",@storage[newbox].name))
               @storage.currentBox = oldbox
             end
           end
@@ -776,7 +776,7 @@ module PokemonDebugMixin
       end
     #===========================================================================
     when "delete"
-      if pbConfirm(_INTL("Are you sure you want to delete this Pokémon?"))
+      if pbConfirm(_INTL("Are you sure you want to delete this Jermon?"))
         if self.is_a?(PokemonPartyScreen)
           @party[pkmnid] = nil
           @party.compact!

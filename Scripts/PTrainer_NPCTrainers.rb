@@ -61,7 +61,7 @@ def pbLoadTrainer(trainerid,trainername,partyid=0)
       end
       pokemon.setAbility(poke[TPABILITY])
       pokemon.setGender(poke[TPGENDER])
-      if poke[TPSHINY]   # if this is a shiny Pokémon
+      if poke[TPSHINY]   # if this is a shiny Jermon
         pokemon.makeShiny
       else
         pokemon.makeNotShiny
@@ -74,7 +74,7 @@ def pbLoadTrainer(trainerid,trainername,partyid=0)
       end
       pokemon.happiness=poke[TPHAPPINESS]
       pokemon.name=poke[TPNAME] if poke[TPNAME] && poke[TPNAME]!=""
-      if poke[TPSHADOW]   # if this is a Shadow Pokémon
+      if poke[TPSHADOW]   # if this is a Shadow Jermon
         pokemon.makeShadow rescue nil
         pokemon.pbUpdateShadowMoves(true) rescue nil
         pokemon.makeNotShiny
@@ -108,15 +108,15 @@ def pbNewTrainer(trainerid,trainername,trainerparty)
   level=TPDEFAULTS[TPLEVEL]
   for i in 1..6
     if i==1
-      Kernel.pbMessage(_INTL("Please enter the first Pokémon.",i))
+      Kernel.pbMessage(_INTL("Please enter the first Jermon.",i))
     else
-      break if !Kernel.pbConfirmMessage(_INTL("Add another Pokémon?"))
+      break if !Kernel.pbConfirmMessage(_INTL("Add another Jermon?"))
     end
     loop do
       species=pbChooseSpeciesList
       if species<=0
         if i==1
-          Kernel.pbMessage(_INTL("This trainer must have at least 1 Pokémon!"))
+          Kernel.pbMessage(_INTL("This trainer must have at least 1 Jermon!"))
         else
           break
         end

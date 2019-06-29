@@ -56,7 +56,7 @@ class PokemonLoadPanel < SpriteWrapper
         textpos.push([@title,16*2,5*2,0,Color.new(232,232,232),Color.new(136,136,136)])
         textpos.push([_INTL("Badges:"),16*2,56*2,0,Color.new(232,232,232),Color.new(136,136,136)])
         textpos.push([@trainer.numbadges.to_s,103*2,56*2,1,Color.new(232,232,232),Color.new(136,136,136)])
-        textpos.push([_INTL("Pokédex:"),16*2,72*2,0,Color.new(232,232,232),Color.new(136,136,136)])
+        textpos.push([_INTL("Jermodex:"),16*2,72*2,0,Color.new(232,232,232),Color.new(136,136,136)])
         textpos.push([@trainer.pokedexSeen.to_s,103*2,72*2,1,Color.new(232,232,232),Color.new(136,136,136)])
         textpos.push([_INTL("Time:"),16*2,88*2,0,Color.new(232,232,232),Color.new(136,136,136)])
         hour = @totalsec / 60 / 60

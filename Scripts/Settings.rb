@@ -1,5 +1,5 @@
 #==============================================================================#
-#                              Pokémon Essentials                              #
+#                              Jermon Essentials                              #
 #                                  Version 17                                  #
 #==============================================================================#
 
@@ -28,10 +28,10 @@ MAPVIEWMODE          = 1
 # delete the relevant bit of code in the PScreen_Options script section.
 
 #===============================================================================
-# * The maximum level Pokémon can reach.
-# * The level of newly hatched Pokémon.
-# * The odds of a newly generated Pokémon being shiny (out of 65536).
-# * The odds of a wild Pokémon/bred egg having Pokérus (out of 65536).
+# * The maximum level Jermon can reach.
+# * The level of newly hatched Jermon.
+# * The odds of a newly generated Jermon being shiny (out of 65536).
+# * The odds of a wild Jermon/bred egg having Jermorus (out of 65536).
 #===============================================================================
 MAXIMUMLEVEL       = 100
 EGGINITIALLEVEL    = 1
@@ -39,10 +39,10 @@ SHINYPOKEMONCHANCE = 8
 POKERUSCHANCE      = 3
 
 #===============================================================================
-# * Whether poisoned Pokémon will lose HP while walking around in the field.
-# * Whether poisoned Pokémon will faint while walking around in the field
+# * Whether poisoned Jermon will lose HP while walking around in the field.
+# * Whether poisoned Jermon will faint while walking around in the field
 #      (true), or survive the poisoning with 1HP (false).
-# * Whether fishing automatically hooks the Pokémon (if false, there is a
+# * Whether fishing automatically hooks the Jermon (if false, there is a
 #      reaction test first).
 # * Whether the player can surface from anywhere while diving (true), or only in
 #      spots where they could dive down from above (false).
@@ -77,9 +77,9 @@ NOSIGNPOSTS = []
 # * Whether a move's physical/special category depends on the move itself as in
 #      newer Gens (true), or on its type as in older Gens (false).
 # * Whether the battle mechanics mimic Gen 6 (true) or Gen 5 (false).
-# * Whether the Exp gained from beating a Pokémon should be scaled depending on
+# * Whether the Exp gained from beating a Jermon should be scaled depending on
 #      the gainer's level as in Gen 5 (true), or not as in other Gens (false).
-# * Whether the Exp gained from beating a Pokémon should be divided equally
+# * Whether the Exp gained from beating a Jermon should be divided equally
 #      between each participant (false), or whether each participant should gain
 #      that much Exp. This also applies to Exp gained via the Exp Share (held
 #      item version) being distributed to all Exp Share holders. This is true in
@@ -88,7 +88,7 @@ NOSIGNPOSTS = []
 #      that it is based on a total of 600+ species (i.e. that many species need
 #      to be caught to provide the greatest critical capture chance of 2.5x),
 #      and there may be fewer species in your game.
-# * Whether Pokémon gain Exp for capturing a Pokémon (true) or not (false).
+# * Whether Jermon gain Exp for capturing a Jermon (true) or not (false).
 # * An array of items which act as Mega Rings for the player (NPCs don't need a
 #      Mega Ring item, just a Mega Stone).
 #===============================================================================
@@ -102,7 +102,7 @@ MEGARINGS             = [:MEGARING,:MEGABRACELET,:MEGACUFF,:MEGACHARM]
 
 #===============================================================================
 # * The minimum number of badges required to boost each stat of a player's
-#      Pokémon by 1.1x, while using moves in battle only.
+#      Jermon by 1.1x, while using moves in battle only.
 # * Whether the badge restriction on using certain hidden moves is either owning
 #      at least a certain number of badges (true), or owning a particular badge
 #      (false).
@@ -139,7 +139,7 @@ BADGEFORWATERFALL      = 8
 def pbPocketNames; return ["",
    _INTL("Items"),
    _INTL("Medicine"),
-   _INTL("Poké Balls"),
+   _INTL("Jermo Balls"),
    _INTL("TMs & HMs"),
    _INTL("Berries"),
    _INTL("Mail"),
@@ -151,8 +151,8 @@ BAGMAXPERSLOT  = 999
 POCKETAUTOSORT = [0,false,false,false,true,true,false,false,false]
 
 #===============================================================================
-# * The name of the person who created the Pokémon storage system.
-# * The number of boxes in Pokémon storage.
+# * The name of the person who created the Jermon storage system.
+# * The number of boxes in Jermon storage.
 #===============================================================================
 def pbStorageCreator
   return _INTL("Bill")
@@ -160,7 +160,7 @@ end
 STORAGEBOXES = 24
 
 #===============================================================================
-# * Whether the Pokédex list shown is the one for the player's current region
+# * Whether the Jermodex list shown is the one for the player's current region
 #      (true), or whether a menu pops up for the player to manually choose which
 #      Dex list to view when appropriate (false).
 # * The names of each Dex list in the game, in order and with National Dex at
@@ -175,9 +175,9 @@ STORAGEBOXES = 24
 #      an array with a region number, therefore its area map is whichever region
 #      the player is currently in.
 # * Whether all forms of a given species will be immediately available to view
-#      in the Pokédex so long as that species has been seen at all (true), or
+#      in the Jermodex so long as that species has been seen at all (true), or
 #      whether each form needs to be seen specifically before that form appears
-#      in the Pokédex (false).
+#      in the Jermodex (false).
 # * An array of numbers, where each number is that of a Dex list (National Dex
 #      is -1). All Dex lists included here have the species numbers in them
 #      reduced by 1, thus making the first listed species have a species number
@@ -185,9 +185,9 @@ STORAGEBOXES = 24
 #===============================================================================
 DEXDEPENDSONLOCATION = false
 def pbDexNames; return [
-   [_INTL("Kanto Pokédex"),0],
-   [_INTL("Johto Pokédex"),1],
-   _INTL("National Pokédex")
+   [_INTL("Kanto Jermodex"),0],
+   [_INTL("Johto Jermodex"),1],
+   _INTL("National Jermodex")
 ]; end
 ALWAYSSHOWALLFORMS = false
 DEXINDEXOFFSETS    = []
@@ -215,17 +215,17 @@ RIVALNAMES = [
 ]
 
 #===============================================================================
-# * A list of maps used by roaming Pokémon. Each map has an array of other maps
+# * A list of maps used by roaming Jermon. Each map has an array of other maps
 #      it can lead to.
-# * A set of arrays each containing the details of a roaming Pokémon. The
+# * A set of arrays each containing the details of a roaming Jermon. The
 #      information within is as follows:
 #      - Species.
 #      - Level.
-#      - Global Switch; the Pokémon roams while this is ON.
+#      - Global Switch; the Jermon roams while this is ON.
 #      - Encounter type (0=any, 1=grass/walking in cave, 2=surfing, 3=fishing,
 #           4=surfing/fishing). See bottom of PField_RoamingPokemon for lists.
 #      - Name of BGM to play for that encounter (optional).
-#      - Roaming areas specifically for this Pokémon (optional).
+#      - Roaming areas specifically for this Jermon (optional).
 #===============================================================================
 RoamingAreas = {
    5  => [21,28,31,39,41,44,47,66,69],
@@ -253,7 +253,7 @@ RoamingSpecies = [
 
 #===============================================================================
 # * A set of arrays each containing details of a wild encounter that can only
-#      occur via using the Poké Radar. The information within is as follows:
+#      occur via using the Jermo Radar. The information within is as follows:
 #      - Map ID on which this encounter can occur.
 #      - Probability that this encounter will occur (as a percentage).
 #      - Species.
@@ -291,15 +291,15 @@ BUGCONTESTTIME = 1200
 
 #===============================================================================
 # * The Global Switch that is set to ON when the player whites out.
-# * The Global Switch that is set to ON when the player has seen Pokérus in the
-#      Poké Center, and doesn't need to be told about it again.
-# * The Global Switch which, while ON, makes all wild Pokémon created be
+# * The Global Switch that is set to ON when the player has seen Jermorus in the
+#      Jermo Center, and doesn't need to be told about it again.
+# * The Global Switch which, while ON, makes all wild Jermon created be
 #      shiny.
-# * The Global Switch which, while ON, makes all Pokémon created considered to
+# * The Global Switch which, while ON, makes all Jermon created considered to
 #      be met via a fateful encounter.
 # * The Global Switch which determines whether the player will lose money if
 #      they lose a battle (they can still gain money from trainers for winning).
-# * The Global Switch which, while ON, prevents all Pokémon in battle from Mega
+# * The Global Switch which, while ON, prevents all Jermon in battle from Mega
 #      Evolving even if they otherwise could.
 #===============================================================================
 STARTING_OVER_SWITCH      = 1
@@ -326,11 +326,11 @@ FISHINGENDCOMMONEVENT     = -1
 # * The ID of the animation played when a trainer notices the player (an
 #      exclamation bubble).
 # * The ID of the animation played when a patch of grass rustles due to using
-#      the Poké Radar.
+#      the Jermo Radar.
 # * The ID of the animation played when a patch of grass rustles vigorously due
-#      to using the Poké Radar. (Rarer species)
+#      to using the Jermo Radar. (Rarer species)
 # * The ID of the animation played when a patch of grass rustles and shines due
-#      to using the Poké Radar. (Shiny encounter)
+#      to using the Jermo Radar. (Shiny encounter)
 # * The ID of the animation played when a berry tree grows a stage while the
 #      player is on the map (for new plant growth mechanics only).
 #===============================================================================

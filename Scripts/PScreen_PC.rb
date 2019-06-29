@@ -156,16 +156,16 @@ class StorageSystemPC
   end
 
   def access
-    Kernel.pbMessage(_INTL("\\se[PC access]The Pokémon Storage System was opened."))
+    Kernel.pbMessage(_INTL("\\se[PC access]The Jermon Storage System was opened."))
     loop do
       command=Kernel.pbShowCommandsWithHelp(nil,
          [_INTL("Organize Boxes"),
-         _INTL("Withdraw Pokémon"),
-         _INTL("Deposit Pokémon"),
+         _INTL("Withdraw Jermon"),
+         _INTL("Deposit Jermon"),
          _INTL("See ya!")],
-         [_INTL("Organize the Pokémon in Boxes and in your party."),
-         _INTL("Move Pokémon stored in Boxes to your party."),
-         _INTL("Store Pokémon in your party in Boxes."),
+         [_INTL("Organize the Jermon in Boxes and in your party."),
+         _INTL("Move Jermon stored in Boxes to your party."),
+         _INTL("Store Jermon in your party in Boxes."),
          _INTL("Return to the previous menu.")],-1
       )
       if command>=0 && command<3
@@ -180,7 +180,7 @@ class StorageSystemPC
             count+=1 if p && !p.egg? && p.hp>0
           end
           if count<=1
-            Kernel.pbMessage(_INTL("Can't deposit the last Pokémon!"))
+            Kernel.pbMessage(_INTL("Can't deposit the last Jermon!"))
             next
           end
         end

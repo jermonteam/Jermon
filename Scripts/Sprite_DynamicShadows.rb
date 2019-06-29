@@ -2,7 +2,7 @@
 # Sprite_Shadow (Sprite_Ombre )
 # Based on Genzai Kawakami's shadows, dynamisme & features by Rataime, extra
 # features Boushy
-# Modified by Peter O. to be compatible with Pokémon Essentials
+# Modified by Peter O. to be compatible with Jermon Essentials
 #===============================================================================
 SHADOW_WARN = true
 

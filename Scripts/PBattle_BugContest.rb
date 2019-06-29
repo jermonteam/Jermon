@@ -289,7 +289,7 @@ class PokeBattle_BugContestBattle < PokeBattle_Battle
        _INTL("Sport Balls: {1}",@ballcount),
        _INTL("Fight"),
        _INTL("Ball"),
-       _INTL("Pokémon"),
+       _INTL("Jermon"),
        _INTL("Run")
     ],3)
   end
@@ -298,12 +298,12 @@ class PokeBattle_BugContestBattle < PokeBattle_Battle
     if pbBugContestState.lastPokemon
       lastPokemon=pbBugContestState.lastPokemon
       pbDisplayPaused(_INTL("You already caught a {1}.",lastPokemon.name))
-      helptext=_INTL("STOCK POKéMON:\n {1} Lv{2} MaxHP: {3}\nTHIS POKéMON:\n {4} Lv{5} MaxHP: {6}",
+      helptext=_INTL("STOCK Jermon:\n {1} Lv{2} MaxHP: {3}\nTHIS Jermon:\n {4} Lv{5} MaxHP: {6}",
          lastPokemon.name,lastPokemon.level,lastPokemon.totalhp,
          pokemon.name,pokemon.level,pokemon.totalhp
       )
       @scene.pbShowHelp(helptext)
-      if pbDisplayConfirm(_INTL("Switch Pokémon?"))
+      if pbDisplayConfirm(_INTL("Switch Jermon?"))
         pbBugContestState.lastPokemon=pokemon
         @scene.pbHideHelp
       else

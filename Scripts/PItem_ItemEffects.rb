@@ -6,7 +6,7 @@
 #                3 = used, item consumed
 #                4 = close the Bag to use, item consumed
 # If there is no UseFromBag handler for an item being used from the Bag (not on
-# a Pokémon and not a TM/HM), calls the UseInField handler for it instead.
+# a Jermon and not a TM/HM), calls the UseInField handler for it instead.
 #===============================================================================
 
 ItemHandlers::UseFromBag.add(:HONEY,proc{|item| next 4 })
@@ -80,7 +80,7 @@ ItemHandlers::ConfirmUseInField.add(:ESCAPEROPE,proc{|item|
 # Return values: 0 = not used
 #                1 = used, item not consumed
 #                3 = used, item consumed
-# Called if an item is used from the Bag (not on a Pokémon and not a TM/HM) and
+# Called if an item is used from the Bag (not on a Jermon and not a TM/HM) and
 # there is no UseFromBag handler above.
 # If an item has this handler, it can be registered to the Ready Menu.
 #===============================================================================
@@ -133,7 +133,7 @@ Events.onStepTaken+=proc {
 
 ItemHandlers::UseInField.add(:BLACKFLUTE,proc{|item|
    pbUseItemMessage(item)
-   Kernel.pbMessage(_INTL("Wild Pokémon will be repelled."))
+   Kernel.pbMessage(_INTL("Wild Jermon will be repelled."))
    $PokemonMap.blackFluteUsed=true
    $PokemonMap.whiteFluteUsed=false
    next 1
@@ -141,7 +141,7 @@ ItemHandlers::UseInField.add(:BLACKFLUTE,proc{|item|
 
 ItemHandlers::UseInField.add(:WHITEFLUTE,proc{|item|
    pbUseItemMessage(item)
-   Kernel.pbMessage(_INTL("Wild Pokémon will be lured."))
+   Kernel.pbMessage(_INTL("Wild Jermon will be lured."))
    $PokemonMap.blackFluteUsed=false
    $PokemonMap.whiteFluteUsed=true
    next 1
@@ -180,7 +180,7 @@ ItemHandlers::UseInField.add(:ESCAPEROPE,proc{|item|
 
 ItemHandlers::UseInField.add(:SACREDASH,proc{|item|
    if $Trainer.pokemonCount==0
-     Kernel.pbMessage(_INTL("There is no Pokémon."))
+     Kernel.pbMessage(_INTL("There is no Jermon."))
      next 0
    end
    canrevive = false
@@ -882,7 +882,7 @@ ItemHandlers::UseOnPokemon.add(:GRACIDEA,proc{|item,pokemon,scene|
        scene.pbDisplay(_INTL("{1} changed Forme!",pokemon.name))
        next true
      else
-       scene.pbDisplay(_INTL("This can't be used on the fainted Pokémon."))
+       scene.pbDisplay(_INTL("This can't be used on the fainted Jermon."))
      end
    else
      scene.pbDisplay(_INTL("It had no effect."))
@@ -900,7 +900,7 @@ ItemHandlers::UseOnPokemon.add(:REVEALGLASS,proc{|item,pokemon,scene|
        scene.pbDisplay(_INTL("{1} changed Forme!",pokemon.name))
        next true
      else
-       scene.pbDisplay(_INTL("This can't be used on the fainted Pokémon."))
+       scene.pbDisplay(_INTL("This can't be used on the fainted Jermon."))
      end
    else
      scene.pbDisplay(_INTL("It had no effect."))
@@ -913,7 +913,7 @@ ItemHandlers::UseOnPokemon.add(:DNASPLICERS,proc{|item,pokemon,scene|
      if pokemon.hp>0
        if pokemon.fused!=nil
          if $Trainer.party.length>=6
-           scene.pbDisplay(_INTL("You have no room to separate the Pokémon."))
+           scene.pbDisplay(_INTL("You have no room to separate the Jermon."))
            next false
          else
            $Trainer.party[$Trainer.party.length]=pokemon.fused
@@ -924,7 +924,7 @@ ItemHandlers::UseOnPokemon.add(:DNASPLICERS,proc{|item,pokemon,scene|
            next true
          end
        else
-         chosen=scene.pbChoosePokemon(_INTL("Fuse with which Pokémon?"))
+         chosen=scene.pbChoosePokemon(_INTL("Fuse with which Jermon?"))
          if chosen>=0
            poke2=$Trainer.party[chosen]
            if (isConst?(poke2.species,PBSpecies,:RESHIRAM) ||
@@ -939,18 +939,18 @@ ItemHandlers::UseOnPokemon.add(:DNASPLICERS,proc{|item,pokemon,scene|
            elsif poke2.egg?
              scene.pbDisplay(_INTL("It cannot be fused with an Egg."))
            elsif poke2.hp<=0
-             scene.pbDisplay(_INTL("It cannot be fused with that fainted Pokémon."))
+             scene.pbDisplay(_INTL("It cannot be fused with that fainted Jermon."))
            elsif pokemon==poke2
              scene.pbDisplay(_INTL("It cannot be fused with itself."))
            else
-             scene.pbDisplay(_INTL("It cannot be fused with that Pokémon."))
+             scene.pbDisplay(_INTL("It cannot be fused with that Jermon."))
            end
          else
            next false
          end
        end
      else
-       scene.pbDisplay(_INTL("This can't be used on the fainted Pokémon."))
+       scene.pbDisplay(_INTL("This can't be used on the fainted Jermon."))
      end
    else
      scene.pbDisplay(_INTL("It had no effect."))
@@ -966,7 +966,7 @@ ItemHandlers::UseOnPokemon.add(:PRISONBOTTLE,proc{|item,pokemon,scene|
        scene.pbDisplay(_INTL("{1} changed Forme!",pokemon.name))
        next true
      else
-       scene.pbDisplay(_INTL("This can't be used on the fainted Pokémon."))
+       scene.pbDisplay(_INTL("This can't be used on the fainted Jermon."))
      end
    else
      scene.pbDisplay(_INTL("It had no effect."))
@@ -1704,11 +1704,11 @@ ItemHandlers::BattleUseOnBattler.add(:POKEDOLL,proc{|item,battler,scene|
 ItemHandlers::BattleUseOnBattler.copy(:POKEDOLL,:FLUFFYTAIL,:POKETOY)
 
 ItemHandlers::BattleUseOnBattler.addIf(proc{|item|
-                pbIsPokeBall?(item)},proc{|item,battler,scene|  # Any Poké Ball
+                pbIsPokeBall?(item)},proc{|item,battler,scene|  # Any Jermo Ball
    battle=battler.battle
    if !battler.pbOpposing1.fainted? && !battler.pbOpposing2.fainted?
      if !pbIsSnagBall?(item)
-       scene.pbDisplay(_INTL("It's no good! It's impossible to aim when there are two Pokémon!"))
+       scene.pbDisplay(_INTL("It's no good! It's impossible to aim when there are two Jermon!"))
        return false
      end
    end
@@ -1731,6 +1731,6 @@ ItemHandlers::UseInBattle.add(:POKEDOLL,proc{|item,battler,battle|
 ItemHandlers::UseInBattle.copy(:POKEDOLL,:FLUFFYTAIL,:POKETOY)
 
 ItemHandlers::UseInBattle.addIf(proc{|item| pbIsPokeBall?(item)},
-   proc{|item,battler,battle|  # Any Poké Ball 
+   proc{|item,battler,battle|  # Any Jermo Ball 
       battle.pbThrowPokeBall(battler.index,item)
 })

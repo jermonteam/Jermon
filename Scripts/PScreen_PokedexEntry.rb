@@ -248,7 +248,7 @@ class PokemonPokedexInfo_Scene
       # Write the kind
       kind = pbGetMessage(MessageTypes::Kinds,fSpecies)
       kind = pbGetMessage(MessageTypes::Kinds,@species) if !kind || kind==""
-      textpos.push([_INTL("{1} Pokémon",kind),246,74,0,base,shadow])
+      textpos.push([_INTL("{1} Jermon",kind),246,74,0,base,shadow])
       # Write the height and weight
       pbDexDataOffset(dexdata,fSpecies,33)
       height = dexdata.fgetw
@@ -262,7 +262,7 @@ class PokemonPokedexInfo_Scene
         textpos.push([_ISPRINTF("{1:.1f} m",height/10.0),470,158,1,base,shadow])
         textpos.push([_ISPRINTF("{1:.1f} kg",weight/10.0),482,190,1,base,shadow])
       end
-      # Draw the Pokédex entry text
+      # Draw the Jermodex entry text
       entry = pbGetMessage(MessageTypes::Entries,fSpecies)
       entry = pbGetMessage(MessageTypes::Entries,@species) if !entry || entry==""
       drawTextEx(overlay,40,240,Graphics.width-(40*2),4,entry,base,shadow)
@@ -286,7 +286,7 @@ class PokemonPokedexInfo_Scene
       dexdata.close
     else
       # Write the kind
-      textpos.push([_INTL("????? Pokémon"),246,74,0,base,shadow])
+      textpos.push([_INTL("????? Jermon"),246,74,0,base,shadow])
       # Write the height and weight
       if pbGetCountry()==0xF4 # If the user is in the United States
         textpos.push([_INTL("???'??\""),460,158,1,base,shadow])
@@ -565,7 +565,7 @@ class PokemonPokedexInfoScreen
     return ret   # Index of last species viewed in dexlist
   end
 
-  def pbStartSceneSingle(species)   # For use from a Pokémon's summary screen
+  def pbStartSceneSingle(species)   # For use from a Jermon's summary screen
     region = -1
     if DEXDEPENDSONLOCATION
       region = pbGetCurrentRegion

@@ -292,10 +292,10 @@ class PokemonSummary_Scene
     # Set background image
     @sprites["background"].setBitmap("Graphics/Pictures/Summary/bg_#{page}")
     imagepos=[]
-    # Show the Poké Ball containing the Pokémon
+    # Show the Jermo Ball containing the Jermon
     ballimage = sprintf("Graphics/Pictures/Summary/icon_ball_%02d",@pokemon.ballused)
     imagepos.push([ballimage,14,60,0,0,-1,-1])
-    # Show status/fainted/Pokérus infected icon
+    # Show status/fainted/Jermorus infected icon
     status = -1
     status = 6 if @pokemon.pokerusStage==1
     status = @pokemon.status-1 if @pokemon.status>0
@@ -303,7 +303,7 @@ class PokemonSummary_Scene
     if status>=0
       imagepos.push(["Graphics/Pictures/statuses",124,100,0,16*status,44,16])
     end
-    # Show Pokérus cured icon
+    # Show Jermorus cured icon
     if @pokemon.pokerusStage==2
       imagepos.push([sprintf("Graphics/Pictures/Summary/icon_pokerus"),176,100,0,0,-1,-1])
     end
@@ -340,7 +340,7 @@ class PokemonSummary_Scene
     end
     # Draw all text
     pbDrawTextPositions(overlay,textpos)
-    # Draw the Pokémon's markings
+    # Draw the Jermon's markings
     drawMarkings(overlay,84,292)
     # Draw page-specific information
     case page
@@ -358,7 +358,7 @@ class PokemonSummary_Scene
     shadow = Color.new(104,104,104)
     dexNumBase   = (@pokemon.isShiny?) ? Color.new(248,56,32) : Color.new(64,64,64)
     dexNumShadow = (@pokemon.isShiny?) ? Color.new(224,152,144) : Color.new(176,176,176)
-    # If a Shadow Pokémon, draw the heart gauge area and bar
+    # If a Shadow Jermon, draw the heart gauge area and bar
     if (@pokemon.isShadow? rescue false)
       shadowfract = @pokemon.heartgauge*1.0/PokeBattle_Pokemon::HEARTGAUGESIZE
       imagepos = [
@@ -414,7 +414,7 @@ class PokemonSummary_Scene
       textpos.push([@pokemon.ot,435,176,2,ownerbase,ownershadow])
       textpos.push([sprintf("%05d",@pokemon.publicID),435,208,2,Color.new(64,64,64),Color.new(176,176,176)])
     end
-    # Write Exp text OR heart gauge message (if a Shadow Pokémon)
+    # Write Exp text OR heart gauge message (if a Shadow Jermon)
     growthrate = @pokemon.growthrate
     startexp = PBExperience.pbGetStartExperience(@pokemon.level,growthrate)
     endexp   = PBExperience.pbGetStartExperience(@pokemon.level+1,growthrate)
@@ -436,7 +436,7 @@ class PokemonSummary_Scene
     end
     # Draw all text
     pbDrawTextPositions(overlay,textpos)
-    # Draw Pokémon type(s)
+    # Draw Jermon type(s)
     type1rect = Rect.new(0,@pokemon.type1*28,64,28)
     type2rect = Rect.new(0,@pokemon.type2*28,64,28)
     if @pokemon.type1==@pokemon.type2
@@ -463,7 +463,7 @@ class PokemonSummary_Scene
     # Set background image
     @sprites["background"].setBitmap("Graphics/Pictures/Summary/bg_egg")
     imagepos = []
-    # Show the Poké Ball containing the Pokémon
+    # Show the Jermo Ball containing the Jermon
     ballimage = sprintf("Graphics/Pictures/Summary/icon_ball_%02d",@pokemon.ballused)
     imagepos.push([ballimage,14,60,0,0,-1,-1])
     # Draw all images
@@ -496,9 +496,9 @@ class PokemonSummary_Scene
       mapname=@pokemon.obtainText
     end
     if mapname && mapname!=""
-      memo+=_INTL("<c3=404040,B0B0B0>A mysterious Pokémon Egg received from <c3=F83820,E09890>{1}<c3=404040,B0B0B0>.\n",mapname)
+      memo+=_INTL("<c3=404040,B0B0B0>A mysterious Jermon Egg received from <c3=F83820,E09890>{1}<c3=404040,B0B0B0>.\n",mapname)
     else
-      memo+=_INTL("<c3=404040,B0B0B0>A mysterious Pokémon Egg.\n",mapname)
+      memo+=_INTL("<c3=404040,B0B0B0>A mysterious Jermon Egg.\n",mapname)
     end
     memo+="\n" # Empty line
     # Write Egg Watch blurb
@@ -510,7 +510,7 @@ class PokemonSummary_Scene
     memo += sprintf("<c3=404040,B0B0B0>%s\n",eggstate)
     # Draw all text
     drawFormattedTextEx(overlay,232,78,268,memo)
-    # Draw the Pokémon's markings
+    # Draw the Jermon's markings
     drawMarkings(overlay,82,292)
   end
 
@@ -532,14 +532,14 @@ class PokemonSummary_Scene
       year  = @pokemon.timeReceived.year
       memo += _INTL("<c3=404040,B0B0B0>{1} {2}, {3}\n",date,month,year)
     end
-    # Write map name Pokémon was received on
+    # Write map name Jermon was received on
     mapname = pbGetMapNameFromId(@pokemon.obtainMap)
     if (@pokemon.obtainText rescue false) && @pokemon.obtainText!=""
       mapname = @pokemon.obtainText
     end
     mapname = INTL("Faraway place") if !mapname || mapname==""
     memo += sprintf("<c3=F83820,E09890>%s\n",mapname)
-    # Write how Pokémon was obtained
+    # Write how Jermon was obtained
     mettext = [_INTL("Met at Lv. {1}.",@pokemon.obtainLevel),
                _INTL("Egg received."),
                _INTL("Traded at Lv. {1}.",@pokemon.obtainLevel),
@@ -547,7 +547,7 @@ class PokemonSummary_Scene
                _INTL("Had a fateful encounter at Lv. {1}.",@pokemon.obtainLevel)
               ][@pokemon.obtainMode]
     memo += sprintf("<c3=404040,B0B0B0>%s\n",mettext) if mettext && mettext!=""
-    # If Pokémon was hatched, write when and where it hatched
+    # If Jermon was hatched, write when and where it hatched
     if @pokemon.obtainMode==1
       if @pokemon.timeEggHatched
         date  = @pokemon.timeEggHatched.day
@@ -614,7 +614,7 @@ class PokemonSummary_Scene
     overlay = @sprites["overlay"].bitmap
     base   = Color.new(248,248,248)
     shadow = Color.new(104,104,104)
-    # Determine which stats are boosted and lowered by the Pokémon's nature
+    # Determine which stats are boosted and lowered by the Jermon's nature
     statshadows = []
     for i in 0...5; statshadows[i] = shadow; end
     if !(@pokemon.isShadow? && @pokemon.heartStage<=3 rescue false)
@@ -804,7 +804,7 @@ class PokemonSummary_Scene
     # Draw all text and images
     pbDrawTextPositions(overlay,textpos)
     pbDrawImagePositions(overlay,imagepos)
-    # Draw Pokémon's type icon(s)
+    # Draw Jermon's type icon(s)
     type1rect = Rect.new(0,@pokemon.type1*28,64,28)
     type2rect = Rect.new(0,@pokemon.type2*28,64,28)
     if @pokemon.type1==@pokemon.type2
@@ -1159,7 +1159,7 @@ class PokemonSummary_Scene
     cmdMark     = -1
     commands[cmdGiveItem = commands.length] = _INTL("Give item")
     commands[cmdTakeItem = commands.length] = _INTL("Take item") if @pokemon.hasItem?
-    commands[cmdPokedex = commands.length]  = _INTL("View Pokédex")
+    commands[cmdPokedex = commands.length]  = _INTL("View Jermodex")
     commands[cmdMark = commands.length]     = _INTL("Mark")
     commands[commands.length]               = _INTL("Cancel")
     command = pbShowCommands(commands)

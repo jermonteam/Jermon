@@ -27,7 +27,7 @@ def pbResetAllRoamers
   end
 end
 
-# Gets the roaming areas for a particular Pokémon.
+# Gets the roaming areas for a particular Jermon.
 def pbRoamingAreas(index)
   data=RoamingSpecies[index]
   return data[5] if data && data[5]
@@ -56,7 +56,7 @@ def pbRoamPokemon(ignoretrail=false)
   end
   $PokemonGlobal.roamHistory=[] if !$PokemonGlobal.roamHistory
   $PokemonGlobal.roamPokemon=[] if !$PokemonGlobal.roamPokemon
-  # Roam each Pokémon in turn
+  # Roam each Jermon in turn
   for i in 0...RoamingSpecies.length
     pbRoamPokemonOne(i,ignoretrail)
   end

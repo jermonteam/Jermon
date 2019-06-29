@@ -1,5 +1,5 @@
 # AI skill levels:
-#           0:     Wild Pokémon
+#           0:     Wild Jermon
 #           1-31:  Basic trainer (young/inexperienced)
 #           32-47: Some skill
 #           48-99: High skill
@@ -16,7 +16,7 @@ end
 
 class PokeBattle_Battle
 ################################################################################
-# Get a score for each move being considered (trainer-owned Pokémon only).
+# Get a score for each move being considered (trainer-owned Jermon only).
 # Moves with higher scores are more likely to be chosen.
 ################################################################################
   def pbGetMoveScore(move,attacker,opponent,skill=100)
@@ -2660,7 +2660,7 @@ class PokeBattle_Battle
     # A score of 0 here means it should absolutely not be used
     return score if score<=0
 ##### Other score modifications ################################################
-    # Prefer damaging moves if AI has no more Pokémon
+    # Prefer damaging moves if AI has no more Jermon
     if attacker.pbNonActivePokemonCount==0
       if skill>=PBTrainerAI.mediumSkill &&
          !(skill>=PBTrainerAI.highSkill && opponent.pbNonActivePokemonCount>0)
@@ -2919,7 +2919,7 @@ class PokeBattle_Battle
   end
 
   def pbTypeModifier2(battlerThis,battlerOther)
-    # battlerThis isn't a Battler object, it's a Pokémon - it has no third type
+    # battlerThis isn't a Battler object, it's a Jermon - it has no third type
     if battlerThis.type1==battlerThis.type2
       return 4*pbTypeModifier(battlerThis.type1,battlerThis,battlerOther)
     end
@@ -3880,7 +3880,7 @@ class PokeBattle_Battle
           totalscore+=scores[i]
         end
       else
-        # Choose a move. There is only 1 opposing Pokémon.
+        # Choose a move. There is only 1 opposing Jermon.
         if @doublebattle && opponent.fainted?
           opponent=opponent.pbPartner
         end
@@ -4009,7 +4009,7 @@ class PokeBattle_Battle
   end
 
 ################################################################################
-# Decide whether the opponent should Mega Evolve their Pokémon.
+# Decide whether the opponent should Mega Evolve their Jermon.
 ################################################################################
   def pbEnemyShouldMegaEvolve?(index)
     # Simple "always should if possible"
@@ -4017,7 +4017,7 @@ class PokeBattle_Battle
   end
 
 ################################################################################
-# Decide whether the opponent should use an item on the Pokémon.
+# Decide whether the opponent should use an item on the Jermon.
 ################################################################################
   def pbEnemyShouldUseItem?(index)
     item=pbEnemyItemToUse(index)
@@ -4100,7 +4100,7 @@ class PokeBattle_Battle
   end
 
 ################################################################################
-# Decide whether the opponent should switch Pokémon.
+# Decide whether the opponent should switch Jermon.
 ################################################################################
   def pbEnemyShouldWithdraw?(index)
 #    if $INTERNAL && !pbIsOpposing?(index)

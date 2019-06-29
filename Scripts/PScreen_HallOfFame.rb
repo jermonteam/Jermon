@@ -2,7 +2,7 @@
 # * Hall of Fame - by FL (Credits will be apreciated)
 #===============================================================================
 #
-# This script is for Pokémon Essentials. It makes a recordable Hall of Fame
+# This script is for Jermon Essentials. It makes a recordable Hall of Fame
 # like the Gen 3 games.
 #
 #===============================================================================
@@ -15,14 +15,14 @@
 # 
 #===============================================================================
 class HallOfFame_Scene
-  # When true, all pokémon will be in one line
-  # When false, all pokémon will be in two lines
+  # When true, all Jermon will be in one line
+  # When false, all Jermon will be in two lines
   SINGLEROW = false
-  # Make the pokémon movement ON in hall entry
+  # Make the Jermon movement ON in hall entry
   ANIMATION = true
-  # Speed in pokémon movement in hall entry. Don't use less than 2!
+  # Speed in Jermon movement in hall entry. Don't use less than 2!
   ANIMATIONSPEED = 32
-  # Entry wait time between each pokémon (and trainer) is show
+  # Entry wait time between each Jermon (and trainer) is show
   ENTRYWAITTIME = 128
   # Maximum number limit of simultaneous hall entries saved. 
   # 0 = Doesn't save any hall. -1 = no limit
@@ -55,7 +55,7 @@ class HallOfFame_Scene
       else
         @battlerIndex+=1
         if @battlerIndex<=@hallEntry.size
-          # If it is a pokémon, write the pokémon text, wait the 
+          # If it is a Jermon, write the Jermon text, wait the 
           # ENTRYWAITTIME and goes to the next battler
           pbPlayCry(@hallEntry[@battlerIndex-1])
           writePokemonData(@hallEntry[@battlerIndex-1])
@@ -145,7 +145,7 @@ class HallOfFame_Scene
     sprites[spritename]=nil  
   end
 
-  # Change the pokémon sprites opacity except the index one
+  # Change the Jermon sprites opacity except the index one
   def setPokemonSpritesOpacity(index,opacity=255)
     for n in 0...@hallEntry.size
       @sprites["pokemon#{n}"].opacity=(n==index) ? 255 : opacity if @sprites["pokemon#{n}"]
@@ -192,7 +192,7 @@ class HallOfFame_Scene
 
   def saveHallEntry
     for i in 0...$Trainer.party.length
-      # Clones every pokémon object
+      # Clones every Jermon object
       @hallEntry.push($Trainer.party[i].clone) if !$Trainer.party[i].egg? || ALLOWEGGS
     end
     # Update the global variables
@@ -249,7 +249,7 @@ class HallOfFame_Scene
   def createBattlers(hide=true)
     # Movement in animation
     for i in 0...6
-      # Clear all 6 pokémon sprites and dispose the ones that exists every time
+      # Clear all 6 Jermon sprites and dispose the ones that exists every time
       # that this method is call
       restartSpritePosition(@sprites,"pokemon#{i}") 
       next if i>=@hallEntry.size
@@ -345,7 +345,7 @@ class HallOfFame_Scene
     lefttext= _INTL("Name<r>{1}<br>",$Trainer.name)
     lefttext+=_INTL("IDNo.<r>{1}<br>",pubid)
     lefttext+=_ISPRINTF("Time<r>{1:02d}:{2:02d}<br>",hour,min)
-    lefttext+=_INTL("Pokédex<r>{1}/{2}<br>",
+    lefttext+=_INTL("Jermodex<r>{1}/{2}<br>",
         $Trainer.pokedexOwned,$Trainer.pokedexSeen)
     @sprites["messagebox"]=Window_AdvancedTextPokemon.new(lefttext)
     @sprites["messagebox"].viewport=@viewport
@@ -410,11 +410,11 @@ class HallOfFame_Scene
         @battlerIndex+=10
         continueScene=pbUpdatePC
       end
-      if Input.trigger?(Input::LEFT) # Moves the selection one pokémon forward
+      if Input.trigger?(Input::LEFT) # Moves the selection one Jermon forward
         @battlerIndex-=1
         continueScene=pbUpdatePC
       end
-      if Input.trigger?(Input::RIGHT) # Moves the selection one pokémon backward
+      if Input.trigger?(Input::RIGHT) # Moves the selection one Jermon backward
         @battlerIndex+=1
         continueScene=pbUpdatePC
       end

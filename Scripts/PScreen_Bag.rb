@@ -486,9 +486,9 @@ class PokemonBagScreen
         break if ret==2 # End screen
         @scene.pbRefresh
         next
-      elsif cmdGive>=0 && command==cmdGive   # Give item to Pokémon
+      elsif cmdGive>=0 && command==cmdGive   # Give item to Jermon
         if $Trainer.pokemonCount==0
-          @scene.pbDisplay(_INTL("There is no Pokémon."))
+          @scene.pbDisplay(_INTL("There is no Jermon."))
         elsif pbIsImportantItem?(item)
           @scene.pbDisplay(_INTL("The {1} can't be held.",itemname))
         else
@@ -614,7 +614,7 @@ class PokemonBagScreen
         end
       elsif command==1 # Give
         if $Trainer.pokemonCount==0
-          @scene.pbDisplay(_INTL("There is no Pokémon."))
+          @scene.pbDisplay(_INTL("There is no Jermon."))
           return 0
         elsif pbIsImportantItem?(item)
           @scene.pbDisplay(_INTL("The {1} can't be held.",itemname))

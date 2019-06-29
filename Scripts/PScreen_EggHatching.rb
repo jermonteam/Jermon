@@ -2,7 +2,7 @@
 # * Egg Hatch Animation - by FL (Credits will be apreciated)
 #                         Tweaked by Maruno
 #===============================================================================
-# This script is for Pokémon Essentials. It's an egg hatch animation that
+# This script is for Jermon Essentials. It's an egg hatch animation that
 # works even with special eggs like Manaphy egg.
 #===============================================================================
 # To this script works, put it above Main and put a picture (a 5 frames
@@ -74,7 +74,7 @@ class PokemonEggHatch_Scene
       updateScene
     end
     updateScene(30)
-    @sprites["pokemon"].setPokemonBitmap(@pokemon) # Pokémon sprite
+    @sprites["pokemon"].setPokemonBitmap(@pokemon) # Jermon sprite
     metrics=load_data("Data/metrics.dat")
     @sprites["pokemon"].y = 264
     @sprites["pokemon"].y += (metrics[1][@pokemon.species] || 0)*2 - (metrics[2][@pokemon.species] || 0)*2

@@ -1,5 +1,5 @@
 #===============================================================================
-# Pokémon sprite (used out of battle)
+# Jermon sprite (used out of battle)
 #===============================================================================
 class PokemonSprite < SpriteWrapper
   def initialize(viewport=nil)
@@ -80,7 +80,7 @@ end
 
 
 #===============================================================================
-# Pokémon sprite (used in battle)
+# Jermon sprite (used in battle)
 #===============================================================================
 class PokemonBattlerSprite < RPG::Sprite
   attr_accessor :selected
@@ -159,8 +159,8 @@ class PokemonBattlerSprite < RPG::Sprite
     @frame = (@frame+1)%24
     @updating=true
     @spriteYExtra=0
-    # Pokémon sprite bobbing while Pokémon is selected
-    if @selected==1 # When choosing commands for this Pokémon
+    # Jermon sprite bobbing while Jermon is selected
+    if @selected==1 # When choosing commands for this Jermon
       if (@frame/6).floor==1
         @spriteYExtra=2
       elsif (@frame/6).floor==3
@@ -170,7 +170,7 @@ class PokemonBattlerSprite < RPG::Sprite
     self.x=@spriteX
     self.y=@spriteY
     self.visible=@spriteVisible
-    # Pokémon sprite blinking when targeted or damaged
+    # Jermon sprite blinking when targeted or damaged
     if @spriteVisible
       if @selected==2 # When targeted
         self.visible=(@frame%12<8)
@@ -189,7 +189,7 @@ end
 
 
 #===============================================================================
-# Pokémon icon (for defined Pokémon)
+# Jermon icon (for defined Jermon)
 #===============================================================================
 class PokemonIconSprite < SpriteWrapper
   attr_accessor :selected
@@ -292,7 +292,7 @@ end
 
 
 #===============================================================================
-# Pokémon icon (for species)
+# Jermon icon (for species)
 #===============================================================================
 class PokemonSpeciesIconSprite < SpriteWrapper
   attr_accessor :selected
@@ -396,10 +396,10 @@ end
 def getBattleSpriteMetricOffset(species,index,metrics=nil)
   metrics = load_data("Data/metrics.dat") if !metrics
   ret = 0
-  if index==1 || index==3   # Foe Pokémon
+  if index==1 || index==3   # Foe Jermon
     ret += (metrics[1][species] || 0)*2 # enemy Y
     ret -= (metrics[2][species] || 0)*2 # altitude
-  else                      # Player's Pokémon
+  else                      # Player's Jermon
     ret += (metrics[0][species] || 0)*2
   end
   return ret

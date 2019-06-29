@@ -540,7 +540,7 @@ end
 
 
 #===============================================================================
-# Save Pokémon data to PBS file
+# Save Jermon data to PBS file
 #===============================================================================
 def pbSavePokemonData
   dexdata      = File.open("Data/dexdata.dat","rb") rescue nil
@@ -805,7 +805,7 @@ end
 
 
 #===============================================================================
-# Save Pokémon forms data to PBS file
+# Save Jermon forms data to PBS file
 #===============================================================================
 def pbSavePokemonFormsData
   dexdata      = File.open("Data/dexdata.dat","rb") rescue nil
@@ -1330,7 +1330,7 @@ end
 
 
 #===============================================================================
-# Save Battle Tower Pokémon data to PBS file
+# Save Battle Tower Jermon data to PBS file
 #===============================================================================
 def pbSaveBattlePokemon(btpokemon,filename)
   return if !btpokemon || !filename

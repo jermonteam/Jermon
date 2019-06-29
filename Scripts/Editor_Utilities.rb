@@ -264,7 +264,7 @@ end
 #===============================================================================
 # List all members of a class
 #===============================================================================
-# Displays a list of all Pokémon species, and returns the ID of the species
+# Displays a list of all Jermon species, and returns the ID of the species
 # selected (or 0 if the selection was canceled). "default", if specified, is the
 # ID of the species to initially select. Pressing Input::A will toggle the list
 # sorting between numerical and alphabetical.

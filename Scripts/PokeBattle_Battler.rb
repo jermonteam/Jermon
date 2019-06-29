@@ -202,7 +202,7 @@ class PokeBattle_Battler
 
   def pbInitPokemon(pkmn,pkmnIndex)
     if pkmn.egg?
-      raise _INTL("An egg can't be an active Pokémon")
+      raise _INTL("An egg can't be an active Jermon")
     end
     @name         = pkmn.name
     @species      = pkmn.species
@@ -242,7 +242,7 @@ class PokeBattle_Battler
 
   def pbInitDummyPokemon(pkmn,pkmnIndex)
     if pkmn.egg?
-      raise _INTL("An egg can't be an active Pokémon")
+      raise _INTL("An egg can't be an active Jermon")
     end
     @name         = pkmn.name
     @species      = pkmn.species
@@ -300,7 +300,7 @@ class PokeBattle_Battler
   end
 
   def pbInitPermanentEffects
-    # These effects are always retained even if a Pokémon is replaced
+    # These effects are always retained even if a Jermon is replaced
     @effects[PBEffects::FutureSight]        = 0
     @effects[PBEffects::FutureSightMove]    = 0
     @effects[PBEffects::FutureSightUser]    = -1
@@ -511,7 +511,7 @@ class PokeBattle_Battler
     pbInitEffects(batonpass)
   end
 
-# Used only to erase the battler of a Shadow Pokémon that has been snagged.
+# Used only to erase the battler of a Shadow Jermon that has been snagged.
   def pbReset
     @pokemon                = nil
     @pokemonIndex           = -1
@@ -526,7 +526,7 @@ class PokeBattle_Battler
     return true
   end
 
-# Update Pokémon who will gain EXP if this battler is defeated
+# Update Jermon who will gain EXP if this battler is defeated
   def pbUpdateParticipants
     return if fainted? # can't update if already fainted
     if @battle.pbIsOpposing?(@index)
@@ -772,7 +772,7 @@ class PokeBattle_Battler
     @battle.choices[@index]=[0,0,nil,-1]
     pbOwnSide.effects[PBEffects::LastRoundFainted]=@battle.turncount
     @battle.pbDisplayPaused(_INTL("{1} fainted!",pbThis)) if showMessage
-    PBDebug.log("[Pokémon fainted] #{pbThis}")
+    PBDebug.log("[Jermon fainted] #{pbThis}")
     return true
   end
 ################################################################################
@@ -783,12 +783,12 @@ class PokeBattle_Battler
     return @battle.sides[@index&1] # Player: 0 and 2; Foe: 1 and 3
   end
 
-# Returns the data structure for the opposing Pokémon's side
+# Returns the data structure for the opposing Jermon's side
   def pbOpposingSide
     return @battle.sides[(@index&1)^1] # Player: 1 and 3; Foe: 0 and 2
   end
 
-# Returns whether the position belongs to the opposing Pokémon's side
+# Returns whether the position belongs to the opposing Jermon's side
   def pbIsOpposing?(i)
     return (@index&1)!=(i&1)
   end
@@ -798,12 +798,12 @@ class PokeBattle_Battler
     return @battle.battlers[(@index&1)|((@index&2)^2)]
   end
 
-# Returns the battler's first opposing Pokémon
+# Returns the battler's first opposing Jermon
   def pbOpposing1
     return @battle.battlers[((@index&1)^1)]
   end
 
-# Returns the battler's second opposing Pokémon
+# Returns the battler's second opposing Jermon
   def pbOpposing2
     return @battle.battlers[((@index&1)^1)+2]
   end
@@ -975,7 +975,7 @@ class PokeBattle_Battler
         @battle.weather=PBWeather::STRONGWINDS
         @battle.weatherduration=-1
         @battle.pbCommonAnimation("StrongWinds",nil,nil)
-        @battle.pbDisplay(_INTL("{1}'s {2} caused a mysterious air current that protects Flying-type Pokémon!",pbThis,PBAbilities.getName(self.ability)))
+        @battle.pbDisplay(_INTL("{1}'s {2} caused a mysterious air current that protects Flying-type Jermon!",pbThis,PBAbilities.getName(self.ability)))
         PBDebug.log("[Ability triggered] #{pbThis}'s Delta Stream made an air current blow")
       end
       if @battle.weather!=PBWeather::HEAVYRAIN &&
@@ -1200,7 +1200,7 @@ class PokeBattle_Battler
     end
     # Aura Break message
     if self.hasWorkingAbility(:AURABREAK) && onactive
-      @battle.pbDisplay(_INTL("{1} reversed all other Pokémon's auras!",pbThis))
+      @battle.pbDisplay(_INTL("{1} reversed all other Jermon's auras!",pbThis))
     end
     # Slow Start message
     if self.hasWorkingAbility(:SLOWSTART) && onactive
@@ -1250,7 +1250,7 @@ class PokeBattle_Battler
         @effects[PBEffects::Disable]=0
         @effects[PBEffects::DisableMove]=0
         @battle.pbDisplay(_INTL("{1} transformed into {2}!",pbThis,choice.pbThis(true)))
-        PBDebug.log("[Pokémon transformed] #{pbThis} transformed into #{choice.pbThis(true)}")
+        PBDebug.log("[Jermon transformed] #{pbThis} transformed into #{choice.pbThis(true)}")
       end
     end
     # Air Balloon message
@@ -2104,7 +2104,7 @@ class PokeBattle_Battler
     # Lightningrod
     if targets.length==1 && isConst?(thismove.pbType(thismove.type,user,target),PBTypes,:ELECTRIC) && 
        !target.hasWorkingAbility(:LIGHTNINGROD)
-      for i in priority # use Pokémon earliest in priority
+      for i in priority # use Jermon earliest in priority
         next if user.index==i.index || target.index==i.index
         if i.hasWorkingAbility(:LIGHTNINGROD)
           PBDebug.log("[Ability triggered] #{i.pbThis}'s Lightningrod (change target)")
@@ -2117,7 +2117,7 @@ class PokeBattle_Battler
     # Storm Drain
     if targets.length==1 && isConst?(thismove.pbType(thismove.type,user,target),PBTypes,:WATER) && 
        !target.hasWorkingAbility(:STORMDRAIN)
-      for i in priority # use Pokémon earliest in priority
+      for i in priority # use Jermon earliest in priority
         next if user.index==i.index || target.index==i.index
         if i.hasWorkingAbility(:STORMDRAIN)
           PBDebug.log("[Ability triggered] #{i.pbThis}'s Storm Drain (change target)")
@@ -2131,7 +2131,7 @@ class PokeBattle_Battler
     # because check for Magic Coat below uses this target)
     if PBTargets.targetsOneOpponent?(thismove)
       newtarget=nil; strength=100
-      for i in priority # use Pokémon latest in priority
+      for i in priority # use Jermon latest in priority
         next if !user.pbIsOpposing?(i.index)
         if !i.fainted? && !@battle.switching && !i.effects[PBEffects::SkyDrop] &&
            i.effects[PBEffects::FollowMe]>0 && i.effects[PBEffects::FollowMe]<strength
@@ -2246,12 +2246,12 @@ class PokeBattle_Battler
 ################################################################################
 # Using a move
 ################################################################################
-  def pbObedienceCheck?(choice)   # Returns true if Pokémon obeys, false if won't
+  def pbObedienceCheck?(choice)   # Returns true if Jermon obeys, false if won't
     return true if choice[0]!=1
     return true if !@battle.internalbattle
     return true if !@battle.pbOwnedByPlayer?(@index)
     disobedient = false
-    # Pokémon may be disobedient; calculate if it is
+    # Jermon may be disobedient; calculate if it is
     badgelevel = 10*(@battle.pbPlayer.numbadges+1)
     badgelevel = PBExperience::MAXLEVEL if @battle.pbPlayer.numbadges>=8
     move = choice[2]
@@ -2263,7 +2263,7 @@ class PokeBattle_Battler
       disobedient |= !self.pbHyperModeObedience(move)
     end
     return true if !disobedient
-    # Pokémon is disobedient; make it do something else
+    # Jermon is disobedient; make it do something else
     PBDebug.log("[Disobedience] #{pbThis} disobeyed")
     @effects[PBEffects::Rage] = false
     # Do nothing if using Snore/Sleep Talk
@@ -2815,7 +2815,7 @@ class PokeBattle_Battler
         end
         # Rage
         if target.effects[PBEffects::Rage] && target.pbIsOpposing?(user.index)
-          # TODO: Apparently triggers if opposing Pokémon uses Future Sight after a Future Sight attack
+          # TODO: Apparently triggers if opposing Jermon uses Future Sight after a Future Sight attack
           if target.pbIncreaseStatWithCause(PBStats::ATTACK,1,target,"",true,false)
             PBDebug.log("[Lingering effect triggered] #{target.pbThis}'s Rage")
             @battle.pbDisplay(_INTL("{1}'s rage is building!",target.pbThis))
@@ -3083,7 +3083,7 @@ class PokeBattle_Battler
     if user.effects[PBEffects::Powder] && isConst?(thismove.pbType(thismove.type,user,nil),PBTypes,:FIRE)
       PBDebug.log("[Lingering effect triggered] #{pbThis}'s Powder cancelled the Fire move")
       @battle.pbCommonAnimation("Powder",user,nil)
-      @battle.pbDisplay(_INTL("When the flame touched the powder on the Pokémon, it exploded!"))
+      @battle.pbDisplay(_INTL("When the flame touched the powder on the Jermon, it exploded!"))
       user.pbReduceHP(1+(user.totalhp/4).floor) if !user.hasWorkingAbility(:MAGICGUARD)   
       user.lastMoveUsed=thismove.id
       user.lastMoveUsedType=thismove.pbType(thismove.type,user,nil)
@@ -3166,7 +3166,7 @@ class PokeBattle_Battler
         i+=1
       end
     end
-    # Pokémon switching caused by Roar, Whirlwind, Circle Throw, Dragon Tail, Red Card
+    # Jermon switching caused by Roar, Whirlwind, Circle Throw, Dragon Tail, Red Card
     if !user.fainted?
       switched=[]
       for i in 0...4
@@ -3190,7 +3190,7 @@ class PokeBattle_Battler
             @battle.battlers[i].pbResetForm
             @battle.pbRecallAndReplace(i,newpoke,newpokename,false,user.hasMoldBreaker)
             @battle.pbDisplay(_INTL("{1} was dragged out!",@battle.battlers[i].pbThis))
-            @battle.choices[i]=[0,0,nil,-1]   # Replacement Pokémon does nothing this round
+            @battle.choices[i]=[0,0,nil,-1]   # Replacement Jermon does nothing this round
           end
         end
       end
@@ -3199,7 +3199,7 @@ class PokeBattle_Battler
         i.pbAbilitiesOnSwitchIn(true)
       end
     end
-    # Pokémon switching caused by U-Turn, Volt Switch, Eject Button
+    # Jermon switching caused by U-Turn, Volt Switch, Eject Button
     switched=[]
     for i in 0...4
       if @battle.battlers[i].effects[PBEffects::Uturn]
@@ -3218,7 +3218,7 @@ class PokeBattle_Battler
           switched.push(i)
           @battle.battlers[i].pbResetForm
           @battle.pbRecallAndReplace(i,newpoke,newpokename,@battle.battlers[i].effects[PBEffects::BatonPass])
-          @battle.choices[i]=[0,0,nil,-1]   # Replacement Pokémon does nothing this round
+          @battle.choices[i]=[0,0,nil,-1]   # Replacement Jermon does nothing this round
         end
       end
     end
@@ -3239,7 +3239,7 @@ class PokeBattle_Battler
         end
         user.pbResetForm
         @battle.pbRecallAndReplace(user.index,newpoke,newpokename,true)
-        @battle.choices[user.index]=[0,0,nil,-1]   # Replacement Pokémon does nothing this round
+        @battle.choices[user.index]=[0,0,nil,-1]   # Replacement Jermon does nothing this round
         user.pbAbilitiesOnSwitchIn(true)
       end
     end
@@ -3333,7 +3333,7 @@ class PokeBattle_Battler
   def pbProcessTurn(choice)
     # Can't use a move if fainted
     return false if fainted?
-    # Wild roaming Pokémon always flee if possible
+    # Wild roaming Jermon always flee if possible
     if !@battle.opponent && @battle.pbIsOpposing?(self.index) &&
        @battle.rules["alwaysflee"] && @battle.pbCanRun?(self.index)
       pbBeginTurn(choice)

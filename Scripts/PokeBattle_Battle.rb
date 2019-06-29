@@ -2,12 +2,12 @@
 #    0 - Undecided or aborted
 #    1 - Player won
 #    2 - Player lost
-#    3 - Player or wild Pokémon ran from battle, or player forfeited the match
-#    4 - Wild Pokémon was caught
+#    3 - Player or wild Jermon ran from battle, or player forfeited the match
+#    4 - Wild Jermon was caught
 #    5 - Draw
 
 ################################################################################
-# Catching and storing Pokémon.
+# Catching and storing Jermon.
 ################################################################################
 module PokeBattle_BattleCommon
   def pbStorePokemon(pokemon)
@@ -112,11 +112,11 @@ module PokeBattle_BattleCommon
           end
         end
       end
-      PBDebug.log("[Threw Poké Ball] #{itemname}, #{shakes} shakes (4=capture)")
+      PBDebug.log("[Threw Jermo Ball] #{itemname}, #{shakes} shakes (4=capture)")
       @scene.pbThrow(ball,shakes,critical,battler.index,showplayer)
       case shakes
       when 0
-        pbDisplay(_INTL("Oh no! The Pokémon broke free!"))
+        pbDisplay(_INTL("Oh no! The Jermon broke free!"))
         BallHandlers.onFailCatch(ball,self,battler)
       when 1
         pbDisplay(_INTL("Aww... It appeared to be caught!"))
@@ -154,7 +154,7 @@ module PokeBattle_BattleCommon
         if !self.pbPlayer.hasOwned?(species)
           self.pbPlayer.setOwned(species)
           if $Trainer.pokedex
-            pbDisplayPaused(_INTL("{1}'s data was added to the Pokédex.",pokemon.name))
+            pbDisplayPaused(_INTL("{1}'s data was added to the Jermodex.",pokemon.name))
             @scene.pbShowPokedex(species)
           end
         end
@@ -187,13 +187,13 @@ class PokeBattle_Battle
   attr_accessor(:debug)           # Debug flag
   attr_reader(:player)            # Player trainer
   attr_reader(:opponent)          # Opponent trainer
-  attr_reader(:party1)            # Player's Pokémon party
-  attr_reader(:party2)            # Foe's Pokémon party
-  attr_reader(:party1order)       # Order of Pokémon in the player's party
-  attr_reader(:party2order)       # Order of Pokémon in the opponent's party
+  attr_reader(:party1)            # Player's Jermon party
+  attr_reader(:party2)            # Foe's Jermon party
+  attr_reader(:party1order)       # Order of Jermon in the player's party
+  attr_reader(:party2order)       # Order of Jermon in the opponent's party
   attr_accessor(:fullparty1)      # True if player's party's max size is 6 instead of 3
   attr_accessor(:fullparty2)      # True if opponent's party's max size is 6 instead of 3
-  attr_reader(:battlers)          # Currently active Pokémon
+  attr_reader(:battlers)          # Currently active Jermon
   attr_accessor(:items)           # Items held by opponents
   attr_reader(:sides)             # Effects common to each side of a battle
   attr_reader(:field)             # Effects common to the whole of a battle
@@ -203,11 +203,11 @@ class PokeBattle_Battle
   attr_reader(:switching)         # True if during the switching phase of the round
   attr_reader(:futuresight)       # True if Future Sight is hitting
   attr_reader(:struggle)          # The Struggle move
-  attr_accessor(:choices)         # Choices made by each Pokémon this round
+  attr_accessor(:choices)         # Choices made by each Jermon this round
   attr_reader(:successStates)     # Success states
   attr_accessor(:lastMoveUsed)    # Last move used
   attr_accessor(:lastMoveUser)    # Last move user
-  attr_accessor(:megaEvolution)   # Battle index of each trainer's Pokémon to Mega Evolve
+  attr_accessor(:megaEvolution)   # Battle index of each trainer's Jermon to Mega Evolve
   attr_accessor(:amuletcoin)      # Whether Amulet Coin's effect applies
   attr_accessor(:extramoney)      # Money gained in battle by using Pay Day
   attr_accessor(:doublemoney)     # Whether Happy Hour's effect applies
@@ -244,15 +244,15 @@ class PokeBattle_Battle
 ################################################################################
   def initialize(scene,p1,p2,player,opponent)
     if p1.length==0
-      raise ArgumentError.new(_INTL("Party 1 has no Pokémon."))
+      raise ArgumentError.new(_INTL("Party 1 has no Jermon."))
       return
     end
     if p2.length==0
-      raise ArgumentError.new(_INTL("Party 2 has no Pokémon."))
+      raise ArgumentError.new(_INTL("Party 2 has no Jermon."))
       return
     end
     if p2.length>2 && !opponent
-      raise ArgumentError.new(_INTL("Wild battles with more than two Pokémon are not allowed."))
+      raise ArgumentError.new(_INTL("Wild battles with more than two Jermon are not allowed."))
       return
     end
     @scene           = scene
@@ -443,7 +443,7 @@ class PokeBattle_Battle
     end
   end
 
-# Checks whether an item can be removed from a Pokémon.
+# Checks whether an item can be removed from a Jermon.
   def pbIsUnlosableItem(pkmn,item)
     return true if pbIsMail?(item)
     return false if pkmn.effects[PBEffects::Transform]
@@ -984,7 +984,7 @@ class PokeBattle_Battle
     quickclaw=[]; lagging=[]
     minpri=0; maxpri=0
     temp=[]
-    # Calculate each Pokémon's speed
+    # Calculate each Jermon's speed
     for i in 0...4
       speeds[i]=@battlers[i].pbSpeed
       quickclaw[i]=false
@@ -1018,7 +1018,7 @@ class PokeBattle_Battle
         end
       end
     end
-    # Calculate each Pokémon's priority bracket, and get the min/max priorities
+    # Calculate each Jermon's priority bracket, and get the min/max priorities
     for i in 0...4
       # Assume that doing something other than using a move is priority 0
       pri=0
@@ -1116,7 +1116,7 @@ class PokeBattle_Battle
   end
 
 ################################################################################
-# Switching Pokémon.
+# Switching Jermon.
 ################################################################################
   def pbCanSwitchLax?(idxPokemon,pkmnidxTo,showMessages)
     if pkmnidxTo>=0
@@ -1129,7 +1129,7 @@ class PokeBattle_Battle
       end
       if !pbIsOwner?(idxPokemon,pkmnidxTo)
         owner=pbPartyGetOwner(idxPokemon,pkmnidxTo)
-        pbDisplayPaused(_INTL("You can't switch {1}'s Pokémon with one of yours!",owner.name)) if showMessages 
+        pbDisplayPaused(_INTL("You can't switch {1}'s Jermon with one of yours!",owner.name)) if showMessages 
         return false
       end
       if party[pkmnidxTo].hp<=0
@@ -1198,8 +1198,8 @@ class PokeBattle_Battle
 
   def pbRegisterSwitch(idxPokemon,idxOther)
     return false if !pbCanSwitch?(idxPokemon,idxOther,false)
-    @choices[idxPokemon][0]=2          # "Switch Pokémon"
-    @choices[idxPokemon][1]=idxOther   # Index of other Pokémon to switch with
+    @choices[idxPokemon][0]=2          # "Switch Jermon"
+    @choices[idxPokemon][1]=idxOther   # Index of other Jermon to switch with
     @choices[idxPokemon][2]=nil
     side=(pbIsOpposing?(idxPokemon)) ? 1 : 0
     owner=pbGetOwnerIndex(idxPokemon)
@@ -1243,7 +1243,7 @@ class PokeBattle_Battle
               @internalbattle && pbCanChooseNonActive?(0) && pbIsOpposing?(index) &&
               @battlers[0].effects[PBEffects::Outrage]==0
             pbDisplayPaused(_INTL("{1} is about to send in {2}.",opponent.fullname,pbParty(index)[newenemyname].name))
-            if pbDisplayConfirm(_INTL("Will {1} change Pokémon?",self.pbPlayer.name))
+            if pbDisplayConfirm(_INTL("Will {1} change Jermon?",self.pbPlayer.name))
               newpoke=pbSwitchPlayer(0,true,true)
               if newpoke>=0
                 newpokename=newpoke
@@ -1269,7 +1269,7 @@ class PokeBattle_Battle
         switched.push(index)
       else
         switch=false
-        if !pbDisplayConfirm(_INTL("Use next Pokémon?")) 
+        if !pbDisplayConfirm(_INTL("Use next Jermon?")) 
           switch=(pbRun(index,true)<=0)
         else
           switch=true
@@ -1307,7 +1307,7 @@ class PokeBattle_Battle
   def pbReplace(index,newpoke,batonpass=false)
     party=pbParty(index)
     oldpoke=@battlers[index].pokemonIndex
-    # Initialise the new Pokémon
+    # Initialise the new Jermon
     @battlers[index].pbInitialize(party[newpoke],newpoke,batonpass)
     # Reorder the party for this battle
     partyorder=(!pbIsOpposing?(index)) ? @party1order : @party2order
@@ -1317,7 +1317,7 @@ class PokeBattle_Battle
       bpn=i if partyorder[i]==newpoke
     end
     p=partyorder[bpo]; partyorder[bpo]=partyorder[bpn]; partyorder[bpn]=p
-    # Send out the new Pokémon
+    # Send out the new Jermon
     pbSendOut(index,party[newpoke])
     pbSetSeen(party[newpoke])
   end
@@ -1354,7 +1354,7 @@ class PokeBattle_Battle
       else
         pbDisplayBrief(_INTL("Your opponent's weak!\nGet 'em, {1}!",party[newpokename].name))
       end
-      PBDebug.log("[Send out Pokémon] Player sent out #{party[newpokename].name} in position #{index}")
+      PBDebug.log("[Send out Jermon] Player sent out #{party[newpokename].name} in position #{index}")
     else
 #     if !party[newpoke]
 #       p [index,newpoke,party[newpoke],pbAllFainted?(party)]
@@ -1366,7 +1366,7 @@ class PokeBattle_Battle
 #     end
       owner=pbGetOwner(index)
       pbDisplayBrief(_INTL("{1} sent\r\nout {2}!",owner.fullname,party[newpokename].name))
-      PBDebug.log("[Send out Pokémon] Opponent sent out #{party[newpokename].name} in position #{index}")
+      PBDebug.log("[Send out Jermon] Opponent sent out #{party[newpokename].name} in position #{index}")
     end
   end
 
@@ -1389,7 +1389,7 @@ class PokeBattle_Battle
 ################################################################################
 # Using an item.
 ################################################################################
-# Uses an item on a Pokémon in the player's party.
+# Uses an item on a Jermon in the player's party.
   def pbUseItemOnPokemon(item,pkmnIndex,userPkmn,scene)
     pokemon=@party1[pkmnIndex]
     battler=nil
@@ -1418,7 +1418,7 @@ class PokeBattle_Battle
     return ret
   end
 
-# Uses an item on an active Pokémon.
+# Uses an item on an active Jermon.
   def pbUseItemOnBattler(item,index,userPkmn,scene)
     PBDebug.log("[Use item] Player used #{PBItems.getName(item)} on #{@battlers[index].pbThis(true)}")
     ret=ItemHandlers.triggerBattleUseOnBattler(item,@battlers[index],scene)
@@ -1451,9 +1451,9 @@ class PokeBattle_Battle
       end
     end
     if ItemHandlers.hasUseInBattle(idxItem)
-      if idxPokemon==0 # Player's first Pokémon
+      if idxPokemon==0 # Player's first Jermon
         if ItemHandlers.triggerBattleUseOnBattler(idxItem,@battlers[idxPokemon],self)
-          # Using Poké Balls or Poké Doll only
+          # Using Jermo Balls or Jermo Doll only
           ItemHandlers.triggerUseInBattle(idxItem,@battlers[idxPokemon],self)
           if @doublebattle
             @battlers[idxPokemon].pbPartner.effects[PBEffects::SkipTurn]=true
@@ -1475,7 +1475,7 @@ class PokeBattle_Battle
     end
     @choices[idxPokemon][0]=3         # "Use an item"
     @choices[idxPokemon][1]=idxItem   # ID of item to be used
-    @choices[idxPokemon][2]=idxTarget # Index of Pokémon to use item on
+    @choices[idxPokemon][2]=idxTarget # Index of Jermon to use item on
     side=(pbIsOpposing?(idxPokemon)) ? 1 : 0
     owner=pbGetOwnerIndex(idxPokemon)
     if @megaEvolution[side][owner]==idxPokemon
@@ -1747,7 +1747,7 @@ class PokeBattle_Battle
     owner=pbGetOwner(index)
     pbDisplay(_INTL("{1} called {2}!",owner.name,@battlers[index].name))
     pbDisplay(_INTL("{1}!",@battlers[index].name))
-    PBDebug.log("[Call to Pokémon] #{owner.name} called to #{@battlers[index].pbThis(true)}")
+    PBDebug.log("[Call to Jermon] #{owner.name} called to #{@battlers[index].pbThis(true)}")
     if @battlers[index].isShadow?
       if @battlers[index].inHyperMode?
         @battlers[index].pokemon.hypermode=false
@@ -1944,7 +1944,7 @@ class PokeBattle_Battle
       curlevel=thispoke.level
       if newlevel<curlevel
         debuginfo="#{thispoke.name}: #{thispoke.level}/#{newlevel} | #{thispoke.exp}/#{newexp} | gain: #{exp}"
-        raise RuntimeError.new(_INTL("The new level ({1}) is less than the Pokémon's\r\ncurrent level ({2}), which shouldn't happen.\r\n[Debug: {3}]",
+        raise RuntimeError.new(_INTL("The new level ({1}) is less than the Jermon's\r\ncurrent level ({2}), which shouldn't happen.\r\n[Debug: {3}]",
                                newlevel,curlevel,debuginfo))
         return
       end
@@ -2058,7 +2058,7 @@ class PokeBattle_Battle
       if !@battlers[i].fainted?
         if @battlers[i].isShadow? && pbIsOpposing?(i)
           pbCommonAnimation("Shadow",@battlers[i],nil)
-          pbDisplay(_INTL("Oh!\nA Shadow Pokémon!"))
+          pbDisplay(_INTL("Oh!\nA Shadow Jermon!"))
         end
       end
     end
@@ -2086,7 +2086,7 @@ class PokeBattle_Battle
       end
       if pkmn.isShadow? && pbIsOpposing?(pkmn.index)
         pbCommonAnimation("Shadow",pkmn,nil)
-        pbDisplay(_INTL("Oh!\nA Shadow Pokémon!"))
+        pbDisplay(_INTL("Oh!\nA Shadow Jermon!"))
       end
       # Healing Wish
       if pkmn.effects[PBEffects::HealingWish]
@@ -2347,18 +2347,18 @@ class PokeBattle_Battle
 
   def pbStartBattleCore(canlose)
     if !@fullparty1 && @party1.length>MAXPARTYSIZE
-      raise ArgumentError.new(_INTL("Party 1 has more than {1} Pokémon.",MAXPARTYSIZE))
+      raise ArgumentError.new(_INTL("Party 1 has more than {1} Jermon.",MAXPARTYSIZE))
     end
     if !@fullparty2 && @party2.length>MAXPARTYSIZE
-      raise ArgumentError.new(_INTL("Party 2 has more than {1} Pokémon.",MAXPARTYSIZE))
+      raise ArgumentError.new(_INTL("Party 2 has more than {1} Jermon.",MAXPARTYSIZE))
     end
 #========================
-# Initialize wild Pokémon
+# Initialize wild Jermon
 #========================
     if !@opponent
       if @party2.length==1
         if @doublebattle
-          raise _INTL("Only two wild Pokémon are allowed in double battles")
+          raise _INTL("Only two wild Jermon are allowed in double battles")
         end
         wildpoke=@party2[0]
         @battlers[1].pbInitialize(wildpoke,0,false)
@@ -2368,7 +2368,7 @@ class PokeBattle_Battle
         pbDisplayPaused(_INTL("Wild {1} appeared!",wildpoke.name))
       elsif @party2.length==2
         if !@doublebattle
-          raise _INTL("Only one wild Pokémon is allowed in single battles")
+          raise _INTL("Only one wild Jermon is allowed in single battles")
         end
         @battlers[1].pbInitialize(@party2[0],0,false)
         @battlers[3].pbInitialize(@party2[1],1,false)
@@ -2380,7 +2380,7 @@ class PokeBattle_Battle
         pbDisplayPaused(_INTL("Wild {1} and\r\n{2} appeared!",
            @party2[0].name,@party2[1].name))
       else
-        raise _INTL("Only one or two wild Pokémon are allowed")
+        raise _INTL("Only one or two wild Jermon are allowed")
       end
 #=======================================
 # Initialize opponents in double battles
@@ -2404,9 +2404,9 @@ class PokeBattle_Battle
       if @opponent.is_a?(Array)
         pbDisplayPaused(_INTL("{1} and {2} want to battle!",@opponent[0].fullname,@opponent[1].fullname))
         sendout1=pbFindNextUnfainted(@party2,0,pbSecondPartyBegin(1))
-        raise _INTL("Opponent 1 has no unfainted Pokémon") if sendout1<0
+        raise _INTL("Opponent 1 has no unfainted Jermon") if sendout1<0
         sendout2=pbFindNextUnfainted(@party2,pbSecondPartyBegin(1))
-        raise _INTL("Opponent 2 has no unfainted Pokémon") if sendout2<0
+        raise _INTL("Opponent 2 has no unfainted Jermon") if sendout2<0
         @battlers[1].pbInitialize(@party2[sendout1],sendout1,false)
         pbDisplayBrief(_INTL("{1} sent\r\nout {2}!",@opponent[0].fullname,@battlers[1].name))
         pbSendOut(1,@party2[sendout1])
@@ -2418,7 +2418,7 @@ class PokeBattle_Battle
         sendout1=pbFindNextUnfainted(@party2,0)
         sendout2=pbFindNextUnfainted(@party2,sendout1+1)
         if sendout1<0 || sendout2<0
-          raise _INTL("Opponent doesn't have two unfainted Pokémon")
+          raise _INTL("Opponent doesn't have two unfainted Jermon")
         end
         @battlers[1].pbInitialize(@party2[sendout1],sendout1,false)
         @battlers[3].pbInitialize(@party2[sendout2],sendout2,false)
@@ -2432,7 +2432,7 @@ class PokeBattle_Battle
 #======================================
     else
       sendout=pbFindNextUnfainted(@party2,0)
-      raise _INTL("Trainer has no unfainted Pokémon") if sendout<0
+      raise _INTL("Trainer has no unfainted Jermon") if sendout<0
       if @opponent.is_a?(Array)
         raise _INTL("Opponent trainer must be only one person in single battles") if @opponent.length!=1
         @opponent=@opponent[0]
@@ -2454,9 +2454,9 @@ class PokeBattle_Battle
     if @doublebattle
       if @player.is_a?(Array)
         sendout1=pbFindNextUnfainted(@party1,0,pbSecondPartyBegin(0))
-        raise _INTL("Player 1 has no unfainted Pokémon") if sendout1<0
+        raise _INTL("Player 1 has no unfainted Jermon") if sendout1<0
         sendout2=pbFindNextUnfainted(@party1,pbSecondPartyBegin(0))
-        raise _INTL("Player 2 has no unfainted Pokémon") if sendout2<0
+        raise _INTL("Player 2 has no unfainted Jermon") if sendout2<0
         @battlers[0].pbInitialize(@party1[sendout1],sendout1,false)
         @battlers[2].pbInitialize(@party1[sendout2],sendout2,false)
         pbDisplayBrief(_INTL("{1} sent\r\nout {2}! Go! {3}!",
@@ -2467,7 +2467,7 @@ class PokeBattle_Battle
         sendout1=pbFindNextUnfainted(@party1,0)
         sendout2=pbFindNextUnfainted(@party1,sendout1+1)
         if sendout1<0 || sendout2<0
-          raise _INTL("Player doesn't have two unfainted Pokémon")
+          raise _INTL("Player doesn't have two unfainted Jermon")
         end
         @battlers[0].pbInitialize(@party1[sendout1],sendout1,false)
         @battlers[2].pbInitialize(@party1[sendout2],sendout2,false)
@@ -2481,7 +2481,7 @@ class PokeBattle_Battle
     else
       sendout=pbFindNextUnfainted(@party1,0)
       if sendout<0
-        raise _INTL("Player has no unfainted Pokémon")
+        raise _INTL("Player has no unfainted Jermon")
       end
       @battlers[0].pbInitialize(@party1[sendout],sendout,false)
       pbDisplayBrief(_INTL("Go! {1}!",@battlers[0].name))
@@ -2639,7 +2639,7 @@ class PokeBattle_Battle
                   end
                 end
               end
-            elsif cmd==2 # Pokémon
+            elsif cmd==2 # Jermon
               pkmn=pbSwitchPlayer(i,false,true)
               if pkmn>=0
                 commandDone=true if pbRegisterSwitch(i,pkmn)
@@ -2659,7 +2659,7 @@ class PokeBattle_Battle
               end
             elsif cmd==4   # Call
               thispkmn=@battlers[i]
-              @choices[i][0]=4   # "Call Pokémon"
+              @choices[i][0]=4   # "Call Jermon"
               @choices[i][1]=0
               @choices[i][2]=nil
               side=(pbIsOpposing?(i)) ? 1 : 0
@@ -2671,7 +2671,7 @@ class PokeBattle_Battle
             elsif cmd==-1   # Go back to first battler's choice
               @megaEvolution[0][0]=-1 if @megaEvolution[0][0]>=0
               @megaEvolution[1][0]=-1 if @megaEvolution[1][0]>=0
-              # Restore the item the player's first Pokémon was due to use
+              # Restore the item the player's first Jermon was due to use
               if @choices[0][0]==3 && $PokemonBag && $PokemonBag.pbCanStore?(@choices[0][1])
                 $PokemonBag.pbStoreItem(@choices[0][1])
               end
@@ -2719,18 +2719,18 @@ class PokeBattle_Battle
         i.pbAbilitiesOnSwitchIn(true) if megaevolved.include?(i.index)
       end
     end
-    # Call at Pokémon
+    # Call at Jermon
     for i in priority
       if @choices[i.index][0]==4 && !i.effects[PBEffects::SkipTurn]
         pbCall(i.index)
       end
     end
-    # Switch out Pokémon
+    # Switch out Jermon
     @switching=true
     switched=[]
     for i in priority
       if @choices[i.index][0]==2 && !i.effects[PBEffects::SkipTurn]
-        index=@choices[i.index][1] # party position of Pokémon to switch to
+        index=@choices[i.index][1] # party position of Jermon to switch to
         newpokename=index
         if isConst?(pbParty(i.index)[index].ability,PBAbilities,:ILLUSION)
           newpokename=pbGetLastPokeInTeam(i.index)
@@ -2739,10 +2739,10 @@ class PokeBattle_Battle
         if !pbOwnedByPlayer?(i.index)
           owner=pbGetOwner(i.index)
           pbDisplayBrief(_INTL("{1} withdrew {2}!",owner.fullname,i.name))
-          PBDebug.log("[Withdrew Pokémon] Opponent withdrew #{i.pbThis(true)}")
+          PBDebug.log("[Withdrew Jermon] Opponent withdrew #{i.pbThis(true)}")
         else
           pbDisplayBrief(_INTL("{1}, that's enough!\r\nCome back!",i.name))
-          PBDebug.log("[Withdrew Pokémon] Player withdrew #{i.pbThis(true)}")
+          PBDebug.log("[Withdrew Jermon] Player withdrew #{i.pbThis(true)}")
         end
         for j in priority
           next if !i.pbIsOpposing?(j.index)
@@ -2752,7 +2752,7 @@ class PokeBattle_Battle
             if j.status!=PBStatuses::SLEEP && j.status!=PBStatuses::FROZEN &&
                !j.effects[PBEffects::SkyDrop] &&
                (!j.hasWorkingAbility(:TRUANT) || !j.effects[PBEffects::Truant])
-              @choices[j.index][3]=i.index # Make sure to target the switching Pokémon
+              @choices[j.index][3]=i.index # Make sure to target the switching Jermon
               j.pbUseMove(@choices[j.index]) # This calls pbGainEXP as appropriate
               j.effects[PBEffects::Pursuit]=true
               @switching=false
@@ -2795,7 +2795,7 @@ class PokeBattle_Battle
                 pbUseItemOnPokemon(item,@choices[i.index][2],i,@scene)
               end
             elsif usetype==2 || usetype==4
-              if !ItemHandlers.hasUseInBattle(item) # Poké Ball/Poké Doll used already
+              if !ItemHandlers.hasUseInBattle(item) # Jermo Ball/Jermo Doll used already
                 pbUseItemOnBattler(item,@choices[i.index][2],i,@scene)
               end
             end
@@ -3721,7 +3721,7 @@ class PokeBattle_Battle
     for i in priority
       next if i.fainted?
       # Speed Boost
-      # A Pokémon's turncount is 0 if it became active after the beginning of a round
+      # A Jermon's turncount is 0 if it became active after the beginning of a round
       if i.turncount>0 && i.hasWorkingAbility(:SPEEDBOOST)
         if i.pbIncreaseStatWithCause(PBStats::SPEED,1,i,PBAbilities.getName(i.ability))
           PBDebug.log("[Ability triggered] #{i.pbThis}'s #{PBAbilities.getName(i.ability)}")
@@ -3967,7 +3967,7 @@ class PokeBattle_Battle
       PBDebug.log("***Player lost***") if @decision==2
       PBDebug.log("***Player drew with opponent***") if @decision==5
       if @internalbattle
-        moneylost=pbMaxLevelFromIndex(0)   # Player's Pokémon only, not partner's
+        moneylost=pbMaxLevelFromIndex(0)   # Player's Jermon only, not partner's
         multiplier=[8,16,24,36,48,64,80,100,120]
         moneylost*=multiplier[[multiplier.length-1,self.pbPlayer.numbadges].min]
         moneylost=self.pbPlayer.money if moneylost>self.pbPlayer.money
@@ -3985,7 +3985,7 @@ class PokeBattle_Battle
             pbDisplayPaused(_INTL("You gave ${1} to the winner...",pbCommaNumber(lostmoney)))  
           end
         else
-          pbDisplayPaused(_INTL("You have no more Pokémon that can fight!"))
+          pbDisplayPaused(_INTL("You have no more Jermon that can fight!"))
           if moneylost>0
             pbDisplayPaused(_INTL("You panicked and dropped\r\n${1}...",pbCommaNumber(lostmoney)))
           end
@@ -4001,7 +4001,7 @@ class PokeBattle_Battle
         end
       end
     end
-    # Pass on Pokérus within the party
+    # Pass on Jermorus within the party
     infected=[]
     for i in 0...$Trainer.party.length
       if $Trainer.party[i].pokerusStage==1

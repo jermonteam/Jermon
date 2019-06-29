@@ -11,7 +11,7 @@ def pbPhoneRegisterNPC(ident,name,mapid,showmessage=true)
     phonenum = [true,ident,name,mapid]
     $PokemonGlobal.phoneNumbers.push(phonenum)
   end
-  Kernel.pbMessage(_INTL("Registered {1} in the Pokégear.",name)) if showmessage
+  Kernel.pbMessage(_INTL("Registered {1} in the Jermogear.",name)) if showmessage
 end
 
 def pbPhoneRegister(event,trainertype,trainername)
@@ -40,7 +40,7 @@ def pbPhoneDeleteContact(index)
 end
 
 def pbPhoneRegisterBattle(message,event,trainertype,trainername,maxbattles)
-  return if !$Trainer.pokegear               # Can't register without a Pokégear
+  return if !$Trainer.pokegear               # Can't register without a Jermogear
   if trainertype.is_a?(String) || trainertype.is_a?(Symbol)
     return false if !hasConst?(PBTrainers,trainertype)
     trainertype = PBTrainers.const_get(trainertype)
@@ -58,7 +58,7 @@ def pbPhoneRegisterBattle(message,event,trainertype,trainername,maxbattles)
       pbPhoneRegister(event,trainertype,trainername)
       pbPhoneIncrement(trainertype,trainername,maxbattles)
     end
-    Kernel.pbMessage(_INTL("Registered {1} in the Pokégear.",displayname))
+    Kernel.pbMessage(_INTL("Registered {1} in the Jermogear.",displayname))
   end
 end
 

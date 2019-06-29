@@ -84,22 +84,22 @@ def pbDebugMenuCommands(showall=true)
     commands.add("fieldmenu","variables",_INTL("Variables"),
        _INTL("Edit all Game Variables. Can set them to numbers or text."))
     commands.add("fieldmenu","usepc",_INTL("Use PC"),
-       _INTL("Use a PC to access Pokémon storage and player's PC."))
+       _INTL("Use a PC to access Jermon storage and player's PC."))
     commands.add("fieldmenu","togglewallpapers",_INTL("Toggle Storage Wallpapers"),
-       _INTL("Unlock and lock special wallpapers used in Pokémon storage."))
+       _INTL("Unlock and lock special wallpapers used in Jermon storage."))
     commands.add("fieldmenu","daycare",_INTL("Day Care"),
-       _INTL("View Pokémon in the Day Care and edit them."))
+       _INTL("View Jermon in the Day Care and edit them."))
     commands.add("fieldmenu","relicstone",_INTL("Use Relic Stone"),
-       _INTL("Shadow Pokémon. Choose a Pokémon to show to the Relic Stone for purification."))
+       _INTL("Shadow Jermon. Choose a Jermon to show to the Relic Stone for purification."))
     commands.add("fieldmenu","purifychamber",_INTL("Use Purify Chamber"),
-       _INTL("Shadow Pokémon. Open the Purify Chamber for purification."))
+       _INTL("Shadow Jermon. Open the Purify Chamber for purification."))
   
     commands.add("main","battlemenu",_INTL("Battle options..."),
        _INTL("Start battles, reset this map's trainers, ready rematches, edit roamers, etc."))
     commands.add("battlemenu","testwildbattle",_INTL("Test Wild Battle"),
-       _INTL("Start a battle against a wild Pokémon. You choose the species and level."))
+       _INTL("Start a battle against a wild Jermon. You choose the species and level."))
     commands.add("battlemenu","testdoublewildbattle",_INTL("Test Double Wild Battle"),
-       _INTL("Start a battle against two wild Pokémon. You choose the species and levels."))
+       _INTL("Start a battle against two wild Jermon. You choose the species and levels."))
     commands.add("battlemenu","testtrainerbattle",_INTL("Test Trainer Battle"),
        _INTL("Start a battle against a defined trainer. You choose which trainer."))
     commands.add("battlemenu","testdoubletrainerbattle",_INTL("Test Double Trainer Battle"),
@@ -110,8 +110,8 @@ def pbDebugMenuCommands(showall=true)
        _INTL("Turn off Self Switches A and B for all events with \"Trainer\" in their name."))
     commands.add("battlemenu","readyrematches",_INTL("Ready All Phone Rematches"),
        _INTL("Make all trainers in the phone ready for rematches."))
-    commands.add("battlemenu","roamers",_INTL("Roaming Pokémon"),
-       _INTL("Toggle and edit all roaming Pokémon."))
+    commands.add("battlemenu","roamers",_INTL("Roaming Jermon"),
+       _INTL("Toggle and edit all roaming Jermon."))
   
     commands.add("main","itemsmenu",_INTL("Item options..."),
        _INTL("Give and take items."))
@@ -122,25 +122,25 @@ def pbDebugMenuCommands(showall=true)
     commands.add("itemsmenu","emptybag",_INTL("Empty Bag"),
        _INTL("Remove all items from the Bag."))
   
-    commands.add("main","pokemonmenu",_INTL("Pokémon options..."),
-       _INTL("Give Pokémon, heal party, fill/empty PC storage, etc."))
-    commands.add("pokemonmenu","addpokemon",_INTL("Add Pokémon"),
-       _INTL("Give yourself a Pokémon of a chosen species/level. Goes to PC if party is full."))
+    commands.add("main","pokemonmenu",_INTL("Jermon options..."),
+       _INTL("Give Jermon, heal party, fill/empty PC storage, etc."))
+    commands.add("pokemonmenu","addpokemon",_INTL("Add Jermon"),
+       _INTL("Give yourself a Jermon of a chosen species/level. Goes to PC if party is full."))
     commands.add("pokemonmenu","demoparty",_INTL("Give Demo Party"),
-       _INTL("Give yourself 6 preset Pokémon. They overwrite the current party."))
+       _INTL("Give yourself 6 preset Jermon. They overwrite the current party."))
     commands.add("pokemonmenu","healparty",_INTL("Heal Party"),
-       _INTL("Fully heal the HP/status/PP of all Pokémon in the party."))
+       _INTL("Fully heal the HP/status/PP of all Jermon in the party."))
     commands.add("pokemonmenu","quickhatch",_INTL("Quick Hatch"),
        _INTL("Make all eggs in the party require just one more step to hatch."))
     commands.add("pokemonmenu","fillboxes",_INTL("Fill Storage Boxes"),
-       _INTL("Add one Pokémon of each species (at Level 50) to storage."))
+       _INTL("Add one Jermon of each species (at Level 50) to storage."))
     commands.add("pokemonmenu","clearboxes",_INTL("Clear Storage Boxes"),
-       _INTL("Remove all Pokémon in storage."))
-    commands.add("pokemonmenu","openstorage",_INTL("Access Pokémon Storage"),
-       _INTL("Opens the Pokémon storage boxes in Organize Boxes mode."))
+       _INTL("Remove all Jermon in storage."))
+    commands.add("pokemonmenu","openstorage",_INTL("Access Jermon Storage"),
+       _INTL("Opens the Jermon storage boxes in Organize Boxes mode."))
   
     commands.add("main","playermenu",_INTL("Player options..."),
-       _INTL("Set money, badges, Pokédexes, player's appearance and name, etc."))
+       _INTL("Set money, badges, Jermodexes, player's appearance and name, etc."))
     commands.add("playermenu","setbadges",_INTL("Set Badges"),
        _INTL("Toggle possession of each Gym Badge."))
     commands.add("playermenu","setmoney",_INTL("Set Money"),
@@ -149,10 +149,10 @@ def pbDebugMenuCommands(showall=true)
        _INTL("Edit how many Game Corner Coins you have."))
     commands.add("playermenu","toggleshoes",_INTL("Toggle Running Shoes"),
        _INTL("Toggle possession of running shoes."))
-    commands.add("playermenu","togglepokegear",_INTL("Toggle Pokégear"),
-       _INTL("Toggle possession of the Pokégear."))
-    commands.add("playermenu","dexlists",_INTL("Toggle Pokédex and Dexes"),
-       _INTL("Toggle possession of the Pokédex, and edit Regional Dex accessibility."))
+    commands.add("playermenu","togglepokegear",_INTL("Toggle Jermogear"),
+       _INTL("Toggle possession of the Jermogear."))
+    commands.add("playermenu","dexlists",_INTL("Toggle Jermodex and Dexes"),
+       _INTL("Toggle possession of the Jermodex, and edit Regional Dex accessibility."))
     commands.add("playermenu","setplayer",_INTL("Set Player Character"),
        _INTL("Edit the player's character, as defined in \"metadata.txt\"."))
     commands.add("playermenu","changeoutfit",_INTL("Set Player Outfit"),
@@ -172,21 +172,21 @@ def pbDebugMenuCommands(showall=true)
   commands.add("editorsmenu","terraintags",_INTL("Edit Terrain Tags"),
      _INTL("Edit the terrain tags of tiles in tilesets. Required for tags 8+."))
   commands.add("editorsmenu","setencounters",_INTL("Edit Wild Encounters"),
-     _INTL("Edit the wild Pokémon that can be found on maps, and how they are encountered."))
+     _INTL("Edit the wild Jermon that can be found on maps, and how they are encountered."))
   commands.add("editorsmenu","trainertypes",_INTL("Edit Trainer Types"),
      _INTL("Edit the properties of trainer types."))
   commands.add("editorsmenu","edittrainers",_INTL("Edit Individual Trainers"),
-     _INTL("Edit individual trainers, their Pokémon and items."))
+     _INTL("Edit individual trainers, their Jermon and items."))
   commands.add("editorsmenu","edititems",_INTL("Edit Items"),
      _INTL("Edit item data."))
-  commands.add("editorsmenu","editpokemon",_INTL("Edit Pokémon"),
-     _INTL("Edit Pokémon species data."))
+  commands.add("editorsmenu","editpokemon",_INTL("Edit Jermon"),
+     _INTL("Edit Jermon species data."))
   commands.add("editorsmenu","editdexes",_INTL("Edit Regional Dexes"),
-     _INTL("Create, rearrange and delete Regional Pokédex lists."))
-  commands.add("editorsmenu","positionsprites",_INTL("Edit Pokémon Sprite Positions"),
-     _INTL("Reposition Pokémon sprites in battle."))
+     _INTL("Create, rearrange and delete Regional Jermodex lists."))
+  commands.add("editorsmenu","positionsprites",_INTL("Edit Jermon Sprite Positions"),
+     _INTL("Reposition Jermon sprites in battle."))
   commands.add("editorsmenu","autopositionsprites",_INTL("Auto-Position All Sprites"),
-     _INTL("Automatically reposition all Pokémon sprites in battle. Don't use lightly."))
+     _INTL("Automatically reposition all Jermon sprites in battle. Don't use lightly."))
   commands.add("editorsmenu","animeditor",_INTL("Battle Animation Editor"),
      _INTL("Edit the battle animations."))
   commands.add("editorsmenu","importanims",_INTL("Import All Battle Animations"),
@@ -302,7 +302,7 @@ def pbDebugMenuActions(cmd="",sprites=nil,viewport=nil)
       end
     end
   when "testdoublewildbattle"
-    Kernel.pbMessage(_INTL("Choose the first Pokémon."))
+    Kernel.pbMessage(_INTL("Choose the first Jermon."))
     species1 = pbChooseSpeciesList
     if species1!=0
       params = ChooseNumberParams.new
@@ -311,7 +311,7 @@ def pbDebugMenuActions(cmd="",sprites=nil,viewport=nil)
       params.setCancelValue(0)
       level1 = Kernel.pbMessageChooseNumber(_INTL("Set the wild {1}'s level.",PBSpecies.getName(species1)),params)
       if level1>0
-        Kernel.pbMessage(_INTL("Choose the second Pokémon."))
+        Kernel.pbMessage(_INTL("Choose the second Jermon."))
         species2 = pbChooseSpeciesList
         if species2!=0
           params = ChooseNumberParams.new
@@ -413,7 +413,7 @@ def pbDebugMenuActions(cmd="",sprites=nil,viewport=nil)
     $PokemonBag.clear
     Kernel.pbMessage(_INTL("The Bag was cleared."))
   #=============================================================================
-  # Pokémon options
+  # Jermon options
   #=============================================================================
   when "addpokemon"
     species = pbChooseSpeciesList
@@ -422,19 +422,19 @@ def pbDebugMenuActions(cmd="",sprites=nil,viewport=nil)
       params.setRange(1,PBExperience::MAXLEVEL)
       params.setInitialValue(5)
       params.setCancelValue(0)
-      level = Kernel.pbMessageChooseNumber(_INTL("Set the Pokémon's level."),params)
+      level = Kernel.pbMessageChooseNumber(_INTL("Set the Jermon's level."),params)
       if level>0
         pbAddPokemon(species,level)
       end
     end
   when "demoparty"
     pbCreatePokemon
-    Kernel.pbMessage(_INTL("Filled party with demo Pokémon."))
+    Kernel.pbMessage(_INTL("Filled party with demo Jermon."))
   when "healparty"
     for i in $Trainer.party
       i.heal
     end
-    Kernel.pbMessage(_INTL("Your Pokémon were fully healed."))
+    Kernel.pbMessage(_INTL("Your Jermon were fully healed."))
   when "quickhatch"
     for pokemon in $Trainer.party
       pokemon.eggsteps = 1 if pokemon.egg?
@@ -455,7 +455,7 @@ def pbDebugMenuActions(cmd="",sprites=nil,viewport=nil)
       pkmn = PokeBattle_Pokemon.new(i,50,$Trainer)
       $PokemonStorage[(i-1)/$PokemonStorage.maxPokemon(0),
                       (i-1)%$PokemonStorage.maxPokemon(0)] = pkmn
-      # Record all forms of this Pokémon as seen and owned
+      # Record all forms of this Jermon as seen and owned
       $Trainer.seen[i]  = true
       $Trainer.owned[i] = true
       $Trainer.formseen[i] = [[],[]]
@@ -485,7 +485,7 @@ def pbDebugMenuActions(cmd="",sprites=nil,viewport=nil)
       added += 1
     end
     dexdata.close
-    Kernel.pbMessage(_INTL("Storage boxes were filled with one Pokémon of each species."))
+    Kernel.pbMessage(_INTL("Storage boxes were filled with one Jermon of each species."))
     if !completed
       Kernel.pbMessage(_INTL("Note: The number of storage spaces ({1} boxes of 30) is less than the number of species.",STORAGEBOXES))
     end
@@ -542,13 +542,13 @@ def pbDebugMenuActions(cmd="",sprites=nil,viewport=nil)
     Kernel.pbMessage(_INTL("Lost Running Shoes.")) if !$PokemonGlobal.runningShoes
   when "togglepokegear"
     $Trainer.pokegear = !$Trainer.pokegear
-    Kernel.pbMessage(_INTL("Gave Pokégear.")) if $Trainer.pokegear
-    Kernel.pbMessage(_INTL("Lost Pokégear.")) if !$Trainer.pokegear
+    Kernel.pbMessage(_INTL("Gave Jermogear.")) if $Trainer.pokegear
+    Kernel.pbMessage(_INTL("Lost Jermogear.")) if !$Trainer.pokegear
   when "dexlists"
     dexescmd = 0
     loop do
       dexescmds = []
-      dexescmds.push(_INTL("Have Pokédex: {1}",$Trainer.pokedex ? "[YES]" : "[NO]"))
+      dexescmds.push(_INTL("Have Jermodex: {1}",$Trainer.pokedex ? "[YES]" : "[NO]"))
       d = pbDexNames
       for i in 0...d.length
         name = d[i]
@@ -560,7 +560,7 @@ def pbDebugMenuActions(cmd="",sprites=nil,viewport=nil)
       dexescmd = Kernel.pbShowCommands(nil,dexescmds,-1,dexescmd)
       break if dexescmd<0
       dexindex = dexescmd-1
-      if dexindex<0   # Toggle Pokédex ownership
+      if dexindex<0   # Toggle Jermodex ownership
         $Trainer.pokedex = !$Trainer.pokedex
       else   # Toggle Regional Dex accessibility
         if $PokemonGlobal.pokedexUnlocked[dexindex]

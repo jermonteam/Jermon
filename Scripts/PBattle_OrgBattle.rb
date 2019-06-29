@@ -17,7 +17,8 @@ class Array
     end
     self
   end unless method_defined? :shuffle!
-end
+end
+
 
 
 module Enumerable
@@ -31,7 +32,7 @@ end
 
 
 #===============================================================================
-# Pokémon Organized Battle
+# Jermon Organized Battle
 #===============================================================================
 def pbHasEligible?(*arg)
   return pbBattleChallenge.rules.ruleset.hasValidTeam?($Trainer.party)
@@ -763,7 +764,7 @@ def pbEntryScreen(*arg)
     ret = screen.pbPokemonMultipleEntryScreenEx(pbBattleChallenge.rules.ruleset)
     # Set party
     pbBattleChallenge.setParty(ret) if ret
-    # Continue (return true) if Pokémon were chosen
+    # Continue (return true) if Jermon were chosen
     retval = (ret!=nil && ret.length>0)
   }
   return retval

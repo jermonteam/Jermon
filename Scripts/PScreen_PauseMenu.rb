@@ -110,10 +110,10 @@ class PokemonPauseMenu
       end
       return
     end
-    commands[cmdPokedex = commands.length]  = _INTL("Pokédex") if $Trainer.pokedex && $PokemonGlobal.pokedexViable.length>0
-    commands[cmdPokemon = commands.length]  = _INTL("Pokémon") if $Trainer.party.length>0
+    commands[cmdPokedex = commands.length]  = _INTL("Jermodex") if $Trainer.pokedex && $PokemonGlobal.pokedexViable.length>0
+    commands[cmdPokemon = commands.length]  = _INTL("Jermon") if $Trainer.party.length>0
     commands[cmdBag = commands.length]      = _INTL("Bag") if !pbInBugContest?
-    commands[cmdPokegear = commands.length] = _INTL("Pokégear") if $Trainer.pokegear
+    commands[cmdPokegear = commands.length] = _INTL("Jermogear") if $Trainer.pokegear
     commands[cmdTrainer = commands.length]  = $Trainer.name
     if pbInSafari?
       if SAFARISTEPS<=0

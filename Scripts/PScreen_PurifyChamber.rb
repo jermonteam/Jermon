@@ -399,7 +399,7 @@ class PurifyChamberScreen
 	      PurifyChamberHelper.pbSetPokemon(@chamber,position,pkmn)
         @scene.pbRefresh()
       else
-        @scene.pbDisplay(_INTL("Only a Shadow Pokémon can go there."))
+        @scene.pbDisplay(_INTL("Only a Shadow Jermon can go there."))
         return false
       end
     elsif (position>=1)
@@ -413,7 +413,7 @@ class PurifyChamberScreen
 	      PurifyChamberHelper.pbSetPokemon(@chamber,position,pkmn)
         @scene.pbRefresh()
       else
-        @scene.pbDisplay(_INTL("Can't place a Shadow Pokémon there."))
+        @scene.pbDisplay(_INTL("Can't place a Shadow Jermon there."))
         return false
       end
     end
@@ -435,7 +435,7 @@ class PurifyChamberScreen
     if @chamber.setCount(set)==0 && @chamber.isPurifiableIgnoreRegular?(set)
       pkmn=@chamber.getShadow(set)
       @scene.pbDisplay(
-         _INTL("This {1} is ready to open its heart. However, there must be at least one regular Pokémon in the set to perform a purification ceremony.",pkmn.name))
+         _INTL("This {1} is ready to open its heart. However, there must be at least one regular Jermon in the set to perform a purification ceremony.",pkmn.name))
     end
   end
 
@@ -522,7 +522,7 @@ class PurifyChamberScreen
               newpkmn=$PokemonStorage[pos[0],pos[1]]
               if newpkmn
                 if (newpkmn.isShadow?)!=(curpkmn.isShadow?)
-                  @scene.pbDisplay(_INTL("That Pokémon can't be placed there."))
+                  @scene.pbDisplay(_INTL("That Jermon can't be placed there."))
                 else
                   @scene.pbReplace(cmd,pos)
                   PurifyChamberHelper.pbSetPokemon(@chamber,cmd[1],newpkmn)
@@ -550,7 +550,7 @@ class PurifyChamberScreen
         heldpkmn=pkmn if pkmn
       else # cancel
         if heldpkmn
-          @scene.pbDisplay("You're holding a Pokémon!")
+          @scene.pbDisplay("You're holding a Jermon!")
         else
           if !@scene.pbConfirm("Continue editing sets?")
             break
@@ -559,7 +559,7 @@ class PurifyChamberScreen
       end
     end
     if pbCheckPurify()
-      @scene.pbDisplay(_INTL("There is a Pokémon that is ready to open its heart!\1"))
+      @scene.pbDisplay(_INTL("There is a Jermon that is ready to open its heart!\1"))
       @scene.pbCloseSetDetail()
       pbDoPurify()
       return false
@@ -607,7 +607,7 @@ class PurifyChamberScreen
       pbStorePokemon(@chamber[set].shadow)
       @chamber.setShadow(set,nil) # Remove shadow Pokemon from set
       if (i+1)!=purifiables.length
-        @scene.pbDisplay(_INTL("There is another Pokémon that is ready to open its heart!"))  
+        @scene.pbDisplay(_INTL("There is another Jermon that is ready to open its heart!"))  
         if !@scene.pbConfirm("Would you like to switch sets?")
           @scene.pbCloseSet()
           break

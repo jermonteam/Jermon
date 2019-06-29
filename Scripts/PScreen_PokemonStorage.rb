@@ -1,5 +1,5 @@
 #===============================================================================
-# Pokémon icons
+# Jermon icons
 #===============================================================================
 class PokemonBoxIcon < IconSprite
   def initialize(pokemon,viewport=nil)
@@ -39,7 +39,7 @@ end
 
 
 #===============================================================================
-# Pokémon sprite
+# Jermon sprite
 #===============================================================================
 class MosaicPokemonSprite < PokemonSprite
   attr_reader :mosaic
@@ -290,7 +290,8 @@ end
 #===============================================================================
 class PokemonBoxSprite < SpriteWrapper
   attr_accessor :refreshBox
-  attr_accessor :refreshSprites
+  attr_accessor :refreshSprites
+
   def initialize(storage,boxnumber,viewport=nil)
     super(viewport)
     @storage = storage
@@ -561,7 +562,7 @@ end
 
 
 #===============================================================================
-# Pokémon storage visuals
+# Jermon storage visuals
 #===============================================================================
 class PokemonStorageScene
   attr_reader :quickswap
@@ -696,7 +697,7 @@ class PokemonStorageScene
     when -1, -4, -5 # Box name, move left, move right
       arrow.x = 157*2
       arrow.y = -12*2
-    when -2 # Party Pokémon
+    when -2 # Party Jermon
       arrow.x = 119*2
       arrow.y = 139*2
     when -3 # Close Box
@@ -863,7 +864,7 @@ class PokemonStorageScene
           return [@storage.currentBox,selection]
         elsif selection==-1 # Box name 
           return [-4,-1]
-        elsif selection==-2 # Party Pokémon 
+        elsif selection==-2 # Party Jermon 
           return [-2,-1]
         elsif selection==-3 # Close Box 
           return [-3,-1]
@@ -879,7 +880,7 @@ class PokemonStorageScene
       if !@choseFromParty
         ret = pbSelectBoxInternal(party)
       end
-      if @choseFromParty || (ret && ret[0]==-2) # Party Pokémon
+      if @choseFromParty || (ret && ret[0]==-2) # Party Jermon
         if !@choseFromParty
           pbShowPartyTab
           @selection = 0
@@ -1253,7 +1254,7 @@ class PokemonStorageScene
     ret = 0
     @sprites["markingbg"].visible      = true
     @sprites["markingoverlay"].visible = true
-    msg = _INTL("Mark your Pokémon.")
+    msg = _INTL("Mark your Jermon.")
     msgwindow = Window_UnformattedTextPokemon.newWithSize("",180,0,Graphics.width-180,32)
     msgwindow.viewport       = @viewport
     msgwindow.visible        = true
@@ -1429,7 +1430,7 @@ end
 
 
 #===============================================================================
-# Pokémon storage mechanics
+# Jermon storage mechanics
 #===============================================================================
 class PokemonStorageScreen
   attr_reader :scene
@@ -1450,14 +1451,14 @@ class PokemonStorageScreen
         selected = @scene.pbSelectBox(@storage.party)
         if selected==nil
           if pbHeldPokemon
-            pbDisplay(_INTL("You're holding a Pokémon!"))
+            pbDisplay(_INTL("You're holding a Jermon!"))
             next
           end
           next if pbConfirm(_INTL("Continue Box operations?"))
           break
         elsif selected[0]==-3 # Close box
           if pbHeldPokemon
-            pbDisplay(_INTL("You're holding a Pokémon!"))
+            pbDisplay(_INTL("You're holding a Jermon!"))
             next
           end
           break if pbConfirm(_INTL("Exit from the Box?"))
@@ -1532,7 +1533,7 @@ class PokemonStorageScreen
           break
         else
           case selected[0]
-          when -2 # Party Pokémon
+          when -2 # Party Jermon
             pbDisplay(_INTL("Which one will you take?"))
             next
           when -3 # Close box
@@ -1669,7 +1670,7 @@ class PokemonStorageScreen
       raise _INTL("Can't deposit from box...")
     end   
     if pbAbleCount<=1 && pbAble?(@storage[box,index]) && !heldpoke
-      pbDisplay(_INTL("That's your last Pokémon!"))
+      pbDisplay(_INTL("That's your last Jermon!"))
     elsif heldpoke && heldpoke.mail
       pbDisplay(_INTL("Please remove the Mail."))
     elsif !heldpoke && @storage[box,index].mail
@@ -1702,7 +1703,7 @@ class PokemonStorageScreen
     box = selected[0]
     index = selected[1]
     if box==-1 && pbAble?(@storage[box,index]) && pbAbleCount<=1
-      pbDisplay(_INTL("That's your last Pokémon!"))
+      pbDisplay(_INTL("That's your last Jermon!"))
       return
     end
     @scene.pbHold(selected)
@@ -1745,7 +1746,7 @@ class PokemonStorageScreen
       raise _INTL("Position {1},{2} is empty...",box,index)
     end
     if box==-1 && pbAble?(@storage[box,index]) && pbAbleCount<=1 && !pbAble?(@heldpkmn)
-      pbDisplay(_INTL("That's your last Pokémon!"))
+      pbDisplay(_INTL("That's your last Jermon!"))
       return false
     end
     if box!=-1 && @heldpkmn.mail
@@ -1777,10 +1778,10 @@ class PokemonStorageScreen
       return false
     end
     if box==-1 && pbAbleCount<=1 && pbAble?(pokemon) && !heldpoke
-      pbDisplay(_INTL("That's your last Pokémon!"))
+      pbDisplay(_INTL("That's your last Jermon!"))
       return
     end
-    command = pbShowCommands(_INTL("Release this Pokémon?"),[_INTL("No"),_INTL("Yes")])
+    command = pbShowCommands(_INTL("Release this Jermon?"),[_INTL("No"),_INTL("Yes")])
     if command==1
       pkmnname = pokemon.name
       @scene.pbRelease(selected,heldpoke)

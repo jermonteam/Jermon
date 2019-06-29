@@ -1,5 +1,5 @@
-# This class stores data on each Pokémon. Refer to $Trainer.party for an array
-# of each Pokémon in the Trainer's current party.
+# This class stores data on each Jermon. Refer to $Trainer.party for an array
+# of each Jermon in the Trainer's current party.
 class PokeBattle_Pokemon
   attr_reader(:totalhp)       # Current Total HP
   attr_reader(:attack)        # Current Attack stat
@@ -15,21 +15,21 @@ class PokeBattle_Pokemon
   attr_accessor(:trainerID)   # 32-bit Trainer ID (the secret ID is in the upper
                               #    16 bits)
   attr_reader(:hp)            # Current HP
-  attr_writer(:pokerus)       # Pokérus strain and infection time
+  attr_writer(:pokerus)       # Jermorus strain and infection time
   attr_accessor(:item)        # Held item
   attr_accessor(:itemRecycle) # Consumed held item (used in battle only)
   attr_accessor(:itemInitial) # Resulting held item (used in battle only)
-  attr_accessor(:belch)       # Whether Pokémon can use Belch (used in battle only)
+  attr_accessor(:belch)       # Whether Jermon can use Belch (used in battle only)
   attr_accessor(:mail)        # Mail
-  attr_accessor(:fused)       # The Pokémon fused into this one
+  attr_accessor(:fused)       # The Jermon fused into this one
   attr_accessor(:name)        # Nickname
   attr_accessor(:exp)         # Current experience points
   attr_accessor(:happiness)   # Current happiness
   attr_accessor(:status)      # Status problem (PBStatuses) 
   attr_accessor(:statusCount) # Sleep count/Toxic flag
-  attr_accessor(:eggsteps)    # Steps to hatch egg, 0 if Pokémon is not an egg
+  attr_accessor(:eggsteps)    # Steps to hatch egg, 0 if Jermon is not an egg
   attr_accessor(:moves)       # Moves (PBMove)
-  attr_accessor(:firstmoves)  # The moves known when this Pokémon was obtained
+  attr_accessor(:firstmoves)  # The moves known when this Jermon was obtained
   attr_accessor(:ballused)    # Ball used
   attr_accessor(:markings)    # Markings
   attr_accessor(:obtainMode)  # Manner obtained:
@@ -44,7 +44,7 @@ class PokeBattle_Pokemon
   attr_accessor(:otgender)    # Original Trainer's gender:
                               #    0 - male, 1 - female, 2 - mixed, 3 - unknown
                               #    For information only, not used to verify
-                              #    ownership of the Pokémon
+                              #    ownership of the Jermon
   attr_accessor(:abilityflag) # Forces the first/second/hidden (0/1/2) ability
   attr_accessor(:genderflag)  # Forces male (0) or female (1)
   attr_accessor(:natureflag)  # Forces a particular nature
@@ -54,18 +54,18 @@ class PokeBattle_Pokemon
 
   EVLIMIT     = 510   # Max total EVs
   EVSTATLIMIT = 252   # Max EVs that a single stat can have
-  NAMELIMIT   = 10    # Maximum length a Pokémon's nickname can be
+  NAMELIMIT   = 10    # Maximum length a Jermon's nickname can be
 
 ################################################################################
 # Ownership, obtained information
 ################################################################################
-# Returns the gender of this Pokémon's original trainer (2=unknown).
+# Returns the gender of this Jermon's original trainer (2=unknown).
   def otgender
     @otgender=2 if !@otgender
     return @otgender
   end
 
-# Returns whether the specified Trainer is NOT this Pokémon's original trainer.
+# Returns whether the specified Trainer is NOT this Jermon's original trainer.
   def isForeign?(trainer)
     return @trainerID!=trainer.id || @ot!=trainer.name
   end
@@ -75,18 +75,18 @@ class PokeBattle_Pokemon
     return @trainerID&0xFFFF
   end
 
-# Returns this Pokémon's level when this Pokémon was obtained.
+# Returns this Jermon's level when this Jermon was obtained.
   def obtainLevel
     @obtainLevel=0 if !@obtainLevel
     return @obtainLevel
   end
 
-# Returns the time when this Pokémon was obtained.
+# Returns the time when this Jermon was obtained.
   def timeReceived
     return @timeReceived ? Time.at(@timeReceived) : Time.gm(2000)
   end
 
-# Sets the time when this Pokémon was obtained.
+# Sets the time when this Jermon was obtained.
   def timeReceived=(value)
     # Seconds since Unix epoch
     if value.is_a?(Time)
@@ -96,7 +96,7 @@ class PokeBattle_Pokemon
     end
   end
 
-# Returns the time when this Pokémon hatched.
+# Returns the time when this Jermon hatched.
   def timeEggHatched
     if obtainMode==1
       return @timeEggHatched ? Time.at(@timeEggHatched) : Time.gm(2000)
@@ -105,7 +105,7 @@ class PokeBattle_Pokemon
     end
   end
 
-# Sets the time when this Pokémon hatched.
+# Sets the time when this Jermon hatched.
   def timeEggHatched=(value)
     # Seconds since Unix epoch
     if value.is_a?(Time)
@@ -118,12 +118,12 @@ class PokeBattle_Pokemon
 ################################################################################
 # Level
 ################################################################################
-# Returns this Pokémon's level.
+# Returns this Jermon's level.
   def level
     return PBExperience.pbGetLevelFromExperience(@exp,self.growthrate)
   end
 
-# Sets this Pokémon's level by changing its Exp. Points.
+# Sets this Jermon's level by changing its Exp. Points.
   def level=(value)
     if value<1 || value>PBExperience::MAXLEVEL
       raise ArgumentError.new(_INTL("The level number ({1}) is invalid.",value))
@@ -131,14 +131,14 @@ class PokeBattle_Pokemon
     self.exp=PBExperience.pbGetStartExperience(value,self.growthrate) 
   end
 
-# Returns whether this Pokémon is an egg.
+# Returns whether this Jermon is an egg.
   def egg?
     return @eggsteps>0
   end
 
   alias isEgg? egg?
 
-# Returns this Pokémon's growth rate.
+# Returns this Jermon's growth rate.
   def growthrate
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,@species,20)
@@ -147,7 +147,7 @@ class PokeBattle_Pokemon
     return ret
   end
 
-# Returns this Pokémon's base Experience value.
+# Returns this Jermon's base Experience value.
   def baseExp
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,self.fSpecies,38)
@@ -159,7 +159,7 @@ class PokeBattle_Pokemon
 ################################################################################
 # Gender
 ################################################################################
-# Returns this Pokémon's gender. 0=male, 1=female, 2=genderless
+# Returns this Jermon's gender. 0=male, 1=female, 2=genderless
   def gender
     return @genderflag if @genderflag!=nil
     dexdata=pbOpenDexData
@@ -184,7 +184,7 @@ class PokeBattle_Pokemon
     return b<=genderRate
   end
 
-# Returns whether this Pokémon species is restricted to only ever being one
+# Returns whether this Jermon species is restricted to only ever being one
 # gender (or genderless).
   def isSingleGendered?
     dexdata=pbOpenDexData
@@ -194,22 +194,22 @@ class PokeBattle_Pokemon
     return genderbyte==255 || genderbyte==254 || genderbyte==0
   end
 
-# Returns whether this Pokémon is male.
+# Returns whether this Jermon is male.
   def isMale?
     return self.gender==0
   end
 
-# Returns whether this Pokémon is female.
+# Returns whether this Jermon is female.
   def isFemale?
     return self.gender==1
   end
 
-# Returns whether this Pokémon is genderless.
+# Returns whether this Jermon is genderless.
   def isGenderless?
     return self.gender==2
   end
 
-# Sets this Pokémon's gender to a particular gender (if possible).
+# Sets this Jermon's gender to a particular gender (if possible).
   def setGender(value)
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,@species,18)
@@ -226,13 +226,13 @@ class PokeBattle_Pokemon
 ################################################################################
 # Ability
 ################################################################################
-# Returns the index of this Pokémon's ability.
+# Returns the index of this Jermon's ability.
   def abilityIndex
     abil=@abilityflag!=nil ? @abilityflag : (@personalID&1)
     return abil
   end
 
-# Returns the ID of this Pokémon's ability.
+# Returns the ID of this Jermon's ability.
   def ability
     abil=abilityIndex
     abils=getAbilityList
@@ -248,7 +248,7 @@ class PokeBattle_Pokemon
     return ret1
   end
 
-# Returns whether this Pokémon has a particular ability.
+# Returns whether this Jermon has a particular ability.
   def hasAbility?(value=0)
     if value==0
       return self.ability>0
@@ -261,7 +261,7 @@ class PokeBattle_Pokemon
     return false
   end
 
-# Sets this Pokémon's ability to a particular ability (if possible).
+# Sets this Jermon's ability to a particular ability (if possible).
   def setAbility(value)
     @abilityflag=value
   end
@@ -271,7 +271,7 @@ class PokeBattle_Pokemon
     return abil!=nil && abil>=2
   end
 
-# Returns the list of abilities this Pokémon can have.
+# Returns the list of abilities this Jermon can have.
   def getAbilityList
     abils=[]; ret=[]
     dexdata=pbOpenDexData
@@ -294,13 +294,13 @@ class PokeBattle_Pokemon
 ################################################################################
 # Nature
 ################################################################################
-# Returns the ID of this Pokémon's nature.
+# Returns the ID of this Jermon's nature.
   def nature
     return @natureflag if @natureflag!=nil
     return @personalID%25
   end
 
-# Returns whether this Pokémon has a particular nature.
+# Returns whether this Jermon has a particular nature.
   def hasNature?(value=-1)
     if value<0
       return self.nature>=0
@@ -313,7 +313,7 @@ class PokeBattle_Pokemon
     return false
   end
 
-# Sets this Pokémon's nature to a particular nature.
+# Sets this Jermon's nature to a particular nature.
   def setNature(value)
     if value.is_a?(String) || value.is_a?(Symbol)
       value=getID(PBNatures,value)
@@ -325,7 +325,7 @@ class PokeBattle_Pokemon
 ################################################################################
 # Shininess
 ################################################################################
-# Returns whether this Pokémon is shiny (differently colored).
+# Returns whether this Jermon is shiny (differently colored).
   def isShiny?
     return @shinyflag if @shinyflag!=nil
     a=@personalID^@trainerID
@@ -335,39 +335,39 @@ class PokeBattle_Pokemon
     return (d<SHINYPOKEMONCHANCE)
   end
 
-# Makes this Pokémon shiny.
+# Makes this Jermon shiny.
   def makeShiny
     @shinyflag=true
   end
 
-# Makes this Pokémon not shiny.
+# Makes this Jermon not shiny.
   def makeNotShiny
     @shinyflag=false
   end
 
 ################################################################################
-# Pokérus
+# Jermorus
 ################################################################################
-# Returns the full value of this Pokémon's Pokérus.
+# Returns the full value of this Jermon's Jermorus.
   def pokerus
     return @pokerus
   end
 
-# Returns the Pokérus infection stage for this Pokémon.
+# Returns the Jermorus infection stage for this Jermon.
   def pokerusStrain
     return @pokerus/16
   end
 
-# Returns the Pokérus infection stage for this Pokémon.
+# Returns the Jermorus infection stage for this Jermon.
   def pokerusStage
     return 0 if !@pokerus || @pokerus==0        # Not infected
     return 2 if @pokerus>0 && (@pokerus%16)==0  # Cured
     return 1                                    # Infected
   end
 
-# Gives this Pokémon Pokérus (either the specified strain or a random one).
+# Gives this Jermon Jermorus (either the specified strain or a random one).
   def givePokerus(strain=0)
-    return if self.pokerusStage==2 # Can't re-infect a cured Pokémon
+    return if self.pokerusStage==2 # Can't re-infect a cured Jermon
     if strain<=0 || strain>=16
       strain=1+rand(15)
     end
@@ -376,7 +376,7 @@ class PokeBattle_Pokemon
     @pokerus|=strain<<4
   end
 
-# Resets the infection time for this Pokémon's Pokérus (even if cured).
+# Resets the infection time for this Jermon's Jermorus (even if cured).
   def resetPokerusTime
     return if @pokerus==0
     strain=@pokerus%16
@@ -385,7 +385,7 @@ class PokeBattle_Pokemon
     @pokerus|=strain<<4
   end
 
-# Reduces the time remaining for this Pokémon's Pokérus (if infected).
+# Reduces the time remaining for this Jermon's Jermorus (if infected).
   def lowerPokerusCount
     return if self.pokerusStage!=1
     @pokerus-=1
@@ -394,7 +394,7 @@ class PokeBattle_Pokemon
 ################################################################################
 # Types
 ################################################################################
-# Returns whether this Pokémon has the specified type.
+# Returns whether this Jermon has the specified type.
   def hasType?(type)
     if type.is_a?(String) || type.is_a?(Symbol)
       return isConst?(self.type1,PBTypes,type) || isConst?(self.type2,PBTypes,type)
@@ -403,7 +403,7 @@ class PokeBattle_Pokemon
     end
   end
 
-# Returns this Pokémon's first type.
+# Returns this Jermon's first type.
   def type1
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,self.fSpecies,8)
@@ -412,7 +412,7 @@ class PokeBattle_Pokemon
     return ret
   end
 
-# Returns this Pokémon's second type.
+# Returns this Jermon's second type.
   def type2
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,self.fSpecies,9)
@@ -424,7 +424,7 @@ class PokeBattle_Pokemon
 ################################################################################
 # Moves
 ################################################################################
-# Returns the number of moves known by the Pokémon.
+# Returns the number of moves known by the Jermon.
   def numMoves
     ret=0
     for i in 0...4
@@ -433,7 +433,7 @@ class PokeBattle_Pokemon
     return ret
   end
 
-# Returns true if the Pokémon knows the given move.
+# Returns true if the Jermon knows the given move.
   def hasMove?(move)
     if move.is_a?(String) || move.is_a?(Symbol)
       move=getID(PBMoves,move)
@@ -447,7 +447,7 @@ class PokeBattle_Pokemon
 
   def knowsMove?(move); return self.hasMove?(move); end
 
-# Returns the list of moves this Pokémon can learn by levelling up.
+# Returns the list of moves this Jermon can learn by levelling up.
   def getMoveList
     movelist=[]
     atkdata=pbRgssOpen("Data/attacksRS.dat","rb")
@@ -463,7 +463,7 @@ class PokeBattle_Pokemon
     return movelist
   end
 
-# Sets this Pokémon's movelist to the default movelist it originally had.
+# Sets this Jermon's movelist to the default movelist it originally had.
   def resetMoves
     moves=self.getMoveList
     movelist=[]
@@ -513,7 +513,7 @@ class PokeBattle_Pokemon
     @moves[3]=PBMove.new(move)
   end
 
-# Deletes the given move from the Pokémon.
+# Deletes the given move from the Jermon.
   def pbDeleteMove(move)
     if move.is_a?(String) || move.is_a?(Symbol)
       move=getID(PBMoves,move)
@@ -529,7 +529,7 @@ class PokeBattle_Pokemon
     end
   end
 
-# Deletes the move at the given index from the Pokémon.
+# Deletes the move at the given index from the Jermon.
   def pbDeleteMoveAtIndex(index)
     newmoves=[]
     for i in 0...4
@@ -541,7 +541,7 @@ class PokeBattle_Pokemon
     end
   end
 
-# Deletes all moves from the Pokémon.
+# Deletes all moves from the Jermon.
   def pbDeleteAllMoves
     for i in 0...4
       @moves[i]=PBMove.new(0)
@@ -584,13 +584,13 @@ class PokeBattle_Pokemon
   def tough; @tough ? @tough : 0; end
   def sheen; @sheen ? @sheen : 0; end
 
-# Returns the number of ribbons this Pokémon has.
+# Returns the number of ribbons this Jermon has.
   def ribbonCount
     @ribbons=[] if !@ribbons
     return @ribbons.length
   end
 
-# Returns whether this Pokémon has the specified ribbon.
+# Returns whether this Jermon has the specified ribbon.
   def hasRibbon?(ribbon) 
     @ribbons=[] if !@ribbons
     ribbon=getID(PBRibbons,ribbon) if !ribbon.is_a?(Integer)
@@ -598,7 +598,7 @@ class PokeBattle_Pokemon
     return @ribbons.include?(ribbon)
   end
 
-# Gives this Pokémon the specified ribbon.
+# Gives this Jermon the specified ribbon.
   def giveRibbon(ribbon)
     @ribbons=[] if !@ribbons
     ribbon=getID(PBRibbons,ribbon) if !ribbon.is_a?(Integer)
@@ -627,7 +627,7 @@ class PokeBattle_Pokemon
     return 0
   end
 
-# Removes the specified ribbon from this Pokémon.
+# Removes the specified ribbon from this Jermon.
   def takeRibbon(ribbon)
     return if !@ribbons
     ribbon=getID(PBRibbons,ribbon) if !ribbon.is_a?(Integer)
@@ -640,7 +640,7 @@ class PokeBattle_Pokemon
     @ribbons.compact!
   end
 
-# Removes all ribbons from this Pokémon.
+# Removes all ribbons from this Jermon.
   def clearAllRibbons
     @ribbons=[]
   end
@@ -648,7 +648,7 @@ class PokeBattle_Pokemon
 ################################################################################
 # Items
 ################################################################################
-# Returns whether this Pokémon has a hold item.
+# Returns whether this Jermon has a hold item.
   def hasItem?(value=0)
     if value==0
       return self.item>0
@@ -661,7 +661,7 @@ class PokeBattle_Pokemon
     return false
   end
 
-# Sets this Pokémon's item. Accepts symbols.
+# Sets this Jermon's item. Accepts symbols.
   def setItem(value)
     if value.is_a?(String) || value.is_a?(Symbol)
       value=getID(PBItems,value)
@@ -680,7 +680,7 @@ class PokeBattle_Pokemon
     return [itemcommon || 0,itemuncommon || 0,itemrare || 0]
   end
 
-# Returns this Pokémon's mail.
+# Returns this Jermon's mail.
   def mail
     return nil if !@mail
     if @mail.item==0 || !self.hasItem? || @mail.item!=self.item
@@ -693,26 +693,26 @@ class PokeBattle_Pokemon
 ################################################################################
 # Other
 ################################################################################
-# Returns the species name of this Pokémon.
+# Returns the species name of this Jermon.
   def speciesName
     return PBSpecies.getName(@species)
   end
 
-# Returns this Pokémon's language.
+# Returns this Jermon's language.
   def language; @language ? @language : 0; end
 
-# Returns the markings this Pokémon has.
+# Returns the markings this Jermon has.
   def markings
     @markings=0 if !@markings
     return @markings
   end
 
-# Returns a string stating the Unown form of this Pokémon.
+# Returns a string stating the Unown form of this Jermon.
   def unownShape
     return "ABCDEFGHIJKLMNOPQRSTUVWXYZ?!"[@form,1]
   end
 
-# Returns the height of this Pokémon.
+# Returns the height of this Jermon.
   def height
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,self.fSpecies,33)
@@ -721,7 +721,7 @@ class PokeBattle_Pokemon
     return height
   end
 
-# Returns the weight of this Pokémon.
+# Returns the weight of this Jermon.
   def weight
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,self.fSpecies,35)
@@ -730,7 +730,7 @@ class PokeBattle_Pokemon
     return weight
   end
 
-# Returns the EV yield of this Pokémon.
+# Returns the EV yield of this Jermon.
   def evYield
     ret=[]
     dexdata=pbOpenDexData
@@ -744,7 +744,7 @@ class PokeBattle_Pokemon
     return ret
   end
 
-# Sets this Pokémon's HP.
+# Sets this Jermon's HP.
   def hp=(value)
     value=0 if value<0
     @hp=value
@@ -760,20 +760,20 @@ class PokeBattle_Pokemon
 
   alias isFainted? fainted?
 
-# Heals all HP of this Pokémon.
+# Heals all HP of this Jermon.
   def healHP
     return if egg?
     @hp=@totalhp
   end
 
-# Heals the status problem of this Pokémon.
+# Heals the status problem of this Jermon.
   def healStatus
     return if egg?
     @status=0
     @statusCount=0
   end
 
-# Heals all PP of this Pokémon.
+# Heals all PP of this Jermon.
   def healPP(index=-1)
     return if egg?
     if index>=0
@@ -785,7 +785,7 @@ class PokeBattle_Pokemon
     end
   end
 
-# Heals all HP, PP, and status problems of this Pokémon.
+# Heals all HP, PP, and status problems of this Jermon.
   def heal
     return if egg?
     healHP
@@ -793,7 +793,7 @@ class PokeBattle_Pokemon
     healPP
   end
 
-# Changes the happiness of this Pokémon depending on what happened to change it.
+# Changes the happiness of this Jermon depending on what happened to change it.
   def changeHappiness(method)
     gain=0; luxury=false
     case method
@@ -842,9 +842,9 @@ class PokeBattle_Pokemon
   end
 
 ################################################################################
-# Stat calculations, Pokémon creation
+# Stat calculations, Jermon creation
 ################################################################################
-# Returns this Pokémon's base stats.  An array of six values.
+# Returns this Jermon's base stats.  An array of six values.
   def baseStats
     dexdata=pbOpenDexData
     pbDexDataOffset(dexdata,self.fSpecies,10)
@@ -860,18 +860,18 @@ class PokeBattle_Pokemon
     return ret
   end
 
-# Returns the maximum HP of this Pokémon.
+# Returns the maximum HP of this Jermon.
   def calcHP(base,level,iv,ev)
     return 1 if base==1
     return ((base*2+iv+(ev>>2))*level/100).floor+level+10
   end
 
-# Returns the specified stat of this Pokémon (not used for total HP).
+# Returns the specified stat of this Jermon (not used for total HP).
   def calcStat(base,level,iv,ev,pv)
     return ((((base*2+iv+(ev>>2))*level/100).floor+5)*pv/100).floor
   end
 
-# Recalculates this Pokémon's stats.
+# Recalculates this Jermon's stats.
   def calcStats
     nature=self.nature
     stats=[]
@@ -904,11 +904,11 @@ class PokeBattle_Pokemon
     @spdef=stats[5]
   end
 
-# Creates a new Pokémon object.
-#    species   - Pokémon species.
-#    level     - Pokémon level.
+# Creates a new Jermon object.
+#    species   - Jermon species.
+#    level     - Jermon level.
 #    player    - PokeBattle_Trainer object for the original trainer.
-#    withMoves - If false, this Pokémon has no moves.
+#    withMoves - If false, this Jermon has no moves.
   def initialize(species,level,player=nil,withMoves=true)
     if species.is_a?(String) || species.is_a?(Symbol)
       species = getID(PBSpecies,species)

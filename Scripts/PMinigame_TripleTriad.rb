@@ -665,7 +665,7 @@ class TriadScreen
           # a bonus of 1 (only for original attacker, not combos)
           attack+=1 if !recurse && attacker.type==attacker.card.type
         else
-          # Modifier depends on opponent's Pokémon type:
+          # Modifier depends on opponent's Jermon type:
           # +1 - Super effective
           # -1 - Not very effective
           # -2 - Immune

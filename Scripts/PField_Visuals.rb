@@ -633,9 +633,9 @@ def Kernel.pbStartOver(gameover=false)
   pbHealAll
   if $PokemonGlobal.pokecenterMapId && $PokemonGlobal.pokecenterMapId>=0
     if gameover
-      Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]After the unfortunate defeat, you scurry back to a Pokémon Center."))
+      Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]After the unfortunate defeat, you scurry back to a Jermon Center."))
     else
-      Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]You scurry back to a Pokémon Center, protecting your exhausted Pokémon from any further harm..."))
+      Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]You scurry back to a Jermon Center, protecting your exhausted Jermon from any further harm..."))
     end
     Kernel.pbCancelVehicles
     pbRemoveDependencies
@@ -658,7 +658,7 @@ def Kernel.pbStartOver(gameover=false)
     if gameover
       Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]After the unfortunate defeat, you scurry back home."))
     else
-      Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]You scurry back home, protecting your exhausted Pokémon from any further harm..."))
+      Kernel.pbMessage(_INTL("\\w[]\\wm\\c[8]\\l[3]You scurry back home, protecting your exhausted Jermon from any further harm..."))
     end
     if homedata
       Kernel.pbCancelVehicles

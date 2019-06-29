@@ -118,7 +118,7 @@ def pbHiddenMoveAnimation(pokemon)
            Graphics.width/2,bg.bitmap.height/2,
            16)
       end
-    when 2 # Slide Pokémon sprite in from right to centre
+    when 2 # Slide Jermon sprite in from right to centre
       ptinterp.update
       sprite.x=ptinterp.x
       sprite.y=ptinterp.y
@@ -138,7 +138,7 @@ def pbHiddenMoveAnimation(pokemon)
            16)
         frames=0
       end
-    when 4 # Slide Pokémon sprite off from centre to left
+    when 4 # Slide Jermon sprite off from centre to left
       ptinterp.update
       sprite.x=ptinterp.x
       sprite.y=ptinterp.y
@@ -304,7 +304,7 @@ def Kernel.pbDive
   move = getID(PBMoves,:DIVE)
   movefinder = Kernel.pbCheckMove(move)
   if !pbCheckHiddenMoveBadge(BADGEFORDIVE,false) || (!$DEBUG && !movefinder)
-    Kernel.pbMessage(_INTL("The sea is deep here. A Pokémon may be able to go underwater."))
+    Kernel.pbMessage(_INTL("The sea is deep here. A Jermon may be able to go underwater."))
     return false
   end
   if Kernel.pbConfirmMessage(_INTL("The sea is deep here. Would you like to use Dive?"))
@@ -341,7 +341,7 @@ def Kernel.pbSurfacing
   move = getID(PBMoves,:DIVE)
   movefinder = Kernel.pbCheckMove(move)
   if !pbCheckHiddenMoveBadge(BADGEFORDIVE,false) || (!$DEBUG && !movefinder)
-    Kernel.pbMessage(_INTL("Light is filtering down from above. A Pokémon may be able to surface here."))
+    Kernel.pbMessage(_INTL("Light is filtering down from above. A Jermon may be able to surface here."))
     return false
   end
   if Kernel.pbConfirmMessage(_INTL("Light is filtering down from above. Would you like to use Dive?"))
@@ -569,10 +569,10 @@ def Kernel.pbHeadbutt(event)
   move = getID(PBMoves,:HEADBUTT)
   movefinder = Kernel.pbCheckMove(move)
   if !$DEBUG && !movefinder
-    Kernel.pbMessage(_INTL("A Pokémon could be in this tree. Maybe a Pokémon could shake it."))
+    Kernel.pbMessage(_INTL("A Jermon could be in this tree. Maybe a Jermon could shake it."))
     return false
   end
-  if Kernel.pbConfirmMessage(_INTL("A Pokémon could be in this tree. Would you like to use Headbutt?"))
+  if Kernel.pbConfirmMessage(_INTL("A Jermon could be in this tree. Would you like to use Headbutt?"))
     speciesname = (movefinder) ? movefinder.name : $Trainer.name
     Kernel.pbMessage(_INTL("{1} used {2}!",speciesname,PBMoves.getName(move)))
     pbHiddenMoveAnimation(movefinder)
@@ -614,7 +614,7 @@ def Kernel.pbRockSmash
   move = getID(PBMoves,:ROCKSMASH)
   movefinder = Kernel.pbCheckMove(move)
   if !pbCheckHiddenMoveBadge(BADGEFORROCKSMASH,false) || (!$DEBUG && !movefinder)
-    Kernel.pbMessage(_INTL("It's a rugged rock, but a Pokémon may be able to smash it."))
+    Kernel.pbMessage(_INTL("It's a rugged rock, but a Jermon may be able to smash it."))
     return false
   end
   if Kernel.pbConfirmMessage(_INTL("This rock appears to be breakable. Would you like to use Rock Smash?"))
@@ -661,10 +661,10 @@ def Kernel.pbStrength
   move = getID(PBMoves,:STRENGTH)
   movefinder = Kernel.pbCheckMove(move)
   if !pbCheckHiddenMoveBadge(BADGEFORSTRENGTH,false) || (!$DEBUG && !movefinder)
-    Kernel.pbMessage(_INTL("It's a big boulder, but a Pokémon may be able to push it aside."))
+    Kernel.pbMessage(_INTL("It's a big boulder, but a Jermon may be able to push it aside."))
     return false
   end
-  Kernel.pbMessage(_INTL("It's a big boulder, but a Pokémon may be able to push it aside.\1"))
+  Kernel.pbMessage(_INTL("It's a big boulder, but a Jermon may be able to push it aside.\1"))
   if Kernel.pbConfirmMessage(_INTL("Would you like to use Strength?"))
     speciesname = (movefinder) ? movefinder.name : $Trainer.name
     Kernel.pbMessage(_INTL("{1} used {2}!",speciesname,PBMoves.getName(move)))

@@ -117,7 +117,7 @@ end
 
 
 #===============================================================================
-# Manipulation methods for metadata, phone data and Pokémon species data
+# Manipulation methods for metadata, phone data and Jermon species data
 #===============================================================================
 def pbLoadMetadata
   $PokemonTemp = PokemonTemp.new if !$PokemonTemp

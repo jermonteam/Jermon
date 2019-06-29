@@ -236,7 +236,7 @@ class PokeBattle_DebugScene
     pbRefresh
   end
 
-# Called whenever a Pokémon should forget a move.  It should return -1 if the
+# Called whenever a Jermon should forget a move.  It should return -1 if the
 # selection is canceled, or 0 to 3 to indicate the move to forget.
 # The function should not allow HM moves to be forgotten.
   def pbForgetMove(pkmn,move)
@@ -249,11 +249,11 @@ class PokeBattle_DebugScene
 # Use this method to display the list of commands.
 #  Return values:
 #  0 - Fight
-#  1 - Pokémon
+#  1 - Jermon
 #  2 - Bag
 #  3 - Run
   def pbCommandMenu(index)
-    commands=["FIGHT","POKéMON","BAG","RUN"]
+    commands=["FIGHT","Jermon","BAG","RUN"]
     cw = Window_Command.new(192, commands)
     cw.x=0
     cw.y=256
@@ -302,7 +302,7 @@ class PokeBattle_DebugScene
     return ret
   end
 
-# Use this method to display the list of moves for a Pokémon
+# Use this method to display the list of moves for a Jermon
   def pbFightMenu(index)
     moves=@battle.battlers[index].moves
     commands=[
@@ -485,7 +485,7 @@ class PokeBattle_DebugScene
     return ret
   end
 
-# This method is called whenever a Pokémon's HP changes.
+# This method is called whenever a Jermon's HP changes.
 # Used to animate the HP bar.
   def pbHPChanged(pkmn,oldhp,anim=false)
     hpchange=pkmn.hp-oldhp
@@ -498,7 +498,7 @@ class PokeBattle_DebugScene
     pbRefresh
   end
 
-# This method is called whenever a Pokémon faints
+# This method is called whenever a Jermon faints
   def pbFainted(pkmn)
   end
 
@@ -506,13 +506,13 @@ class PokeBattle_DebugScene
     @battle.pbDefaultChooseEnemyCommand(index)
   end
 
-# Use this method to choose a new Pokémon for the enemy
+# Use this method to choose a new Jermon for the enemy
 # The enemy's party is guaranteed to have at least one choosable member.
   def pbChooseNewEnemy(index,party)
     @battle.pbDefaultChooseNewEnemy(index,party)
   end
 
-# This method is called when the player wins a wild Pokémon battle.
+# This method is called when the player wins a wild Jermon battle.
 # This method can change the battle's music for example.
   def pbWildBattleSuccess
   end
@@ -609,7 +609,7 @@ class PokeBattle_SceneNonInteractive < PokeBattle_Scene
     @battle.pbDefaultChooseEnemyCommand(index)
   end
 
-# Use this method to choose a new Pokémon for the enemy
+# Use this method to choose a new Jermon for the enemy
 # The enemy's party is guaranteed to have at least one choosable member.
   def pbChooseNewEnemy(index,party)
     @battle.pbDefaultChooseNewEnemy(index,party)
@@ -665,7 +665,7 @@ class PokeBattle_DebugSceneNoLogging
   def pbWithdraw(battle,pkmn)
   end
 
-# Called whenever a Pokémon should forget a move.  It should return -1 if the
+# Called whenever a Jermon should forget a move.  It should return -1 if the
 # selection is canceled, or 0 to 3 to indicate the move to forget.
 # The function should not allow HM moves to be forgotten.
   def pbForgetMove(pkmn,move)
@@ -733,13 +733,13 @@ class PokeBattle_DebugSceneNoLogging
     @battle.pbDefaultChooseEnemyCommand(index)
   end
 
-# Use this method to choose a new Pokémon for the enemy
+# Use this method to choose a new Jermon for the enemy
 # The enemy's party is guaranteed to have at least one choosable member.
   def pbChooseNewEnemy(index,party)
     @battle.pbDefaultChooseNewEnemy(index,party)
   end
 
-# This method is called when the player wins a wild Pokémon battle.
+# This method is called when the player wins a wild Jermon battle.
 # This method can change the battle's music for example.
   def pbWildBattleSuccess
   end
@@ -787,7 +787,8 @@ class PokeBattle_DebugSceneNoLogging
   def pbAnimation(moveid,attacker,opponent,hitnum=0)
   end
 end
-
+
+
 
 class PokeBattle_DebugSceneNoGraphics
   def initialize
@@ -849,7 +850,7 @@ class PokeBattle_DebugSceneNoGraphics
   def pbWithdraw(battle,pkmn)
   end
 
-# Called whenever a Pokémon should forget a move.  It should return -1 if the
+# Called whenever a Jermon should forget a move.  It should return -1 if the
 # selection is canceled, or 0 to 3 to indicate the move to forget.
 # The function should not allow HM moves to be forgotten.
   def pbForgetMove(pkmn,move)
@@ -906,7 +907,7 @@ class PokeBattle_DebugSceneNoGraphics
     return -1
   end
 
-# This method is called whenever a Pokémon's HP changes.
+# This method is called whenever a Jermon's HP changes.
 # Used to animate the HP bar.
   def pbHPChanged(pkmn,oldhp,anim=false)
     hpchange=pkmn.hp-oldhp
@@ -919,7 +920,7 @@ class PokeBattle_DebugSceneNoGraphics
     pbRefresh
   end
 
-# This method is called whenever a Pokémon faints
+# This method is called whenever a Jermon faints
   def pbFainted(pkmn)
   end
 
@@ -927,13 +928,13 @@ class PokeBattle_DebugSceneNoGraphics
     @battle.pbDefaultChooseEnemyCommand(index)
   end
 
-# Use this method to choose a new Pokémon for the enemy
+# Use this method to choose a new Jermon for the enemy
 # The enemy's party is guaranteed to have at least one choosable member.
   def pbChooseNewEnemy(index,party)
     @battle.pbDefaultChooseNewEnemy(index,party)
   end
 
-# This method is called when the player wins a wild Pokémon battle.
+# This method is called when the player wins a wild Jermon battle.
 # This method can change the battle's music for example.
   def pbWildBattleSuccess
   end

@@ -125,9 +125,9 @@ def pbPokeRadarOnShakingGrass
 end
 
 def pbPokeRadarGetEncounter(rarity=0)
-  # Poké Radar-exclusive encounters can only be found in vigorously-shaking grass
+  # Jermo Radar-exclusive encounters can only be found in vigorously-shaking grass
   if rarity>0
-    # Get all Poké Radar-exclusive encounters for this map
+    # Get all Jermo Radar-exclusive encounters for this map
     map = $game_map.map_id rescue 0
     array = []
     for enc in POKERADAREXCLUSIVES
@@ -147,7 +147,7 @@ def pbPokeRadarGetEncounter(rarity=0)
       end
     end
   end
-  # Didn't choose a Poké Radar-exclusive species, choose a regular encounter instead
+  # Didn't choose a Jermo Radar-exclusive species, choose a regular encounter instead
   return $PokemonEncounters.pbEncounteredPokemon($PokemonEncounters.pbEncounterType,rarity+1)
 end
 

@@ -184,7 +184,7 @@ end
 
 def pbRelicStone
   if pbHasPurifiableInParty()
-    Kernel.pbMessage(_INTL("There's a Pokémon that may open the door to its heart!"))
+    Kernel.pbMessage(_INTL("There's a Jermon that may open the door to its heart!"))
     # Choose a purifiable Pokemon
     pbChoosePokemon(1,2,proc {|poke|
        !poke.egg? && poke.hp>0 && poke.isShadow? && poke.heartgauge==0
@@ -193,7 +193,7 @@ def pbRelicStone
       pbRelicStoneScreen($Trainer.party[$game_variables[1]])
     end
   else
-    Kernel.pbMessage(_INTL("You have no Pokémon that can be purified."))
+    Kernel.pbMessage(_INTL("You have no Jermon that can be purified."))
   end
 end
 
@@ -504,7 +504,7 @@ class PokeBattle_Battle
        !isConst?(item,PBItems,:JOYSCENT) &&
        !isConst?(item,PBItems,:EXCITESCENT) &&
        !isConst?(item,PBItems,:VIVIDSCENT)
-      scene.pbDisplay(_INTL("This item can't be used on that Pokémon."))
+      scene.pbDisplay(_INTL("This item can't be used on that Jermon."))
       return false
     end
     return __shadow_pbUseItemOnPokemon(item,pkmnIndex,userPkmn,scene,*arg)
@@ -690,7 +690,7 @@ end
 
 
 ################################################################################
-# Two turn attack.  On first turn, halves the HP of all active Pokémon.
+# Two turn attack.  On first turn, halves the HP of all active Jermon.
 # Skips second turn (if successful). (Shadow Half)
 ################################################################################
 class PokeBattle_Move_12E < PokeBattle_Move
@@ -707,7 +707,7 @@ class PokeBattle_Move_12E < PokeBattle_Move
     for i in affected
       @battle.battlers[i].pbReduceHP((@battle.battlers[i].hp/2).floor)
     end
-    @battle.pbDisplay(_INTL("Each Pokémon's HP was halved!"))
+    @battle.pbDisplay(_INTL("Each Jermon's HP was halved!"))
     attacker.effects[PBEffects::HyperBeam]=2
     attacker.currentMove=@id
     return 0

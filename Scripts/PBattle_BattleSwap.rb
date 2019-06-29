@@ -38,10 +38,10 @@ class BattleSwapScene
       kind=pbGetMessage(MessageTypes::Kinds,pbGetFSpeciesFromForm(pkmn.species,pkn.form))
       selected=shadowctagFromColor(Color.new(232,0,0))
       if choices.any?{|item| item==i}
-        commands.push(selected+_INTL("{1} - {2} POKéMON",
+        commands.push(selected+_INTL("{1} - {2} Jermon",
            PBSpecies.getName(pkmn.species),kind))
       else
-        commands.push(_INTL("{1} - {2} POKéMON",
+        commands.push(_INTL("{1} - {2} Jermon",
            PBSpecies.getName(pkmn.species),kind))
       end
     end
@@ -52,11 +52,11 @@ class BattleSwapScene
     commands=pbGetCommands(@rentals,choices)
     @choices=choices
     if choices.length==0
-      @sprites["help"].text=_INTL("Choose the first Pokémon.")
+      @sprites["help"].text=_INTL("Choose the first Jermon.")
     elsif choices.length==1
-      @sprites["help"].text=_INTL("Choose the second Pokémon.")
+      @sprites["help"].text=_INTL("Choose the second Jermon.")
     else
-      @sprites["help"].text=_INTL("Choose the third Pokémon.")
+      @sprites["help"].text=_INTL("Choose the third Jermon.")
     end
     @sprites["list"].commands=commands
   end
@@ -65,7 +65,7 @@ class BattleSwapScene
     commands=pbGetCommands(@newPokemon,[])
     commands.push(_INTL("PKMN FOR SWAP"))
     commands.push(_INTL("CANCEL"))
-    @sprites["help"].text=_INTL("Select Pokémon to accept.")
+    @sprites["help"].text=_INTL("Select Jermon to accept.")
     @sprites["list"].commands=commands
     @sprites["list"].index=0
     @mode=2
@@ -74,7 +74,7 @@ class BattleSwapScene
   def pbInitSwapScreen
     commands=pbGetCommands(@currentPokemon,[])
     commands.push(_INTL("CANCEL"))
-    @sprites["help"].text=_INTL("Select Pokémon to swap.")
+    @sprites["help"].text=_INTL("Select Jermon to swap.")
     @sprites["list"].commands=commands
     @sprites["list"].index=0
     @mode=1  
@@ -113,7 +113,7 @@ class BattleSwapScene
     @viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport.z=99999
     @sprites["title"]=Window_UnformattedTextPokemon.newWithSize(
-       _INTL("POKéMON SWAP"),0,0,Graphics.width,64,@viewport)
+       _INTL("Jermon SWAP"),0,0,Graphics.width,64,@viewport)
     @sprites["help"]=Window_UnformattedTextPokemon.newWithSize(
        "",0,Graphics.height-64,Graphics.width,64,@viewport)
     @sprites["list"]=Window_AdvancedCommandPokemonEx.newWithSize(
@@ -139,7 +139,7 @@ class BattleSwapScene
     @viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
     @viewport.z=99999
     @sprites["title"]=Window_UnformattedTextPokemon.newWithSize(
-       _INTL("RENTAL POKéMON"),0,0,Graphics.width,64,@viewport)
+       _INTL("RENTAL Jermon"),0,0,Graphics.width,64,@viewport)
     @sprites["help"]=Window_UnformattedTextPokemon.newWithSize("",
        0,Graphics.height-64,Graphics.width,64,@viewport)
     @sprites["list"]=Window_AdvancedCommandPokemonEx.newWithSize(
@@ -186,7 +186,7 @@ class BattleSwapScreen
           chosen.push(index)
           @scene.pbUpdateChoices(chosen.clone)
           if chosen.length==3
-            if @scene.pbConfirm(_INTL("Are these three Pokémon OK?"))
+            if @scene.pbConfirm(_INTL("Are these three Jermon OK?"))
               retval=[]
               chosen.each{|i| retval.push(rentals[i]) }
               @scene.pbEndScene
@@ -216,7 +216,7 @@ class BattleSwapScreen
           loop do
             pkmn=@scene.pbChoosePokemon(true)
             if pkmn>=0
-              if @scene.pbConfirm(_INTL("Accept this Pokémon?"))
+              if @scene.pbConfirm(_INTL("Accept this Jermon?"))
                 @scene.pbEndScene
                 currentPokemon[yourPkmn]=newPokemon[pkmn]
                 return true

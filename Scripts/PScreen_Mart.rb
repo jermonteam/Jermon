@@ -264,7 +264,7 @@ end
 
 
 #===============================================================================
-# Pokémon Mart
+# Jermon Mart
 #===============================================================================
 class Window_PokemonMart < Window_DrawableCommand
   def initialize(stock,adapter,x,y,width,height,viewport=nil)

@@ -180,9 +180,9 @@ def pbDebugVariables(mode)
 end
 
 def pbDebugDayCare
-  commands = [_INTL("Withdraw Pokémon 1"),
-              _INTL("Withdraw Pokémon 2"),
-              _INTL("Deposit Pokémon"),
+  commands = [_INTL("Withdraw Jermon 1"),
+              _INTL("Withdraw Jermon 2"),
+              _INTL("Deposit Jermon"),
               _INTL("Generate egg"),
               _INTL("Collect egg")]
   viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
@@ -213,7 +213,7 @@ def pbDebugDayCare
       sprites["overlay"].bitmap.clear
       textpos = []
       for i in 0...2
-        textpos.push([_INTL("Pokémon {1}",i+1),Graphics.width/4+i*Graphics.width/2,8,2,base,shadow])
+        textpos.push([_INTL("Jermon {1}",i+1),Graphics.width/4+i*Graphics.width/2,8,2,base,shadow])
       end
       for i in 0...pbDayCareDeposited
         next if !$PokemonGlobal.daycare[i][0]
@@ -251,9 +251,9 @@ def pbDebugDayCare
         textpos.push(["Egg waiting for collection",Graphics.width/2,216,2,Color.new(248,248,0),shadow])
       elsif pbDayCareDeposited==2
         if pbDayCareGetCompat==0
-          textpos.push(["Pokémon cannot breed",Graphics.width/2,216,2,Color.new(248,96,96),shadow])
+          textpos.push(["Jermon cannot breed",Graphics.width/2,216,2,Color.new(248,96,96),shadow])
         else
-          textpos.push(["Pokémon can breed",Graphics.width/2,216,2,Color.new(64,248,64),shadow])
+          textpos.push(["Jermon can breed",Graphics.width/2,216,2,Color.new(64,248,64),shadow])
         end
       end
       pbDrawTextPositions(sprites["overlay"].bitmap,textpos)
@@ -267,36 +267,36 @@ def pbDebugDayCare
     elsif Input.trigger?(Input::C)
       ret = cmdwindow.index
       case cmdwindow.index
-      when 0 # Withdraw Pokémon 1
+      when 0 # Withdraw Jermon 1
         if !$PokemonGlobal.daycare[0][0]
           pbPlayBuzzerSE
         elsif $Trainer.party.length>=6
           pbPlayBuzzerSE
-          Kernel.pbMessage(_INTL("Party is full, can't withdraw Pokémon."))
+          Kernel.pbMessage(_INTL("Party is full, can't withdraw Jermon."))
         else
           pbPlayDecisionSE
           pbDayCareGetDeposited(0,3,4)
           pbDayCareWithdraw(0)
           refresh = true
         end
-      when 1 # Withdraw Pokémon 2
+      when 1 # Withdraw Jermon 2
         if !$PokemonGlobal.daycare[1][0]
           pbPlayBuzzerSE
         elsif $Trainer.party.length>=6
           pbPlayBuzzerSE
-          Kernel.pbMessage(_INTL("Party is full, can't withdraw Pokémon."))
+          Kernel.pbMessage(_INTL("Party is full, can't withdraw Jermon."))
         else
           pbPlayDecisionSE
           pbDayCareGetDeposited(1,3,4)
           pbDayCareWithdraw(1)
           refresh = true
         end
-      when 2 # Deposit Pokémon
+      when 2 # Deposit Jermon
         if pbDayCareDeposited==2
           pbPlayBuzzerSE
         elsif $Trainer.party.length==0
           pbPlayBuzzerSE
-          Kernel.pbMessage(_INTL("Party is empty, can't deposit Pokémon."))
+          Kernel.pbMessage(_INTL("Party is empty, can't deposit Jermon."))
         else
           pbPlayDecisionSE
           pbChooseNonEggPokemon(1,3)
@@ -513,10 +513,10 @@ def pbCreatePokemon
   for id in species
     party.push(getConst(PBSpecies,id)) if hasConst?(PBSpecies,id)
   end
-  # Species IDs of the Pokémon to be created
+  # Species IDs of the Jermon to be created
   for i in 0...party.length
     species = party[i]
-    # Generate Pokémon with species and level 20
+    # Generate Jermon with species and level 20
     $Trainer.party[i] = PokeBattle_Pokemon.new(species,20,$Trainer)
     $Trainer.seen[species]  = true # Set this species to seen and owned
     $Trainer.owned[species] = true

@@ -24,7 +24,7 @@ def pbDayCareDeposit(index)
       return
     end
   end
-  raise _INTL("No room to deposit a Pokémon") 
+  raise _INTL("No room to deposit a Jermon") 
 end
 
 def pbDayCareGetLevelGain(index,nameVariable,levelVariable)
@@ -46,7 +46,7 @@ def pbDayCareGetDeposited(index,nameVariable,costVariable)
       return
     end
   end
-  raise _INTL("Can't find deposited Pokémon")
+  raise _INTL("Can't find deposited Jermon")
 end
 
 def pbIsDitto?(pokemon)
@@ -114,9 +114,9 @@ end
 
 def pbDayCareWithdraw(index)
   if !$PokemonGlobal.daycare[index][0]
-    raise _INTL("There's no Pokémon here...")
+    raise _INTL("There's no Jermon here...")
   elsif $Trainer.party.length>=6
-    raise _INTL("Can't store the Pokémon...")
+    raise _INTL("Can't store the Jermon...")
   else
     $Trainer.party[$Trainer.party.length]=$PokemonGlobal.daycare[index][0]
     $PokemonGlobal.daycare[index][0]=nil
@@ -128,7 +128,7 @@ end
 def pbDayCareChoose(text,variable)
   count=pbDayCareDeposited
   if count==0
-    raise _INTL("There's no Pokémon here...")
+    raise _INTL("There's no Jermon here...")
   elsif count==1
     $game_variables[variable]=$PokemonGlobal.daycare[0][0] ? 0 : 1
   else
@@ -364,7 +364,7 @@ def pbDayCareGenerateEgg
       egg.setAbility(parent.abilityIndex) if rand(10)<6
     end
   end
-  # Inheriting Poké Ball from the mother
+  # Inheriting Jermo Ball from the mother
   if mother.isFemale? &&
      !isConst?(pbBallTypeToBall(mother.ballused),PBItems,:MASTERBALL) &&
      !isConst?(pbBallTypeToBall(mother.ballused),PBItems,:CHERISHBALL)

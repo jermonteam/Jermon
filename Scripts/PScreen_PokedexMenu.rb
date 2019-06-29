@@ -1,5 +1,5 @@
 #===============================================================================
-# Pokédex Regional Dexes list menu screen
+# Jermodex Regional Dexes list menu screen
 # * For choosing which region list to view. Only appears when there is more
 #   than one viable region list to choose from, and if DEXDEPENDSONLOCATION is
 #   false.
@@ -93,7 +93,7 @@ class PokemonPokedexMenuScreen
     for i in 0...$PokemonGlobal.pokedexViable.length
       index = $PokemonGlobal.pokedexViable[i]
       if dexnames[index]==nil
-        commands[i] = _INTL("Pokédex")
+        commands[i] = _INTL("Jermodex")
       else
         if dexnames[index].is_a?(Array)
           commands[i] = dexnames[index][0]

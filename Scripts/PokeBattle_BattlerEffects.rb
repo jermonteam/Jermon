@@ -813,7 +813,7 @@ class PokeBattle_Battler
   end
 
   def pbReduceStatBasic(stat,increment,attacker=nil,moldbreaker=false,ignoreContrary=false)
-    if !moldbreaker # moldbreaker is true only when Roar forces out a Pokémon into Sticky Web
+    if !moldbreaker # moldbreaker is true only when Roar forces out a Jermon into Sticky Web
       if !attacker || attacker.index==self.index || !attacker.hasMoldBreaker
         if hasWorkingAbility(:CONTRARY) && !ignoreContrary
           return pbIncreaseStatBasic(stat,increment,attacker,moldbreaker,true)

@@ -60,7 +60,7 @@ module PBTerrain
            tag==PBTerrain::SootGrass
   end
 
-  def PBTerrain.isJustGrass?(tag)   # The Poké Radar only works in these tiles
+  def PBTerrain.isJustGrass?(tag)   # The Jermo Radar only works in these tiles
     return tag==PBTerrain::Grass ||
            tag==PBTerrain::SootGrass
   end
