@@ -132,7 +132,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: Vegas, HERE I COME! I can''t wait to get ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [everything set up in my new home!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::AudioFile {name: Alecs Log House - MOTHER 3, pitch: 100, volume: 0}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [6]}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 209
@@ -184,6 +184,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*14]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*15]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*16]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: rope effect, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: What was that?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [5, 1, 20]}

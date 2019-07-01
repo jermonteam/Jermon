@@ -179,6 +179,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [76, 76, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [60, 60, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['This is work in progress, please tell us your ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [feedback over at the Discord. Thanks and have]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [fun.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 14, 8, 13, 2, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [77, 77, 0]}

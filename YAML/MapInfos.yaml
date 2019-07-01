@@ -12,7 +12,7 @@
   order: 2
   parent_id: 0
   scroll_x: 822
-  scroll_y: 565
+  scroll_y: 1068
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -67,7 +67,7 @@
   name: Balloon Crash Site
   order: 10
   parent_id: 2
-  scroll_x: 752
+  scroll_x: 768
   scroll_y: 464
 11: !ruby/object:RPG::MapInfo
   expanded: false
@@ -95,7 +95,7 @@
   name: Balloon Basket
   order: 18
   parent_id: 0
-  scroll_x: 818
+  scroll_x: 736
   scroll_y: 352
 15: !ruby/object:RPG::MapInfo
   expanded: false
