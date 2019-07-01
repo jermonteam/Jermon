@@ -88,7 +88,7 @@ Color=Blue
 Kind=Aquatic Spy
 Pokedex=Only 1 in every 350 Sphees will survive into adulthood. The strong smell of dried koolaid and chicken tenders often gives their position away to predators.
 Shape=10
-BattlerEnemyY=20
+BattlerEnemyY=18
 [5]
 Name=Spheecrab
 InternalName=SPHEECRAB
@@ -111,7 +111,7 @@ Color=Blue
 Kind=Aquatic Spy
 Pokedex=Small Jermon that dot the beaches and riversides of Amrej. They tend to come out at night and scavenge the shoreline for AFK players to backcrab.
 Shape=10
-BattlerEnemyY=40
+BattlerEnemyY=32
 [6]
 Name=Arrrsphee
 InternalName=ARRRSPHEE
@@ -134,7 +134,7 @@ Color=Blue
 Kind=Aquatic Spy
 Pokedex=This sneaky Jermon stalks the waterfronts of Amrej, preying on unwary travelers and Jermon alike. Likes American marching band tunes for some reason.
 Shape=10
-BattlerEnemyY=40
+BattlerEnemyY=32
 [7]
 Name=Fireman
 InternalName=FIREMAN
