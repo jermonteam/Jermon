@@ -2204,8 +2204,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWell Howdy pardner! Fancy meeting you around ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [here.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJTYXksIHlvdeKAmXJlIG5vdCBmcm9tIGFyb3VuZCBoZXJlLCBhcmUgeW91\nPyA="]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "V2VsbCwgdGhhdOKAmXMgb2theSwganVzdCByZW1lbWJlciBpZiB5b3UgbmVl\nZCBh"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSay, you''re not from around here, are you? ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Well, that''s okay, just remember if you need a']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [hand you know where to find your old pal Victor.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2293,9 +2293,9 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWell Howdy pardner! Have you heard about the ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['new team in town called Coxcast?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJXaHksIHRoZXnigJl2ZSBiZWVuIG1ha2luZyB0cm91YmxlIGZvciBldmVy\neW9uZSA="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhy, they''ve been making trouble for everyone ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [in Liberty City ever since they come up outta]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "dGhlIGdyb3VuZC4gSeKAmWQgc3RlZXIgY2xlYXIgaWYgSSB3ZXJlIHlvdS4="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the ground. I'd steer clear if I were you.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

@@ -165,7 +165,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJKZXJtYTogT2ssIGxpc3Rlbi4gSSBkb24ndCBrbm93IHdoYXTigJlzIGdv\naW5nIA=="]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['on, why did you call me "streamer?" If you try']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['to hurt me, I will defend mys-']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGNbNV0/Pz86IFFVSUVUISBUaGF04oCZcyBlbm91Z2gu"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\c[5]???: QUIET! That''s enough.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\c[5]Walk forward.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: W-']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\c[5]???: NOW!']}
@@ -470,7 +470,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: W-what did you do to me? Am I poisoned? ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Who are you?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGNbNV0/Pz86IFBGRkZULCBIRSBET0VTTuKAmVQgS05PV1xuT01FR0FMVUxc\nbkhF4oCZUyA="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\c[5]???: PFFFT, HE DOESN''T KNOW\nOMEGALUL\nHE''S ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [LACKING CRITICAL INFORMATION!]}
       - !ruby/object:RPG::EventCommand
         i: 0

@@ -698,41 +698,6 @@ events:
       through: false
       trigger: 0
       walk_anime: true
-    - !ruby/object:RPG::Event::Page
-      always_on_top: false
-      condition: !ruby/object:RPG::Event::Page::Condition
-        self_switch_ch: A
-        self_switch_valid: false
-        switch1_id: 1
-        switch1_valid: false
-        switch2_id: 1
-        switch2_valid: false
-        variable_id: 1
-        variable_valid: false
-        variable_value: 0
-      direction_fix: false
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        blend_type: 0
-        character_hue: 0
-        character_name: owsunnysmiles
-        direction: 2
-        opacity: 255
-        pattern: 0
-        tile_id: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-        repeat: true
-        skippable: false
-      move_speed: 3
-      move_type: 0
-      step_anime: false
-      through: false
-      trigger: 0
-      walk_anime: true
     x: 14
     y: 17
   11: !ruby/object:RPG::Event
@@ -786,7 +751,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [possible.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJTdW5ueSBTbWlsZXM6IEhvbGQgb24sIGRpZCB5b3Ugc2F5IOKAnFZlZ2Fz\nP+KAnQ=="]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJKZXJtYTogWWVz4oCmIHdoYXQncyB3cm9uZz8="]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSunny Smiles: Will, if you wanna get to Vegas, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSunny Smiles: Well, if you wanna get to Vegas, ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you''re gonna have to get Balloon Tickets, seein''']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [as the only way to get to Vegas is by balloon.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe only place I know that gives out Balloon ']}
@@ -825,11 +790,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['out of usable Jermon, you might wake up at the']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Doc's place or any recently used Jermocenters.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSince you have some Jermon on your belt, Chet ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [can legally sell you JermaBalls and potions over]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [can legally sell you JermoBalls and potions over]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [at the general store. You can earn BaldCoin by]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [defeating other Jermon trainers.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOh, that reminds me! Here, take it. It''s the ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [least I can do since you saved me.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 249, p: [!ruby/object:RPG::AudioFile {name: Item get, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Jerma recieved 1000 BLD coins!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 125, p: [0, 0, 1000]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Woah!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSunny Smiles: It''s the least I can do.']}

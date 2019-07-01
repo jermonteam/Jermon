@@ -1206,7 +1206,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bNobody knows where he comes from, but he''s ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [been harrassing people ever since he stepped]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [into town a few months back.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJKZXJtYTogV2VsbCwgaWYgeW91IHNheSBzb+KApg=="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Well, if you say so...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI don''t get why he called me "streamer," ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [though.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOfficer: Who knows, probably just another one ']}
@@ -1235,6 +1235,9 @@ events:
           - &181 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
           - &182 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
           - &183 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &184 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &185 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &186 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
           repeat: false
           skippable: false
@@ -1246,6 +1249,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*181]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*182]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*183]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*184]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*185]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*186]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [86, 86, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

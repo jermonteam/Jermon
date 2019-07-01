@@ -1,10 +1,10 @@
 --- !ruby/object:RPG::Map
-autoplay_bgm: false
+autoplay_bgm: true
 autoplay_bgs: false
 bgm: !ruby/object:RPG::AudioFile
-  name: ''
+  name: Fallout New Vegas - Doc Mitchell theme
   pitch: 100
-  volume: 100
+  volume: 90
 bgs: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
@@ -313,7 +313,6 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::AudioFile {name: Fallout New Vegas - Doc Mitchell theme, pitch: 100, volume: 75}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
@@ -588,8 +587,8 @@ events:
           repeat: false
           skippable: false
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*55]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Ok, let''s see-...\n...\n...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "d2FpdCBhIG1pbnV0ZS4gVGhhdOKAmXMgbXkgZmFjZS4="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Ok, let''s see-...\n...\n...\n']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [wait a minute. That's my face.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDoc Mitchell: Well, yes. I''d certainly hope ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['so, heh heh.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: No, no no no no.']}
@@ -656,20 +655,19 @@ events:
         - 4
         - !ruby/object:RPG::MoveRoute
           list:
-          - &59 !ruby/object:RPG::MoveCommand {code: 29, parameters: [2]}
+          - &59 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
           - &60 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
           - &61 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
           - &62 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-          - &63 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &63 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
           - &64 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-          - &65 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-          - &66 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &67 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &65 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &66 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &67 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &68 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &69 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &70 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &71 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &72 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - &71 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
           repeat: false
           skippable: false
@@ -686,7 +684,6 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*69]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*70]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*71]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*72]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTake this.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, '!$Trainer.pokedex']}
@@ -706,11 +703,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [creatures called "Jermon." Humans capture and]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [train Jermon to battle against other Jermon]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [trainers.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhat you hold is a Jermadex. When you ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['encounter wild Jermon, the Jermadex will record']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhat you hold is a Jermodex. When you ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['encounter wild Jermon, the Jermodex will record']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [what it is.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThough, in order to know everything about ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the Jermon, you''ll need to catch it.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThough, in order to know everything about the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Jermon, you''ll need to catch it.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Why do you keep saying "Jermo-,"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You know what, I give up. Thanks.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDoc Mitchell: Here, you can also take a couple ']}
@@ -743,10 +740,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [help set you up with equipment when you get some]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [experience under your belt.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOh, and then there''s the Jermon gym, but I ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "ZG9u4oCZdCBzZWUgd2h5IHlvdeKAmWQgYmUgaW50ZXJlc3RlZCBpbiB0aGF0\nLg=="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "ZG9u4oCZdCBzZWUgd2h5IHlvdSdkIGJlIGludGVyZXN0ZWQgaW4gdGhhdC4="]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: I still have no idea what''s going on, ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but I'll just roll with it.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Thanks for helping me out, Doc.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['$PokemonGlobal.runningShoes=true ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(-255,-255,-255,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [76, 76, 1]}
@@ -797,12 +795,12 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDoc Mitchell: Hey Jeremy, let me patch you up.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(-255,-255,-255,0),20)']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [40]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 249, p: [!ruby/object:RPG::AudioFile {name: Pkmn healing, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 314, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDoc Mitchell: Stay safe out there, Jeremy']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [40]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDoc Mitchell: Stay safe out there, Jeremy.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
