@@ -20,6 +20,7 @@ Kind=Dachschund
 Pokedex=Otto is known for his lovable nature and silly antics.  He has a big heart, and goes on even bigger adventures.
 Evolutions=OTTOUGH,Level,16
 Shape=8
+BattlerEnemyY=30
 [2]
 Name=Ottough
 InternalName=OTTOUGH
@@ -42,6 +43,7 @@ Kind=Dachschund
 Pokedex=Sometimes in times of need, Otto can grow in strength and size, capable of carrying even the largest tennis balls.
 Evolutions=GODTTO,Level,36
 Shape=8
+BattlerEnemyY=30
 [3]
 Name=Godtto
 InternalName=GODTTO
@@ -64,6 +66,7 @@ Color=Black
 Kind=Divine Dachschund
 Pokedex=It's Godtto! May he empower us with his divine licks and holy defiance.
 Shape=8
+BattlerEnemyY=30
 [4]
 Name=Sphee
 InternalName=SPHEE
@@ -85,6 +88,7 @@ Color=Blue
 Kind=Aquatic Spy
 Pokedex=Only 1 in every 350 Sphees will survive into adulthood. The strong smell of dried koolaid and chicken tenders often gives their position away to predators.
 Shape=10
+BattlerEnemyY=28
 [5]
 Name=Spheecrab
 InternalName=SPHEECRAB
@@ -107,6 +111,7 @@ Color=Blue
 Kind=Aquatic Spy
 Pokedex=Small Jermon that dot the beaches and riversides of Amrej. They tend to come out at night and scavenge the shoreline for AFK players to backcrab.
 Shape=10
+BattlerEnemyY=60
 [6]
 Name=Arrrsphee
 InternalName=ARRRSPHEE
@@ -128,7 +133,8 @@ Weight=27.1
 Color=Blue
 Kind=Aquatic Spy
 Pokedex=This sneaky Jermon stalks the waterfronts of Amrej, preying on unwary travelers and Jermon alike. Likes American marching band tunes for some reason.
-Shape=1
+Shape=10
+BattlerEnemyY=60
 [7]
 Name=Fireman
 InternalName=FIREMAN
@@ -151,7 +157,7 @@ Habitat=Mountain
 Kind=This Dude
 Pokedex=While Fireman can heat up to temperatures that rival the surface of the Sun, it typically gives nonthreatening, warm hugs instead.
 Shape=7
-
+BattlerEnemyY=24
 
 
 
@@ -223,6 +229,7 @@ Color=Yellow
 Kind=Mackeral
 Pokedex=14
 Shape=3
+BattlerEnemyY=30
 
 [16]
 Name=Buzzwasp
@@ -247,9 +254,10 @@ Habitat=Grassland
 Kind=Wasp
 Pokedex=This tiny bug Jermon seems to have survived an explosion. It still buzzes around in explosive rage.
 BattlerEnemyY=27
+BattlerAltitude=12
 Shape=13
 [17]
-Name=Colondee
+Name=Colonthesis
 InternalName=SMILE
 Type1=NORMAL
 Type2=DARK
