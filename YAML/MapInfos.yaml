@@ -11,8 +11,8 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 822
-  scroll_y: 760
+  scroll_x: 532
+  scroll_y: 389
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -89,7 +89,7 @@
   order: 13
   parent_id: 0
   scroll_x: 736
-  scroll_y: 560
+  scroll_y: 718
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Basket
@@ -99,7 +99,7 @@
   scroll_y: 352
 15: !ruby/object:RPG::MapInfo
   expanded: false
-  name: Bewwie Town JermoCenter
+  name: JermoCenter
   order: 14
   parent_id: 13
   scroll_x: 320
