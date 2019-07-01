@@ -61,7 +61,7 @@
   order: 9
   parent_id: 2
   scroll_x: 400
-  scroll_y: 400
+  scroll_y: 467
 10: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Crash Site
@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 962
+  scroll_y: 467
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
