@@ -35,8 +35,8 @@ MAPVIEWMODE          = 1
 #===============================================================================
 MAXIMUMLEVEL       = 100
 EGGINITIALLEVEL    = 1
-SHINYPOKEMONCHANCE = 8
-POKERUSCHANCE      = 3
+SHINYPOKEMONCHANCE = 0
+POKERUSCHANCE      = 0
 
 #===============================================================================
 # * Whether poisoned Jermon will lose HP while walking around in the field.
@@ -93,9 +93,9 @@ NOSIGNPOSTS = []
 #      Mega Ring item, just a Mega Stone).
 #===============================================================================
 USEMOVECATEGORY       = true
-USENEWBATTLEMECHANICS = false
+USENEWBATTLEMECHANICS = true
 USESCALEDEXPFORMULA   = true
-NOSPLITEXP            = false
+NOSPLITEXP            = true
 USECRITICALCAPTURE    = false
 GAINEXPFORCAPTURE     = false
 MEGARINGS             = [:MEGARING,:MEGABRACELET,:MEGACUFF,:MEGACHARM]
@@ -141,7 +141,7 @@ def pbPocketNames; return ["",
    _INTL("Medicine"),
    _INTL("Jermo Balls"),
    _INTL("TMs & HMs"),
-   _INTL("Berries"),
+   _INTL("Bewwies"),
    _INTL("Mail"),
    _INTL("Battle Items"),
    _INTL("Key Items")
@@ -155,7 +155,7 @@ POCKETAUTOSORT = [0,false,false,false,true,true,false,false,false]
 # * The number of boxes in Jermon storage.
 #===============================================================================
 def pbStorageCreator
-  return _INTL("Bill")
+  return _INTL("The Jermon Team")
 end
 STORAGEBOXES = 24
 
@@ -185,9 +185,7 @@ STORAGEBOXES = 24
 #===============================================================================
 DEXDEPENDSONLOCATION = false
 def pbDexNames; return [
-   [_INTL("Kanto Jermodex"),0],
-   [_INTL("Johto Jermodex"),1],
-   _INTL("National Jermodex")
+   [_INTL("Amrej Jermodex"),0],
 ]; end
 ALWAYSSHOWALLFORMS = false
 DEXINDEXOFFSETS    = []
@@ -198,7 +196,7 @@ DEXINDEXOFFSETS    = []
 # * The maximum number of Game Corner coins the player can have.
 # * The maximum length, in characters, that the player's name can be.
 #===============================================================================
-INITIALMONEY    = 3000
+INITIALMONEY    = 0
 MAXMONEY        = 999999
 MAXCOINS        = 99999
 PLAYERNAMELIMIT = 10
@@ -209,8 +207,7 @@ PLAYERNAMELIMIT = 10
 #      associated trainer type will be named as whatever is in that variable.
 #===============================================================================
 RIVALNAMES = [
-   [:RIVAL1,12],
-   [:RIVAL2,12],
+   [:RIVAL,12],
    [:CHAMPION,12]
 ]
 
@@ -228,27 +225,8 @@ RIVALNAMES = [
 #      - Roaming areas specifically for this Jermon (optional).
 #===============================================================================
 RoamingAreas = {
-   5  => [21,28,31,39,41,44,47,66,69],
-   21 => [5,28,31,39,41,44,47,66,69],
-   28 => [5,21,31,39,41,44,47,66,69],
-   31 => [5,21,28,39,41,44,47,66,69],
-   39 => [5,21,28,31,41,44,47,66,69],
-   41 => [5,21,28,31,39,44,47,66,69],
-   44 => [5,21,28,31,39,41,47,66,69],
-   47 => [5,21,28,31,39,41,44,66,69],
-   66 => [5,21,28,31,39,41,44,47,69],
-   69 => [5,21,28,31,39,41,44,47,66]
 }
 RoamingSpecies = [
-   [:LATIAS, 30, 53, 0, "Battle roaming"],
-   [:LATIOS, 30, 53, 0, "Battle roaming"],
-   [:KYOGRE, 40, 54, 2, nil, {
-       2  => [21,31],
-       21 => [2,31,69],
-       31 => [2,21,69],
-       69 => [21,31]
-       }],
-   [:ENTEI, 40, 55, 1, nil]
 ]
 
 #===============================================================================
@@ -261,10 +239,6 @@ RoamingSpecies = [
 #      - Maximum possible level (optional).
 #===============================================================================
 POKERADAREXCLUSIVES=[
-   [5,  20, :STARLY,     12, 15],
-   [21, 10, :STANTLER,   14],
-   [28, 20, :BUTTERFREE, 15, 18],
-   [28, 20, :BEEDRILL,   15, 18]
 ]
 
 #===============================================================================
@@ -278,8 +252,6 @@ POKERADAREXCLUSIVES=[
 #      - The graphic will always (true) or never (false) be shown on a wall map.
 #===============================================================================
 REGIONMAPEXTRAS = [
-   [0,51,16,15,"mapHiddenBerth",false],
-   [0,52,20,14,"mapHiddenFaraday",false]
 ]
 
 #===============================================================================
