@@ -11,8 +11,8 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 532
-  scroll_y: 1212
+  scroll_x: 809
+  scroll_y: 1203
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -67,7 +67,7 @@
   name: Balloon Crash Site
   order: 10
   parent_id: 2
-  scroll_x: 768
+  scroll_x: 752
   scroll_y: 464
 11: !ruby/object:RPG::MapInfo
   expanded: false
@@ -89,13 +89,13 @@
   order: 13
   parent_id: 0
   scroll_x: 736
-  scroll_y: 718
+  scroll_y: 652
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Basket
   order: 18
   parent_id: 0
-  scroll_x: 736
+  scroll_x: 359
   scroll_y: 352
 15: !ruby/object:RPG::MapInfo
   expanded: false

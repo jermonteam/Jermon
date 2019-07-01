@@ -394,7 +394,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [77, 77, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 208, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bConductor: Jeremy, you are awake, we''re really ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [high up right now. Let me now when you're ready to]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [high up right now. Let me know when you're ready]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [move on!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::AudioFile {name: Alecs Log House - MOTHER 3, pitch: 100, volume: 65}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

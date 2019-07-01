@@ -972,7 +972,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [though.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOfficer: Who knows, probably just another one ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of his jaded delusions. I wouldn't be too]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['worried if I were you, he probably say you as']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['worried if I were you, he probably sees you as']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [just another hapless bystander to pester.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rStudiopolis \bis just past \rRoute 2\b, it''s a ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [lot safer there. Be sure to pick up some]}
@@ -1266,7 +1266,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe bewwies are what bind us together, they ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe bewwies are what binds us together, they ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [make us one. They give us life. I hope you'll]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['try at least one, everyone who has never wants']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to leave.]}
