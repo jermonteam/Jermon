@@ -68,7 +68,7 @@ Pokedex=It's Godtto! May he empower us with his divine licks and holy defiance.
 Shape=8
 BattlerEnemyY=24
 [4]
-Name=Sphee
+Name=Shpee
 InternalName=SPHEE
 Type1=WATER
 BaseStats=35,75,30,60,60,45
@@ -90,7 +90,7 @@ Pokedex=Only 1 in every 350 Sphees will survive into adulthood. The strong smell
 Shape=10
 BattlerEnemyY=18
 [5]
-Name=Spheecrab
+Name=Shpeecrab
 InternalName=SPHEECRAB
 Type1=WATER
 Type2=GHOST
@@ -111,9 +111,9 @@ Color=Blue
 Kind=Aquatic Spy
 Pokedex=Small Jermon that dot the beaches and riversides of Amrej. They tend to come out at night and scavenge the shoreline for AFK players to backcrab.
 Shape=10
-BattlerEnemyY=30
+BattlerEnemyY=28
 [6]
-Name=Arrrsphee
+Name=Arrrshpee
 InternalName=ARRRSPHEE
 Type1=WATER
 Type2=GHOST
@@ -134,7 +134,7 @@ Color=Blue
 Kind=Aquatic Spy
 Pokedex=This sneaky Jermon stalks the waterfronts of Amrej, preying on unwary travelers and Jermon alike. Likes American marching band tunes for some reason.
 Shape=10
-BattlerEnemyY=28
+BattlerEnemyY=24
 [7]
 Name=Fireman
 InternalName=FIREMAN
