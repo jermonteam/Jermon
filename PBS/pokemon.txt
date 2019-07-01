@@ -111,7 +111,7 @@ Color=Blue
 Kind=Aquatic Spy
 Pokedex=Small Jermon that dot the beaches and riversides of Amrej. They tend to come out at night and scavenge the shoreline for AFK players to backcrab.
 Shape=10
-BattlerEnemyY=32
+BattlerEnemyY=30
 [6]
 Name=Arrrsphee
 InternalName=ARRRSPHEE
@@ -134,7 +134,7 @@ Color=Blue
 Kind=Aquatic Spy
 Pokedex=This sneaky Jermon stalks the waterfronts of Amrej, preying on unwary travelers and Jermon alike. Likes American marching band tunes for some reason.
 Shape=10
-BattlerEnemyY=32
+BattlerEnemyY=28
 [7]
 Name=Fireman
 InternalName=FIREMAN
