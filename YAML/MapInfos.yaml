@@ -12,7 +12,7 @@
   order: 2
   parent_id: 0
   scroll_x: 809
-  scroll_y: 1203
+  scroll_y: 1184
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -61,7 +61,7 @@
   order: 9
   parent_id: 2
   scroll_x: 400
-  scroll_y: 467
+  scroll_y: 480
 10: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Crash Site
@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 467
+  scroll_y: 488
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
@@ -89,7 +89,7 @@
   order: 13
   parent_id: 0
   scroll_x: 736
-  scroll_y: 652
+  scroll_y: 488
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Basket
