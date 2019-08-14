@@ -533,7 +533,7 @@ p berryData if Input.trigger?(Input::CTRL)
   end
 end
 
-def pbPickBerry(berry,qty=1)
+def pbPickBerry(berry,qty=1,infinite=false)
   interp=pbMapInterpreter
   thisEvent=interp.get_character(0)
   berryData=interp.getVariable
@@ -560,14 +560,16 @@ def pbPickBerry(berry,qty=1)
     pocket = pbGetPocket(berry)
     Kernel.pbMessage(_INTL("{1} put the \\c[1]{2}\\c[0]\r\nin the <icon=bagPocket{3}>\\c[1]{4}\\c[0] Pocket.\1",
        $Trainer.name,itemname,pocket,PokemonBag.pocketNames()[pocket]))
-    if NEWBERRYPLANTS
-      Kernel.pbMessage(_INTL("The soil returned to its soft and earthy state."))
-      berryData=[0,0,0,0,0,0,0,0]
-    else
-      Kernel.pbMessage(_INTL("The soil returned to its soft and loamy state."))
-      berryData=[0,0,false,0,0,0]
+    if infinite = false
+      if NEWBERRYPLANTS
+        Kernel.pbMessage(_INTL("The soil returned to its soft and earthy state."))
+        berryData=[0,0,0,0,0,0,0,0]
+      else
+        Kernel.pbMessage(_INTL("The soil returned to its soft and loamy state."))
+        berryData=[0,0,false,0,0,0]
+      end
+      interp.setVariable(berryData)
+      pbSetSelfSwitch(thisEvent.id,"A",true)
     end
-    interp.setVariable(berryData)
-    pbSetSelfSwitch(thisEvent.id,"A",true)
   end
 end

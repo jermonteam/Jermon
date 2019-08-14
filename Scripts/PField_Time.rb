@@ -44,7 +44,7 @@ NTN_INITIALDAY=7
 NTN_INITIALHOUR=12
 NTN_INITIALMINUTE=0
 
-def pbGetTimeNow
+def pbGetTimeNow(bewwie=false)
   return Time.now if !NTN_ENABLED
   
   if(NTN_TIMESTOPS)
@@ -89,6 +89,9 @@ def pbGetTimeNow
     time_ret=start_time+(time_played+time_jumped-time_fix)
     break if time_ret.year<2036
     $PokemonGlobal.extraYears+=6
+  end
+  if bewwie
+    $game_variables[28] = time_ret
   end
   return time_ret
 end

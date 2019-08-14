@@ -95,9 +95,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbChangePlayer(0)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerName("Jerma")]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 13, 34, 30, 8, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 20, 47, 62, 8, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [81, 81, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [62, 62, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -109,7 +110,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 3
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -185,6 +186,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 14, 8, 13, 2, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [77, 77, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [62, 62, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -196,7 +198,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 3
+      trigger: 0
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
