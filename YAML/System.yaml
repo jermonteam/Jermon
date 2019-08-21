@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 14
+edit_map_id: 20
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 61551990
+magic_number: 34267077
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -141,7 +141,7 @@ switches:
 - Stop Time
 - Balloon Crashing
 - Bewwie Tree Ready
-- ''
+- Starlet Truck Crash
 - ''
 - ''
 - ''
