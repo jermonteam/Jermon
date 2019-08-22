@@ -81,7 +81,7 @@ ShowArea=true
 Outdoor=true
 #-------------------------------
 [015]
-# Bewwie Town JermoCenter
+# JermoCenter
 HealingSpot=13,29,24
 ShowArea=true
 #-------------------------------

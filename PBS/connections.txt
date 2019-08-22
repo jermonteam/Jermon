@@ -6,5 +6,7 @@
 2,North,8,11,South,0
 # Goodsprings (2) - Goodsprings Cemetery (6)
 2,East,0,6,West,0
+# Route 2 - Starlet's Thicket (20) - Bewwie Town (13)
+20,South,0,13,North,0
 # Balloon Crash Site (10) - Goodsprings (2)
 10,North,0,2,South,3
