@@ -1,4 +1,4 @@
-#-------------------------------
+#########################
 006 # Goodsprings Cemetery
 25,10,10
 Land
@@ -14,7 +14,7 @@ SPHEE,2,5
 LILMACK,5
 SPHEE,2,5
 LILMACK,6
-#-------------------------------
+#########################
 010 # Balloon Crash Site
 25,10,10
 Land
@@ -30,7 +30,7 @@ WASP,2,5
 VIVALLOON,2,5
 FIREMAN,2,5
 FIREMAN,2,5
-#-------------------------------
+#########################
 011 # Route 1 - Dusty Trail
 25,10,10
 Land
@@ -46,3 +46,35 @@ RAT,2,5
 VIVALLOON,2,5
 RAT,2,5
 VIVALLOON,2,5
+#########################
+020 # Route 2 - Starlet's Thicket
+25,20,10
+Land
+SONIC,5,7
+PUBLIAPETION,5,8
+CAT,4,8
+CAT,6,9
+PUBLIAPETION,6,8
+CAT,7,9
+SONIC,6,7
+SONIC,5,8
+PAIN,5,6
+RAT,5
+RAT,5
+PAIN,5,6
+#########################
+021 # Dastardly Den
+25,10,10
+Cave
+BATBOY,4,7
+BATBOY,5,8
+BATBOY,4,8
+BATBOY,6
+DSPONGE,5,6
+BATBOY,5
+BATBOY,4
+BATBOY,5,8
+BATBOY,5,7
+DSPONGE,5
+BATBOY,5
+BATBOY,5

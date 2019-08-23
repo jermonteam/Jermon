@@ -78,6 +78,7 @@ Outdoor=true
 ShowArea=true
 #-------------------------------
 [014]
+# MAP014
 Outdoor=true
 #-------------------------------
 [015]
@@ -97,4 +98,8 @@ BattleBack=EliteD
 #-------------------------------
 [019]
 # Studiopolis
+Outdoor=true
+#-------------------------------
+[020]
+# Route 2 - Starlet's Thicket
 Outdoor=true
