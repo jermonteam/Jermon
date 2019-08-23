@@ -12,8 +12,8 @@ WildBattleBGM=battle jermon.ogg
 #-------------------------------
 [001]
 # Intro
-ShowArea=false
 SnapEdges=false
+ShowArea=false
 #-------------------------------
 [002]
 # Goodsprings
@@ -78,7 +78,6 @@ Outdoor=true
 ShowArea=true
 #-------------------------------
 [014]
-# Balloon Basket
 Outdoor=true
 #-------------------------------
 [015]
@@ -95,3 +94,7 @@ BattleBack=EliteD
 #-------------------------------
 [018]
 # Rock House
+#-------------------------------
+[019]
+# Studiopolis
+Outdoor=true

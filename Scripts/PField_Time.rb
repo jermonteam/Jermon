@@ -124,6 +124,10 @@ if NTN_ENABLED
       def update
         $PokemonGlobal.addNewFrameCount
         updateold
+         if !@lastHour || @lastHour != pbGetTimeNow.hour
+          @lastHour = pbGetTimeNow.hour
+          $game_map.need_refresh = true
+        end
       end
     
       if NTN_TALKPASS  
@@ -147,6 +151,11 @@ if NTN_ENABLED
       end
     end
   end
+end
+
+def pbRefreshMap
+  @lastHour = pbGetTimeNow.hour
+  $game_map.need_refresh = true
 end
 
 

@@ -2085,7 +2085,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: doors1
+        character_name: doorsGoodsprings
         direction: 2
         opacity: 255
         pattern: 3
@@ -2525,10 +2525,10 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: doors5
+        character_name: doorsGoodsprings
         direction: 2
         opacity: 255
-        pattern: 0
+        pattern: 2
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'get_character(0).onEvent?']}
@@ -2745,7 +2745,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: doors1
+        character_name: doorsGoodsprings
         direction: 2
         opacity: 255
         pattern: 3

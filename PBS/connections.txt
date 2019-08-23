@@ -1,12 +1,14 @@
 # Goodsprings Cemetery (6) - Route 1 - Dusty Trail (11)
 6,North,0,11,South,43
-# Bewwie Town (13) - Route 1 - Dusty Trail (11)
-13,South,8,11,North,0
 # Goodsprings (2) - Route 1 - Dusty Trail (11)
 2,North,8,11,South,0
+# Bewwie Town (13) - Route 1 - Dusty Trail (11)
+13,South,8,11,North,0
 # Goodsprings (2) - Goodsprings Cemetery (6)
 2,East,0,6,West,0
-# Route 2 - Starlet's Thicket (20) - Bewwie Town (13)
-20,South,0,13,North,0
 # Balloon Crash Site (10) - Goodsprings (2)
 10,North,0,2,South,3
+# Route 2 - Starlet's Thicket (20) - Bewwie Town (13)
+20,South,0,13,North,0
+# Route 2 - Starlet's Thicket (20) - Studiopolis (19)
+20,North,18,19,South,0
