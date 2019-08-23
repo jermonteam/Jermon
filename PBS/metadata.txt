@@ -13,6 +13,7 @@ WildBattleBGM=battle jermon.ogg
 [001]
 # Intro
 ShowArea=false
+SnapEdges=false
 #-------------------------------
 [002]
 # Goodsprings
