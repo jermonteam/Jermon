@@ -183,15 +183,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['This is work in progress, please tell us your ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [feedback over at the Discord. Thanks and have]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [fun.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['Graphics.play_movie( ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['"Movies/introreal.mp4",true,true)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(0,0,0,0),20)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['Graphics.play_movie( ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['"Movies/introreal.wmv",true,true)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [62, 62, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(-255,-255,-']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['255,0),60)']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [60, 60, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 3, 7, 19, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbToneChangeAll(Tone.new(-255,-255,-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['255,0),60)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Ow... My head...\nIs this a dream?....']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\nWhere am I?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
