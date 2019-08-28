@@ -1,4 +1,21 @@
-#==============================
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+ACTRESS
+Temp
+2
+CAT,6
+RAT,5
+#-------------------------------
+ACTOR
+Temp
+1
+PUBLIAPETION,7
+#-------------------------------
+BOOMER
+Temp
+1
+FIREMAN,6
+#-------------------------------
 RIVAL
 Twitch Chat
 1

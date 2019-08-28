@@ -90,6 +90,13 @@
   parent_id: 0
   scroll_x: 736
   scroll_y: 576
+14: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: MAP014
+  order: 22
+  parent_id: 0
+  scroll_x: 0
+  scroll_y: 0
 15: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermoCenter
@@ -131,7 +138,7 @@
   order: 19
   parent_id: 19
   scroll_x: 1040
-  scroll_y: 2440
+  scroll_y: 934
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den

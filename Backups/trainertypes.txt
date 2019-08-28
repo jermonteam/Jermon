@@ -1,9 +1,12 @@
-# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
 0,POKEMONTRAINER_Jerma,Pokémon Trainer,60,,,,Male,,
 1,TRAINER,Trainer,20,,,,Male,,
-2,RIVAL,Twitch Chat,60,,,,Mixed,,
+2,RIVAL,Rival,60,,,,Mixed,,
 3,GRILLER,Griller,20,,,,Male,,
+18,BOOMER,Boomer,,,,,,,
+19,COXCASTM,Coxcast Grunt,,,,,,,
+20,COXCASTF,Coxcast Grunt,,,,,,,
+21,ACTOR,Actor,,,,,,,
+22,ACTRESS,Actress,,,,,,,
 59,LEADER_Dastardly,Gym Leader,100,Battle Gym Leader,,,Male,,
 60,LEADER_Glueman,Gym Leader,100,Battle Gym Leader,,,Male,,
 61,LEADER_Byeah,Gym Leader,100,Battle Gym Leader,,,Male,,
@@ -16,4 +19,3 @@
 68,ELITEFOUR_Vinny,Elite Four,100,Battle Elite,,,Male,,
 69,ELITEFOUR_Etalyx,Elite Four,100,Battle Elite,,,Male,,
 70,ELITEFOUR_Ster,Elite Four,100,Battle Elite,,,Male,,
-71,CHAMPION,Champion,100,Battle Elite,,,Male,,
