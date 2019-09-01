@@ -90,6 +90,13 @@
   parent_id: 0
   scroll_x: 736
   scroll_y: 576
+14: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: JermoCenter
+  order: 22
+  parent_id: 19
+  scroll_x: 320
+  scroll_y: 240
 15: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermoCenter
@@ -123,8 +130,8 @@
   name: Studiopolis
   order: 18
   parent_id: 0
-  scroll_x: 1600
-  scroll_y: 976
+  scroll_x: 1069
+  scroll_y: 1316
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
@@ -143,6 +150,13 @@
   expanded: false
   name: Rat Cave
   order: 21
+  parent_id: 19
+  scroll_x: 320
+  scroll_y: 240
+23: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: JermoMart
+  order: 23
   parent_id: 19
   scroll_x: 320
   scroll_y: 240
