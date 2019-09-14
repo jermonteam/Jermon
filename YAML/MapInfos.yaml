@@ -99,7 +99,7 @@
   scroll_y: 240
 15: !ruby/object:RPG::MapInfo
   expanded: false
-  name: JermoCenter
+  name: JermCenter
   order: 14
   parent_id: 13
   scroll_x: 320

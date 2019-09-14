@@ -73,6 +73,9 @@ class PokemonLoadPanel < SpriteWrapper
         end
         mapname = pbGetMapNameFromId(@mapid)
         mapname.gsub!(/\\PN/,@trainer.name)
+        if mapname.length > 24
+          mapname = mapname[0..21] + "..."
+        end
         textpos.push([mapname,193*2,5*2,1,Color.new(232,232,232),Color.new(136,136,136)])
       else
         textpos.push([@title,16*2,4*2,0,Color.new(232,232,232),Color.new(136,136,136)])
