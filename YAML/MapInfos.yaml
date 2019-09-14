@@ -84,22 +84,22 @@
   scroll_x: 320
   scroll_y: 240
 13: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Bewwie Town
   order: 13
   parent_id: 0
   scroll_x: 736
-  scroll_y: 576
+  scroll_y: 664
 14: !ruby/object:RPG::MapInfo
   expanded: false
-  name: JermoCenter
+  name: JermCenter - Studiopolis
   order: 22
   parent_id: 19
   scroll_x: 320
   scroll_y: 240
 15: !ruby/object:RPG::MapInfo
   expanded: false
-  name: JermCenter
+  name: JermCenter - Bewwie Town
   order: 14
   parent_id: 13
   scroll_x: 320
@@ -130,8 +130,8 @@
   name: Studiopolis
   order: 18
   parent_id: 0
-  scroll_x: 1069
-  scroll_y: 1316
+  scroll_x: 1600
+  scroll_y: 976
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
@@ -155,8 +155,57 @@
   scroll_y: 240
 23: !ruby/object:RPG::MapInfo
   expanded: false
-  name: JermoMart
+  name: Studiopolis Gift Shop
   order: 23
+  parent_id: 19
+  scroll_x: 352
+  scroll_y: 352
+24: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Diamonds R Forevah
+  order: 24
+  parent_id: 19
+  scroll_x: 320
+  scroll_y: 240
+25: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Studiopolis Police Dep.
+  order: 25
+  parent_id: 19
+  scroll_x: 320
+  scroll_y: 240
+26: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Studiopolis WiFi Center
+  order: 26
+  parent_id: 19
+  scroll_x: 320
+  scroll_y: 240
+27: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Studiopolis Theater
+  order: 27
+  parent_id: 19
+  scroll_x: 320
+  scroll_y: 240
+28: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Dork Cube Warehouse
+  order: 28
+  parent_id: 19
+  scroll_x: 320
+  scroll_y: 240
+29: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: PRO FISHING Shop
+  order: 29
+  parent_id: 19
+  scroll_x: 320
+  scroll_y: 240
+30: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: MilkMansion
+  order: 30
   parent_id: 19
   scroll_x: 320
   scroll_y: 240

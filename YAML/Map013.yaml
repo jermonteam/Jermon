@@ -350,7 +350,7 @@ events:
       trigger: 3
       walk_anime: true
     x: 29
-    y: 23
+    y: 24
   2: !ruby/object:RPG::Event
     id: 2
     name: Cutscene 1
@@ -561,7 +561,7 @@ events:
       trigger: 1
       walk_anime: true
     x: 35
-    y: 27
+    y: 28
   3: !ruby/object:RPG::Event
     id: 3
     name: Cutscene 1
@@ -768,7 +768,7 @@ events:
       trigger: 1
       walk_anime: true
     x: 33
-    y: 27
+    y: 28
   5: !ruby/object:RPG::Event
     id: 5
     name: Cutscene 1
@@ -975,7 +975,7 @@ events:
       trigger: 1
       walk_anime: true
     x: 34
-    y: 27
+    y: 28
   6: !ruby/object:RPG::Event
     id: 6
     name: Twitch1
@@ -1016,7 +1016,7 @@ events:
       trigger: 0
       walk_anime: true
     x: 34
-    y: 16
+    y: 17
   7: !ruby/object:RPG::Event
     id: 7
     name: EV007
@@ -1450,7 +1450,7 @@ events:
       trigger: 3
       walk_anime: true
     x: 29
-    y: 28
+    y: 29
   11: !ruby/object:RPG::Event
     id: 11
     name: EV011
@@ -1492,7 +1492,7 @@ events:
       trigger: 0
       walk_anime: true
     x: 24
-    y: 22
+    y: 23
   12: !ruby/object:RPG::Event
     id: 12
     name: EV012
@@ -1534,7 +1534,7 @@ events:
       trigger: 0
       walk_anime: true
     x: 24
-    y: 21
+    y: 22
   16: !ruby/object:RPG::Event
     id: 16
     name: NPC5
@@ -1581,7 +1581,7 @@ events:
       trigger: 0
       walk_anime: true
     x: 32
-    y: 15
+    y: 16
   17: !ruby/object:RPG::Event
     id: 17
     name: NPC1
@@ -1626,7 +1626,7 @@ events:
       trigger: 0
       walk_anime: true
     x: 23
-    y: 24
+    y: 25
   18: !ruby/object:RPG::Event
     id: 18
     name: NPC2
@@ -1675,7 +1675,7 @@ events:
       trigger: 0
       walk_anime: true
     x: 20
-    y: 21
+    y: 22
   19: !ruby/object:RPG::Event
     id: 19
     name: NPC3
@@ -1723,7 +1723,7 @@ events:
       trigger: 0
       walk_anime: true
     x: 26
-    y: 17
+    y: 18
   20: !ruby/object:RPG::Event
     id: 20
     name: NPC4
@@ -1769,7 +1769,7 @@ events:
       trigger: 0
       walk_anime: true
     x: 14
-    y: 12
+    y: 13
   22: !ruby/object:RPG::Event
     id: 22
     name: Ranch Door
@@ -1989,7 +1989,7 @@ events:
       trigger: 3
       walk_anime: true
     x: 28
-    y: 10
+    y: 11
   23: !ruby/object:RPG::Event
     id: 23
     name: Ranch Door
@@ -2209,7 +2209,7 @@ events:
       trigger: 3
       walk_anime: true
     x: 20
-    y: 10
+    y: 11
   24: !ruby/object:RPG::Event
     id: 24
     name: Shack Door
@@ -2429,7 +2429,7 @@ events:
       trigger: 3
       walk_anime: true
     x: 11
-    y: 6
+    y: 7
 height: 36
 tileset_id: 1
 width: 46
