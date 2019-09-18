@@ -90,7 +90,7 @@ events:
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbSetPokemonCenter]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rHello, and welcome to the Jermon Center.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rHello, and welcome to the Jerm Center.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rWe restore your hurt Jermon to full health.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rWould you like to heal your Jermon?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
@@ -162,8 +162,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*6]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, 'Kernel.pbPokerus?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\rYour Jermon may be infected by JermoRus.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\rLittle is known about the JermoRus except that ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\rYour Jermon may be infected by JermRus.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\rLittle is known about the JermRus except that ']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [they are microscopic life-forms that attach to Jermon.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\rWhile infected, Jermon are said to grow ']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [exceptionally well.]}

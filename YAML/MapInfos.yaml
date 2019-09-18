@@ -89,7 +89,7 @@
   order: 13
   parent_id: 0
   scroll_x: 736
-  scroll_y: 488
+  scroll_y: 547
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Studiopolis
@@ -130,8 +130,8 @@
   name: Studiopolis
   order: 18
   parent_id: 0
-  scroll_x: 1600
-  scroll_y: 759
+  scroll_x: 1076
+  scroll_y: 1383
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
