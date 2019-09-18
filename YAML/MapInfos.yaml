@@ -140,7 +140,7 @@
   scroll_x: 1040
   scroll_y: 1274
 21: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Dastardly Den
   order: 20
   parent_id: 19
@@ -165,7 +165,7 @@
   name: Diamonds R Forevah
   order: 24
   parent_id: 19
-  scroll_x: 320
+  scroll_x: 336
   scroll_y: 240
 25: !ruby/object:RPG::MapInfo
   expanded: false
@@ -175,7 +175,7 @@
   scroll_x: 320
   scroll_y: 240
 26: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Studiopolis WiFi Center
   order: 26
   parent_id: 19
@@ -203,9 +203,16 @@
   scroll_x: 320
   scroll_y: 240
 30: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: MilkMansion
   order: 30
+  parent_id: 19
+  scroll_x: 320
+  scroll_y: 240
+31: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Peepance Studios
+  order: 31
   parent_id: 19
   scroll_x: 320
   scroll_y: 240
