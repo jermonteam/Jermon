@@ -208,7 +208,7 @@
   order: 30
   parent_id: 19
   scroll_x: 320
-  scroll_y: 240
+  scroll_y: 480
 31: !ruby/object:RPG::MapInfo
   expanded: false
   name: Peepance Studios
