@@ -131,7 +131,7 @@
   order: 18
   parent_id: 0
   scroll_x: 1076
-  scroll_y: 1383
+  scroll_y: 1036
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
@@ -208,11 +208,11 @@
   order: 30
   parent_id: 19
   scroll_x: 320
-  scroll_y: 240
+  scroll_y: 480
 31: !ruby/object:RPG::MapInfo
   expanded: false
   name: Peepance Studios
   order: 31
   parent_id: 19
-  scroll_x: 320
-  scroll_y: 240
+  scroll_x: 352
+  scroll_y: 288
