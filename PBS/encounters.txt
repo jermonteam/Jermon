@@ -28,8 +28,8 @@ WASP,2,5
 VIVALLOON,2,5
 WASP,2,5
 VIVALLOON,2,5
-WASP,2,5
-VIVALLOON,2,5
+FIREMAN,2,5
+FIREMAN,2,5
 #########################
 011 # Route 1 - Dusty Trail
 25,10,10
