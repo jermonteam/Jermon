@@ -4075,8 +4075,10 @@ class PokeBattle_Battle
         return i if !hashpitem &&
                     (battler.status>0 || battler.effects[PBEffects::Confusion]>0)
       elsif isConst?(i,PBItems,:XATTACK) ||
+            isConst?(i,PBItems,:BEER) ||
             isConst?(i,PBItems,:XDEFEND) ||
             isConst?(i,PBItems,:XDEFENSE) ||
+            isConst?(i,PBItems,:XCHEEZIT) ||
             isConst?(i,PBItems,:XSPEED) ||
             isConst?(i,PBItems,:XSPECIAL) ||
             isConst?(i,PBItems,:XSPATK) ||
@@ -4084,8 +4086,10 @@ class PokeBattle_Battle
             isConst?(i,PBItems,:XACCURACY)
         stat=0
         stat=PBStats::ATTACK if isConst?(i,PBItems,:XATTACK)
+        stat=PBStats::ATTACK if isConst?(i,PBItems,:BEER)
         stat=PBStats::DEFENSE if isConst?(i,PBItems,:XDEFEND)
         stat=PBStats::DEFENSE if isConst?(i,PBItems,:XDEFENSE)
+        stat=PBStats::DEFENSE if isConst?(i,PBItems,:XCHEEZIT)
         stat=PBStats::SPEED if isConst?(i,PBItems,:XSPEED)
         stat=PBStats::SPATK if isConst?(i,PBItems,:XSPECIAL)
         stat=PBStats::SPATK if isConst?(i,PBItems,:XSPATK)

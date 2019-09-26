@@ -1361,8 +1361,9 @@ ItemHandlers::BattleUseOnBattler.add(:BEER,proc{|item,battler,scene|
    playername=battler.battle.pbPlayer.name
    scene.pbDisplay(_INTL("{1} used the {2}.",playername,PBItems.getName(item)))
    if battler.pbCanIncreaseStatStage?(PBStats::ATTACK,battler,false)
-    if isConst?(battler.species,PBSpecies,:BANDOTTLE) || isConst?(battler.species,PBSpecies,:DESPEROTTLE)
-      scene.pbDisplay(_INTL("Beer for beer... Attack up increased! HP restored!"))
+    if isConst?(battler.species,PBSpecies,:BANDOTTLE) || 
+      isConst?(battler.species,PBSpecies,:DESPEROTTLE)
+      scene.pbDisplay(_INTL("Beer for beer... Attack up! HP restored!"))
       pbBattleHPItem(battler.pokemon, battler, 50, scene)
       battler.pbIncreaseStat(PBStats::ATTACK,3,battler,true)
       return true
@@ -1413,6 +1414,28 @@ ItemHandlers::BattleUseOnBattler.add(:XDEFEND,proc{|item,battler,scene|
    if battler.pbCanIncreaseStatStage?(PBStats::DEFENSE,battler,false)
      battler.pbIncreaseStat(PBStats::DEFENSE,1,battler,true)
      return true
+   end
+   scene.pbDisplay(_INTL("But it had no effect!"))
+   return false  
+})
+
+ItemHandlers::BattleUseOnBattler.add(:CHEEZIT,proc{|item,battler,scene|
+   playername=battler.battle.pbPlayer.name
+   scene.pbDisplay(_INTL("{1} used the {2}.",playername,PBItems.getName(item)))
+   if battler.pbCanIncreaseStatStage?(PBStats::DEFENSE,battler,false)
+     if isConst?(battler.species,PBSpecies,:CHEESEY) || 
+       isConst?(battler.species,PBSpecies,:MALIGNIP) ||
+       isConst?(battler.species,PBSpecies,:CHARLIETAN) || 
+       isConst?(battler.species,PBSpecies,:SCRAPTAIN) ||
+       isConst?(battler.species,PBSpecies,:CHEEZBLITZ)
+      scene.pbDisplay(_INTL("More cheese to the grater. Defense up! HP restored!"))
+      pbBattleHPItem(battler.pokemon, battler, 50, scene)
+      battler.pbIncreaseStat(PBStats::DEFENSE,1,battler,true)
+      return true
+     else
+      battler.pbIncreaseStat(PBStats::DEFENSE,1,battler,true)
+      return true
+     end
    end
    scene.pbDisplay(_INTL("But it had no effect!"))
    return false  

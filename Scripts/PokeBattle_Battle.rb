@@ -1528,6 +1528,14 @@ class PokeBattle_Battle
       if battler.pbCanIncreaseStatStage?(PBStats::ATTACK,battler)
         battler.pbIncreaseStat(PBStats::ATTACK,1,battler,true)
       end
+    elsif isConst?(item,PBItems,:BEER)
+      if battler.pbCanIncreaseStatStage?(PBStats::ATTACK,battler)
+        battler.pbIncreaseStat(PBStats::ATTACK,1,battler,true)
+      end
+    elsif isConst?(item,PBItems,:CHEEZIT)
+      if battler.pbCanIncreaseStatStage?(PBStats::ATTACK,battler)
+        battler.pbIncreaseStat(PBStats::ATTACK,1,battler,true)
+      end
     elsif isConst?(item,PBItems,:XDEFEND)
       if battler.pbCanIncreaseStatStage?(PBStats::DEFENSE,battler)
         battler.pbIncreaseStat(PBStats::DEFENSE,1,battler,true)
