@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 24
+edit_map_id: 1
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 19404882
+magic_number: 97869674
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -166,9 +166,9 @@ switches:
 - Center Cutscene 2
 - Final Bewwie Cutscene
 - Rival Trigger 1
-- ''
-- ''
-- ''
+- Coxcast Studiopolis
+- Coxcast Wificenter 1
+- Coxcast aftermath
 - ''
 - ''
 - ''
@@ -249,7 +249,7 @@ variables:
 - ''
 - Rat Outcome
 - Twitch chat Outcome 1
-- ''
+- Coxcast Grunt Studio 1
 - ''
 - ''
 - ''

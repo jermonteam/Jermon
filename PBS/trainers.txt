@@ -1,22 +1,47 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
-ACTRESS
-Temp
-2
-CAT,6
-RAT,5
-#-------------------------------
+#==============================
+LEADER_Dastardly
+Dastardly Trio
+3
+CAT,10
+RAT,7
+BDRAT,12
+#==============================
 ACTOR
 Temp
 1
-PUBLIAPETION,7
-#-------------------------------
+PUBLIAPETION,8
+#==============================
+ACTRESS
+Temp
+1
+RAT,6
+#==============================
 BOOMER
 Temp
 1
 FIREMAN,6
-#-------------------------------
-RIVAL
+#==============================
+COXCASTM#wificenter
+Temp,2
+1
+ARRRSPHEE,5
+#==============================
+COXCASTF#wifi center
+Temp,1
+1
+ARRRSPHEE,5
+#==============================
+COXCASTF#wifi center
+Temp,2
+1
+ARRRSPHEE,5
+#==============================
+COXCASTM#Studiopolis cutscene
+Temp,1
+1
+WASP,10
+#==============================
+RIVAL#bewwie town
 Twitch Chat
 1
 SMILE,5

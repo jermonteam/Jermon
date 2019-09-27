@@ -1,21 +1,32 @@
 #==============================
+ACTOR
+Temp
+1
+PUBLIAPETION,8
+#==============================
+ACTRESS
+Temp
+1
+RAT,6
+#==============================
+BOOMER
+Temp
+1
+FIREMAN,6
+#==============================
+LEADER_Dastardly
+Dastardly Trio
+3
+CAT,10
+RAT,7
+BDRAT,12
+#==============================
 RIVAL
 Twitch Chat
 1
 SMILE,5
 #==============================
-BOOMER#First Trainer of game
+COXCASTM
 Temp,1
 1
-FIREMAN,6
-#==============================
-ACTOR
-Temp,2
-2
-CAT,6
-RAT,5
-#==============================
-ACTOR
-Temp,3
-1
-PUBLIAPETION,7
+WASP,10
