@@ -130,7 +130,7 @@
   name: Studiopolis
   order: 18
   parent_id: 0
-  scroll_x: 2307
+  scroll_x: 1427
   scroll_y: 1252
 20: !ruby/object:RPG::MapInfo
   expanded: false
