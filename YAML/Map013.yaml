@@ -1436,6 +1436,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*233]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [86, 86, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [91, 91, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

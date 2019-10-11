@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 97869674
+magic_number: 85602730
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -169,8 +169,8 @@ switches:
 - Coxcast Studiopolis
 - Coxcast Wificenter 1
 - Coxcast aftermath
-- ''
-- ''
+- Dick Cutscene 1
+- Dick Cutscene 2
 - ''
 - ''
 - ''

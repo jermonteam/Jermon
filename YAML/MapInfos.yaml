@@ -88,8 +88,8 @@
   name: Bewwie Town
   order: 13
   parent_id: 0
-  scroll_x: 707
-  scroll_y: 385
+  scroll_x: 736
+  scroll_y: 684
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Studiopolis
@@ -130,14 +130,14 @@
   name: Studiopolis
   order: 18
   parent_id: 0
-  scroll_x: 1527
-  scroll_y: 955
+  scroll_x: 2307
+  scroll_y: 1252
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
   order: 19
   parent_id: 19
-  scroll_x: 1029
+  scroll_x: 809
   scroll_y: 1300
 21: !ruby/object:RPG::MapInfo
   expanded: false
@@ -180,7 +180,7 @@
   order: 26
   parent_id: 19
   scroll_x: 320
-  scroll_y: 654
+  scroll_y: 467
 27: !ruby/object:RPG::MapInfo
   expanded: false
   name: Studiopolis Theater
@@ -208,7 +208,7 @@
   order: 30
   parent_id: 19
   scroll_x: 320
-  scroll_y: 480
+  scroll_y: 492
 31: !ruby/object:RPG::MapInfo
   expanded: false
   name: Peepance Studios
