@@ -1,8 +1,8 @@
 --- !ruby/object:RPG::Map
-autoplay_bgm: false
+autoplay_bgm: true
 autoplay_bgs: false
 bgm: !ruby/object:RPG::AudioFile
-  name: ''
+  name: route
   pitch: 100
   volume: 100
 bgs: !ruby/object:RPG::AudioFile
