@@ -109,6 +109,192 @@ events:
       walk_anime: true
     x: 6
     y: 11
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: NPC1
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar015
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGood to see a younger man like yourself getting ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [into the age-old tradition of fishing.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIt''s a skill that I think most young folks just aren''t ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [interested in attaining anymore.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 4
+    y: 7
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: NPC2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar027
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe selection they''ve got here isn''t the best I''ve ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ever seen, but they''re good enough and that''s fine by']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [me.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 2
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 1
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 11
+    y: 5
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: NPC4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 12
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bFishing is all about patience. About waiting for the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [right time to reel it in.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAs such fishing lends itself very well to various ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['metaphors and similes, ensuring that even if nobody']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [fishes anymore everyone will know what it is.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI think that's interesting.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 6
+    y: 7
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 13
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou were perhaps expecting some kind of fish joke ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['or fish related pun? Well not so, fishing is serious']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [business.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bMost people just flounder through it and some try to ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [trawl through books as if reading what to do is equal]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to raw experience.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBut if you scale it back, you find it isn''t so hard. ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Don't think of it like boxing and throw only hooks.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJXYWl0IGEgbWludXRl4oCm"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 11
+    y: 8
 height: 15
 tileset_id: 27
 width: 20

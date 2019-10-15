@@ -1,10 +1,10 @@
 --- !ruby/object:RPG::Map
-autoplay_bgm: false
+autoplay_bgm: true
 autoplay_bgs: false
 bgm: !ruby/object:RPG::AudioFile
-  name: ''
+  name: Poke Mart
   pitch: 100
-  volume: 100
+  volume: 80
 bgs: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
@@ -130,6 +130,234 @@ events:
       walk_anime: true
     x: 8
     y: 17
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: NPC2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 04
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAh yeah, look at this giant plush they got. It''s so ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [lifelike.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJXaGF0IGlzIGl0PyBJdCdzIHVoLCBpdCdzLiBJdCByZXByZXNlbnRz4oCm"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAh yeah, it''s so lifelike! ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 14
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: NPC1
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar016
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI just love this place. I come here every time a new ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['movie comes out and buy, buy, buy.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bMy family is suffering from this problem.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 6
+    y: 13
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: NPC3
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 02
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIs it weird to anyone else how extensive this gift ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['shop''s catalogue is? I know this is a major city and all']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and films are constantly made here but still.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bFeels weird that they sell so much stuff. Most of it ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [is garbage anyway I suppose.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 11
+    y: 10
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: NPC5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar017
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHave you ever seen a more vivid display of the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['consumerist culture that rots our society to the core?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI know it''s great right? I love it here. I''m thinking of ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [buying some of the rat shaped chocolates later.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 8
+    y: 9
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: NPC4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar029
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHave you taken a look at their selection of books? ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [They have a lot of classics.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThey even have the novelization of Rat Movie: ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Mystery of the Mayan Treasure and the hit sequel]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Rat Movie 2: The Movie.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bA real shame Rat Movie 3 got stuck in development ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [hell. Hope they release it eventually.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 16
+    y: 7
 height: 22
 tileset_id: 27
 width: 22

@@ -109,6 +109,232 @@ events:
       walk_anime: true
     x: 4
     y: 12
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: NPC3
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 01
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''ll be honest and say the police force was not even ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [close to prepared for that gang to swoop in like they]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [did.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIn fact, I''m pretty sure at least half of the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [department couldn't run a bath.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 4
+    y: 4
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: NPC4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 01
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHey, don''t go in there. You need proper ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [identification or a police escort.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOr do go in there. There''s nothing I can really do to ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [stop you.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 4
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: NPC1
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 22
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEver since the hostile takeover of the town there''s ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [been an uptick in crime. People are absolute animals]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [out there.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou haven''t seen anything? Well that''s what they ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['all say, it happens where you can''t see it.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 1
+    y: 11
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: NPC2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 28
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThis desk jockey''s just told me to wait while they ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"run my complaint by the head honchos" like I''m']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [supposed to know what that even means.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 3
+    y: 9
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: NPC5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 18
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTaxation is theft, but every time I bring that up the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [police officers throw me in prison. Well not this time.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThis time they''ll understand and rally behind me, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [mark my words.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 7
+    y: 9
 height: 15
 tileset_id: 27
 width: 20

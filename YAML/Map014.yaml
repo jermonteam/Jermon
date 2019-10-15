@@ -1,10 +1,10 @@
 --- !ruby/object:RPG::Map
-autoplay_bgm: false
+autoplay_bgm: true
 autoplay_bgs: false
 bgm: !ruby/object:RPG::AudioFile
-  name: ''
+  name: Poke Center
   pitch: 100
-  volume: 100
+  volume: 80
 bgs: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
@@ -714,6 +714,277 @@ events:
       walk_anime: true
     x: 11
     y: 1
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: NPC1
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 11
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou see this here computer right next to me? Top of ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the line. You can use it to store or remove Jermon]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [from your party. Or you can use it to store items.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIt can also play Snake. But don''t actually try to play ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Snake though.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bBecause I told you not to.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 3
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: NPC6
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 07
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHey you. Never forget to keep an open mind and be ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [accepting of others.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBecause there are only two things I hate in this ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['world: those who are intolerant of other people''s']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [cultures.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bAnd the Dutch.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 10
+    y: 7
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: NPC5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 27
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhy''d you come all the way around the table to talk ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['to me? I don''t have anything of interest to say.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 1
+    y: 6
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: NPC3
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 03
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhy do the Jermon get free healing but I gotta pay ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a doc when I break my leg climbing a ladder on the]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['job? What''s the deal?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 2
+    y: 4
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: NPC4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: NPC 17
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThis guy over here keeps complaining about his ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [broken leg. But I'm not entirely sure we even have]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['legs, just these little nub things.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 4
+    y: 6
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: NPC2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar007
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe technology used to heal the Jermon almost ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [instantly is a closely guarded secret of the Jermon]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Centers across the land.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAn interesting business practice considering they ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [work entirely free of charge.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 3
+    y: 2
 height: 15
 tileset_id: 4
 width: 20

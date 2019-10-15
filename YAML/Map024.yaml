@@ -1,10 +1,10 @@
 --- !ruby/object:RPG::Map
-autoplay_bgm: false
+autoplay_bgm: true
 autoplay_bgs: false
 bgm: !ruby/object:RPG::AudioFile
-  name: ''
+  name: Poke Mart
   pitch: 100
-  volume: 100
+  volume: 80
 bgs: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
