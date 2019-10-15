@@ -1,4 +1,4 @@
-# Zeus Video Player v2.3 for XP, VX and VXace by Zeus81
+﻿# Zeus Video Player v2.3 for XP, VX and VXace by Zeus81
 # Free for commercial use
 # Licence : http://creativecommons.org/licenses/by/4.0/
 # Contact : zeusex81@gmail.com
@@ -22,9 +22,9 @@
 #   http://support.microsoft.com/kb/899113
 #
 # Background Image :
-#   You can choose the background image of the player (in case your video doesn't fill all the space).
-#   It will automatically load the image named "ZeusVideoPlayer" if found in Pictures folder (the extension doesn't matter).
-#   If not found it will be black.
+# 	You can choose the background image of the player (in case your video doesn't fill all the space).
+#	It will automatically load the image named "ZeusVideoPlayer" if found in Pictures folder (the extension doesn't matter).
+#	If not found it will be black.
 #
 # Known bugs :
 #  - With some video codecs stretching to fit screen doesn't work in fullscreen mode.
@@ -45,26 +45,26 @@
 #     - You must use acm codecs for audio.
 #       Windows defaults : mp3, pcm.
 #       You can also find better codecs like aac acm.
- 
+
 module Graphics
   ZVP_OldAviMode = false
 end
- 
+
 $imported ||= {}
 $imported[:Zeus_Video_Player] = __FILE__
- 
+
 def xp?() false end ; def vx?() false end ; def vxace?() false end
 RUBY_VERSION == '1.8.1' ? defined?(Hangup) ?
 def xp?() true  end : def vx?() true  end : def vxace?() true  end
- 
+
 Cache = RPG::Cache if xp?
- 
+
 class String
   alias getbyte  []
   alias setbyte  []=
   alias bytesize size
 end unless vxace?
- 
+
 module Zeus
   module Encode # 1.1
     MultiByteToWideChar = Win32API.new('kernel32', 'MultiByteToWideChar', 'iipipi'  , 'i')
@@ -112,7 +112,7 @@ module Zeus
     end
   end
 end
- 
+
 module Graphics
   DefWindowProc       = Win32API.new('user32', 'DefWindowProc'      , 'iiii', 'i')
   DestroyWindow       = Win32API.new('user32', 'DestroyWindow'      , 'i'   , 'i')

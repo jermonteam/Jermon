@@ -970,6 +970,12 @@ class PokeBattle_Move
           defmult=(defmult*1.5).round
         end
       end
+      if pbIsPhysical?(type) && opponent.hasWorkingAbility(:BATTLEARMOR)
+          defense=(defense*1.2).round
+      end
+      if pbIsSpecial?(type) && opponent.hasWorkingAbility(:SHELLARMOR)
+          defense=(defense*1.2).round
+      end
     end
     if opponent.hasWorkingItem(:ASSAULTVEST) && pbIsSpecial?(type)
       defmult=(defmult*1.5).round
