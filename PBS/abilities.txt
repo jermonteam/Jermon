@@ -190,3 +190,4 @@
 190,DESOLATELAND,Desolate Land,"Affects weather and nullifies any Water-type attacks."
 191,DELTASTREAM,Delta Stream,"Eliminates weather effects and eliminates weaknesses of Flying-type Pokémon."
 192,MERCILESS,Merciless,"The Jermon's attacks become critical hits if the target is poisoned."
+193,DAZZLING,Dazzling,"Surprises the opposing Jermon, making it unable to attack with priority moves."

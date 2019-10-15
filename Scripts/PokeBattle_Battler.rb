@@ -2340,6 +2340,11 @@ class PokeBattle_Battler
       p+=1 if user.hasWorkingAbility(:PRANKSTER) && thismove.pbIsStatus?
       p+=1 if user.hasWorkingAbility(:GALEWINGS) && isConst?(thismove.type,PBTypes,:FLYING)
     end
+    if target.hasWorkingAbility(:DAZZLING) && p>0 && !user.hasWorkingAbility(:MOLDBREAKER)
+      @battle.pbDisplay(_INTL("{1} cannot use move!",user.pbThis))
+      PBDebug.log("[Move failed] #{user.pbThis}'s move had priority, which cannot affect a Jermon with Dazzling.")
+      return false
+    end
     if target.pbOwnSide.effects[PBEffects::QuickGuard] && thismove.canProtectAgainst? &&
        p>0 && !target.effects[PBEffects::ProtectNegation]
       @battle.pbDisplay(_INTL("{1} was protected by Quick Guard!",target.pbThis))

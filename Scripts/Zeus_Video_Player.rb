@@ -1,4 +1,4 @@
-﻿# Zeus Video Player v2.3 for XP, VX and VXace by Zeus81
+# Zeus Video Player v2.3 for XP, VX and VXace by Zeus81
 # Free for commercial use
 # Licence : http://creativecommons.org/licenses/by/4.0/
 # Contact : zeusex81@gmail.com
