@@ -3004,7 +3004,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: NPC 01
+        character_name: trainerpickles_1
         direction: 6
         opacity: 255
         pattern: 0

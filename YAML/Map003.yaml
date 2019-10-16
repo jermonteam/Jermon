@@ -717,7 +717,7 @@ events:
     y: 17
   7: !ruby/object:RPG::Event
     id: 7
-    name: EV007
+    name: Mirror
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -741,8 +741,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Some sort of weird slot machine. Works as a mirror ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [or some sort of "<i>SPECIAL</i>" system]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['A mirror, oddly, you can''t see yourself.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
