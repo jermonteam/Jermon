@@ -548,3 +548,5 @@
 548,BURGAH,Burgah,Burgahs,2,300,"A standard burgah. It restores the HP of one Jermon by just 25 points.",1,1,0,
 549,CHEEZIT,Cheez It,Cheez Its,7,450,"It raises the Defense of a Jermon in battle. Has extra effect on cheese-like Jermon.",0,2,0,
 550,DOUBLEBURGAH,Double Burgah,Double Burgahs,2,850,"It's a burgah, but two. It restores the HP of one Jermon by 60 points.",1,1,0,
+551,EXPALL,EXP Share,EXP Shares,8,0,"This item enables all non battling Jermon to receive 50% of the experience."
+552,EXPALLOFF,EXP Share Off,EXP Share Offs,8,0,"This item disables all experience share to all non battling Jermon."
