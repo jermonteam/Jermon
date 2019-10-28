@@ -175,44 +175,65 @@
   scroll_x: 320
   scroll_y: 240
 26: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Studiopolis WiFi Center
   order: 26
   parent_id: 19
   scroll_x: 320
-  scroll_y: 467
+  scroll_y: 582
 27: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Studiopolis Theater
-  order: 27
+  order: 28
   parent_id: 19
   scroll_x: 480
-  scroll_y: 491
+  scroll_y: 401
 28: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dork Cube Warehouse
-  order: 28
+  order: 30
   parent_id: 19
   scroll_x: 464
-  scroll_y: 400
+  scroll_y: 377
 29: !ruby/object:RPG::MapInfo
   expanded: false
   name: PRO FISHING Shop
-  order: 29
+  order: 31
   parent_id: 19
   scroll_x: 320
   scroll_y: 240
 30: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: MilkMansion
-  order: 30
+  order: 32
   parent_id: 19
   scroll_x: 320
-  scroll_y: 467
+  scroll_y: 256
 31: !ruby/object:RPG::MapInfo
   expanded: false
   name: Peepance Studios
-  order: 31
+  order: 34
   parent_id: 19
   scroll_x: 352
   scroll_y: 288
+32: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: MilkMansion 2ndFloor
+  order: 33
+  parent_id: 30
+  scroll_x: 320
+  scroll_y: 240
+33: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Theater
+  order: 29
+  parent_id: 27
+  scroll_x: 320
+  scroll_y: 240
+34: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Wifi Center 2nd Floor
+  order: 27
+  parent_id: 26
+  scroll_x: 320
+  scroll_y: 240
