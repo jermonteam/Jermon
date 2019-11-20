@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 531
+  scroll_y: 648
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
@@ -130,15 +130,15 @@
   name: Studiopolis
   order: 18
   parent_id: 0
-  scroll_x: 1445
-  scroll_y: 1025
+  scroll_x: 1444
+  scroll_y: 1024
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
   order: 19
   parent_id: 19
-  scroll_x: 809
-  scroll_y: 459
+  scroll_x: 709
+  scroll_y: 2528
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den
@@ -180,7 +180,7 @@
   order: 26
   parent_id: 19
   scroll_x: 320
-  scroll_y: 549
+  scroll_y: 480
 27: !ruby/object:RPG::MapInfo
   expanded: true
   name: Studiopolis Theater
