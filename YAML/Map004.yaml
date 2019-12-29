@@ -727,8 +727,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Which means, if you want, you can make Jermon ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [who didn't battle gain half of the EXP gained]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\bwhen you fight a battle, I recommend this if you are']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['a beginner! With one of these you can turn it on, and']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['with the other, off.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a beginner!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['With one of these you can turn it on, and']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['with the other, off.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Woah!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSunny Smiles: It''s the least I can do.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBy the way, before you go, there''s some rare ']}

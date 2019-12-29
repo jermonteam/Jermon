@@ -75,14 +75,14 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 648
+  scroll_y: 444
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
   order: 12
   parent_id: 2
   scroll_x: 320
-  scroll_y: 240
+  scroll_y: 320
 13: !ruby/object:RPG::MapInfo
   expanded: true
   name: Bewwie Town
@@ -130,15 +130,15 @@
   name: Studiopolis
   order: 18
   parent_id: 0
-  scroll_x: 1444
-  scroll_y: 1024
+  scroll_x: 1996
+  scroll_y: 822
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
   order: 19
   parent_id: 19
-  scroll_x: 709
-  scroll_y: 2528
+  scroll_x: 800
+  scroll_y: 1813
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den
@@ -175,14 +175,14 @@
   scroll_x: 320
   scroll_y: 240
 26: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Studiopolis WiFi Center
   order: 26
   parent_id: 19
   scroll_x: 320
   scroll_y: 480
 27: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Studiopolis Theater
   order: 27
   parent_id: 19
@@ -203,12 +203,12 @@
   scroll_x: 320
   scroll_y: 240
 30: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: MilkMansion
   order: 30
   parent_id: 19
   scroll_x: 320
-  scroll_y: 613
+  scroll_y: 580
 31: !ruby/object:RPG::MapInfo
   expanded: false
   name: Peepance Studios

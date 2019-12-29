@@ -1140,6 +1140,41 @@ events:
       condition: !ruby/object:RPG::Event::Page::Condition
         self_switch_ch: A
         self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: true
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
         switch1_id: 93
         switch1_valid: true
         switch2_id: 1
@@ -1170,6 +1205,12 @@ events:
       through: false
       trigger: 0
       walk_anime: true
+    x: 6
+    y: 22
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: Windows4
+    pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1205,12 +1246,6 @@ events:
       through: false
       trigger: 0
       walk_anime: true
-    x: 6
-    y: 22
-  11: !ruby/object:RPG::Event
-    id: 11
-    name: Windows4
-    pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1246,6 +1281,12 @@ events:
       through: false
       trigger: 0
       walk_anime: true
+    x: 7
+    y: 22
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: Windows1
+    pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1281,14 +1322,8 @@ events:
       through: false
       trigger: 0
       walk_anime: true
-    x: 7
-    y: 22
-  12: !ruby/object:RPG::Event
-    id: 12
-    name: Windows1
-    pages:
     - !ruby/object:RPG::Event::Page
-      always_on_top: false
+      always_on_top: true
       condition: !ruby/object:RPG::Event::Page::Condition
         self_switch_ch: A
         self_switch_valid: false
@@ -1322,6 +1357,12 @@ events:
       through: false
       trigger: 0
       walk_anime: true
+    x: 6
+    y: 21
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: Windows2
+    pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1357,12 +1398,6 @@ events:
       through: false
       trigger: 0
       walk_anime: true
-    x: 6
-    y: 21
-  13: !ruby/object:RPG::Event
-    id: 13
-    name: Windows2
-    pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1384,41 +1419,6 @@ events:
         opacity: 255
         pattern: 0
         tile_id: 2190
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-        repeat: true
-        skippable: false
-      move_speed: 3
-      move_type: 0
-      step_anime: false
-      through: false
-      trigger: 0
-      walk_anime: true
-    - !ruby/object:RPG::Event::Page
-      always_on_top: false
-      condition: !ruby/object:RPG::Event::Page::Condition
-        self_switch_ch: A
-        self_switch_valid: false
-        switch1_id: 1
-        switch1_valid: false
-        switch2_id: 1
-        switch2_valid: false
-        variable_id: 1
-        variable_valid: false
-        variable_value: 0
-      direction_fix: false
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        blend_type: 0
-        character_hue: 0
-        character_name: ''
-        direction: 2
-        opacity: 255
-        pattern: 0
-        tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
