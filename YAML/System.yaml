@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 31
+edit_map_id: 30
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 64532536
+magic_number: 79582502
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -174,8 +174,8 @@ switches:
 - Jex Jumped
 - Milk Closet
 - ''
-- ''
-- ''
+- Dynamite Cutscene
+- Dynamite Round 1
 - ''
 - ''
 - ''

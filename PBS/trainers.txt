@@ -1,47 +1,53 @@
-#==============================
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
 LEADER_Dastardly
 Dastardly Trio
 3
 CAT,10
 RAT,7
 BDRAT,12
-#==============================
+#-------------------------------
 ACTOR
 Temp
 1
 PUBLIAPETION,8
-#==============================
+#-------------------------------
 ACTRESS
 Temp
 1
 RAT,6
-#==============================
+#-------------------------------
 BOOMER
 Temp
 1
 FIREMAN,6
-#==============================
-COXCASTM#wificenter
+#-------------------------------
+COXCASTM
 Temp,2
 1
 ARRRSPHEE,5
-#==============================
-COXCASTF#wifi center
+#-------------------------------
+COXCASTF
 Temp,1
 1
 ARRRSPHEE,5
-#==============================
-COXCASTF#wifi center
+#-------------------------------
+COXCASTF
 Temp,2
 1
 ARRRSPHEE,5
-#==============================
-COXCASTM#Studiopolis cutscene
+#-------------------------------
+COXCASTM
 Temp,1
 1
 WASP,10
-#==============================
-RIVAL#bewwie town
+#-------------------------------
+RIVAL
 Twitch Chat
 1
 SMILE,5
+#-------------------------------
+ELVIS
+Elvis1
+1
+RAT,10,,TAILWHIP,BITE,BEATUP,SING
