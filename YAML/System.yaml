@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 30
+edit_map_id: 12
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 79582502
+magic_number: 84690494
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -176,6 +176,56 @@ switches:
 - ''
 - Dynamite Cutscene
 - Dynamite Round 1
+- Dynamite Round 2
+- Dynamite Round 3
+- Dynamite Round 4
+- Dynamite Round 5
+- Fake Switch 1
+- Dynamite Round 6
+- Easy Pete Defeated
+- Dynamite Cutscene 2
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
 - ''
 - ''
 - ''

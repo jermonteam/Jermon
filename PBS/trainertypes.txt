@@ -22,4 +22,3 @@
 68,ELITEFOUR_Vinny,Elite Four,100,Battle Elite,,,Male,,
 69,ELITEFOUR_Etalyx,Elite Four,100,Battle Elite,,,Male,,
 70,ELITEFOUR_Ster,Elite Four,100,Battle Elite,,,Male,,
-
