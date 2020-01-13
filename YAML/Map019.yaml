@@ -5119,7 +5119,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe waves are beautiful here. Wonderous cresting ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['symphonies of sparkling blue majesty, they both']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [represent chaos and tranquility.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\b I do wonder what that party of three is going to do with ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI do wonder what that party of three is going to do with ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [our fair city.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
@@ -5159,7 +5159,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe waves are beautiful here. Wonderous cresting ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['symphonies of sparkling blue majesty, they both']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [represent chaos and tranquility.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\b I do wonder what that party of three is going to do with ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI do wonder what that party of three is going to do with ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [our fair city.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
@@ -6452,10 +6452,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bUnbelievable. I can''t believe what has happened. I was ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [eating an icecream and a group of guys came rushing by]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bUnbelievable. I can't believe what has happened.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['I was \neating an icecream and a group of guys came rushing by ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and made me drop it]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bThe nerve of some people.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [\bThe nerve of some people.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6491,10 +6491,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bUnbelievable. I can''t believe what has happened. I was ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [eating an icecream and a group of guys came rushing by]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bUnbelievable. I can't believe what has happened.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['I was \neating an icecream and a group of guys came rushing by ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and made me drop it]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bThe nerve of some people.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [\bThe nerve of some people.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6870,7 +6870,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\b I''m a visitor to the city and so far it hasn''t been all that ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''m a visitor to the city and so far it hasn''t been all that ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['great, I won''t lie to you.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAs soon as I get here there''s instant instability and ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [people are screaming in my face. Terrible all around.]}
@@ -6909,7 +6909,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\b I''m a visitor to the city and so far it hasn''t been all that ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''m a visitor to the city and so far it hasn''t been all that ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['great, I won''t lie to you.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAs soon as I get here there''s instant instability and ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [people are screaming in my face. Terrible all around.]}
