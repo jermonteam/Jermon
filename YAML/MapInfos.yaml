@@ -11,8 +11,8 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 816
-  scroll_y: 1233
+  scroll_x: 800
+  scroll_y: 610
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -222,4 +222,18 @@
   order: 13
   parent_id: 2
   scroll_x: 640
-  scroll_y: 444
+  scroll_y: 1157
+33: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: MAP033
+  order: 33
+  parent_id: 0
+  scroll_x: 0
+  scroll_y: 0
+34: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: MAP034
+  order: 34
+  parent_id: 0
+  scroll_x: 0
+  scroll_y: 0

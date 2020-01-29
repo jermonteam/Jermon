@@ -356,14 +356,20 @@ events:
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-      move_frequency: 3
+      move_frequency: 6
       move_route: !ruby/object:RPG::MoveRoute
         list:
+        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
         - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
         repeat: true
         skippable: false
       move_speed: 3
-      move_type: 0
+      move_type: 3
       step_anime: false
       through: false
       trigger: 0
@@ -473,26 +479,28 @@ events:
         blend_type: 0
         character_hue: 0
         character_name: trainerelvis walk
-        direction: 2
+        direction: 8
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-      move_frequency: 3
+      move_frequency: 4
       move_route: !ruby/object:RPG::MoveRoute
         list:
+        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
         - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
         repeat: true
         skippable: false
       move_speed: 3
-      move_type: 0
+      move_type: 3
       step_anime: false
       through: false
       trigger: 0
       walk_anime: true
-    x: 30
-    y: 42
+    x: 31
+    y: 48
   6: !ruby/object:RPG::Event
     id: 6
     name: Exit
