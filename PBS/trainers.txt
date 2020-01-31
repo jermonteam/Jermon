@@ -50,13 +50,13 @@ SMILE,5
 ELVIS
 Elvis1
 1
-SLEEPEOR,15
+SLEEPEOR,14
 #-------------------------------
 ELVIS
 Elvis2
 2
 SLEEPEOR,13
-MARZOLT,14
+MARZOLT,12
 #-------------------------------
 LEADER_EasyPete
 Easy Pete
@@ -73,10 +73,10 @@ MARZOLT,15
 ELVIS
 Elvis4
 2
-MARZOLT,14
-SLEEPEOR,15
+MARZOLT,13
+SLEEPEOR,14
 #-------------------------------
 ELVIS
 Elvis5
 1
-SLEEPEOR,16
+SLEEPEOR,15
