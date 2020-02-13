@@ -5121,6 +5121,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [represent chaos and tranquility.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI do wonder what that party of three is going to do with ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [our fair city.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5138,9 +5139,9 @@ events:
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
         self_switch_ch: A
-        self_switch_valid: false
+        self_switch_valid: true
         switch1_id: 92
-        switch1_valid: true
+        switch1_valid: false
         switch2_id: 1
         switch2_valid: false
         variable_id: 1
@@ -5156,11 +5157,8 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe waves are beautiful here. Wonderous cresting ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['symphonies of sparkling blue majesty, they both']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [represent chaos and tranquility.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI do wonder what that party of three is going to do with ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [our fair city.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIf you liked that I''ll be hosting more slam poetry at the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [local eatery later today.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5202,8 +5200,8 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI came out here to relax, but how can anyone relax at a ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['time like this? Our city is in non-specific danger!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bNow that this non-specific threat has passed I can ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [continue to do nothing on this beach.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5282,9 +5280,9 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bMost people seem terrified of this so called Dastardly ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Trio, but in all honesty I''m not even sure they can tie their']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [shoelaces.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSo you defeated that Dastardly Trio? I must say ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [congratulations are in order even if it's likely that at least]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [one of them ate paste.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5364,10 +5362,9 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bA seagull swooped down and stole my entire hotdog ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and just flew away. And now I hear the city's been taken]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [over.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhat else can go wrong today?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bNow that the city is safe the hotdog stand is open ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [again. I'd dare any of these rats with wings to try taking]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [another one from me.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5450,6 +5447,44 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bFor some reason I can''t seem to actually stand under ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this beach umbrella. Weird.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 92
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar048
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYeah cool you cleared the gym, seriously can you tell ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['me how to stand under the umbrella please?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5487,6 +5522,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bFor some reason I can''t seem to actually stand under ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this beach umbrella. Weird.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5528,8 +5564,8 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSome gang has taken over the city. Or at least they say ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['they have, I''m not really sure how they plan on holding it.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''ve been saying that trio wouldn''t be able to hold the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['city! Well you proved I was right, so thanks for that.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5608,10 +5644,9 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIt''s all coming apart! Thugs have wrestled control of the ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['city, who knows what will happen next?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDork Cube may actually end up having to pay taxes ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [again. I shudder to imagine such a terrible fate.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bNow that order has been restored Dork Cube can ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [continue to make obscene amounts of money while the]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [government ignores the obvious tax fraud we commit.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5692,8 +5727,9 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSomeone ought to teach that Dastardly Trio a lesson. ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [And by "someone" I mean a person that is not me.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou certainly showed that Dastardly Trio what''s what. ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [And subsequently I didn't have to actually do anything.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Win-win.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5772,14 +5808,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWelcome to Studiopolis stranger. I wish I could greet ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you under better circumstances but our city has been]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [invaded!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bA gang of ne''er do wells slinked out of the forest and ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['overthrew our beloved leader, taking power for']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [themselves!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou have to do something because I really can''t be ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [bothered to do it myself.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCongratulations on your astounding victory sir. I must ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['admit when you first came here my hopes were not high,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but you proved me wrong.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bEven the shortest among us can be heroes too.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5867,6 +5899,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhat does "city of top bananas" even mean? Can you ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['explain that to me?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bNo I don't suppose you would know either. Figures.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5884,9 +5917,9 @@ events:
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
         self_switch_ch: A
-        self_switch_valid: false
+        self_switch_valid: true
         switch1_id: 92
-        switch1_valid: true
+        switch1_valid: false
         switch2_id: 1
         switch2_valid: false
         variable_id: 1
@@ -5902,9 +5935,8 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhat does "city of top bananas" even mean? Can you ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['explain that to me?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bNo I don't suppose you would know either. Figures.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI still have not unlocked the Cipher of the Banana, but ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [rest assured I will get to the bottom of it eventually.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -5946,11 +5978,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCan you believe this? A hostile takeover in our city. ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [After so many months of a bull market we're now stuck in]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a bear until the foreseeable future.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYeah I''m just sitting outside the gift shop imagining a ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [world where I am wealthy enough to shop there.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWe may see governmental stability for the near future ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but that doesn't mean investors have been quick to re-]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [invest in our city. We're gonna have to deal with the]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [economic downturn for a while.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6032,8 +6063,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIf I sit here in the city park and imagine myself in ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [another place I'm sure the problem will sort itself out.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI did what I said I would and look what happened: ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [exactly what I predicted would happen.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIs that too many times to say "happened" in a single ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['sentence?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6112,11 +6145,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWho knows what those fiends are planning right now? ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Actually, you think they''d consider expanding the city']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['park? That wouldn''t be so bad.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDon''t look at me like that it was a purely theoretical ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [scenario.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI guess the status-quo returns and that means no ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [expanded city park. Bummer. Though I suppose those]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [guys who took over weren't really planning on doing]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [anything with it.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6198,11 +6230,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou picked a bad time to roll into town stranger, we''re ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [under siege. Not literally of course more so in a]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [metaphysical way.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI guess also physical too considering they took the ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [gym.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe siege has been broken and freedom once again ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [parades through the gates of our fair city. I think. Those]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [guys never really got to the whole suppressing our]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [freedoms part.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6284,12 +6315,11 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHey there, ever heard of smile paste? It''s a brand new ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [product that you use on your teeth along with this plastic]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [stick with brush-like fibers on the end to craft a good]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [looking smile.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYes we invented the concept no matter what those ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [clown at the patent office say.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAh you return triumphant from the gym. ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Congratulations. Would you consider an investment into]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Smile Paste then?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bNo? Well fine, we don''t need your money anyway. I''ve ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [heard going destitute isn't as bad as people say.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6374,6 +6404,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''d say I''m scared for the future of the city but in all ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [honesty I gave up a long time ago.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6391,9 +6422,9 @@ events:
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
         self_switch_ch: A
-        self_switch_valid: false
+        self_switch_valid: true
         switch1_id: 92
-        switch1_valid: true
+        switch1_valid: false
         switch2_id: 1
         switch2_valid: false
         variable_id: 1
@@ -6409,8 +6440,8 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''d say I''m scared for the future of the city but in all ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [honesty I gave up a long time ago.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou may call me nihilistic for my previous remark, and ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['to that I say: yeah probably.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6452,10 +6483,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bUnbelievable. I can't believe what has happened.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['I was \neating an icecream and a group of guys came rushing by ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and made me drop it]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [\bThe nerve of some people.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI have officially found and purchased a new ice cream ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [after I dropped my last one. Heard something about a]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [hostile takeover but in all honesty nobody really seemed]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that concerned about it before it resolved itself.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6492,9 +6523,9 @@ events:
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bUnbelievable. I can't believe what has happened.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['I was \neating an icecream and a group of guys came rushing by ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and made me drop it]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [\bThe nerve of some people.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI was eating an icecream and a group of guys came ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [rushing by]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and made me drop it. The nerve of some people.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6530,18 +6561,24 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: NPC 02
+        character_name: ''
         direction: 8
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOh, you found me all the way out here. Surprised you ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [came all this way.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou look tired stranger. Maybe it was that balloon ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['crash? Or your subsequent hike over to the city.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDon''t worry, it''ll all work out fine. Just remember not to ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [trust him.]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 86
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &366 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*366]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6624,9 +6661,9 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThis is where the magic happens. Or at least did ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [before the magic was stolen by a roving band of thieves.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bEverything's out of whack now.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bNow we can go back to churning out inferior ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [blockbusters that are pale imitations of previous versions]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but make twice as much money. Thank you kind stranger.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6706,9 +6743,47 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou have to save us because nobody here has any ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [initiative and the police are like a road that leads off a]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['cliff. That is to say, pointless.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYknow, I had this whole speech prepared for when ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [someone came to stop those goons. but you just walked]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [right past me. That was pretty hurtful.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar035
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDo you think that road metaphor worked? I''m not sure. I ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [was workshopping it in my head for a while but after]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [saying it outloud something felt off.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6747,6 +6822,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou have to save us because nobody here has any ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [initiative and the police are like a road that leads off a]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['cliff. That is to say, pointless.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6788,9 +6864,9 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''d drive my way out of the city but I locked my keys in ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [my car. And before you ask no I can't just run away.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI don't have to explain myself to you.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bKeys are still in my car and this city doesn''t have Triple ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A Towing. Does the audience even know what that is]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['anymore?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6870,10 +6946,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''m a visitor to the city and so far it hasn''t been all that ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['great, I won''t lie to you.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAs soon as I get here there''s instant instability and ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [people are screaming in my face. Terrible all around.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bMy low opinion of the city has been improved since ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [things seem to have gone back to normal around here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['However, it still isn''t that great I don''t think. At max I''m']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [giving it a C grade.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6959,6 +7035,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['there''s no way you''ll finish it in time for the deadline?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWell I''ve never felt that way, I''m responsible with my ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [time.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -6976,9 +7053,9 @@ events:
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
         self_switch_ch: A
-        self_switch_valid: false
+        self_switch_valid: true
         switch1_id: 92
-        switch1_valid: true
+        switch1_valid: false
         switch2_id: 1
         switch2_valid: false
         variable_id: 1
@@ -6994,11 +7071,9 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou ever just procrastinate on your work until the very ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [last second and be hit with the crushing realization that]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['there''s no way you''ll finish it in time for the deadline?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWell I''ve never felt that way, I''m responsible with my ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [time.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI meant what I said about time management. It is one of ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the most important skills you can learn in your adult life.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Don't procrastinate.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -7042,6 +7117,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSo then I said - Uh, hey buddy. Do you mind? I''m trying ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to have a conversation here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -7059,9 +7135,9 @@ events:
       always_on_top: false
       condition: !ruby/object:RPG::Event::Page::Condition
         self_switch_ch: A
-        self_switch_valid: false
+        self_switch_valid: true
         switch1_id: 92
-        switch1_valid: true
+        switch1_valid: false
         switch2_id: 1
         switch2_valid: false
         variable_id: 1
@@ -7077,8 +7153,8 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSo then I said - Uh, hey buddy. Do you mind? I''m trying ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to have a conversation here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bStill interrupting conversations huh? Get out of my face ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [man.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -7120,8 +7196,8 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bForgive my friend, ever since the city was taken over a ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [whole hour ago he's been really tense.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOkay so the city''s back to normal and he''s still on ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['edge. I don''t have any more excuses, sorry.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -7200,9 +7276,9 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe city''s in shambles. I mean not any more than it was ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [before but at least before we knew who was running the]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [city into the ground. Now it's who knows what out there.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bFinally, back to the same-old same-old. Gotta tell you, it ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [is so much more comforting knowing the people in]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [charge as they destroy things one step at a time.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -7282,9 +7358,9 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe beach is beautiful but I don''t have sandals and ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [getting sand in my shoes makes death seem a]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [comparable alternative to life.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI walked all the way back to my apartment to grab my ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [sandals only to realize once I got there that I don't own a]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['pair. Well, you know what they say: life''s a beach.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

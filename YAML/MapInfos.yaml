@@ -12,7 +12,7 @@
   order: 2
   parent_id: 0
   scroll_x: 800
-  scroll_y: 610
+  scroll_y: 1233
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -130,8 +130,8 @@
   name: Studiopolis
   order: 19
   parent_id: 0
-  scroll_x: 1870
-  scroll_y: 617
+  scroll_x: 2234
+  scroll_y: 1521
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
@@ -222,7 +222,7 @@
   order: 13
   parent_id: 2
   scroll_x: 640
-  scroll_y: 468
+  scroll_y: 2436
 33: !ruby/object:RPG::MapInfo
   expanded: false
   name: MAP033
