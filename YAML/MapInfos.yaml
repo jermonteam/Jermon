@@ -89,7 +89,7 @@
   order: 14
   parent_id: 0
   scroll_x: 736
-  scroll_y: 444
+  scroll_y: 708
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Studiopolis

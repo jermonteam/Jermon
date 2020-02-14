@@ -719,10 +719,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Jerma recieved 1000 BLD coins!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 125, p: [0, 0, 1000]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOh, here''s another gift!']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbReceiveItem]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['(PBItems::EXPALL,1)']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbReceiveItem]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['(PBItems::EXPALLOFF,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbReceiveItem(]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['PBItems::EXPALL,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbReceiveItem(]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['PBItems::EXPALLOFF,1)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWith these gadgets, you can turn on EXP Share!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Which means, if you want, you can make Jermon ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [who didn't battle gain half of the EXP gained]}
