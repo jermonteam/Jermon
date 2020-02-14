@@ -222,7 +222,7 @@
   order: 13
   parent_id: 2
   scroll_x: 640
-  scroll_y: 2436
+  scroll_y: 979
 33: !ruby/object:RPG::MapInfo
   expanded: false
   name: MAP033
