@@ -920,7 +920,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trchar056
+        character_name: char_disguisedChat
         direction: 8
         opacity: 255
         pattern: 0
@@ -961,7 +961,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trchar056
+        character_name: char_disguisedChat
         direction: 8
         opacity: 255
         pattern: 0
