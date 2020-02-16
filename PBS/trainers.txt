@@ -20,7 +20,7 @@ RAT,6
 BOOMER
 Temp
 1
-FIREMAN,6
+FIREMAN,4
 #-------------------------------
 COXCASTM
 Temp,2
@@ -45,7 +45,7 @@ WASP,10
 RIVAL
 Twitch Chat
 1
-SMILE,5
+SMILE,6
 #-------------------------------
 ELVIS
 Elvis1
