@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 32
+edit_map_id: 31
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 82103190
+magic_number: 77042495
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -184,7 +184,7 @@ switches:
 - Dynamite Round 6
 - Easy Pete Defeated
 - Dynamite Cutscene 2
-- ''
+- Lost
 - ''
 - ''
 - ''
