@@ -130,15 +130,15 @@
   name: Studiopolis
   order: 19
   parent_id: 0
-  scroll_x: 2234
-  scroll_y: 1521
+  scroll_x: 2364
+  scroll_y: 776
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
   order: 20
   parent_id: 19
-  scroll_x: 1264
-  scroll_y: 2289
+  scroll_x: 1020
+  scroll_y: 2619
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den

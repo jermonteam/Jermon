@@ -74,7 +74,7 @@ encounter_step: 30
 events:
   1: !ruby/object:RPG::Event
     id: 1
-    name: Trainer1
+    name: Trainer(3)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -164,7 +164,7 @@ events:
     y: 4
   2: !ruby/object:RPG::Event
     id: 2
-    name: Trainer2
+    name: Trainer(3)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
