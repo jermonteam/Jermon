@@ -138,7 +138,7 @@
   order: 20
   parent_id: 19
   scroll_x: 1020
-  scroll_y: 2619
+  scroll_y: 1612
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den

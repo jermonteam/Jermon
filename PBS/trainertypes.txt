@@ -12,6 +12,8 @@
 23,ELVIS,Impersonator,30,,,,Male,,
 24,DORKM,DorkCube Worker,30,,,,Mixed,,
 25,DORKF,DorkCube Worker,30,,,,Mixed,,
+26,CRAZIEFILEM,Craziefile,30,,,,Mixed,,
+27,CRAZIEFILEF,Craziefile,30,,,,Mixed,,
 59,LEADER_Dastardly,Gym Leader,100,Battle Gym Leader,,,Male,,
 60,LEADER_Glueman,Gym Leader,100,Battle Gym Leader,,,Male,,
 61,LEADER_Byeah,Gym Leader,100,Battle Gym Leader,,,Male,,

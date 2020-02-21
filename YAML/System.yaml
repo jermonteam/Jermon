@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 43205043
+magic_number: 90792263
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -185,7 +185,7 @@ switches:
 - Easy Pete Defeated
 - Dynamite Cutscene 2
 - Lost
-- ''
+- crazies gone
 - ''
 - ''
 - ''
