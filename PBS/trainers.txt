@@ -20,7 +20,7 @@ PUBLIAPETION,7
 BOOMER
 Temp
 1
-BABYMAN,6
+BABYMAN,5
 #-------------------------------
 COXCASTM
 Temp,2
