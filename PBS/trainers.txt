@@ -4,8 +4,8 @@ LEADER_Dastardly
 Dastardly Trio
 3
 CAT,10
-RAT,7
-BDRAT,12
+RAT,8
+BDRAT,14
 #-------------------------------
 ACTOR
 Temp
@@ -20,7 +20,7 @@ PUBLIAPETION,7
 BOOMER
 Temp
 1
-FIREMAN,5
+BABYMAN,6
 #-------------------------------
 COXCASTM
 Temp,2

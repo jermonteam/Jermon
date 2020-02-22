@@ -679,13 +679,13 @@ events:
         repeat: true
         skippable: false
       move_speed: 3
-      move_type: 1
+      move_type: 0
       step_anime: false
       through: false
       trigger: 0
       walk_anime: true
-    x: 24
-    y: 16
+    x: 25
+    y: 15
   10: !ruby/object:RPG::Event
     id: 10
     name: Gym Sign

@@ -137,7 +137,7 @@
   name: Route 2 - Starlet's Thicket
   order: 20
   parent_id: 19
-  scroll_x: 1020
+  scroll_x: 938
   scroll_y: 1612
 21: !ruby/object:RPG::MapInfo
   expanded: false
@@ -151,8 +151,8 @@
   name: Rat Cave
   order: 22
   parent_id: 19
-  scroll_x: 320
-  scroll_y: 240
+  scroll_x: 480
+  scroll_y: 444
 23: !ruby/object:RPG::MapInfo
   expanded: false
   name: Studiopolis Gift Shop
