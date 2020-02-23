@@ -4,7 +4,7 @@ LEADER_Dastardly
 Dastardly Trio
 3
 CAT,10
-RAT,8
+RAT,9
 BDRAT,14
 #-------------------------------
 ACTOR
@@ -18,9 +18,9 @@ Temp
 PUBLIAPETION,7
 #-------------------------------
 BOOMER
-Temp
+Starlet1
 1
-BABYMAN,5
+BABYMAN,6
 #-------------------------------
 COXCASTM
 Temp,2

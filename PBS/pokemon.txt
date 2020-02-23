@@ -158,7 +158,7 @@ BattlerEnemyY=18
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
-[8]
+[7]
 Name=Babyman
 InternalName=BABYMAN
 Type1=NORMAL
@@ -180,8 +180,8 @@ Shape=7
 Habitat=Mountain
 Kind=This Dude
 Pokedex=Placeholder.
-BattlerPlayerY=0
-BattlerEnemyY=14
+BattlerPlayerY=19
+BattlerEnemyY=23
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -763,7 +763,7 @@ EffortPoints=0,0,0,1,0,0
 Rareness=45
 Happiness=70
 Abilities=INSOMNIA
-Moves=1,SCRATCH,1,HONECLAWS,4,WINGATTACK,7,SANDATTACK,11,DETECT,14,QUICKATTACK,18,DOUBLEKICK,24, TAUNT,28,SUBMISSION,32,SCREECH,36,ROOST,40,REVERSAL,44,HIGHJUMPKICK,50,SKYATTACK
+Moves=1,SCRATCH,1,HONECLAWS,4,WINGATTACK,7,SANDATTACK,11,DETECT,14,QUICKATTACK,18,DOUBLEKICK,24,TAUNT,28,SUBMISSION,32,SCREECH,36,ROOST,40,REVERSAL,44,HIGHJUMPKICK,50,SKYATTACK
 Compatibility=Flying
 StepsToHatch=9120
 Height=1.0
@@ -790,7 +790,7 @@ EffortPoints=0,0,0,2,0,0
 Rareness=45
 Happiness=70
 Abilities=INSOMNIA
-Moves=1,SCRATCH,1,HONECLAWS,4,WINGATTACK,7,SANDATTACK,11,DETECT,14,QUICKATTACK,18,DOUBLEKICK,24, TAUNT,28,SUBMISSION,32,SCREECH,36,ROOST,40,REVERSAL,44,HIGHJUMPKICK,50,SKYATTACK
+Moves=1,SCRATCH,1,HONECLAWS,4,WINGATTACK,7,SANDATTACK,11,DETECT,14,QUICKATTACK,18,DOUBLEKICK,24,TAUNT,28,SUBMISSION,32,SCREECH,36,ROOST,40,REVERSAL,44,HIGHJUMPKICK,50,SKYATTACK
 Compatibility=Flying
 StepsToHatch=9120
 Height=1.0
@@ -802,6 +802,7 @@ Pokedex=Placeholder
 BattlerPlayerY=0
 BattlerEnemyY=0
 BattlerAltitude=1
+Evolutions=
 #-------------------------------
 [73]
 Name=Bandottle
