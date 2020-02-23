@@ -2749,15 +2749,11 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Battle: \bTest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Type: BOOMER']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Name: Temp']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndSpeech: Oh no.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndBattle: \bTest']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:BOOMER)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"Temp",_I("Oh no."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bToday I feel like standing outside for an indeterminate ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of time.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"Starlet1",_I("It helps clear my mind."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -2797,7 +2793,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bYou seem like a nice young man.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
