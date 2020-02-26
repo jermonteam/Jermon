@@ -80,7 +80,7 @@ Evolutions=
 #-------------------------------
 [4]
 Name=Shpee
-InternalName=SPHEE
+InternalName=SHPEE
 Type1=WATER
 BaseStats=35,75,30,60,60,45
 GenderRate=Female50Percent
@@ -102,11 +102,11 @@ Pokedex=Only 1 in every 350 Sphees will survive into adulthood. The strong smell
 BattlerPlayerY=0
 BattlerEnemyY=29
 BattlerAltitude=0
-Evolutions=SPHEECRAB,Level,24
+Evolutions=SHPEECRAB,Level,24
 #-------------------------------
 [5]
 Name=Shpeecrab
-InternalName=SPHEECRAB
+InternalName=SHPEECRAB
 Type1=WATER
 Type2=GHOST
 BaseStats=50,105,40,75,70,80
@@ -129,11 +129,11 @@ Pokedex=Small Jermon that dot the beaches and riversides of Amrej. They tend to 
 BattlerPlayerY=0
 BattlerEnemyY=28
 BattlerAltitude=0
-Evolutions=ARRRSPHEE,Level,36
+Evolutions=ARRRSHPEE,Level,36
 #-------------------------------
 [6]
 Name=Arrrshpee
-InternalName=ARRRSPHEE
+InternalName=ARRRSHPEE
 Type1=WATER
 Type2=GHOST
 BaseStats=55,115,55,85,55,125
