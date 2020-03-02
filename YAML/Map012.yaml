@@ -671,9 +671,34 @@ events:
           repeat: false
           skippable: false
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*126]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: Ho-ho! Placeholder text, idk take the ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [badge or something talking about coxcast or whatever is]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [gonna have happene in the schoolhouse yee haw.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: Congratulations son, you beat me fair and ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [square. Been a long time since I've seen seen a trainer]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [like you come into our little town and you showed you've]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [got what it takes to make it out there.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Wow you really think so?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: Sure. Anyway, you earned that badge. If you ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [want to get the next one just head left out of town and]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [keep going until you hit Teufort. Can't miss it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Sorry, I think I misheard you. Did you say 2Fort? ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: ''Course I did. It''s got the next gym and the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [next badge.There should be a small town between there]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and here so feel free to make a stop and see what's]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [what.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAnd I don''t mean to impose, but while you''re out there ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['would you mind looking for a key?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: A key? What kind of key?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: You know a key. An object that unlocks a ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['door. How hard did you hit your head on the way down?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: So what, you lost the key?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: Not exactly. It was taken. Stolen, actually. ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Some troublemaker must have busted in and taken it]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['when I wasn''t looking. That key''s important too, so keep']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['an eye out. Know anyone who may have sticky fingers?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Now that you mention it, yeah I could have ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [someone in mind.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: Great. If you do find it use it to open ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['whatever door it does, pop in to see how everything''s']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['doing. Best of luck, son.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [105, 105, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

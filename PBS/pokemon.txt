@@ -274,7 +274,7 @@ GenderRate=Female50Percent
 GrowthRate=Parabolic
 BaseEXP=50
 EffortPoints=0,1,0,0,0,0
-Rareness=45
+Rareness=220
 Happiness=70
 Abilities=
 Moves=1,POUND,3,BUBBLE,6,CLAMP,9,WRAP,13,TWISTER,14,BUBBLEBEAM,18,ACIDARMOR,23,SCALD,25,SCREECH,28,RAZORSHELL,31,ICEPUNCH,32,ROAR,36,WATERFALL,38,DRAGONCLAW,40,DRAGONPULSE,45,DRAGONDANCE
@@ -467,7 +467,7 @@ GenderRate=Genderless
 GrowthRate=Medium
 BaseEXP=110
 EffortPoints=0,0,0,0,3,0
-Rareness=45
+Rareness=180
 Happiness=70
 Abilities=DAZZLING
 Moves=1,POUND,1,LEER,4,SNARL,8,DEFENSECURL,13,CONFUSION,17,SWIFT,21,SUCKERPUNCH,24,NASTYPLOT,27,DARKPULSE,31,ENCORE,35,DISARMINGVOICE,37,TORMENT,42,DAZZLINGGLEAM,45,NIGHTDAZE
@@ -493,7 +493,7 @@ GenderRate=AlwaysMale
 GrowthRate=Fast
 BaseEXP=75
 EffortPoints=0,0,0,2,0,0
-Rareness=112
+Rareness=225
 Happiness=70
 Abilities=SPEEDBOOST
 Moves=1,QUICKATTACK,1,CHARGE,6,SWIFT,11,YAWN,15,DOUBLETEAM,18,SPARK,22,THUNDERFANG,25,VOLTSWITCH,29,SPIKYSHIELD,35,ELECTROBALL,40,PINMISSILE,46,VOLTTACKLE
@@ -598,7 +598,7 @@ GenderRate=Female50Percent
 GrowthRate=Parabolic
 BaseEXP=45
 EffortPoints=0,0,0,1,0,0
-Rareness=45
+Rareness=230
 Happiness=70
 Abilities=KEENEYE
 Moves=1,SCRATCH,1,DEFENSECURL,5,HYPNOSIS,9,CONFUSION,13,FALSESWIPE,17,STOREDPOWER,19,PSYSHOCK,23,AGILITY,28,COSMICPOWER,35,PSYCHIC,41,FUTURESIGHT
@@ -679,7 +679,7 @@ GenderRate=Female50Percent
 GrowthRate=Parabolic
 BaseEXP=45
 EffortPoints=0,0,0,3,0,0
-Rareness=45
+Rareness=160
 Happiness=70
 Abilities=SOLIDROCK
 Moves=1,ABSORB,1,PROTECT,4,CONFUSION,7,ENDEAVOR,10,PSYBEAM,14,ROCKTOMB,17,ROUND,21,PSYSHOCK,25,LIGHTSCREEN,25,REFLECT,29,PAINSPLIT,32,IRONDEFENSE,36,PSYCHIC
@@ -760,7 +760,7 @@ GenderRate=AlwaysMale
 GrowthRate=Parabolic
 BaseEXP=45
 EffortPoints=0,0,0,1,0,0
-Rareness=45
+Rareness=255
 Happiness=70
 Abilities=INSOMNIA
 Moves=1,SCRATCH,1,HONECLAWS,4,WINGATTACK,7,SANDATTACK,11,DETECT,14,QUICKATTACK,18,DOUBLEKICK,24,TAUNT,28,SUBMISSION,32,SCREECH,36,ROOST,40,REVERSAL,44,HIGHJUMPKICK,50,SKYATTACK
@@ -804,7 +804,7 @@ BattlerEnemyY=0
 BattlerAltitude=1
 Evolutions=
 #-------------------------------
-[73]
+[41]
 Name=Bandottle
 InternalName=BANDOTTLE
 Type1=POISON
@@ -814,7 +814,7 @@ GenderRate=Female50Percent
 GrowthRate=Medium
 BaseEXP=65
 EffortPoints=0,0,0,1,0,0
-Rareness=70
+Rareness=170
 Happiness=70
 Abilities=SNIPER
 Moves=1,POISONSTING,1,LEER,6,ACIDSPRAY,8,BULLETSEED,11,FOCUSENERGY,14,MINIMIZE,19,MIRRORSHOT,24,VENOSHOCK,27,FLASHCANNON,32,PROTECT,37,SLUDGEBOMB,40,TOXIC,45,VENOMDRENCH
@@ -831,7 +831,7 @@ BattlerEnemyY=21
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
-[84]
+[39]
 Name=Spillet
 InternalName=SPILLET
 Type1=STEEL
@@ -858,7 +858,7 @@ BattlerEnemyY=19
 BattlerAltitude=11
 Evolutions=SPILLTRIO,Level,28
 #-------------------------------
-[85]
+[40]
 Name=Spilltrio
 InternalName=SPILLTRIO
 Type1=STEEL
@@ -868,7 +868,7 @@ GenderRate=Female50Percent
 GrowthRate=Medium
 BaseEXP=65
 EffortPoints=0,0,0,0,0,2
-Rareness=25
+Rareness=45
 Happiness=70
 Abilities=RAINDISH
 Moves=1,WATERGUN,1,SPLASH,5,WATERSPORT,9,BUBBLE,12,RAINDANCE,16,WATERPULSE,20,BUBBLEBEAM,24,MIRRORSHOT,28,METALSOUND,31,TRIATTACK,34,MUDDYWATER,39,IRONDEFENSE,45,HYDROPUMP,48,SOAK,53,MIRRORCOAT
@@ -885,7 +885,7 @@ BattlerEnemyY=0
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
-[106]
+[35]
 Name=Sleepeor
 InternalName=SLEEPEOR
 Type1=ROCK
@@ -894,7 +894,7 @@ GenderRate=Female50Percent
 GrowthRate=Medium
 BaseEXP=65
 EffortPoints=0,0,1,0,0,0
-Rareness=25
+Rareness=255
 Happiness=70
 Abilities=STURDY
 Moves=1,ROCKTHROW,1,SLEEPTALK,4,HARDEN,7,BIDE,11,STEALTHROCK,14,SMACKDOWN,18,YAWN,21,SLAM,25,ROCKPOLISH,28,POWERGEM,31,REST,35,COSMICPOWER,40,STONEEDGE,45,DOUBLEEDGE
@@ -911,7 +911,7 @@ BattlerEnemyY=19
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
-[117]
+[43]
 Name=Marzolt
 InternalName=MARZOLT
 Type1=ROCK
@@ -920,7 +920,7 @@ GenderRate=Female50Percent
 GrowthRate=Medium
 BaseEXP=65
 EffortPoints=0,0,0,0,1,0
-Rareness=25
+Rareness=190
 Happiness=70
 Abilities=STURDY
 Moves=1,HARDEN,1,POUND,5,THUNDERSHOCK,8,STEALTHROCK,11,CHARGE,14,SMACKDOWN,17,ROCKPOLISH,20,VOLTSWITCH,24,THUNDERWAVE,28,CHARGEBEAM,32,SANDSTORM,36,THUNDERBOLT,40,POWERGEM

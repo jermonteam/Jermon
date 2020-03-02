@@ -3,9 +3,9 @@
 LEADER_Dastardly
 Dastardly Trio
 3
-CAT,10
+CAT,11
 RAT,9
-BDRAT,14
+BDRAT,13
 #-------------------------------
 ACTOR
 Temp
@@ -119,5 +119,16 @@ BATBY,8
 ACTOR
 Den1
 2
-SLEEPEOR,6,
-RAT,7,,TACKLE,TAILWHIP,BITE,
+SLEEPEOR,6
+RAT,7,,TACKLE,TAILWHIP,BITE
+#-------------------------------
+DORKM
+Starlet4
+2
+LILMACK,5,
+PUBLIAPETION,6,
+#-------------------------------
+BOOMER
+Starlet5
+1
+SONIC,8,
