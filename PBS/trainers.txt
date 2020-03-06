@@ -25,13 +25,13 @@ BABYMAN,6
 COXCASTM
 Temp,2
 2
-ARRRSHPEE,9
-ARRRSHPEE,9
+SHPEE,9
+FLAREVA,9
 #-------------------------------
 COXCASTF
 Temp,1
 1
-ARRRSHPEE,12
+SMALLTHROPOD,12
 #-------------------------------
 COXCASTF
 Temp,2
