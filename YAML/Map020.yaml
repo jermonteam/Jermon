@@ -1619,7 +1619,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [8]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 22, 4, 4, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 22, 10, 12, 6, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
