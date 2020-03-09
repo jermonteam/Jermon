@@ -3,14 +3,15 @@
 LEADER_Dastardly
 Dastardly Trio
 3
-CAT,11
 RAT,9
-BDRAT,13
+CAT,11
+RAT,13
 #-------------------------------
 ACTOR
 Temp
-1
+2
 PUBLIAPETION,8
+SCHNOZZPASS,9
 #-------------------------------
 ACTRESS
 Temp
@@ -36,8 +37,8 @@ SMALLTHROPOD,12
 COXCASTF
 Temp,2
 2
-ARRRSHPEE,9
-ARRRSHPEE,10
+SHPEE,9
+SMALLTHROPOD,10
 #-------------------------------
 COXCASTM
 Temp,1
@@ -63,9 +64,9 @@ MARZOLT,12
 LEADER_EasyPete
 Easy Pete
 3
-MARZOLT,17
-SLEEPEOR,18
-DSPONGE,20
+MARZOLT,16
+SLEEPEOR,17
+DSPONGE,19
 #-------------------------------
 ELVIS
 Elvis3
@@ -86,7 +87,7 @@ SLEEPEOR,15
 ELVIS
 SchoolElvis1
 1
-SONIC,9
+SONIC,11
 #-------------------------------
 ELVIS
 SchoolElvis4
@@ -96,13 +97,13 @@ PUBLIAPETION,12
 ELVIS
 SchoolElvis2
 2
-SONIC,8,,QUICKATTACK,CHARGE,SPARK
+SONIC,9,,QUICKATTACK,CHARGE,SPARK
 SONIC,10,,QUICKATTACK,CHARGE,SPARK
 #-------------------------------
 ELVIS
 SchoolElvis3
 2
-BATBY,8
+BATBY,10
 BATBY,11
 #-------------------------------
 ACTRESS
@@ -132,3 +133,19 @@ BOOMER
 Starlet5
 1
 SONIC,8,
+#-------------------------------
+ELVIS
+SchoolElvis6
+1
+SCHNOZZPASS,13,
+#-------------------------------
+ELVIS
+SchoolElvis5
+2
+CAT,10
+RAT,11
+#-------------------------------
+ELVIS
+SchoolElvis4
+1
+VIVALLOON,11
