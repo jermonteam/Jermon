@@ -3258,7 +3258,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bStranger: I didn''t properly introduce myself before. ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['My name is John Money, and I''m FUCKIN RICH!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBecause I''m the owner of the nation''s largest ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [internet provider. MICROSOFT!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [internet provider. TINYSOFT!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: .... Okay.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJohn Money: Jeremy, in order to thank you for what ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "eW91J3ZlIGRvbmUgaGVyZSB0b2RheSBJJ20gZ29pbmcgdG8gZ2l2ZSB5b3Xi\ngKYgQQ=="]}
@@ -3289,7 +3289,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [what you have done for us today!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''ll be sure to keep my eye on you Jeremy, ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [especially when you're asleep and near a computer]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that uses Microsoft internet connection.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that uses Tinysoft internet connection.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Huh-']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJohn Money: NOTHING!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: ...']}
@@ -6150,7 +6150,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [guys who took over weren't really planning on doing]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [anything with it.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-      move_frequency: 6
+      move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
         list:
         - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
