@@ -130,8 +130,8 @@
   name: Studiopolis
   order: 19
   parent_id: 0
-  scroll_x: 1724
-  scroll_y: 776
+  scroll_x: 1469
+  scroll_y: 1116
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
