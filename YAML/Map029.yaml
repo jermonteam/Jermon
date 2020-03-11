@@ -295,6 +295,89 @@ events:
       walk_anime: true
     x: 11
     y: 8
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: fishing shop man
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: &1 !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar015
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHey there! Don''t see too many fresh faces in ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['here, possibly because we only sell fishing rods.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThat may have been a bad idea for a store now that I''m ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [thinking about it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOn a related note, we''re actually having a promotion ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [today! First time customers get one free rod! Here you]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [go!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbReceiveItem(]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['PBItems::OLDROD,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Have fun fishing for jermon!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: *1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHope you''re enjoying that free fishing rod. Which is, uh, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [still the only thing we sell here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 7
+    y: 5
 height: 15
 tileset_id: 27
 width: 20
