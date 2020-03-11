@@ -297,7 +297,7 @@ events:
         pattern: 2
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [School closed due to renovations.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [School closed indefinitely due to lack of children.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 29
+edit_map_id: 2
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 49790369
+magic_number: 81173280
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -186,8 +186,8 @@ switches:
 - Dynamite Cutscene 2
 - Lost
 - crazies gone
-- ''
-- ''
+- Leaving Studiopolis
+- Reentering Goodsprings
 - ''
 - ''
 - ''

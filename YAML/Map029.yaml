@@ -50,7 +50,7 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0763 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 07e4 0000 07cd 0000 076b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 07e4 0000 07cd 07d2 076b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 07ec 0000 07d5 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 07d7 067e 0000 067e 0000 0000 0000 0000 0000 078c 0620 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 07df 0000 0000 0000 0000 0000 0000 0000 0000 0620 0628 0000 0000 0000 0000 0000 0000
@@ -331,7 +331,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [go!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbReceiveItem(]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['PBItems::OLDROD,1)']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Have fun fishing for jermon!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Have fun fishing for jermon! Just use that item next to any ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [suitable body of water and reel it in when the ! appears.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
