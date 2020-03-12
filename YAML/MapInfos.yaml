@@ -131,7 +131,7 @@
   order: 19
   parent_id: 0
   scroll_x: 800
-  scroll_y: 971
+  scroll_y: 491
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
@@ -222,7 +222,7 @@
   order: 13
   parent_id: 2
   scroll_x: 640
-  scroll_y: 444
+  scroll_y: 1319
 33: !ruby/object:RPG::MapInfo
   expanded: false
   name: MAP033

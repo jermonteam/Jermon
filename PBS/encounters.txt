@@ -94,3 +94,9 @@ RAT,7,12
 BANDOTTLE,7
 BANDOTTLE,7,10
 BANDOTTLE,8
+#########################
+025 # Studiopolis
+25,10,10
+OldRod
+LILMACK,6,7
+SHPEE,6,7

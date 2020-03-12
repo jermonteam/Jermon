@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 19
+edit_map_id: 32
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 8159103
+magic_number: 97231103
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -188,7 +188,7 @@ switches:
 - crazies gone
 - Leaving Studiopolis
 - Reentering Goodsprings
-- ''
+- escape set
 - ''
 - ''
 - ''
