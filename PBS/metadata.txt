@@ -103,3 +103,7 @@ Outdoor=true
 [020]
 # Route 2 - Starlet's Thicket
 Outdoor=true
+#-------------------------------
+[032]
+# Schoolhouse
+DarkMap=True

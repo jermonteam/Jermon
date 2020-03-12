@@ -471,24 +471,54 @@ HiddenMoveHandlers::UseMove.add(:DIVE,proc{|move,pokemon|
 #===============================================================================
 # Flash
 #===============================================================================
-HiddenMoveHandlers::CanUseMove.add(:FLASH,proc{|move,pkmn,showmsg|
+#HiddenMoveHandlers::CanUseMove.add(:FLASH,proc{|move,pkmn,showmsg|
+#   return false if !pbCheckHiddenMoveBadge(BADGEFORFLASH,showmsg)
+#   if !pbGetMetadata($game_map.map_id,MetadataDarkMap)
+#     Kernel.pbMessage(_INTL("Can't use that here.")) if showmsg
+#     return false
+#   end
+#   if $PokemonGlobal.flashUsed
+#     Kernel.pbMessage(_INTL("Flash is already being used.")) if showmsg
+#     return false
+#   end
+#   return true
+#})
+#
+#HiddenMoveHandlers::UseMove.add(:FLASH,proc{|move,pokemon|
+#   darkness = $PokemonTemp.darknessSprite
+#   return false if !darkness || darkness.disposed?
+#   if !pbHiddenMoveAnimation(pokemon)
+#     Kernel.pbMessage(_INTL("{1} used {2}!",pokemon.name,PBMoves.getName(move)))
+#   end
+#   $PokemonGlobal.flashUsed = true
+#   while darkness.radius<176
+#     Graphics.update
+#     Input.update
+#     pbUpdateSceneMap
+#     darkness.radius += 4
+#   end
+#   return true
+#})
+
+def canUseMoveFlash?
+   showmsg = true
    return false if !pbCheckHiddenMoveBadge(BADGEFORFLASH,showmsg)
    if !pbGetMetadata($game_map.map_id,MetadataDarkMap)
      Kernel.pbMessage(_INTL("Can't use that here.")) if showmsg
      return false
    end
    if $PokemonGlobal.flashUsed
-     Kernel.pbMessage(_INTL("Flash is already being used.")) if showmsg
+     Kernel.pbMessage(_INTL("The flashlight is already being used.")) if showmsg
      return false
    end
    return true
-})
+end
 
-HiddenMoveHandlers::UseMove.add(:FLASH,proc{|move,pokemon|
+def useMoveFlash
    darkness = $PokemonTemp.darknessSprite
    return false if !darkness || darkness.disposed?
-   if !pbHiddenMoveAnimation(pokemon)
-     Kernel.pbMessage(_INTL("{1} used {2}!",pokemon.name,PBMoves.getName(move)))
+   if !pbHiddenMoveAnimation(nil)
+     Kernel.pbMessage(_INTL("{1} used the flashlight!",$Trainer.name))
    end
    $PokemonGlobal.flashUsed = true
    while darkness.radius<176
@@ -498,9 +528,7 @@ HiddenMoveHandlers::UseMove.add(:FLASH,proc{|move,pokemon|
      darkness.radius += 4
    end
    return true
-})
-
-
+end
 
 #===============================================================================
 # Fly

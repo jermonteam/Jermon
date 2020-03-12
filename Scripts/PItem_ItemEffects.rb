@@ -54,6 +54,13 @@ ItemHandlers::UseFromBag.add(:ITEMFINDER,proc{|item| next 2 })
 
 ItemHandlers::UseFromBag.copy(:ITEMFINDER,:DOWSINGMCHN,:DOWSINGMACHINE)
 
+ItemHandlers::UseFromBag.add(:FLASHLIGHT,proc{|item|
+   next canUseMoveFlash? ? 2 : 0
+})
+
+ItemHandlers::UseInField.add(:FLASHLIGHT,proc{|item|
+   useMoveFlash if canUseMoveFlash?
+})
 #===============================================================================
 # ConfirmUseInField handlers
 # Return values: true/false

@@ -131,14 +131,14 @@
   order: 19
   parent_id: 0
   scroll_x: 800
-  scroll_y: 1446
+  scroll_y: 971
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
   order: 20
   parent_id: 19
   scroll_x: 800
-  scroll_y: 2208
+  scroll_y: 1248
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den

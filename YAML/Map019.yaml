@@ -3268,8 +3268,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJohn Money: NO! NO BALDCOIN! FUCK YOU ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [THAT'S MY MONEY YOU CAN'T HAVE ANY!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\b...ehem, what I meant to say was... I''m going to give ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you this device!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Jerma has received the Light Illuminatron 9000!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you this device, a cutting edge wonder of modern']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['technology, the Light Illuminatron 9000!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbReceiveItem(]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['PBItems::FLASHLIGHT,1)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAnd! Uhhhh... here you can also have this I guess. ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Sure.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['Kernel.pbReceiveItem(:TM31)']}
