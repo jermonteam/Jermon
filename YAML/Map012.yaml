@@ -684,6 +684,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [next badge.There should be a small town between there]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and here so feel free to make a stop and see what's]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [what.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou should take this too. This here is a stick o'' ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [dynamite. You can use it to blow up the rocks blockin' any]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [paths.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbReceiveItem(]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['PBItems::DYNAMITE,1)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAnd I don''t mean to impose, but while you''re out there ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['would you mind looking for a key?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: A key? What kind of key?']}

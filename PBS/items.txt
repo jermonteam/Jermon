@@ -552,3 +552,4 @@
 552,EXPALLOFF,EXP Share Off,EXP Share Offs,8,0,"This item disables all experience share to all non battling Jermon.",2,0,6,
 553,TICKET,Theater Ticket,Tickets,1,0,"A ticket used for any of the theaters in Studiopolis.",0,0,6,
 554,FLASHLIGHT,Flashlight,Flashlights,8,0,"A flashlight used to illuminate dark spaces.",2,0,6,
+555,DYNAMITE,Dynamite,Dynamite,8,0,"A stick of dynamite used to blow up rocks.",2,0,6,

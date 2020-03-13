@@ -19,7 +19,7 @@
 SURF_ITEM = :SURFITEM
 
 # The internal name of the item that will trigger Rock Smash
-ROCK_SMASH_ITEM = :ROCKSMASHITEM
+ROCK_SMASH_ITEM = :DYNAMITE
 
 # The internal name of the item that will trigger Fly
 FLY_ITEM = :FLYITEM
