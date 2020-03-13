@@ -107,3 +107,4 @@ Outdoor=true
 [032]
 # Schoolhouse
 DarkMap=True
+BattleBack=IndoorD

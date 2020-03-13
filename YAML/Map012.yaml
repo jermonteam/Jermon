@@ -820,7 +820,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bUh. Bastard?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis1",_I("I''m still not off book."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elves",_I("I''m still not off book."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -1632,7 +1632,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHowdy pard''ner, yee haw and haw yee and all that.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis3",_I("This cowboy stuff can''t hold up to being the King."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvoos",_I("This cowboy stuff can''t hold up to being the King."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [C, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -2042,7 +2042,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bVivaaaaaa]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis4",_I("Las Vegas."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvise",_I("Las Vegas."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [D, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -2451,7 +2451,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAre you doing this on purpose?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis5",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvus",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [102, 102, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -2980,7 +2980,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bUh. Bastard?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis1",_I("I''m still not off book."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elves",_I("I''m still not off book."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -3390,7 +3390,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWow, its me, yup, the real Easy Pete. I like dynamite ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and stuff]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis2",_I("This character really speaks to me."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elviis",_I("This character really speaks to me."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -4203,7 +4203,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bVivaaaaaa]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis4",_I("Las Vegas."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvise",_I("Las Vegas."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [D, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -4612,7 +4612,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAre you doing this on purpose?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis5",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvus",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [102, 102, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -5134,7 +5134,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bUh. Bastard?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis1",_I("I''m still not off book."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elves",_I("I''m still not off book."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -5544,7 +5544,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWow, its me, yup, the real Easy Pete. I like dynamite ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and stuff]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis2",_I("This character really speaks to me."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elviis",_I("This character really speaks to me."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -5954,7 +5954,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHowdy pard''ner, yee haw and haw yee and all that.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis3",_I("This cowboy stuff can''t hold up to being the King."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvoos",_I("This cowboy stuff can''t hold up to being the King."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [C, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -6766,7 +6766,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAre you doing this on purpose?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis5",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvus",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [102, 102, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -7295,7 +7295,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bUh. Bastard?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis1",_I("I''m still not off book."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elves",_I("I''m still not off book."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -7705,7 +7705,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWow, its me, yup, the real Easy Pete. I like dynamite ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and stuff]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis2",_I("This character really speaks to me."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elviis",_I("This character really speaks to me."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -8927,7 +8927,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAre you doing this on purpose?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis5",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvus",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [102, 102, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -9449,7 +9449,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bUh. Bastard?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis1",_I("I''m still not off book."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elves",_I("I''m still not off book."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -9859,7 +9859,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWow, its me, yup, the real Easy Pete. I like dynamite ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and stuff]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis2",_I("This character really speaks to me."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elviis",_I("This character really speaks to me."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -10269,7 +10269,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHowdy pard''ner, yee haw and haw yee and all that.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis3",_I("This cowboy stuff can''t hold up to being the King."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvoos",_I("This cowboy stuff can''t hold up to being the King."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [C, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -11081,7 +11081,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAre you doing this on purpose?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis5",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvus",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [102, 102, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -11567,7 +11567,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bUh. Bastard?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis1",_I("I''m still not off book."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elves",_I("I''m still not off book."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -11977,7 +11977,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWow, its me, yup, the real Easy Pete. I like dynamite ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and stuff]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis2",_I("This character really speaks to me."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elviis",_I("This character really speaks to me."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -13199,7 +13199,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ELVIS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAre you doing this on purpose?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvis5",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"Elvus",_I("Like, no judgement if you are, I get it."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [102, 102, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}

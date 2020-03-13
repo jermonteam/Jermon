@@ -2752,7 +2752,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:BOOMER)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bToday I feel like walking back and forth.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"Starlet5",_I("It helps clear my mind."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"Montgomery",_I("It helps clear my mind."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -2927,7 +2927,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:BOOMER)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI'm here to deliver one knuckle sandwich.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:DORKF,"Starlet3",_I("Oops. Wrong address."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:DORKF,"Phoenix",_I("Oops. Wrong address."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -3028,7 +3028,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou''re supposed to say "Yes, and"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ACTRESS,"Starlet2",_I("Yes, and here''s your money."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ACTRESS,"Olivia",_I("Yes, and here''s your money."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -3592,7 +3592,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:BOOMER)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDorkcube delivers! ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:DORKM,"Starlet4",_I("Go to https://dorkcube.jer for a special offer on all blood related orders."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:DORKM,"Keith",_I("Go to https://dorkcube.jer for a special offer on all blood related orders."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -3681,7 +3681,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou kids today think you can just walk in front of other ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['people and get away with it, huh?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"Starlet1",_I("Does nobody have any manners anymore?"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"Bartholomew",_I("Does nobody have any manners anymore?"),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}

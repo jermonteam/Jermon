@@ -1933,7 +1933,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:RIVAL)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\r???: Alright, whatever. No one can stand in ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [COXCAST's way!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTM,"Temp",_I("...SHIT!"),false,1,true) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTM,"Roy",_I("...SHIT!"),false,1,true) ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbToneChangeAll(Tone.new(-255,-255,-255,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Battle flee, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand
@@ -2915,7 +2915,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:RIVAL)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\r???: Alright, whatever. No one can stand in ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [COXCAST's way!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTM,"Temp",_I("...SHIT!"),false,1,true) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTM,"Roy",_I("...SHIT!"),false,1,true) ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbToneChangeAll(Tone.new(-255,-255,-255,0),20)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Battle flee, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand

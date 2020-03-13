@@ -60,7 +60,7 @@ data: !ruby/object:Table
   - 0000 0000 0000 02b1 02a9 02a9 02aa 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01b3 01b1 01b1 01b1 01b1 01b1 01b4 0000 0000 0000 0000 0000 0000 06ca 0000 0000 0000 0000
   - 0000 0000 0000 06ca 06ca 06ca 0000 0000 0000 0000 0000 01bb 01b9 01b9 01b9 01b9 01b9 01bc 0000 0000 0000 0000 0000 06ca 06ca 06ca 0000 0000 0000
-  - 0000 0000 0000 06ca 06ca 06ca 02a2 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06ca 06d2 06ca 0000 0000 0000
+  - 0000 0000 0000 06ca 06ca 06ca 02a2 0000 0000 0000 0000 0000 0000 0000 06b4 0000 0000 0000 0000 0000 0000 0000 0000 06ca 06d2 06ca 0000 0000 0000
   - 0000 0000 0000 06d2 06d2 06d2 02a2 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06d2 06d2 06d2 0000 0000 0000
   - 0000 0000 0000 02b1 02a9 02a9 02aa 0000 0000 0000 0000 0000 0000 04dd 04de 04df 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 04e5 04e6 04e7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
@@ -139,6 +139,48 @@ events:
       walk_anime: true
     x: 14
     y: 23
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bWell this is embarassing. Try coming back later.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 20
 height: 25
 tileset_id: 27
 width: 29

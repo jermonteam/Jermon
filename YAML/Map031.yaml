@@ -98,15 +98,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Battle: \bTest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Type: ACTOR']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Name: Temp']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndSpeech: Oh no.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndBattle: \bTest']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ACTOR)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ACTOR,"Temp",_I("Oh no."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCan you believe I had to audition for this job?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ACTOR,"Leonardo",_I("I sent in a video and everything."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -146,7 +141,8 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDo you think I can put "henchman" on my resume ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['because of this?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -188,15 +184,11 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Battle: \bTest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Type: ACTRESS']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Name: Temp']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndSpeech: Oh no.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndBattle: \bTest']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:ACTRESS)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ACTRESS,"Temp",_I("Oh no."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI guess the gym is under new management, but I think ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll still get fired if I leave.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ACTRESS,"Gwenyth",_I("As long as I get my commision for this."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -236,7 +228,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI don't care if that's a cynical way to look at it.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

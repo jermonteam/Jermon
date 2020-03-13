@@ -134,16 +134,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Battle: \bTest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Type: COXCASTF']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Name: Temp']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndSpeech: Oh no.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndBattle: \bTest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['BattleID: 1']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COXCASTF)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTF,"Temp",_I("Oh no."),false,1,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rSorry dude, you aren''t getting past me.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTF,"Jill",_I("You gotta be kidding me."),false,1,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -183,7 +177,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rWell you DEFINITELY aren't getting past the next grunt.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -225,16 +219,11 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Battle: \bTest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Type: COXCASTM']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Name: Temp']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndSpeech: Oh no.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndBattle: \bTest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['BattleID: 2']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COXCASTM)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTM,"Temp",_I("Oh no."),false,2,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rSo you''re tryin'' to keep us from stealing... whatever ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [we're stealing.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTM,"Frank",_I("I should really read the mission briefs."),false,2,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -274,7 +263,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rThere's always next time.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -316,16 +305,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Battle: \bTest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Type: COXCASTF']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['Name: Temp']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndSpeech: Oh no.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['EndBattle: \bTest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['BattleID: 2']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COXCASTF)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTF,"Temp",_I("Oh no."),false,2,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rA world of hurt is coming your way.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTF,"Bertha",_I("You have no idea what you''ve gotten yourself into."),false,2,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -365,7 +348,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTest]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rGet out of my face.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
