@@ -68,7 +68,7 @@
   order: 10
   parent_id: 2
   scroll_x: 752
-  scroll_y: 444
+  scroll_y: 464
 11: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 1 - Dusty Trail
@@ -130,8 +130,8 @@
   name: Studiopolis
   order: 19
   parent_id: 0
-  scroll_x: 800
-  scroll_y: 742
+  scroll_x: 809
+  scroll_y: 479
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
@@ -180,7 +180,7 @@
   order: 27
   parent_id: 19
   scroll_x: 320
-  scroll_y: 444
+  scroll_y: 480
 27: !ruby/object:RPG::MapInfo
   expanded: false
   name: Studiopolis Theater

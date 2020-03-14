@@ -12,7 +12,7 @@
 #      Rock Smash, Strength and Cut all use the default Essentials events.     #
 #==============================================================================#
 
-# Future updates may contain: Flash, Headbutt, Rock Climb. AND DIVE (grarr)
+# Future updates may contain: Headbutt, Rock Climb.
 
 
 # The internal name of the item that will trigger Surf
@@ -33,6 +33,9 @@ CUT_ITEM = :CUTITEM
 # The internal name of the item that will trigger Dive
 DIVE_ITEM = :DIVEITEM
 
+# The internal name of the item that will trigger Flash
+FLASH_ITEM = :FLASHLIGHT
+
 
 
 # When true, this overrides the old surfing mechanics.
@@ -52,6 +55,9 @@ USING_CUT_ITEM = true
 
 # When true, this overrides the old dive mechanics.
 USING_DIVE_ITEM = true
+
+# When true, this overrides the old flash mechanics.
+USING_FLASH_ITEM = true
 
 
 #==============================================================================#
@@ -393,3 +399,53 @@ if USING_DIVE_ITEM
   end)
 end
 
+#===========================================================================================================#
+# This section of the code handles the item that calls Flash. Made by Poofy the magnificent, edited by Izzy #
+#===========================================================================================================#
+
+if USING_FLASH_ITEM
+  HiddenMoveHandlers::CanUseMove.delete(:FLASH)
+  HiddenMoveHandlers::UseMove.delete(:FLASH)
+
+  def canUseMoveFlash?
+     showmsg = true
+     return false if !pbCheckHiddenMoveBadge(BADGEFORFLASH,showmsg)
+     if !pbGetMetadata($game_map.map_id,MetadataDarkMap)
+       Kernel.pbMessage(_INTL("Can't use that here.")) if showmsg
+       return false
+     end
+     if $PokemonGlobal.flashUsed
+       Kernel.pbMessage(_INTL("The flashlight is already being used.")) if showmsg
+       return false
+     end
+     return true
+  end
+
+  def useMoveFlash
+     darkness = $PokemonTemp.darknessSprite
+     return false if !darkness || darkness.disposed?
+     if !pbHiddenMoveAnimation(nil)
+       Kernel.pbMessage(_INTL("{1} used the flashlight!",$Trainer.name))
+     end
+     $PokemonGlobal.flashUsed = true
+     while darkness.radius<176
+       Graphics.update
+       Input.update
+       pbUpdateSceneMap
+       darkness.radius += 4
+     end
+     return true
+  end
+
+  ItemHandlers::UseFromBag.add(FLASH_ITEM, proc do |item|
+     next canUseMoveFlash? ? 2 : 0
+  end)
+
+
+  ItemHandlers::UseInField.add(FLASH_ITEM,proc do |item|
+    if canUseMoveFlash?
+      useMoveFlash
+    end
+  end)
+
+end
