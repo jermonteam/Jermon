@@ -78,11 +78,11 @@ Outdoor=true
 ShowArea=true
 #-------------------------------
 [014]
-# MAP014
+# JermCenter - Studiopolis
 Outdoor=true
 #-------------------------------
 [015]
-# JermoCenter
+# JermCenter - Bewwie Town
 HealingSpot=13,29,24
 ShowArea=true
 #-------------------------------
@@ -106,5 +106,5 @@ Outdoor=true
 #-------------------------------
 [032]
 # Schoolhouse
-DarkMap=True
 BattleBack=IndoorD
+DarkMap=true

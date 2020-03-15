@@ -1,4 +1,4 @@
-#########################
+#-------------------------------
 006 # Goodsprings Cemetery
 25,10,10
 Land
@@ -14,7 +14,7 @@ SHPEE,2,5
 LILMACK,5
 SHPEE,2,5
 LILMACK,6
-#########################
+#-------------------------------
 010 # Balloon Crash Site
 25,10,10
 Land
@@ -30,7 +30,7 @@ FLAREVA,2,5
 VIVALLOON,2,5
 FLAREVA,2,5
 VIVALLOON,2,5
-#########################
+#-------------------------------
 011 # Route 1 - Dusty Trail
 25,10,10
 Land
@@ -46,7 +46,7 @@ RAT,2,5
 VIVALLOON,2,5
 RAT,2,5
 VIVALLOON,2,5
-#########################
+#-------------------------------
 020 # Route 2 - Starlet's Thicket
 25,20,10
 Land
@@ -62,14 +62,14 @@ PAIN,5,6
 RAT,5
 RAT,5
 PAIN,5,6
-#########################
+#-------------------------------
 021 # Dastardly Den
 25,10,10
 Cave
 BATBY,4,7
 BATBY,5,8
 BATBY,4,8
-SlEEPEOR,6
+SLEEPEOR,6
 SLEEPEOR,5,6
 SLEEPEOR,5,7
 SCHNOZZPASS,4
@@ -78,7 +78,13 @@ SCHNOZZPASS,5,6
 SCHNOZZPASS,5
 SCHNOZZPASS,6
 BATBY,5
-#########################
+#-------------------------------
+025 # Studiopolis Police Dep.
+25,10,10
+OldRod
+LILMACK,6,7
+SHPEE,6,7
+#-------------------------------
 032 # Schoolhouse
 25,10,10
 Cave
@@ -94,9 +100,3 @@ RAT,7,12
 BANDOTTLE,7
 BANDOTTLE,7,10
 BANDOTTLE,8
-#########################
-025 # Studiopolis
-25,10,10
-OldRod
-LILMACK,6,7
-SHPEE,6,7
