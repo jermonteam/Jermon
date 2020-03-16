@@ -7,7 +7,7 @@
   scroll_x: 320
   scroll_y: 240
 2: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Goodsprings
   order: 2
   parent_id: 0
@@ -67,8 +67,8 @@
   name: Balloon Crash Site
   order: 10
   parent_id: 2
-  scroll_x: 752
-  scroll_y: 464
+  scroll_x: 549
+  scroll_y: 275
 11: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 1 - Dusty Trail
@@ -242,5 +242,5 @@
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 3930
-  scroll_y: 885
+  scroll_x: 549
+  scroll_y: 875
