@@ -137,7 +137,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COXCASTF)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rSorry dude, you aren''t getting past me.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTF,"Jill",_I("You gotta be kidding me."),false,1,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTF,"Jill",_I("You gotta be kidding me."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -223,7 +223,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rSo you''re tryin'' to keep us from stealing... whatever ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [we're stealing.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTM,"Frank",_I("I should really read the mission briefs."),false,2,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTM,"Frank",_I("I should really read the mission briefs."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -308,7 +308,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COXCASTF)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rA world of hurt is coming your way.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTF,"Bertha",_I("You have no idea what you''ve gotten yourself into."),false,2,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COXCASTF,"Bertha",_I("You have no idea what you''ve gotten yourself into."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}

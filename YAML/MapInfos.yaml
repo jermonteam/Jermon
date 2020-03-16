@@ -7,11 +7,11 @@
   scroll_x: 320
   scroll_y: 240
 2: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 800
+  scroll_x: 549
   scroll_y: 982
 3: !ruby/object:RPG::MapInfo
   expanded: false
@@ -130,15 +130,15 @@
   name: Studiopolis
   order: 20
   parent_id: 0
-  scroll_x: 809
-  scroll_y: 479
+  scroll_x: 1436
+  scroll_y: 1062
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
   order: 21
   parent_id: 19
   scroll_x: 1087
-  scroll_y: 1734
+  scroll_y: 2211
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den
@@ -180,7 +180,7 @@
   order: 28
   parent_id: 19
   scroll_x: 320
-  scroll_y: 480
+  scroll_y: 379
 27: !ruby/object:RPG::MapInfo
   expanded: false
   name: Studiopolis Theater
@@ -242,5 +242,5 @@
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 3679
-  scroll_y: 1169
+  scroll_x: 3930
+  scroll_y: 885
