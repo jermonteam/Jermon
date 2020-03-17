@@ -108,3 +108,13 @@ Outdoor=true
 # Schoolhouse
 BattleBack=IndoorD
 DarkMap=true
+#-------------------------------
+[033]
+# Valentine
+Bicycle=true
+Outdoor=true
+#-------------------------------
+[035]
+# Route 3 - Crooked Canyon
+Bicycle=true
+Outdoor=true

@@ -11,8 +11,8 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 549
-  scroll_y: 982
+  scroll_x: 831
+  scroll_y: 431
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -89,7 +89,7 @@
   order: 15
   parent_id: 0
   scroll_x: 736
-  scroll_y: 708
+  scroll_y: 497
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Studiopolis
@@ -137,8 +137,8 @@
   name: Route 2 - Starlet's Thicket
   order: 21
   parent_id: 19
-  scroll_x: 1087
-  scroll_y: 2211
+  scroll_x: 1040
+  scroll_y: 1311
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den
@@ -225,22 +225,15 @@
   scroll_y: 444
 33: !ruby/object:RPG::MapInfo
   expanded: false
-  name: MAP033
+  name: Valentine
   order: 34
   parent_id: 0
-  scroll_x: 320
-  scroll_y: 240
-34: !ruby/object:RPG::MapInfo
-  expanded: false
-  name: MAP034
-  order: 35
-  parent_id: 0
-  scroll_x: 320
-  scroll_y: 240
+  scroll_x: 960
+  scroll_y: 720
 35: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 549
-  scroll_y: 875
+  scroll_x: 800
+  scroll_y: 1169
