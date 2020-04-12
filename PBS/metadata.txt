@@ -114,7 +114,17 @@ DarkMap=true
 Bicycle=true
 Outdoor=true
 #-------------------------------
+[034]
+# Route 4 - 
+Bicycle=true
+Outdoor=true
+#-------------------------------
 [035]
 # Route 3 - Crooked Canyon
+Bicycle=true
+Outdoor=true
+#-------------------------------
+[036]
+# 2fort
 Bicycle=true
 Outdoor=true
