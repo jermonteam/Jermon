@@ -7644,7 +7644,6 @@ events:
           - &375 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &376 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &377 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &378 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
           repeat: false
           skippable: false
@@ -7659,7 +7658,6 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*375]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*376]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*377]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*378]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 209
@@ -7667,7 +7665,8 @@ events:
         - 100
         - !ruby/object:RPG::MoveRoute
           list:
-          - &379 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - &378 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - &379 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &380 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &381 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &382 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
@@ -7677,11 +7676,10 @@ events:
           - &386 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &387 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
           - &388 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &389 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &390 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
           repeat: false
           skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*378]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*379]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*380]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*381]}
@@ -7692,7 +7690,30 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*386]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*387]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*388]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 99
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &389 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*389]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 100
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &390 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*390]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

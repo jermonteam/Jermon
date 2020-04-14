@@ -7,12 +7,12 @@
   scroll_x: 320
   scroll_y: 240
 2: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Goodsprings
   order: 2
   parent_id: 0
   scroll_x: 831
-  scroll_y: 1227
+  scroll_y: 519
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -131,7 +131,7 @@
   order: 20
   parent_id: 0
   scroll_x: 1600
-  scroll_y: 1062
+  scroll_y: 1384
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
@@ -224,7 +224,7 @@
   scroll_x: 640
   scroll_y: 444
 33: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Valentine
   order: 34
   parent_id: 0
@@ -242,12 +242,12 @@
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 800
-  scroll_y: 1169
+  scroll_x: 3132
+  scroll_y: 914
 36: !ruby/object:RPG::MapInfo
   expanded: false
   name: 2fort
   order: 36
   parent_id: 0
-  scroll_x: 1031
-  scroll_y: 1096
+  scroll_x: 1626
+  scroll_y: 800
