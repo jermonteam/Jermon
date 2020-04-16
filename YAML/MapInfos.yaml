@@ -12,7 +12,7 @@
   order: 2
   parent_id: 0
   scroll_x: 831
-  scroll_y: 519
+  scroll_y: 1068
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -126,12 +126,12 @@
   scroll_x: 320
   scroll_y: 240
 19: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Studiopolis
   order: 20
   parent_id: 0
   scroll_x: 1600
-  scroll_y: 1384
+  scroll_y: 976
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
@@ -229,10 +229,10 @@
   order: 34
   parent_id: 0
   scroll_x: 960
-  scroll_y: 720
+  scroll_y: 639
 34: !ruby/object:RPG::MapInfo
   expanded: false
-  name: 'Route 4 - '
+  name: Route 4 - Lakeside Trail
   order: 35
   parent_id: 33
   scroll_x: 1280
@@ -242,12 +242,40 @@
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 3132
-  scroll_y: 914
+  scroll_x: 2715
+  scroll_y: 1147
 36: !ruby/object:RPG::MapInfo
   expanded: false
   name: 2fort
-  order: 36
+  order: 40
   parent_id: 0
-  scroll_x: 1626
+  scroll_x: 1142
   scroll_y: 800
+37: !ruby/object:RPG::MapInfo
+  expanded: true
+  name: House 1
+  order: 36
+  parent_id: 33
+  scroll_x: 320
+  scroll_y: 240
+38: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: House 2
+  order: 37
+  parent_id: 33
+  scroll_x: 320
+  scroll_y: 240
+39: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: House 3
+  order: 38
+  parent_id: 33
+  scroll_x: 320
+  scroll_y: 240
+40: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: JermCenter - Valentine
+  order: 39
+  parent_id: 33
+  scroll_x: 320
+  scroll_y: 240

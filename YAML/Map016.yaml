@@ -539,7 +539,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: What the FUCK ARE YOU?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:RIVAL)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\c[5] R I O T']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:RIVAL,"Twitch Chat",_I("He''s good... monkaS"),false,0,true) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:RIVAL,"Twitch Chat",_I("He''s good... monkaS"),false,1,true) ']}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 209

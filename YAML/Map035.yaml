@@ -1627,6 +1627,48 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bLookie here, a city boy coming down into our canyon!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COWBOY,"1",_I("Darn, you got some chops I''ll give you that."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGood luck out there boy, it''s gonna be rougher goin'' ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [forward.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -1668,6 +1710,49 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bExcuse me young man, care for a leisurely battle on ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['this fine day?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"1",_I("Ah, this brings me back."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerboomer walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTry not to overexert yourself or your Jermons, take a ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [break if you need to and rest.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -1709,6 +1794,48 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSlow down there partner, let''s battle!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COWBOY,"1",_I("You''re a good fighter, you know that?"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bValentine should be the next town after this route, can''t ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [miss it.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -1750,6 +1877,48 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\b Let''s get this show on the road, I gotta get to Madison ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Square Garden!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:ELVIS,"1",_I("Good show my man but I gotta run."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerelvis walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWait, what year is it again?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -1791,6 +1960,51 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bNothing beats some adrenaline pumping extreme ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [sports]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['like high intensity rock climbing, its CRAZY you gotta try']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [it bro!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:CRAZIEFILEF,"1",_I("Don''t be too crazy bro, always wear proper safety equipment and go in pairs while rock climbing.  "),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercraziefilefemale walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou haven''t LIVED until you''ve safely climbed the walls ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of this canyon bro, it''s unreal.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -1832,6 +2046,48 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou wanna walk through our canyon you gotta pay the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [tolls.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COWBOY,"1",_I("Guess I''m payin'' this time."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDon''t worry, I won''t pester you again. Get moving.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -1873,6 +2129,47 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bYou ain't goin' one step further 'till you battle me!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COWBOY,"1",_I(" Well, guess you can go along now then."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGo on ahead, you earned it.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -1914,6 +2211,47 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHail to the King baby! ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:DORKCUBEF,"1",_I("There goes my break AND my money."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''m not really the King, just a pale imitation.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -1955,6 +2293,47 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''m on my lunch break, let''s battle!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:DORKCUBEF,"1",_I("There goes my break AND my money."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerdorkfemale walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bMan you really just robbed me blind didn''t you?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -1996,6 +2375,47 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bLet''s go son, right now you and me.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COWBOY,"1",_I("Licked me real good didn''t ya?"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\b You've got my respect friend.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -2031,12 +2451,54 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trainercowboy walk
+        character_name: trainerboomer walk
         direction: 6
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bMy eyes don''t work so good anymore, but I can sense ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a trainer like you a mile away!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"1",_I("Goodness gracious you''re stronger than I thought."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerboomer walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bTake it easy out there young'un.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -2078,6 +2540,49 @@ events:
         pattern: 0
         tile_id: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYoung man, where are you off to in such a hurry? Let''s ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [have a quick battle!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"1",_I("Thank you for indulging me for a bit."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerboomer walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bTry not to go too fast or you''ll lose sight of how beautiful ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the world can be.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -2134,6 +2639,208 @@ events:
       walk_anime: true
     x: 5
     y: 28
+  46: !ruby/object:RPG::Event
+    id: 46
+    name: Twitch Chat
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: owtwitchrival
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 123
+    y: 24
+  47: !ruby/object:RPG::Event
+    id: 47
+    name: Chat fight 2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 46
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &19 !ruby/object:RPG::MoveCommand {code: 29, parameters: [5]}
+          - &20 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &21 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &22 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &23 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &24 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &25 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &26 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &27 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &28 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &29 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*19]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*22]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*23]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*24]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*25]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*26]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*27]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*28]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*29]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:RIVAL,"Twitch Chat",_I("Testing omegalul"),false,2,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 133
+    y: 25
+  48: !ruby/object:RPG::Event
+    id: 48
+    name: EV048
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBeautiful day for a battle, wouldn''t you say?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COWBOY,"1",_I("''Least it ain''t raining."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bRemember to head back to a Jermon center if your ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [little guys are looking a bit too fatigued.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 84
+    y: 40
 height: 50
 tileset_id: 23
 width: 140

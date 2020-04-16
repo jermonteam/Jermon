@@ -46,9 +46,17 @@ Roy
 FLAREVA,12
 #-------------------------------
 RIVAL
-Twitch Chat
+Twitch Chat,1
 1
 SMILE,5,,,,,,2
+#-------------------------------
+RIVAL
+Twitch Chat,2
+4
+SPILLET,16
+SONIC,17
+BDRAT,18
+SMILE,19,,,,,,2
 #-------------------------------
 ELVIS
 Elves
