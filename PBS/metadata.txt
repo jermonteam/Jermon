@@ -121,6 +121,7 @@ Outdoor=true
 #-------------------------------
 [035]
 # Route 3 - Crooked Canyon
+BattleBack=Mountain
 Bicycle=true
 Outdoor=true
 #-------------------------------

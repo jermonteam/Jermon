@@ -242,8 +242,8 @@
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 3679
-  scroll_y: 962
+  scroll_x: 838
+  scroll_y: 664
 36: !ruby/object:RPG::MapInfo
   expanded: false
   name: 2fort

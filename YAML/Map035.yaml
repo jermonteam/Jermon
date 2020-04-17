@@ -1646,7 +1646,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1731,7 +1731,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1816,7 +1816,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1902,7 +1902,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1989,7 +1989,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -2074,7 +2074,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -2158,7 +2158,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -2242,7 +2242,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -2581,7 +2581,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -2666,7 +2666,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -2751,7 +2751,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -2837,7 +2837,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -2962,7 +2962,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -3066,7 +3066,7 @@ events:
         blend_type: 0
         character_hue: 0
         character_name: trainercowboy walk
-        direction: 6
+        direction: 2
         opacity: 255
         pattern: 0
         tile_id: 0
