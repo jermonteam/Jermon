@@ -704,6 +704,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: Great. If you do find it use it to open ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['whatever door it does, pop in to see how everything''s']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['doing. Best of luck, son.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [111, 111, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [105, 105, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

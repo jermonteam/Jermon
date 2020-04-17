@@ -53,10 +53,10 @@ SMILE,5,,,,,,2
 RIVAL
 Twitch Chat,2
 4
-SPILLET,16
-SONIC,17
-BDRAT,18
-SMILE,19,,,,,,2
+SPILLET,17
+SCHNOZZPASS,17
+BDRAT,17
+SMILE,20,,,,,,2
 #-------------------------------
 ELVIS
 Elves
