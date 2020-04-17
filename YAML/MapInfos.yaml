@@ -68,7 +68,7 @@
   order: 10
   parent_id: 2
   scroll_x: 549
-  scroll_y: 275
+  scroll_y: 380
 11: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 1 - Dusty Trail
@@ -222,7 +222,7 @@
   order: 13
   parent_id: 2
   scroll_x: 640
-  scroll_y: 444
+  scroll_y: 585
 33: !ruby/object:RPG::MapInfo
   expanded: true
   name: Valentine
@@ -242,8 +242,8 @@
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 2715
-  scroll_y: 1147
+  scroll_x: 3520
+  scroll_y: 976
 36: !ruby/object:RPG::MapInfo
   expanded: false
   name: 2fort

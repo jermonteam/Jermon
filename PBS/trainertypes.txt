@@ -15,6 +15,8 @@
 26,CRAZIEFILEM,Craziefile,30,,,,Mixed,,
 27,CRAZIEFILEF,Craziefile,30,,,,Mixed,,
 28,SCHOOLELVIS,Impersonator,30,,,,Male,,
+29,COWBOY,Cowboy,30,,,,Male,,
+30,PROSPECTOR,The,30,,,,Male,,
 59,LEADER_Dastardly,Gym Leader,100,Battle Gym Leader,,,Male,,
 60,LEADER_Glueman,Gym Leader,100,Battle Gym Leader,,,Male,,
 61,LEADER_Byeah,Gym Leader,100,Battle Gym Leader,,,Male,,
