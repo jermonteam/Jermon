@@ -249,8 +249,8 @@
   name: Teufort
   order: 41
   parent_id: 0
-  scroll_x: 874
-  scroll_y: 593
+  scroll_x: 752
+  scroll_y: 512
 37: !ruby/object:RPG::MapInfo
   expanded: false
   name: House 1
@@ -292,18 +292,18 @@
   order: 42
   parent_id: 36
   scroll_x: 640
-  scroll_y: 1635
+  scroll_y: 1825
 43: !ruby/object:RPG::MapInfo
   expanded: false
   name: Blu Base
   order: 43
   parent_id: 36
   scroll_x: 640
-  scroll_y: 1700
+  scroll_y: 1764
 44: !ruby/object:RPG::MapInfo
   expanded: false
   name: Sewers
   order: 44
   parent_id: 36
-  scroll_x: 800
-  scroll_y: 521
+  scroll_x: 2573
+  scroll_y: 370
