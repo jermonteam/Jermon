@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 35
+edit_map_id: 44
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 8049299
+magic_number: 94950032
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -190,10 +190,10 @@ switches:
 - Reentering Goodsprings
 - escape set
 - Twitch battle 2
-- ''
-- ''
-- ''
-- ''
+- Grill spooky
+- Grill Fight
+- RED cutscene
+- Sewer Cutscene
 - ''
 - ''
 - ''

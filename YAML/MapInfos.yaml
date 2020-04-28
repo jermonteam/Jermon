@@ -130,7 +130,7 @@
   name: Studiopolis
   order: 20
   parent_id: 0
-  scroll_x: 1600
+  scroll_x: 872
   scroll_y: 976
 20: !ruby/object:RPG::MapInfo
   expanded: false
@@ -229,30 +229,30 @@
   order: 34
   parent_id: 0
   scroll_x: 960
-  scroll_y: 639
+  scroll_y: 452
 34: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 4 - Lakeside Trail
   order: 35
   parent_id: 33
   scroll_x: 1280
-  scroll_y: 1484
+  scroll_y: 621
 35: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 838
-  scroll_y: 664
+  scroll_x: 800
+  scroll_y: 991
 36: !ruby/object:RPG::MapInfo
-  expanded: false
-  name: 2fort
-  order: 40
-  parent_id: 0
-  scroll_x: 1142
-  scroll_y: 800
-37: !ruby/object:RPG::MapInfo
   expanded: true
+  name: Teufort
+  order: 41
+  parent_id: 0
+  scroll_x: 874
+  scroll_y: 593
+37: !ruby/object:RPG::MapInfo
+  expanded: false
   name: House 1
   order: 36
   parent_id: 33
@@ -279,3 +279,31 @@
   parent_id: 33
   scroll_x: 320
   scroll_y: 240
+41: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Valentine Gen. Store
+  order: 40
+  parent_id: 33
+  scroll_x: 320
+  scroll_y: 240
+42: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Red Base
+  order: 42
+  parent_id: 36
+  scroll_x: 640
+  scroll_y: 1635
+43: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Blu Base
+  order: 43
+  parent_id: 36
+  scroll_x: 640
+  scroll_y: 1700
+44: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Sewers
+  order: 44
+  parent_id: 36
+  scroll_x: 800
+  scroll_y: 521

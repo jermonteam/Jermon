@@ -2409,6 +2409,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bWhatever, I gotta prepare myself for the ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [route ahead. Looks like a long one.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [111, 111, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [112, 112, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
@@ -2514,6 +2515,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: How many more times is this guy gonna attack ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['me like that? Whatever, I gotta prepare myself for the']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [route ahead. Looks like a long one.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [106, 106, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [112, 112, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [111, 111, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -2651,7 +2654,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bMy eyes don''t work so good anymore, but I can sense ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a trainer like you a mile away!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"1",_I("Goodness gracious you''re stronger than I thought."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"Chester",_I("Goodness gracious you''re stronger than I thought."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -2918,6 +2921,93 @@ events:
       walk_anime: true
     x: 123
     y: 24
+  47: !ruby/object:RPG::Event
+    id: 47
+    name: rock smash
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: Object dispenser 1
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &43 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*43]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, Kernel.pbCut]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &44 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Mining collapse, pitch: 100, volume: 50}]}
+          - &45 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
+          - &46 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+          - &47 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
+          - &48 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - &49 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
+          - &50 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - &51 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*44]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*45]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*46]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*47]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*48]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*49]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*50]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*51]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbEraseThisEvent]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Kernel.pbRockSmashRandomEncounter]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 5
+    y: 35
   48: !ruby/object:RPG::Event
     id: 48
     name: Trainer(4)
@@ -3088,6 +3178,134 @@ events:
       walk_anime: true
     x: 109
     y: 20
+  50: !ruby/object:RPG::Event
+    id: 50
+    name: rock smash
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: Object dispenser 1
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &52 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*52]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, Kernel.pbCut]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &53 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Mining collapse, pitch: 100, volume: 50}]}
+          - &54 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
+          - &55 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+          - &56 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
+          - &57 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - &58 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
+          - &59 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - &60 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*53]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*54]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*55]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*56]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*57]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*58]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*59]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*60]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbEraseThisEvent]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Kernel.pbRockSmashRandomEncounter]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 5
+    y: 36
+  51: !ruby/object:RPG::Event
+    id: 51
+    name: EV051
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 23
+    y: 36
 height: 50
 tileset_id: 23
 width: 140

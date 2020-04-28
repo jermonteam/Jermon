@@ -113,19 +113,23 @@ DarkMap=true
 # Valentine
 Bicycle=true
 Outdoor=true
+ShowArea=true
 #-------------------------------
 [034]
-# Route 4 - 
+# Route 4 - Lakeside Trail
 Bicycle=true
 Outdoor=true
+ShowArea=true
 #-------------------------------
 [035]
 # Route 3 - Crooked Canyon
 BattleBack=Mountain
 Bicycle=true
 Outdoor=true
+ShowArea=true
 #-------------------------------
 [036]
-# 2fort
+# Tuefort
 Bicycle=true
 Outdoor=true
+ShowArea=true

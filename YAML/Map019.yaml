@@ -6366,7 +6366,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [stick with brush-like fibers on the end to craft a good]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [looking smile.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYes we invented the concept no matter what those ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [clown at the patent office say.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [clowns at the patent office say.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
