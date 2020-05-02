@@ -28,7 +28,7 @@ FLY_ITEM = :FLYITEM
 STRENGTH_ITEM = :STRENGTHITEM
 
 # The internal name of the item that will trigger Cut
-CUT_ITEM = :CUTITEM
+CUT_ITEM = :SAPPER
 
 # The internal name of the item that will trigger Dive
 DIVE_ITEM = :DIVEITEM
@@ -274,11 +274,11 @@ if USING_CUT_ITEM
   
   def Kernel.pbCut
     if !pbCheckHiddenMoveBadge(BADGEFORCUT,false) && !$DEBUG
-      Kernel.pbMessage(_INTL("This tree looks like it can be cut down."))
+      Kernel.pbMessage(_INTL("This dispenser could probably be destroyed somehow."))
       return false
     end
-    Kernel.pbMessage(_INTL("This tree looks like it can be cut down!\1"))
-    if Kernel.pbConfirmMessage(_INTL("Would you like to cut it?"))
+    Kernel.pbMessage(_INTL("This dispenser looks like it could be sapped!\1"))
+    if Kernel.pbConfirmMessage(_INTL("Would you like to sap it?"))
       itemname = PBItems.getName(getConst(PBItems,CUT_ITEM))
       Kernel.pbMessage(_INTL("{1} used the {2}!",$Trainer.name,itemname))
       pbSmashEvent($game_player.pbFacingEvent)
@@ -288,7 +288,7 @@ if USING_CUT_ITEM
   end
   
   ItemHandlers::UseFromBag.add(CUT_ITEM, proc do
-    if $game_player.pbFacingEvent && $game_player.pbFacingEvent.name == "Tree"
+    if $game_player.pbFacingEvent && $game_player.pbFacingEvent.name == "Dispenser"
       return 2
     end
     return false

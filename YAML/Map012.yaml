@@ -679,6 +679,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: Sure. Anyway, you earned that badge. If you ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [want to get the next one just head left out of town and]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [keep going until you hit Teufort. Can't miss it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['$Trainer.badges[1] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [You've earned the Dynamite Badge!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Sorry, I think I misheard you. Did you say 2Fort? ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bEasy Pete: ''Course I did. It''s got the next gym and the ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [next badge.There should be a small town between there]}

@@ -47,6 +47,12 @@ VIVALLOON,2,5
 RAT,2,5
 VIVALLOON,2,5
 #-------------------------------
+019 # Studiopolis
+25,10,10
+OldRod
+LILMACK,6,7
+SHPEE,6,7
+#-------------------------------
 020 # Route 2 - Starlet's Thicket
 25,20,10
 Land
@@ -79,12 +85,6 @@ SCHNOZZPASS,5
 SCHNOZZPASS,6
 BATBY,5
 #-------------------------------
-019 # Studiopolis
-25,10,10
-OldRod
-LILMACK,6,7
-SHPEE,6,7
-#-------------------------------
 032 # Schoolhouse
 25,10,10
 Cave
@@ -101,22 +101,6 @@ BANDOTTLE,7
 BANDOTTLE,7,10
 BANDOTTLE,8
 #-------------------------------
-035 # Route 3 - Crooked Canyon
-25,10,10
-Land
-KIDMARK,13,15
-MARZOLT,13,15
-CHEESEY,13,14
-KIDMARK,13,16
-BANDOTTLE,12,13
-CHEESEY,13
-KIDMARK,14
-MARZOLT,13
-KIDMARK,12
-CHEESEY,14
-BANDOTTLE,13
-CHEESEY,16
-#-------------------------------
 034 # Route 4 - Lakeside Trail
 25,10,10
 Land
@@ -132,6 +116,22 @@ JERSLUG,14,16
 AMPFIB,14,16
 WALLLAD,13,15
 SHPEE,15,17
+#-------------------------------
+035 # Route 3 - Crooked Canyon
+25,10,10
+Land
+KIDMARK,13,15
+MARZOLT,13,15
+CHEESEY,13,14
+KIDMARK,13,16
+BANDOTTLE,12,13
+CHEESEY,13
+KIDMARK,14
+MARZOLT,13
+KIDMARK,12
+CHEESEY,14
+BANDOTTLE,13
+CHEESEY,16
 #-------------------------------
 044 # Sewers
 25,10,10

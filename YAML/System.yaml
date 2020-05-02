@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 42
+edit_map_id: 47
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 82086288
+magic_number: 27191969
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -194,15 +194,15 @@ switches:
 - Grill Fight
 - RED cutscene
 - Sewer Cutscene
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
+- Sewer Cutscene 2
+- Sewer cutscene 3
+- Sewer Cutscene 4
+- Sewer Cutscene 5
+- spy revealed
+- sapper
+- spy in the base
+- Grill fight 2
+- Bridge block
 - ''
 - ''
 - ''

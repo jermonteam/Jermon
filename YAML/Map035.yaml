@@ -2923,7 +2923,7 @@ events:
     y: 24
   47: !ruby/object:RPG::Event
     id: 47
-    name: rock smash
+    name: Dispenser
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -2967,7 +2967,7 @@ events:
         - 0
         - !ruby/object:RPG::MoveRoute
           list:
-          - &44 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Mining collapse, pitch: 100, volume: 50}]}
+          - &44 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Rock Smash, pitch: 100, volume: 80}]}
           - &45 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
           - &46 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
           - &47 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
@@ -2988,7 +2988,6 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*51]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbEraseThisEvent]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Kernel.pbRockSmashRandomEncounter]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -3180,7 +3179,7 @@ events:
     y: 20
   50: !ruby/object:RPG::Event
     id: 50
-    name: rock smash
+    name: Dispenser
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -3224,7 +3223,7 @@ events:
         - 0
         - !ruby/object:RPG::MoveRoute
           list:
-          - &53 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Mining collapse, pitch: 100, volume: 50}]}
+          - &53 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Rock Smash, pitch: 100, volume: 80}]}
           - &54 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
           - &55 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
           - &56 !ruby/object:RPG::MoveCommand {code: 15, parameters: [2]}
@@ -3245,7 +3244,6 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbEraseThisEvent]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Kernel.pbRockSmashRandomEncounter]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

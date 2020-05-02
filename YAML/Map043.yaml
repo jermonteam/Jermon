@@ -227,7 +227,937 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
 encounter_list: []
 encounter_step: 30
-events: {}
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: Exit
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 36, 84, 12, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 8
+    y: 64
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: Exit
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 36, 75, 14, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 11
+    y: 18
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: Sewer exit
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 8
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 44, 93, 14, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 9
+    y: 49
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: Sewer exit
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 8
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 43, 30, 31, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 7
+    y: 59
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: Sewer exit
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 8
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 43, 10, 31, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 24
+    y: 12
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: Sewer exit
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 8
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 43, 8, 59, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 31
+    y: 31
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: Sewer exit
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 8
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 43, 23, 12, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 9
+    y: 31
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: EV008
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerbluheavy walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBe careful tiny baby, you almost made me drop ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [sandvich. You don't want that.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 11
+    y: 62
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: EV009
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerblusoldier walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAny moment now those SPINELESS REDS could ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [push in.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWe will do everything in our power to keep that ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['from happening. Will YOU?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 16
+    y: 62
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: '2'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerblusniper walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bG''day. Get out of the way would you? Can''t get a ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [good sightline.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerblusniper walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bDon't even know why I was put down here]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 24
+    y: 53
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: '4'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerbluscout walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI''m just waitin'' for those REDs to come through ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [here. Those knuckleheads ain't even worth the]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [effort.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 24
+    y: 63
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: '1'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerbludemo walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWatch yourself boyo, I almost detonated my traps ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and then they'd have to bury what's left of ya in a]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [soup can.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCouldn''t you see the bloody bombs? Be more ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [careful.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 48
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: '2'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerbluengi walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAll these gizmos and gadgets, most people can''t ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [make hide or tail of it. But I ain't most people.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 23
+    y: 30
+  14: !ruby/object:RPG::Event
+    id: 14
+    name: '4'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerblusoldier walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHALT, do not move maggot! I must give you a ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [surprise inspection.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHmm, nothing seems to be out of place. Move ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [along.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 21
+    y: 36
+  15: !ruby/object:RPG::Event
+    id: 15
+    name: '3'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerbludemo walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWha? Who''re you? Quit spinnin'' around boyo, I ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [can't see ya.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAck, maybe I shouldn''ta drank all that scrumpy. ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 5
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 3
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 36
+  16: !ruby/object:RPG::Event
+    id: 16
+    name: '1'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerbluscout walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThose REDs sure know how to put up a good fight, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m thinking of hittin'' the bricks pal. Ever feel like that?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 28
+    y: 34
+  17: !ruby/object:RPG::Event
+    id: 17
+    name: '4'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerbluengi walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThis darn machine doesn''t want to work for me. ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ever have that problem? No matter what you do to it it']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [just doesn't function right.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 10
+    y: 14
+  18: !ruby/object:RPG::Event
+    id: 18
+    name: '1'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerbluheavy walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHello little man. How is base looking today, hm? Nice ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['yes?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIs because Heavy has cleaned it TOP TO BOTTOM. ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [NO TRACKING MUD IN!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 20
+    y: 11
+  19: !ruby/object:RPG::Event
+    id: 19
+    name: '2'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerblusniper walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bG''day. I''m on guard duty, kind of. Not a whole lot of ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [those RED mongrels get all the way up here though.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 19
+    y: 17
+  20: !ruby/object:RPG::Event
+    id: 20
+    name: '3'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerblusoldier walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bRear line service is JUST AS IMPORTANT as ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['frontline, if not MORE SO!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bAND DON'T YOU FORGET IT!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 21
+    y: 20
 height: 70
 tileset_id: 29
 width: 40

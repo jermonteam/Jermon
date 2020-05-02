@@ -1647,8 +1647,8 @@ Pokedex=Placeholder
 Evolutions=
 #-------------------------------
 [74]
-Name=Red Blend
-InternalName=REDBLEND
+Name=French Champagne
+InternalName=FRENCHCHAMPAGNE
 Type1=POISON
 Type2=WATER
 BaseStats=110,105,80,45,70,95

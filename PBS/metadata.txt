@@ -129,7 +129,7 @@ Outdoor=true
 ShowArea=true
 #-------------------------------
 [036]
-# Tuefort
+# Teufort
 Bicycle=true
 Outdoor=true
 ShowArea=true

@@ -61,7 +61,7 @@
   order: 9
   parent_id: 2
   scroll_x: 320
-  scroll_y: 480
+  scroll_y: 396
 10: !ruby/object:RPG::MapInfo
   expanded: false
   name: Balloon Crash Site
@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 444
+  scroll_y: 711
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
@@ -138,21 +138,21 @@
   order: 21
   parent_id: 19
   scroll_x: 1040
-  scroll_y: 1311
+  scroll_y: 1533
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den
   order: 22
   parent_id: 19
   scroll_x: 800
-  scroll_y: 444
+  scroll_y: 560
 22: !ruby/object:RPG::MapInfo
   expanded: false
   name: Rat Cave
   order: 23
   parent_id: 19
   scroll_x: 480
-  scroll_y: 486
+  scroll_y: 480
 23: !ruby/object:RPG::MapInfo
   expanded: false
   name: Studiopolis Gift Shop
@@ -229,27 +229,27 @@
   order: 34
   parent_id: 0
   scroll_x: 960
-  scroll_y: 452
+  scroll_y: 720
 34: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 4 - Lakeside Trail
   order: 35
   parent_id: 33
   scroll_x: 1280
-  scroll_y: 621
+  scroll_y: 1280
 35: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 800
-  scroll_y: 991
+  scroll_x: 2240
+  scroll_y: 800
 36: !ruby/object:RPG::MapInfo
   expanded: true
   name: Teufort
-  order: 41
+  order: 42
   parent_id: 0
-  scroll_x: 752
+  scroll_x: 2542
   scroll_y: 512
 37: !ruby/object:RPG::MapInfo
   expanded: false
@@ -289,21 +289,56 @@
 42: !ruby/object:RPG::MapInfo
   expanded: false
   name: Red Base
-  order: 42
-  parent_id: 36
-  scroll_x: 640
-  scroll_y: 1825
-43: !ruby/object:RPG::MapInfo
-  expanded: false
-  name: Blu Base
   order: 43
   parent_id: 36
   scroll_x: 640
-  scroll_y: 1764
+  scroll_y: 1644
+43: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Blu Base
+  order: 44
+  parent_id: 36
+  scroll_x: 640
+  scroll_y: 1607
 44: !ruby/object:RPG::MapInfo
   expanded: false
   name: Sewers
-  order: 44
+  order: 45
   parent_id: 36
-  scroll_x: 2573
-  scroll_y: 370
+  scroll_x: 2110
+  scroll_y: 480
+45: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Route 5
+  order: 48
+  parent_id: 36
+  scroll_x: 960
+  scroll_y: 1518
+46: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Red Supply
+  order: 46
+  parent_id: 36
+  scroll_x: 480
+  scroll_y: 480
+47: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Blu Supply
+  order: 47
+  parent_id: 36
+  scroll_x: 480
+  scroll_y: 480
+48: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Route 5 Cave
+  order: 49
+  parent_id: 36
+  scroll_x: 1280
+  scroll_y: 1268
+49: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Jermite nest
+  order: 41
+  parent_id: 33
+  scroll_x: 480
+  scroll_y: 480
