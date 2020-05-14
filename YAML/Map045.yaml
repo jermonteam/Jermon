@@ -15,14 +15,14 @@ data: !ruby/object:Table
   y: 100
   z: 3
   data:
-  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
-  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
-  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
-  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
-  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
-  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
-  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
-  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
+  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0182 0182 01a9 01aa 01aa 01ab 0182 0182 0182 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
+  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 01b1 01b2 01b2 01b3 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
+  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 01b1 01b2 01b2 01b3 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
+  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 01b1 01b2 01b2 01b3 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
+  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 01b1 01b2 01b2 01b3 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
+  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 01b1 01b2 01b2 01b3 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
+  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 01b1 01b2 01b2 01b3 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
+  - 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 01b9 01ba 01ba 01bb 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181
   - 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a 021a
   - 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222
   - 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 01ea 01ea 01ea 01ea 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222
@@ -115,15 +115,15 @@ data: !ruby/object:Table
   - 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222
   - 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222
   - 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222 0222
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0364 0000 0000 06ab 0000 0000 0000 0000 0000 0000 0000 06ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 036b 036c 036d 0000 06b3 06a6 0000 0000 0000 0000 035b 06a5 06b4 0000 0000 0000 035b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0373 0374 0375 0000 0000 06ab 0000 0000 0000 0000 035b 06ac 0000 0000 0000 0000 0364 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 037b 037c 037d 0000 035b 06ab 0000 0000 0000 0000 035b 06ac 0000 0000 0000 036b 036c 036d 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 035b 0000 0000 0000 0000 06ab 0000 0000 0000 0000 035b 06ac 0000 0000 0000 0373 0374 0375 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 035b 0000 06ab 0000 0000 0000 0000 035b 06ac 0000 035b 0000 037b 037c 037d 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06ab 0000 0000 0000 0000 035b 06ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06ab 0000 0000 0000 0000 035b 06ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06ab 0000 0000 0000 0000 06a5 06b4 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06ab 0000 0000 0000 0000 06ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06ab 047d 047e 047e 047f 06ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 06ab 0485 0000 0000 0487 06ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
@@ -612,6 +612,913 @@ events:
       walk_anime: true
     x: 39
     y: 27
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: Trainer(5)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerdorkfemale walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJIZXkgeW91LCB0cnkgb3VyIG5ldyBEb3JrQ3ViZeKEoiBicmFuZCBEb3Jr\nQ3ViZSEg"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Now with 50% less blood!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:DORKF,"8",_I("I was forced to say that, there''s still 100% as much blood in each box."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerdorkfemale walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bPlease do not buy DorkCube products.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 29
+    y: 23
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: Trainer(5)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerboomer walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSo you made it through the caves did you? Tell me, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['are the rumors true?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"7",_I("Quite a feat, making it through the caves and getting to me. Good work youngster."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerboomer walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI hope you have a good rest of your day.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 21
+    y: 48
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: Trainer(3)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bStop, can''t let you go into them haunted caves ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [again before you prove to me you can handle it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COWBOY,"6",_I("You seem strong enough, careful out there stranger."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bAlways keep an eye out.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 42
+    y: 35
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: Trainer(4)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOh buddy are you a sight for sore eyes, there''re ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [GHOSTS in these hills!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COWBOY,"5",_I("Don''t leave partner, I''m scared of ghosts."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWHAT WAS THAT? Oh. Just some leaves rustlin''.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 53
+    y: 45
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: Trainer(5)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhoa there, slow down. Let''s have a battle before ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you move on.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:COWBOY,"1",_I("Woo wee, you''re pretty good there stranger."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercowboy walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHappy trails.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 20
+    y: 81
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: Trainer(4)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerboomer walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHave you heard of the ghosts in the caves young ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['man?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BOOMER,"3",_I("The dead don''t frighten me young one, not anymore."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerboomer walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bExcept for poltergeists, they can throw stuff ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [around. Don't mess with them.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 45
+    y: 69
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: Trainer(3)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercraziefilefemale walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHey bro, ever go running in high desert bro? ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There's NOTHING LIKE IT bro.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:CRAZIEFILEF,"2",_I("Just remember to stay properly hydrated and remember how far you''ve run bro, heatstroke is no joke."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercraziefilefemale walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBe safe bro, be smart. ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 10
+    y: 66
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: Trainer(4)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercraziefilemale walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou out for a HIGH INTENSITY run too bro? Let''s ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [battle for a break!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:CRAZIEFILEM,"4",_I("Nice work bro, remember to keep your blood sugar up while doing physical activity for long periods of time bro."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainercraziefilemale walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGonna rest here a little while longer bro, don''t want ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to pull a muscle.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 49
+    y: 58
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: EV013
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 125
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI think I can take this dinky helmet off now.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Mining reveal full, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$Trainer.outfit=0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [125, 125, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 6
+    y: 89
+  14: !ruby/object:RPG::Event
+    id: 14
+    name: EV014
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 125
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI think I can take this dinky helmet off now.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Mining reveal full, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$Trainer.outfit=0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [125, 125, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 6
+    y: 90
+  15: !ruby/object:RPG::Event
+    id: 15
+    name: EV015
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 125
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI think I can take this dinky helmet off now.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Mining reveal full, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$Trainer.outfit=0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [125, 125, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 6
+    y: 91
+  16: !ruby/object:RPG::Event
+    id: 16
+    name: EV016
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 125
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI think I can take this dinky helmet off now.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Mining reveal full, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$Trainer.outfit=0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [125, 125, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 6
+    y: 92
+  17: !ruby/object:RPG::Event
+    id: 17
+    name: EV017
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 125
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI think I can take this dinky helmet off now.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Mining reveal full, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$Trainer.outfit=0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [125, 125, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 6
+    y: 93
 height: 100
 tileset_id: 28
 width: 60

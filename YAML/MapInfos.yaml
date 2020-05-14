@@ -75,7 +75,7 @@
   order: 11
   parent_id: 2
   scroll_x: 608
-  scroll_y: 711
+  scroll_y: 800
 12: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dynamite Gym
@@ -89,7 +89,7 @@
   order: 15
   parent_id: 0
   scroll_x: 736
-  scroll_y: 497
+  scroll_y: 527
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Studiopolis
@@ -130,7 +130,7 @@
   name: Studiopolis
   order: 20
   parent_id: 0
-  scroll_x: 872
+  scroll_x: 1600
   scroll_y: 976
 20: !ruby/object:RPG::MapInfo
   expanded: false
@@ -138,7 +138,7 @@
   order: 21
   parent_id: 19
   scroll_x: 1040
-  scroll_y: 1533
+  scroll_y: 1532
 21: !ruby/object:RPG::MapInfo
   expanded: false
   name: Dastardly Den
@@ -180,7 +180,7 @@
   order: 28
   parent_id: 19
   scroll_x: 320
-  scroll_y: 379
+  scroll_y: 480
 27: !ruby/object:RPG::MapInfo
   expanded: false
   name: Studiopolis Theater
@@ -242,14 +242,14 @@
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 2240
+  scroll_x: 3877
   scroll_y: 800
 36: !ruby/object:RPG::MapInfo
   expanded: true
   name: Teufort
   order: 42
   parent_id: 0
-  scroll_x: 2542
+  scroll_x: 1262
   scroll_y: 512
 37: !ruby/object:RPG::MapInfo
   expanded: false
@@ -305,15 +305,15 @@
   name: Sewers
   order: 45
   parent_id: 36
-  scroll_x: 2110
+  scroll_x: 2382
   scroll_y: 480
 45: !ruby/object:RPG::MapInfo
   expanded: false
-  name: Route 5
+  name: Route 5 - Haunted Hills
   order: 48
   parent_id: 36
   scroll_x: 960
-  scroll_y: 1518
+  scroll_y: 1054
 46: !ruby/object:RPG::MapInfo
   expanded: false
   name: Red Supply
@@ -334,7 +334,7 @@
   order: 49
   parent_id: 36
   scroll_x: 1280
-  scroll_y: 1268
+  scroll_y: 1054
 49: !ruby/object:RPG::MapInfo
   expanded: false
   name: Jermite nest
@@ -342,3 +342,94 @@
   parent_id: 33
   scroll_x: 480
   scroll_y: 480
+50: !ruby/object:RPG::MapInfo
+  expanded: true
+  name: Grabthat
+  order: 50
+  parent_id: 0
+  scroll_x: 672
+  scroll_y: 480
+51: !ruby/object:RPG::MapInfo
+  expanded: true
+  name: Liberty City
+  order: 54
+  parent_id: 0
+  scroll_x: 3200
+  scroll_y: 2080
+52: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Forest
+  order: 51
+  parent_id: 50
+  scroll_x: 1110
+  scroll_y: 770
+53: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Route 6
+  order: 52
+  parent_id: 50
+  scroll_x: 1056
+  scroll_y: 480
+54: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: World Map
+  order: 62
+  parent_id: 0
+  scroll_x: 320
+  scroll_y: 240
+55: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: JermCenter - Grabthat
+  order: 53
+  parent_id: 50
+  scroll_x: 320
+  scroll_y: 240
+56: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Frozen Warehouse
+  order: 55
+  parent_id: 51
+  scroll_x: 1024
+  scroll_y: 960
+57: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: JermCenter - Liberty City
+  order: 56
+  parent_id: 51
+  scroll_x: 320
+  scroll_y: 240
+58: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Jermall of Amrej
+  order: 57
+  parent_id: 51
+  scroll_x: 640
+  scroll_y: 960
+59: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Liberty City Police Dep.
+  order: 58
+  parent_id: 51
+  scroll_x: 320
+  scroll_y: 240
+60: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Larry's
+  order: 59
+  parent_id: 51
+  scroll_x: 480
+  scroll_y: 320
+61: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Amrej Bank
+  order: 60
+  parent_id: 51
+  scroll_x: 320
+  scroll_y: 240
+62: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Byeah Gym
+  order: 61
+  parent_id: 51
+  scroll_x: 320
+  scroll_y: 240

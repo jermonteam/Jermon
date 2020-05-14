@@ -603,8 +603,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:BOOMER)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bPLACEHOLDER TEXT]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:SCHOOLELVIS,"Elves",_I("Was that ''placeholder text'' bit funny?"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHey there, hound dog!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:SCHOOLELVIS,"You ain''t nothin."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -644,7 +644,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI think it was funny]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSorry, that was mean.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

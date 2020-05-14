@@ -165,6 +165,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Who me?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rSoldier: Yes you! Congratulations son, you''ve just been ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [drafted into the RED team. Here's your helmet.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [125, 125, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Mining reveal full, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$Trainer.outfit=2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
@@ -386,6 +387,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Who me?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rSoldier: Yes you! Congratulations son, you''ve just been ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [drafted into the RED team. Here's your helmet.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [125, 125, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Mining reveal full, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$Trainer.outfit=2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
@@ -533,6 +535,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Who me?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rSoldier: Yes you! Congratulations son, you''ve just been ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [drafted into the RED team. Here's your helmet.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [125, 125, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Mining reveal full, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$Trainer.outfit=2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}

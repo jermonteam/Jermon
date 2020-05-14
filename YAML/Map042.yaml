@@ -955,10 +955,10 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\r z z z ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rz z z ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XHJ5ZXIgYXJzZXMgYXJzZSBhbmQgSSdtIHRoZSBncmFzcyBtYW7igKYgcHVu\nayB5YSA="]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [havin'... heathen]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\r z z z]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rz z z]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

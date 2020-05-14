@@ -136,8 +136,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHang on! Before you leave the route let's have a battle.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUSCOUT,"Scout",_I("Ohoho! Quite a show of skill!"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHey pal!, you and me. Let''s do this.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUSCOUT,"Scout",_I("Frickin'' unbelievable."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -176,7 +176,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCareful ahead my boy, that city up there is dangerous.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bThis did not just happen.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -220,8 +220,10 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHang on! Before you leave the route let's have a battle.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUSOLLY,"Soldier",_I("Ohoho! Quite a show of skill!"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThought you could sneak past me? I''ll show you ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['RED, if God wanted you to live he would not have']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [created ME!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUSOLLY,"Soldier",_I("That was painful."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [117, 117, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -261,7 +263,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCareful ahead my boy, that city up there is dangerous.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bBut pain is just WEAKNESS leaving the body.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -305,8 +307,9 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHang on! Before you leave the route let's have a battle.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUSNIPER,"Sniper",_I("Ohoho! Quite a show of skill!"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou and I are a lot alike mate, except you''re gonna ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [be dead.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUSNIPER,"Sniper",_I("Ahh, that was rubbish."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -345,7 +348,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCareful ahead my boy, that city up there is dangerous.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bMove along, mate.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -389,8 +392,9 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHang on! Before you leave the route let's have a battle.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUENGI,"Engineer",_I("Ohoho! Quite a show of skill!"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bC''mere sissy, I''m gonna show you some Southern ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [hospitality.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUENGI,"Engineer",_I("That just ain''t right."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -429,7 +433,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCareful ahead my boy, that city up there is dangerous.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bDarn.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -473,8 +477,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHang on! Before you leave the route let's have a battle.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUDEMO,"Demoman",_I("Ohoho! Quite a show of skill!"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDon''t come at me, ye pint-sized mutt! ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUDEMO,"Demoman",_I("Thankfully I already don''t remember this."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [118, 118, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -514,7 +518,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCareful ahead my boy, that city up there is dangerous.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWho are you again?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -558,8 +562,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bHang on! Before you leave the route let's have a battle.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUHEAVY,"Heavy",_I("Ohoho! Quite a show of skill!"),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bLittle little man. You cannot beat me!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BLUHEAVY,"Heavy",_I("Ooh, it is sad day."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -598,7 +602,7 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bCareful ahead my boy, that city up there is dangerous.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bMaybe is for the best.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute

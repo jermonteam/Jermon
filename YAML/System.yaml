@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 47
+edit_map_id: 53
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 27191969
+magic_number: 51822701
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -203,9 +203,9 @@ switches:
 - spy in the base
 - Grill fight 2
 - Bridge block
-- ''
-- ''
-- ''
+- Helmet On
+- Forest Twitch
+- Forest twitch fight
 - ''
 - ''
 - ''

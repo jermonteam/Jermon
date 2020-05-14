@@ -23,6 +23,8 @@
 34,BLUSCOUT,BLU,30,,,,Male,,
 35,BLUSNIPER,BLU,30,,,,Male,,
 36,BLUSOLLY,BLU,30,,,,Male,,
+37,DREWCREW,Drew Crew,30,,,,Female,,
+38,VROOMER,Vroomer,30,,,,Male,,
 59,LEADER_Dastardly,Gym Leader,100,Battle Gym Leader,,,Male,,
 60,LEADER_Glueman,Gym Leader,100,Battle Gym Leader,,,Male,,
 61,LEADER_Byeah,Gym Leader,100,Battle Gym Leader,,,Male,,

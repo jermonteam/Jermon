@@ -133,3 +133,9 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
+#-------------------------------
+[045]
+# Teufort
+Bicycle=true
+Outdoor=true
+ShowArea=true
