@@ -313,7 +313,7 @@
   order: 48
   parent_id: 36
   scroll_x: 960
-  scroll_y: 1054
+  scroll_y: 1696
 46: !ruby/object:RPG::MapInfo
   expanded: false
   name: Red Supply
@@ -354,15 +354,15 @@
   name: Liberty City
   order: 54
   parent_id: 0
-  scroll_x: 3200
-  scroll_y: 2080
+  scroll_x: 1834
+  scroll_y: 2284
 52: !ruby/object:RPG::MapInfo
   expanded: false
   name: Forest
   order: 51
   parent_id: 50
-  scroll_x: 1110
-  scroll_y: 770
+  scroll_x: 938
+  scroll_y: 1097
 53: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 6
@@ -373,7 +373,7 @@
 54: !ruby/object:RPG::MapInfo
   expanded: false
   name: World Map
-  order: 62
+  order: 67
   parent_id: 0
   scroll_x: 320
   scroll_y: 240
@@ -432,4 +432,39 @@
   order: 61
   parent_id: 51
   scroll_x: 320
+  scroll_y: 320
+63: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Dork Cube Building
+  order: 62
+  parent_id: 51
+  scroll_x: 320
+  scroll_y: 1280
+64: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Diamonds  R Forevah 2
+  order: 63
+  parent_id: 51
+  scroll_x: 320
   scroll_y: 240
+65: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: shady store
+  order: 64
+  parent_id: 51
+  scroll_x: 320
+  scroll_y: 240
+66: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Apartments
+  order: 65
+  parent_id: 51
+  scroll_x: 320
+  scroll_y: 1410
+67: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Party Palace
+  order: 66
+  parent_id: 51
+  scroll_x: 480
+  scroll_y: 505
