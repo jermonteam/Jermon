@@ -1,8 +1,8 @@
 --- !ruby/object:RPG::Map
-autoplay_bgm: false
+autoplay_bgm: true
 autoplay_bgs: false
 bgm: !ruby/object:RPG::AudioFile
-  name: ''
+  name: 018-Field01
   pitch: 100
   volume: 100
 bgs: !ruby/object:RPG::AudioFile
@@ -28,13 +28,13 @@ data: !ruby/object:Table
   - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0181 0181 0181 01e9 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01ea 01eb 0182 0182 0181 0181 0181 0181 0181 0181
   - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0181 0181 01e9 01e4 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f3 0182 0182 0181 0181 0181 0181 0181 0181
   - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0181 0181 0181 01e9 01eb 0181 0181 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0182 0182 0181 0181 0181 0181 0181 0181
-  - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0181 0181 01f1 01f3 0186 0186 0186 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0182 0182 0320 0321 0320 0321 0320 0321
-  - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0181 0181 0186 0186 0186 0186 0186 0186 0186 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0182 0182 0328 0329 0328 0329 0328 0329
-  - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0181 0181 0520 0521 0521 0521 0521 0521 0521 0521 0521 0522 0181 0181 0181 0322 0323 0320 0321 0320 0321 0320 0321
-  - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 032a 032b 0328 0329 0328 0329 0328 0329
-  - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0181 0181 0186 0186 0181 0181 0186 0181 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0322 0323 0320 0321 0320 0321 0320 0321
-  - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0181 0181 0181 01e1 01e3 0181 0186 0186 0186 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 032a 032b 032a 032b 0328 0329 0328 0329 0328 0329
-  - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0181 0181 01e9 01eb 0181 0181 0186 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0332 0333 0322 0323 0320 0321 0320 0321 0320 0321
+  - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0181 0181 01f1 01f3 0186 0186 0186 0186 0186 0181 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0182 0182 0320 0321 0320 0321 0320 0321
+  - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0181 0181 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0182 0182 0328 0329 0328 0329 0328 0329
+  - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0181 0520 0521 0521 0521 0521 0521 0521 0521 0521 0522 0181 0181 0181 0322 0323 0320 0321 0320 0321 0320 0321
+  - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 032a 032b 0328 0329 0328 0329 0328 0329
+  - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0181 0181 0186 0186 0181 0181 0186 0181 0186 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0322 0323 0320 0321 0320 0321 0320 0321
+  - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0181 0181 0181 01e1 01e3 0181 0186 0186 0186 0186 0186 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 032a 032b 032a 032b 0328 0329 0328 0329 0328 0329
+  - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0181 0181 01e9 01eb 0181 0181 0186 0186 0186 0181 0186 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0332 0333 0322 0323 0320 0321 0320 0321 0320 0321
   - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0181 0181 0181 01e9 01ea 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 0181 032a 032b 0328 0329 0328 0329 0328 0329
   - 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0320 0321 0322 0323 0181 0181 0181 01e9 01f4 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e2 01e3 0181 0181 0322 0323 0320 0321 0320 0321 0320 0321
   - 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 0328 0329 032a 032b 0181 0181 0181 01f1 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01f2 01e6 01eb 0181 0181 032a 032b 0328 0329 0328 0329 0328 0329
@@ -286,7 +286,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\c[5]Twitch Chat: See you next time Jerma. B)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {a: 255.0, b: 255.0, g: 255.0, r: 255.0}, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Vs flash, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [128, 128, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [126, 126, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [127, 127, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
@@ -347,6 +349,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\c[5]Twitch Chat: See you next time Jerma. B)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {a: 255.0, b: 255.0, g: 255.0, r: 255.0}, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Vs flash, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [106, 106, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [128, 128, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [127, 127, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [126, 126, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -550,6 +555,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\c[5]Twitch Chat: See you next time Jerma. B)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {a: 255.0, b: 255.0, g: 255.0, r: 255.0}, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Vs flash, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [128, 128, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [127, 127, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [126, 126, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -611,6 +618,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\c[5]Twitch Chat: See you next time Jerma. B)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {a: 255.0, b: 255.0, g: 255.0, r: 255.0}, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Vs flash, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [106, 106, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [128, 128, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [127, 127, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [126, 126, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -738,6 +748,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\c[5]Twitch Chat: See you next time Jerma. B)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {a: 255.0, b: 255.0, g: 255.0, r: 255.0}, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Vs flash, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [128, 128, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [127, 127, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [126, 126, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -799,6 +811,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\c[5]Twitch Chat: See you next time Jerma. B)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {a: 255.0, b: 255.0, g: 255.0, r: 255.0}, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Vs flash, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [128, 128, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [106, 106, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [127, 127, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [126, 126, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -824,7 +839,7 @@ events:
     y: 49
   5: !ruby/object:RPG::Event
     id: 5
-    name: '4'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -869,7 +884,7 @@ events:
       move_type: 3
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -911,7 +926,7 @@ events:
     y: 27
   6: !ruby/object:RPG::Event
     id: 6
-    name: '3'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -956,7 +971,7 @@ events:
       move_type: 3
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1000,7 +1015,7 @@ events:
     y: 42
   7: !ruby/object:RPG::Event
     id: 7
-    name: '1'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1045,7 +1060,7 @@ events:
       move_type: 3
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1089,7 +1104,7 @@ events:
     y: 48
   8: !ruby/object:RPG::Event
     id: 8
-    name: '2'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1132,7 +1147,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1174,7 +1189,7 @@ events:
     y: 38
   9: !ruby/object:RPG::Event
     id: 9
-    name: '5'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1220,7 +1235,7 @@ events:
       move_type: 3
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1263,7 +1278,7 @@ events:
     y: 18
   10: !ruby/object:RPG::Event
     id: 10
-    name: '6'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -1306,7 +1321,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false

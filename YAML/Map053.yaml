@@ -1,8 +1,8 @@
 --- !ruby/object:RPG::Map
-autoplay_bgm: false
+autoplay_bgm: true
 autoplay_bgs: false
 bgm: !ruby/object:RPG::AudioFile
-  name: ''
+  name: route
   pitch: 100
   volume: 100
 bgs: !ruby/object:RPG::AudioFile
@@ -110,7 +110,7 @@ encounter_step: 30
 events:
   1: !ruby/object:RPG::Event
     id: 1
-    name: '1'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -154,7 +154,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -197,7 +197,7 @@ events:
     y: 12
   2: !ruby/object:RPG::Event
     id: 2
-    name: '2'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -240,7 +240,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -283,7 +283,7 @@ events:
     y: 7
   3: !ruby/object:RPG::Event
     id: 3
-    name: '3'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -326,7 +326,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -368,7 +368,7 @@ events:
     y: 12
   4: !ruby/object:RPG::Event
     id: 4
-    name: '4'
+    name: Trainer(5)
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -411,7 +411,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 2
       walk_anime: true
     - !ruby/object:RPG::Event::Page
       always_on_top: false

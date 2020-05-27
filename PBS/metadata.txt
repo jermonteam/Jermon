@@ -135,7 +135,37 @@ Outdoor=true
 ShowArea=true
 #-------------------------------
 [045]
-# Teufort
+# Route 5 - Haunted Hills
+Bicycle=true
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[050]
+# Grab That City
+Bicycle=true
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[051]
+# Liberty City
+Bicycle=true
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[052]
+# Forest
+Bicycle=true
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[053]
+# Route 6 - Liberty Bridge
+Bicycle=true
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[068]
+# Route 7 - Calm Waters
 Bicycle=true
 Outdoor=true
 ShowArea=true

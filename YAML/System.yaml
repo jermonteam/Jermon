@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 66
+edit_map_id: 69
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 95989695
+magic_number: 56992154
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -206,15 +206,15 @@ switches:
 - Helmet On
 - Forest Twitch
 - Forest twitch fight
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
-- ''
+- Jex Liberty City
+- Warehouse Open
+- Warehouse Grunts
+- Warehouse Cutscene
+- Happy Meal Picked Up
+- Byeah Gym cutscene 1
+- Port
+- Byeah Hunt
+- Liberty Grillmaster
 - ''
 - ''
 - ''
@@ -300,7 +300,7 @@ variables:
 - Rat Outcome
 - Twitch chat Outcome 1
 - Coxcast Grunt Studio 1
-- ''
+- Byeahs defeated
 - ''
 - ''
 - ''

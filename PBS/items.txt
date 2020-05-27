@@ -557,3 +557,5 @@
 557,OUTFIT1,Odd Michael Costume,Odd Michael Costumes,8,0,"An odd costume with a fashionable hat.",2,0,6,
 558,OUTFIT2,Soldier Costume,Soldier Costumes,8,0,"An old helmet, ignore the stains.",2,0,6,
 559,SAPPER,Sapper,Sappers,8,0,"A sapper used to destroy engineer buildings.",2,0,6,
+560,HAPPYMEAL,Happy Meal,Happy Meals,8,0,"A Happy Meal from Diamonds R Forevah. You should probably return this to the byeah.",2,0,6,
+561,POOLTUBE,Pool Tube,Pool Tubes,8,0,"An inflatable ring used for navigating the water.",2,0,6,
