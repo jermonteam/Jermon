@@ -347,6 +347,22 @@ module InterpreterMixin
     $game_map.need_refresh = true
   end
 
+  # Adds to the value of a variable.
+def pbAdd(id,value)
+  if id && id>=0
+    $game_variables[id]=$game_variables[id]+value if $game_variables
+    $game_map.need_refresh = true if $game_map
+  end
+end
+
+# Subtracts from the value of a variable.
+def pbSub(id,value)
+  if id && id>=0
+    $game_variables[id]=$game_variables[id]-value if $game_variables
+    $game_map.need_refresh = true if $game_map
+  end
+end
+
 # Must use this approach to share the methods because the methods already
 # defined in a class override those defined in an included module
   CustomEventCommands=<<_END_
@@ -963,7 +979,21 @@ def pbDisplayCoinsWindow(msgwindow,goldwindow)
   return coinwindow
 end
 
-
+def pbDisplayBankWindow(msgwindow,goldwindow)
+  bankString=$game_variables[016]
+  bankwindow=Window_AdvancedTextPokemon.new(_INTL("Bank:\n<ar>${1}</ar>",bankString))
+  bankwindow.setSkin("Graphics/Windowskins/goldskin")
+  bankwindow.resizeToFit(bankwindow.text,Graphics.width)
+  bankwindow.width=160 if bankwindow.width<=160
+  if msgwindow.y==0
+    bankwindow.y=(goldwindow) ? goldwindow.y-bankwindow.height : Graphics.height-bankwindow.height
+  else
+    bankwindow.y=(goldwindow) ? goldwindow.height : 0
+  end
+  bankwindow.viewport=msgwindow.viewport
+  bankwindow.z=msgwindow.z
+  return bankwindow
+end
 
 #===============================================================================
 # 
@@ -1022,6 +1052,7 @@ def Kernel.pbMessageDisplay(msgwindow,message,letterbyletter=true,commandProc=ni
   facewindow=nil
   goldwindow=nil
   coinwindow=nil
+  bankwindow=nil
   cmdvariable=0
   cmdIfCancel=0
   msgwindow.waitcount=0
@@ -1081,7 +1112,7 @@ def Kernel.pbMessageDisplay(msgwindow,message,letterbyletter=true,commandProc=ni
   ### Controls
   textchunks=[]
   controls=[]
-  while text[/(?:\\([WwFf]|[Ff][Ff]|[Tt][Ss]|[Cc][Ll]|[Mm][Ee]|[Ss][Ee]|[Ww][Tt]|[Ww][Tt][Nn][Pp]|[Cc][Hh])\[([^\]]*)\]|\\([Gg]|[Cc][Nn]|[Ww][Dd]|[Ww][Mm]|[Oo][Pp]|[Cc][Ll]|[Ww][Uu]|[\.]|[\|]|[\!]|[\x5E])())/i]
+  while text[/(?:\\([WwFf]|[Ff][Ff]|[Tt][Ss]|[Cc][Ll]|[Mm][Ee]|[Ss][Ee]|[Ww][Tt]|[Ww][Tt][Nn][Pp]|[Cc][Hh])\[([^\]]*)\]|\\([Gg]|[Cc][Nn]|[Xx][Vv]|[Ww][Dd]|[Ww][Mm]|[Oo][Pp]|[Cc][Ll]|[Ww][Uu]|[\.]|[\|]|[\!]|[\x5E])())/i]
     textchunks.push($~.pre_match)
     if $~[1]
       controls.push([$~[1].downcase,$~[2],-1])
@@ -1199,6 +1230,9 @@ def Kernel.pbMessageDisplay(msgwindow,message,letterbyletter=true,commandProc=ni
         when "cn" # Display coins window
           coinwindow.dispose if coinwindow
           coinwindow=pbDisplayCoinsWindow(msgwindow,goldwindow)
+        when "xv" #Display bank window
+          bankwindow.dispose if bankwindow
+          bankwindow=pbDisplayBankWindow(msgwindow,goldwindow)
         when "wu"
           msgwindow.y=0
           atTop=true
@@ -1280,6 +1314,7 @@ def Kernel.pbMessageDisplay(msgwindow,message,letterbyletter=true,commandProc=ni
   msgback.dispose if msgback
   goldwindow.dispose if goldwindow
   coinwindow.dispose if coinwindow
+  bankwindow.dispose if bankwindow
   facewindow.dispose if facewindow
   if haveSpecialClose
     pbSEPlay(pbStringToAudioFile(specialCloseSE))

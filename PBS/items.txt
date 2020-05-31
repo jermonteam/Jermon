@@ -559,3 +559,4 @@
 559,SAPPER,Sapper,Sappers,8,0,"A sapper used to destroy engineer buildings.",2,0,6,
 560,HAPPYMEAL,Happy Meal,Happy Meals,8,0,"A Happy Meal from Diamonds R Forevah. You should probably return this to the byeah.",2,0,6,
 561,POOLTUBE,Pool Tube,Pool Tubes,8,0,"An inflatable ring used for navigating the water.",2,0,6,
+562,WORMHOLE,Wormhole,Wormholes,8,0,"A small green marble used to instantly transport to areas around Amrej.",2,0,6,

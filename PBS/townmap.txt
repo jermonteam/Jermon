@@ -1,5 +1,12 @@
 ﻿#-------------------------------
 [0]
-Name=Amrej
 Filename=mapRegion0.png
-Point=13,12,"This Map Doesn't Work","Try later...",2,8,8,
+Name=Amrej
+Point=15,5,"Seagull Island",,069,014,011,
+Point=6,6,"Grab That City",,050,020,016,
+Point=11,12,"Bewwie Town",,013,029,025,
+Point=11,9,Studiopolis,,019,045,050,
+Point=5,12,Teufort,,036,041,017,
+Point=11,3,"Liberty City",,051,028,079,
+Point=10,17,Goodsprings,,002,013,038,
+Point=4,16,Valentine,,033,026,014,

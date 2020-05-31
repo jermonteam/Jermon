@@ -38,3 +38,26 @@ module PBDebug
     end
   end
 end
+
+def pbDebugSetVariable(id,diff)
+  pbPlayCursorSE()
+  $game_variables[id]=0 if $game_variables[id]==nil
+  if $game_variables[id].is_a?(Numeric)
+    $game_variables[id]=[$game_variables[id]+diff,999999999].min
+    $game_variables[id]=[$game_variables[id],-999999999].max
+  end
+end
+
+def pbDebugVariableScreen(id)
+  value=0
+  if $game_variables[id].is_a?(Numeric)
+    value=$game_variables[id]
+  end
+  params=ChooseNumberParams.new
+  params.setDefaultValue(value)
+  params.setMaxDigits(9)
+  params.setNegativesAllowed(true)
+  value=Kernel.pbMessageChooseNumber(_INTL("Set variable {1}.",id),params)
+  $game_variables[id]=[value,999999999].min
+  $game_variables[id]=[$game_variables[id],-999999999].max
+end

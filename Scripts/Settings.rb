@@ -200,6 +200,8 @@ INITIALMONEY    = 0
 MAXMONEY        = 999999
 MAXCOINS        = 99999
 PLAYERNAMELIMIT = 10
+MAXBANK      = 999999999
+MINDEPOSIT   = 500
 
 #===============================================================================
 # * A set of arrays each containing a trainer type followed by a Global Variable

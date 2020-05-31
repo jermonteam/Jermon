@@ -11,8 +11,8 @@
   name: Goodsprings
   order: 2
   parent_id: 0
-  scroll_x: 831
-  scroll_y: 1068
+  scroll_x: 816
+  scroll_y: 832
 3: !ruby/object:RPG::MapInfo
   expanded: false
   name: Doc Mitchell's House
@@ -89,7 +89,7 @@
   order: 15
   parent_id: 0
   scroll_x: 736
-  scroll_y: 527
+  scroll_y: 576
 14: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Studiopolis
@@ -130,7 +130,7 @@
   name: Studiopolis
   order: 20
   parent_id: 0
-  scroll_x: 1600
+  scroll_x: 790
   scroll_y: 976
 20: !ruby/object:RPG::MapInfo
   expanded: false
@@ -228,8 +228,8 @@
   name: Valentine
   order: 34
   parent_id: 0
-  scroll_x: 960
-  scroll_y: 482
+  scroll_x: 1358
+  scroll_y: 510
 34: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 4 - Lakeside Trail
@@ -292,14 +292,14 @@
   order: 43
   parent_id: 36
   scroll_x: 640
-  scroll_y: 1644
+  scroll_y: 703
 43: !ruby/object:RPG::MapInfo
   expanded: false
   name: Blu Base
   order: 44
   parent_id: 36
   scroll_x: 640
-  scroll_y: 1607
+  scroll_y: 1532
 44: !ruby/object:RPG::MapInfo
   expanded: false
   name: Sewers
@@ -354,8 +354,8 @@
   name: Liberty City
   order: 54
   parent_id: 0
-  scroll_x: 1372
-  scroll_y: 1268
+  scroll_x: 1995
+  scroll_y: 1167
 52: !ruby/object:RPG::MapInfo
   expanded: false
   name: Forest
@@ -373,7 +373,7 @@
 54: !ruby/object:RPG::MapInfo
   expanded: true
   name: World Map
-  order: 68
+  order: 69
   parent_id: 0
   scroll_x: 320
   scroll_y: 240
@@ -390,9 +390,9 @@
   order: 55
   parent_id: 51
   scroll_x: 1024
-  scroll_y: 758
+  scroll_y: 1397
 57: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: JermCenter - Liberty City
   order: 56
   parent_id: 51
@@ -404,7 +404,7 @@
   order: 57
   parent_id: 51
   scroll_x: 704
-  scroll_y: 1411
+  scroll_y: 584
 59: !ruby/object:RPG::MapInfo
   expanded: true
   name: Liberty City Police Dep.
@@ -439,7 +439,7 @@
   order: 62
   parent_id: 51
   scroll_x: 320
-  scroll_y: 1995
+  scroll_y: 624
 64: !ruby/object:RPG::MapInfo
   expanded: false
   name: Diamonds  R Forevah 2
@@ -449,7 +449,7 @@
   scroll_y: 240
 65: !ruby/object:RPG::MapInfo
   expanded: false
-  name: shady store
+  name: Bike Store
   order: 64
   parent_id: 51
   scroll_x: 320
@@ -462,14 +462,14 @@
   scroll_x: 320
   scroll_y: 1369
 67: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Party Palace
   order: 66
   parent_id: 51
   scroll_x: 480
-  scroll_y: 519
+  scroll_y: 555
 68: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Route 7 - Calm Waters
   order: 67
   parent_id: 51
@@ -478,7 +478,14 @@
 69: !ruby/object:RPG::MapInfo
   expanded: false
   name: Seagull Island
-  order: 69
+  order: 70
   parent_id: 0
-  scroll_x: 602
-  scroll_y: 510
+  scroll_x: 608
+  scroll_y: 512
+70: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Burnout in Paradise
+  order: 68
+  parent_id: 51
+  scroll_x: 320
+  scroll_y: 240

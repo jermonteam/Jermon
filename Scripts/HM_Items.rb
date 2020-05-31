@@ -22,7 +22,7 @@ SURF_ITEM = :SURFITEM
 ROCK_SMASH_ITEM = :DYNAMITE
 
 # The internal name of the item that will trigger Fly
-FLY_ITEM = :FLYITEM
+FLY_ITEM = :WORMHOLE
 
 # The internal name of the item that will trigger Strength
 STRENGTH_ITEM = :STRENGTHITEM
