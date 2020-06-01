@@ -354,8 +354,8 @@
   name: Liberty City
   order: 54
   parent_id: 0
-  scroll_x: 1995
-  scroll_y: 1167
+  scroll_x: 1507
+  scroll_y: 2591
 52: !ruby/object:RPG::MapInfo
   expanded: false
   name: Forest
@@ -473,19 +473,26 @@
   name: Route 7 - Calm Waters
   order: 67
   parent_id: 51
-  scroll_x: 2700
-  scroll_y: 640
+  scroll_x: 3278
+  scroll_y: 510
 69: !ruby/object:RPG::MapInfo
-  expanded: false
+  expanded: true
   name: Seagull Island
   order: 70
   parent_id: 0
-  scroll_x: 608
+  scroll_x: 605
   scroll_y: 512
 70: !ruby/object:RPG::MapInfo
   expanded: false
   name: Burnout in Paradise
   order: 68
   parent_id: 51
+  scroll_x: 320
+  scroll_y: 240
+71: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Route 8
+  order: 71
+  parent_id: 69
   scroll_x: 320
   scroll_y: 240

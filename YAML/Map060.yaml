@@ -116,36 +116,46 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['prize would you like to exchange your tokens for?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Items, TMs, Jermon, CANCEL], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Items]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Choose a prize . \ch\n[5,4,SILK SCARF,WIDE LENS,ZOOM LENS,METR']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ONOME,CANCEL]']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\ch\n[5,4,SILKSCARF,WIDELENS,ZOOMLENS,METR']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ONOME,CANCEL]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Choose a prize . \ch[5,4,SILK SCARF,WIDE ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['LENS,ZOOM LENS,METRONOME,CANCEL]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy a Silk Scarf for 500 tokens?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [12, $PokemonGlobal.coins > 499]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: [Kernel.pbReceiveItem]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 655, p: ['(::PBItems::SILKSCARF)']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: [$PokemonGlobal.coins -=500]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 499]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 655, p: ['(::PBItems::SILKSCARF)']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: [$PokemonGlobal.coins -=500]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy a Wide Lens for 500 tokens?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [12, $PokemonGlobal.coins > 499]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: [Kernel.pbReceiveItem]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 655, p: ['(::PBItems::WIDELENS)']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: [$PokemonGlobal.coins -=500]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 499]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 655, p: ['(::PBItems::WIDELENS)']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: [$PokemonGlobal.coins -=500]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -180,14 +190,431 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, TMs]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Choose a prize.\ch[5,-']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['1,TM90,TM58,TM75,TM32,TM44,TM89,TM10,TM27,TM']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['1,TM90,TM75,TM30,TM44,TM89,TM10,TM27,TM']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['21,TM35,TM24,TM13,TM29,TM74,TM68,CANCEL]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM90 (Substitute) for 1000 ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM90)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM90)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=1000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM75 (Swords Dance) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['1000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM75)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM75)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=1000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM30 (Shadow Ball) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 3999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM30)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM30)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=4000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM44 (Rest) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['2000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 1999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM44)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM44)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=2000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM89 (U-turn) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['2000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 1999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM89)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM89)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=2000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM10 (Hidden Power) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['2000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 1999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM10)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM10)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=2000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM27 (Return) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['3000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 2999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM27)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM27)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=3000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 7, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM21 (Frustration) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['3000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 2999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM21)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM21)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=3000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 8, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM35 (Flamethrower) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 3999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM35)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM35)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=4000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 9, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM24 (Thunderbolt) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 3999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM24)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM24)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=4000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 10, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM13 (Ice Beam) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 3999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM13)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM13)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=4000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 11, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM29 (Psychic) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 3999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM29)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM29)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=4000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 12, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM74 (Gyro Ball) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 3999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM74)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM74)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=4000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 5, 0, 13, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy TM68 (Giga Impact) for ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['5000 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 4999]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, '$PokemonBag.pbHasItem?(:TM68)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You already have that TM.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 655, p: ['(::PBItems::TM68)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: [$PokemonGlobal.coins -=5000]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Jermon]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Choose a prize.\ch[5,1,FUNQO,CANCEL]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[FUNQO, CANCEL], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, FUNQO]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bDo you want to buy a Funqo for 1500 tokens?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $PokemonGlobal.coins > 1499]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['pbAddPokemon(:FUNQO,25)']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: [$PokemonGlobal.coins -=1500]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [You don't have enough tokens.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, CANCEL]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, CANCEL]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
