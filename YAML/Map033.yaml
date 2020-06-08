@@ -949,6 +949,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you've picked up!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: You mean you want to battle?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGrillmaster: You know it.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:GRILLMASTER)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:GRILLMASTER,"Grillmasterxbbq",_I("That''s a really impressive squad you''ve got!"),false,1,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bGrillmaster: I''m glad we can get past the drama and ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [just hang out.]}

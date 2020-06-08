@@ -2383,6 +2383,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['to call the police or something?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\c[5]Twitch Chat: MALDING STREAMER! How about you ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [battle me for it then Kappa.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:RIVAL)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:RIVAL,"Twitch Chat",_I("NotLikeThis You beat me AGAIN. Next time I''ll actually be TRYING!!!"),false,2,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\c[5]Twitch Chat: Want the Key? BETTER COME AND ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [GET IT!]}

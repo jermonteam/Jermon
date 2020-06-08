@@ -28,7 +28,7 @@
   scroll_x: 528
   scroll_y: 416
 5: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Goodsprings Gen. Store
   order: 5
   parent_id: 2
@@ -40,7 +40,7 @@
   order: 6
   parent_id: 2
   scroll_x: 480
-  scroll_y: 488
+  scroll_y: 519
 7: !ruby/object:RPG::MapInfo
   expanded: false
   name: House
@@ -112,7 +112,7 @@
   scroll_x: 320
   scroll_y: 240
 17: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Flower House
   order: 18
   parent_id: 13
@@ -140,7 +140,7 @@
   scroll_x: 1040
   scroll_y: 1081
 21: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Dastardly Den
   order: 22
   parent_id: 19
@@ -175,14 +175,14 @@
   scroll_x: 320
   scroll_y: 240
 26: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Studiopolis WiFi Center
   order: 28
   parent_id: 19
   scroll_x: 320
   scroll_y: 480
 27: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Studiopolis Theater
   order: 29
   parent_id: 19
@@ -210,7 +210,7 @@
   scroll_x: 320
   scroll_y: 512
 31: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Peepance Studios
   order: 33
   parent_id: 19
@@ -238,11 +238,11 @@
   scroll_x: 1280
   scroll_y: 1280
 35: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Route 3 - Crooked Canyon
   order: 14
   parent_id: 2
-  scroll_x: 3340
+  scroll_x: 3828
   scroll_y: 800
 36: !ruby/object:RPG::MapInfo
   expanded: true
@@ -329,14 +329,14 @@
   scroll_x: 480
   scroll_y: 480
 48: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Route 5 Cave
   order: 49
   parent_id: 36
   scroll_x: 1122
   scroll_y: 1536
 49: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Jermite nest
   order: 41
   parent_id: 33
@@ -354,7 +354,7 @@
   name: Liberty City
   order: 54
   parent_id: 0
-  scroll_x: 1507
+  scroll_x: 3733
   scroll_y: 2591
 52: !ruby/object:RPG::MapInfo
   expanded: false
@@ -362,16 +362,16 @@
   order: 51
   parent_id: 50
   scroll_x: 775
-  scroll_y: 1428
+  scroll_y: 1409
 53: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 6 - Liberty Bridge
   order: 52
   parent_id: 50
-  scroll_x: 1577
+  scroll_x: 1056
   scroll_y: 480
 54: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: World Map
   order: 69
   parent_id: 0
@@ -392,7 +392,7 @@
   scroll_x: 1024
   scroll_y: 1397
 57: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: JermCenter - Liberty City
   order: 56
   parent_id: 51
@@ -406,7 +406,7 @@
   scroll_x: 704
   scroll_y: 584
 59: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Liberty City Police Dep.
   order: 58
   parent_id: 51
@@ -460,27 +460,27 @@
   order: 65
   parent_id: 51
   scroll_x: 320
-  scroll_y: 1369
+  scroll_y: 944
 67: !ruby/object:RPG::MapInfo
-  expanded: true
+  expanded: false
   name: Party Palace
   order: 66
   parent_id: 51
   scroll_x: 480
-  scroll_y: 555
+  scroll_y: 640
 68: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 7 - Calm Waters
   order: 67
   parent_id: 51
-  scroll_x: 3278
-  scroll_y: 510
+  scroll_x: 1991
+  scroll_y: 601
 69: !ruby/object:RPG::MapInfo
   expanded: true
   name: Seagull Island
   order: 70
   parent_id: 0
-  scroll_x: 605
+  scroll_x: 608
   scroll_y: 512
 70: !ruby/object:RPG::MapInfo
   expanded: false
@@ -491,8 +491,43 @@
   scroll_y: 240
 71: !ruby/object:RPG::MapInfo
   expanded: false
-  name: Route 8
+  name: Route 8 - Soul Coast
   order: 71
+  parent_id: 69
+  scroll_x: 2012
+  scroll_y: 800
+72: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: JermCenter - Seagull
+  order: 72
+  parent_id: 69
+  scroll_x: 320
+  scroll_y: 240
+73: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Anor Londo
+  order: 76
+  parent_id: 0
+  scroll_x: 561
+  scroll_y: 1349
+74: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Building 1
+  order: 73
+  parent_id: 69
+  scroll_x: 320
+  scroll_y: 240
+75: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Building 2
+  order: 74
+  parent_id: 69
+  scroll_x: 320
+  scroll_y: 480
+76: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Building 3
+  order: 75
   parent_id: 69
   scroll_x: 320
   scroll_y: 240

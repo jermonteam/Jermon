@@ -8452,6 +8452,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGrillmaster: Alright, good talk, but my mons are ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['itching for a battle. You up for it?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Uh. Sure. Why not.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:GRILLMASTER)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:GRILLMASTER,"Grillmasterxbbq",_I("Ooh, so close."),false,2,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XGJHcmlsbG1hc3RlcjogQnllIEplcmVteSwgSeKAmWxsIGNhdGNoIHlvdSBs\nYXRlciEgT2gsIGFuZCA="]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [you might need this.]}

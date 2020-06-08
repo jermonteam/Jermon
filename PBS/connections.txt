@@ -1,13 +1,15 @@
+# Seagull Island (69) - Route 8 (71)
+69,East,0,71,West,0
+# Goodsprings Cemetery (6) - Route 1 - Dusty Trail (11)
+6,North,0,11,South,43
+# Bewwie Town (13) - Route 1 - Dusty Trail (11)
+13,South,8,11,North,0
+# Goodsprings (2) - Route 1 - Dusty Trail (11)
+2,North,8,11,South,0
 # Route 4 - Lakeside Trail (34) - Valentine (33)
 34,South,0,33,North,2
 # Route 3 - Crooked Canyon (35) - Valentine (33)
 35,West,1,33,East,0
-# Goodsprings Cemetery (6) - Route 1 - Dusty Trail (11)
-6,North,0,11,South,43
-# Goodsprings (2) - Route 1 - Dusty Trail (11)
-2,North,8,11,South,0
-# Bewwie Town (13) - Route 1 - Dusty Trail (11)
-13,South,8,11,North,0
 # Route 5 - Haunted Hills (45) - Grab That City (50)
 45,North,0,50,South,5
 # Goodsprings (2) - Goodsprings Cemetery (6)
@@ -22,16 +24,16 @@
 68,North,0,51,South,58
 # Route 6 - Liberty Bridge (53) - Liberty City (51)
 53,East,0,51,West,67
-# Goodsprings (2) - Route 3 - Crooked Canyon (35)
-2,West,4,35,East,0
-# Bewwie Town (13) - Route 3 - Crooked Canyon (35)
-13,West,90,35,East,0
-# Route 2 - Starlet's Thicket (20) - Route 3 - Crooked Canyon (35)
-20,West,190,35,East,0
-# Balloon Crash Site (10) - Goodsprings (2)
-10,North,0,2,South,3
+# Route 3 - Crooked Canyon (35) - Bewwie Town (13)
+35,East,0,13,West,90
 # Route 2 - Starlet's Thicket (20) - Bewwie Town (13)
 20,South,0,13,North,0
+# Route 3 - Crooked Canyon (35) - Goodsprings (2)
+35,East,0,2,West,4
+# Balloon Crash Site (10) - Goodsprings (2)
+10,North,0,2,South,3
+# Route 2 - Starlet's Thicket (20) - Route 3 - Crooked Canyon (35)
+20,West,190,35,East,0
 # Studiopolis (19) - Route 7 - Calm Waters (68)
 19,North,0,68,South,12
 # Seagull Island (69) - Route 7 - Calm Waters (68)

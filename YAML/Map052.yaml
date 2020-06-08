@@ -270,6 +270,7 @@ events:
           repeat: false
           skippable: false
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:RIVAL)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:RIVAL,"Twitch Chat",_I("WeirdChamp Are you serious? AGAIN?"),false,3,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: No more of this vanishing act, just give me ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the key.]}
@@ -539,6 +540,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:RIVAL)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:RIVAL,"Twitch Chat",_I("WeirdChamp Are you serious? AGAIN?"),false,3,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: No more of this vanishing act, just give me ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the key.]}
@@ -732,6 +734,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*7]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*8]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*9]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:RIVAL)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:RIVAL,"Twitch Chat",_I("WeirdChamp Are you serious? AGAIN?"),false,3,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: No more of this vanishing act, just give me ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the key.]}
