@@ -8457,6 +8457,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XGJHcmlsbG1hc3RlcjogQnllIEplcmVteSwgSeKAmWxsIGNhdGNoIHlvdSBs\nYXRlciEgT2gsIGFuZCA="]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [you might need this.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [\bThe only way to the next town is by sea.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['$Trainer.badges[3] = true']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: Bye grillmaster!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bGrillmaster: Ha! Do you even know my real name?']}
       - !ruby/object:RPG::EventCommand
@@ -8485,6 +8486,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*201]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*202]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*203]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [138, 138, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [136, 136, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -8508,6 +8510,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XGJHcmlsbG1hc3RlcjogQnllIEplcmVteSwgSeKAmWxsIGNhdGNoIHlvdSBs\nYXRlciEgT2gsIGFuZCA="]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [you might need this.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [\bThe only way to the next town is by sea.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['$Trainer.badges[3] = true']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: Bye grillmaster!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bGrillmaster: Ha! Do you even know my real name?']}
       - !ruby/object:RPG::EventCommand
@@ -8534,6 +8537,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*210]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*211]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*212]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [138, 138, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [136, 136, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 68
+edit_map_id: 73
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 24110179
+magic_number: 58249023
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -216,7 +216,7 @@ switches:
 - Byeah Hunt
 - Liberty Grillmaster
 - Babyman delivered
-- ''
+- Tomb Cutscene
 - ''
 - ''
 - ''
@@ -301,7 +301,7 @@ variables:
 - Twitch chat Outcome 1
 - Coxcast Grunt Studio 1
 - Byeahs defeated
-- ''
+- Levers Pulled
 - ''
 - ''
 - ''

@@ -1019,11 +1019,12 @@ events:
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhy hello there young man! You seem quite chipper ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bWhy hello there young man!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['You seem quite chipper ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['right now, though why wouldn''t you be with such']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [lovely weather]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou look like a man who likes to fish? No? Well, at ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['least a man who is interested in the sport?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\bYou look like a man who likes to fish? No? Well, at']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['least a man who is interested in the sport?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAh, there you are. Well I''ve gotten myself a new ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['rod, so you can feel free to grab my old one.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIt''s inside my humble abode, should be better than ']}

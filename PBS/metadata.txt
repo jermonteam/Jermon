@@ -169,3 +169,10 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
+#-------------------------------
+[078]
+# Pinwheel Maze
+#-------------------------------
+[079]
+# Pinwheel Chamber
+DarkMap=true
