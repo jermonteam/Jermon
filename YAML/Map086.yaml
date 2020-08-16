@@ -62,7 +62,188 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
 encounter_list: []
 encounter_step: 30
-events: {}
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: '1'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDespite it all the alchemist has seen fit to not raise ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [his prices exponentially. Truly he is a good man in a]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [place that sorely lacks them.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 7
+    y: 3
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: '3'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWelcome. You may find this place expedient if you ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [wish to purchase remedies for what ails you or your]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [fighting creatures.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 2
+    y: 8
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: '2'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bPlease sir, thou may cut ahead of me. I must still ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [decide what would best heal the ailment that has]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [beset my beloved wife.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 2
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: '4'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGood day sir. I am Peritos, the alchemist.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbPokemonMart([']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':ENERGYPOWDER,:ENERGYROOT,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':HEALPOWDER,:REVIVALHERB']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['], "Would you care to peruse my ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['wares?",  ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['"Anything else?", "Thank you for your ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [patronage sir.")]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 4
 height: 15
 tileset_id: 35
 width: 20

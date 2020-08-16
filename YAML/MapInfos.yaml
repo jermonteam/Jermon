@@ -508,7 +508,7 @@
   name: Anor Londo
   order: 78
   parent_id: 0
-  scroll_x: 1274
+  scroll_x: 609
   scroll_y: 960
 74: !ruby/object:RPG::MapInfo
   expanded: false
