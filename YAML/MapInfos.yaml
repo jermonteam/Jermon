@@ -355,7 +355,7 @@
   order: 54
   parent_id: 0
   scroll_x: 4070
-  scroll_y: 3138
+  scroll_y: 2423
 52: !ruby/object:RPG::MapInfo
   expanded: false
   name: Forest
@@ -389,8 +389,8 @@
   name: Frozen Warehouse
   order: 55
   parent_id: 51
-  scroll_x: 1024
-  scroll_y: 611
+  scroll_x: 1442
+  scroll_y: 510
 57: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Liberty City
@@ -494,8 +494,8 @@
   name: Route 8 - Soul Coast
   order: 77
   parent_id: 69
-  scroll_x: 1636
-  scroll_y: 800
+  scroll_x: 2569
+  scroll_y: 1070
 72: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Seagull
@@ -508,8 +508,8 @@
   name: Anor Londo
   order: 78
   parent_id: 0
-  scroll_x: 609
-  scroll_y: 960
+  scroll_x: 1359
+  scroll_y: 1271
 74: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 1
@@ -537,7 +537,7 @@
   order: 75
   parent_id: 69
   scroll_x: 1406
-  scroll_y: 2101
+  scroll_y: 2049
 78: !ruby/object:RPG::MapInfo
   expanded: false
   name: Pinwheel Maze

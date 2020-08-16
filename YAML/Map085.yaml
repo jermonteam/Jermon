@@ -136,7 +136,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bEGAD!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhy hast thine snuck upon me so quietly? Arst ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['thou trying to end mine existence?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\b . . . ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\b. . . ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bActually? Perhaps that is the desirable outcome.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3

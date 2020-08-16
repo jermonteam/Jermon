@@ -36,7 +36,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-edit_map_id: 86
+edit_map_id: 71
 elements:
 - ''
 - ''
@@ -61,7 +61,7 @@ load_se: !ruby/object:RPG::AudioFile
   name: ''
   pitch: 100
   volume: 80
-magic_number: 16558868
+magic_number: 87244440
 party_members:
 - 1
 save_se: !ruby/object:RPG::AudioFile
@@ -217,7 +217,7 @@ switches:
 - Liberty Grillmaster
 - Babyman delivered
 - Tomb Cutscene
-- ''
+- Pinwheel defeated
 - ''
 - ''
 - ''

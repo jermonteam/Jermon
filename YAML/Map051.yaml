@@ -8400,12 +8400,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 314, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJKZXJtYTogT2guIFdoYXTigJlzIHVwIEdyaWxsbWFzdGVyPw=="]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJHcmlsbG1hc3RlcjogSmVyZW15ISBJIHdhcyBob3BpbmcgSeKAmWQgY2F0\nY2ggeW91IA=="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGrillmaster: Jeremy! I was hoping I''d catch you ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['here. Mind taking a walk with me?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {a: 255.0, b: 255.0, g: 255.0, r: 255.0}, 60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 51, 67, 67, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJKZXJtYTogWWtub3csIEnigJltIGp1c3QgZ2xhZCB0byBoYXZlIGF0IGxl\nYXN0IG9uZSA="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Yknow, I''m just glad to have at least one ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [normal person to talk to.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGrillmaster: Haha yeah. It can get pretty crazy out ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['here, but these are good people, deep down.']}
@@ -8457,6 +8457,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XGJHcmlsbG1hc3RlcjogQnllIEplcmVteSwgSeKAmWxsIGNhdGNoIHlvdSBs\nYXRlciEgT2gsIGFuZCA="]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [you might need this.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [\bThe only way to the next town is by sea.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Kernel.pbReceiveItem]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['(PBItems::POOLTUBE,1)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['$Trainer.badges[3] = true']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bJerma: Bye grillmaster!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bGrillmaster: Ha! Do you even know my real name?']}

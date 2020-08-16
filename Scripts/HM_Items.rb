@@ -16,7 +16,7 @@
 
 
 # The internal name of the item that will trigger Surf
-SURF_ITEM = :SURFITEM
+SURF_ITEM = :POOLTUBE
 
 # The internal name of the item that will trigger Rock Smash
 ROCK_SMASH_ITEM = :DYNAMITE

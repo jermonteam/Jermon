@@ -464,6 +464,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [changeDarkCircleRadiusSlowly(1028)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:LEADER_Pinwheel)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:LEADER_Pinwheel,"Pinwheel",_I("..."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [139, 139, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -513,6 +514,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [changeDarkCircleRadiusSlowly(1028)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:LEADER_Pinwheel)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:LEADER_Pinwheel,"Pinwheel",_I("..."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [139, 139, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [106, 106, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
@@ -612,6 +614,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [changeDarkCircleRadiusSlowly(1028)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:LEADER_Pinwheel)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:LEADER_Pinwheel,"Pinwheel",_I("..."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [139, 139, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -661,6 +664,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [changeDarkCircleRadiusSlowly(1028)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:LEADER_Pinwheel)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:LEADER_Pinwheel,"Pinwheel",_I("..."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [139, 139, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [106, 106, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
@@ -717,6 +721,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [changeDarkCircleRadiusSlowly(1028)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:LEADER_Pinwheel)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:LEADER_Pinwheel,"Pinwheel",_I("..."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [139, 139, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -766,6 +771,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [changeDarkCircleRadiusSlowly(1028)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:LEADER_Pinwheel)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:LEADER_Pinwheel,"Pinwheel",_I("..."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [139, 139, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [106, 106, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
