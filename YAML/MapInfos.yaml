@@ -354,8 +354,8 @@
   name: Liberty City
   order: 54
   parent_id: 0
-  scroll_x: 3803
-  scroll_y: 3701
+  scroll_x: 4070
+  scroll_y: 3138
 52: !ruby/object:RPG::MapInfo
   expanded: false
   name: Forest
@@ -508,8 +508,8 @@
   name: Anor Londo
   order: 78
   parent_id: 0
-  scroll_x: 960
-  scroll_y: 984
+  scroll_x: 1274
+  scroll_y: 960
 74: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 1
@@ -614,4 +614,4 @@
   order: 76
   parent_id: 69
   scroll_x: 640
-  scroll_y: 921
+  scroll_y: 960

@@ -508,6 +508,325 @@ events:
       walk_anime: true
     x: 3
     y: 27
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: '1'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe catacombs beneath the cathedral are choking ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['in Hollow traveller, be on your guard.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 23
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: '2'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWe stand guard so the Hollow trapped beneath the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [floors do not overwhelm the town. It is something]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that requires near constant vigilance.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 18
+    y: 24
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: '3'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThe Hollow are not individually dangerous, but ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [when gathered in great enough numbers are a]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [substantial threat.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bA broken sword or decaying shield is far more ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [dangerous when wielded by a hundred rather than]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [one.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 16
+    y: 22
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: '5'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBe warned traveller, no natural source of light will ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [function within the catacombs.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAn unnatural darkness permeates every inch of the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [accursed grounds whilst Hollows stalk the]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [shadows.. You have been warned.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 13
+    y: 12
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: '4'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBe warned traveller, no natural source of light will ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [function within the catacombs.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAn unnatural darkness permeates every inch of the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [accursed grounds whilst Hollows stalk the]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [shadows.. You have been warned.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 15
+    y: 12
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: '7'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAt the bottom of the catacombs behind a series of ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['interlocking doors is a powerful, misshapen creature']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of magic.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bBe warned, we imprisoned it long ago at a great ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['cost. If you must open its chambers, do so prepared']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [for the fight ahead.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 22
+    y: 14
+  14: !ruby/object:RPG::Event
+    id: 14
+    name: '6'
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bDo not hate the Hollow traveller, pity them. They ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [know not what they do.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThey are simply what will happen to all us Undead ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['one day. Face them if you must, but do so with mercy']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [in mind rather than wrath.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 6
+    y: 14
 height: 35
 tileset_id: 35
 width: 30

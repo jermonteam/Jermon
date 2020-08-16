@@ -534,15 +534,15 @@ events:
         blend_type: 0
         character_hue: 0
         character_name: trainerundead walk
-        direction: 4
+        direction: 6
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bGet. . . OUT!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:UNDEAD,"Maze1",_I("Your strength. . . too much."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI. . . SEE YOU!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:UNDEAD,"Maze2",_I("When. . . when did the light go away?"),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -575,13 +575,12 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trainerundead walk
-        direction: 4
+        character_name: ''
+        direction: 6
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bLeave me. . . alone.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -595,8 +594,8 @@ events:
       through: false
       trigger: 0
       walk_anime: true
-    x: 12
-    y: 15
+    x: 11
+    y: 10
   8: !ruby/object:RPG::Event
     id: 8
     name: Trainer(2)
@@ -625,8 +624,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bGet. . . OUT!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:UNDEAD,"Maze2",_I("Your strength. . . too much."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bPlease. . . don't leave us.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:UNDEAD,"Maze3",_I("It''s all. . . gone."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -659,13 +658,12 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trainerundead walk
+        character_name: ''
         direction: 6
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bLeave me. . . alone.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -679,8 +677,8 @@ events:
       through: false
       trigger: 0
       walk_anime: true
-    x: 14
-    y: 15
+    x: 18
+    y: 12
   9: !ruby/object:RPG::Event
     id: 9
     name: Trainer(2)
@@ -709,8 +707,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bGet. . . OUT!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:UNDEAD,"Maze3",_I("Your strength. . . too much."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bMust. . . defend. . .]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:UNDEAD,"Maze4",_I("Defend. . . what? Why am I. . . here?"),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -743,13 +741,12 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trainerundead walk
+        character_name: ''
         direction: 6
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bLeave me. . . alone.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -763,7 +760,7 @@ events:
       through: false
       trigger: 0
       walk_anime: true
-    x: 19
+    x: 21
     y: 18
   10: !ruby/object:RPG::Event
     id: 10
@@ -786,15 +783,15 @@ events:
         blend_type: 0
         character_hue: 0
         character_name: trainerundead walk
-        direction: 6
+        direction: 8
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bGet. . . OUT!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:UNDEAD,"Maze4",_I("Your strength. . . too much."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bThey. . . all left. You must. . . stay.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:UNDEAD,"Maze5",_I("No. . . please. . .  don''t go."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -827,13 +824,12 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: trainerundead walk
+        character_name: ''
         direction: 6
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bLeave me. . . alone.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -847,8 +843,91 @@ events:
       through: false
       trigger: 0
       walk_anime: true
-    x: 6
-    y: 21
+    x: 14
+    y: 12
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: Trainer(2)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trainerundead walk
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:COWBOY)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bSomeone. . . there?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:UNDEAD,"Maze1",_I("It''s so dark. . ."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 13
+    y: 19
 height: 30
 tileset_id: 35
 width: 30
