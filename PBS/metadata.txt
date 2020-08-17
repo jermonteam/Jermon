@@ -170,6 +170,24 @@ Bicycle=true
 Outdoor=true
 ShowArea=true
 #-------------------------------
+[069]
+# Seagull Island
+Bicycle=true
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[071]
+# Route 8 - Soul Coast
+Bicycle=true
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[073]
+# Anor Londo
+Bicycle=true
+Outdoor=true
+ShowArea=true
+#-------------------------------
 [078]
 # Pinwheel Maze
 #-------------------------------

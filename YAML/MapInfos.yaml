@@ -228,8 +228,8 @@
   name: Valentine
   order: 34
   parent_id: 0
-  scroll_x: 1358
-  scroll_y: 510
+  scroll_x: 960
+  scroll_y: 720
 34: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 4 - Lakeside Trail
@@ -481,7 +481,7 @@
   order: 70
   parent_id: 0
   scroll_x: 608
-  scroll_y: 467
+  scroll_y: 512
 70: !ruby/object:RPG::MapInfo
   expanded: false
   name: Burnout in Paradise
@@ -509,7 +509,7 @@
   order: 78
   parent_id: 0
   scroll_x: 1359
-  scroll_y: 1380
+  scroll_y: 960
 74: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 1

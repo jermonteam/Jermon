@@ -277,11 +277,11 @@ events:
       through: false
       trigger: 0
       walk_anime: true
-    x: 10
+    x: 9
     y: 15
-  2: !ruby/object:RPG::Event
-    id: 2
-    name: Day Care Man
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: Exit
     pages:
     - !ruby/object:RPG::Event::Page
       always_on_top: false
@@ -299,96 +299,17 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: NPC 18
+        character_name: ''
         direction: 2
         opacity: 255
         pattern: 0
         tile_id: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'Kernel.pbEggGenerated?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bAh, it''s you!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XGJXZSB3ZXJlIHJhaXNpbmcgeW91ciBQb2vDqW1vbiwgYW5kIG15IGdvb2Ru\nZXNzLCA="]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [were we surprised!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XGJZb3VyIFBva8OpbW9uIHdhcyBob2xkaW5nIGFuIEVnZyE="]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XGJXZSBkb24ndCBrbm93IGhvdyBpdCBnb3QgdGhlcmUsIGJ1dCB5b3VyIFBv\na8OpbW9uIA=="]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [had it.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bYou do want it, don''t you?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 118, p: [ReceiveEgg]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [12, $Trainer.partyCount>=6]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\bYou have no room for it right now... Come back ']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [when you've made room.]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 115, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\PN received the Egg from the Day-Care Man.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\bYou take good care of it.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [pbDayCareGenerateEgg]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [$PokemonGlobal.daycareEgg=0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: [$PokemonGlobal.daycareEggSteps=0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bI really will keep it. You do want this Egg, yes?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: [ReceiveEgg]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\bWell all right then, I''ll take it. Thank you.']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\bThat is, I don''t think we''ll ever find another...']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\bNo, no, I''m sure we''ll find another one. I''m definitely ']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [sure of it!]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: [$PokemonGlobal.daycareEgg=0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 655, p: [$PokemonGlobal.daycareEggSteps=0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 115, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, Kernel.pbDayCareDeposited==0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\bI'm the Day-Care Man.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [!binary "XGJJIGhlbHAgdGFrZSBjYXJlIG9mIHRoZSBwcmVjaW91cyBQb2vDqW1vbiBv\nZiA="]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [trainers.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [!binary "XGJBbnkgUG9rw6ltb24geW91J2QgbGlrZSB0byBoYXZlIHJhaXNlZCB5b3Ug\nY2FuIA=="]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [leave in my wife's care.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, Kernel.pbDayCareDeposited==1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbDayCareGetDeposited(-1,3,-1)']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bAh, it''s you!\nGood to see you!']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bYour \v[3] is doing just fine.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, Kernel.pbDayCareDeposited==2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbDayCareGetDeposited(0,3,-1)']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: ['pbDayCareGetDeposited(1,4,-1)']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: [pbDayCareGetCompatibility(5)]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bAh, it''s you!\nGood to see you!']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\bYour \v[3] and \v[4] are doing just fine.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 5, 0, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [!binary "XGJUaGUgdHdvIHBsYXkgd2l0aCBvdGhlciBQb2vDqW1vbiByYXRoZXIgdGhh\nbiB3aXRoIA=="]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [each other...]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 5, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [\bThe two don't seem to like each other much.]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 5, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [\bThe two seem to get along.]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 5, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [\bThe two seem to get along very well.]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 73, 50, 26, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -400,10 +321,10 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 1
       walk_anime: true
-    x: 8
-    y: 15
+    x: 9
+    y: 18
 height: 20
 tileset_id: 35
 width: 20
