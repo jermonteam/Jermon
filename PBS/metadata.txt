@@ -175,4 +175,4 @@ ShowArea=true
 #-------------------------------
 [079]
 # Pinwheel Chamber
-DarkMap=true
+

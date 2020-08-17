@@ -494,7 +494,7 @@
   name: Route 8 - Soul Coast
   order: 77
   parent_id: 69
-  scroll_x: 2569
+  scroll_x: 3279
   scroll_y: 1070
 72: !ruby/object:RPG::MapInfo
   expanded: false
@@ -509,7 +509,7 @@
   order: 78
   parent_id: 0
   scroll_x: 1359
-  scroll_y: 1271
+  scroll_y: 1380
 74: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 1
