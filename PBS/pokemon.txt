@@ -2641,8 +2641,8 @@ Pokedex=Placeholder
 Evolutions=
 #-----------------
 [107]
-Name=Saturn
-InternalName=SATURN
+Name=Ringlern
+InternalName=RINGLERN
 Type1=POISON
 Type2=PSYCHIC
 BaseStats=75,20,55,55,100,65
@@ -2712,8 +2712,8 @@ Pokedex=Placeholder
 Evolutions=
 #-----------------
 [110]
-Name=Fru Fru
-InternalName=FRUFRU
+Name=Frulien
+InternalName=FRULIEN
 Type1=PSYCHIC
 BaseStats=75,80,70,45,125,100
 GenderRate=Female50Percent

@@ -282,7 +282,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0))]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYar, it''s a tad dangerous to come into me waters ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['alone wouldn''t ya say?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BUCCANER,"Soul2",_I("It would appear ye have bested me."),false,0,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:BUCCANEER,"Soul2",_I("It would appear ye have bested me."),false,0,false,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -628,6 +628,41 @@ events:
       through: false
       trigger: 0
       walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 140
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
     x: 103
     y: 18
   7: !ruby/object:RPG::Event
@@ -757,6 +792,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*13]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*14]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*15]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [140, 140, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
       move_frequency: 3
       move_route: !ruby/object:RPG::MoveRoute
@@ -768,7 +804,7 @@ events:
       move_type: 0
       step_anime: false
       through: false
-      trigger: 0
+      trigger: 1
       walk_anime: true
     x: 97
     y: 18
@@ -794,6 +830,41 @@ events:
         character_hue: 0
         character_name: trainergruntmale walk
         direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 140
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
         opacity: 255
         pattern: 0
         tile_id: 0
@@ -1073,6 +1144,298 @@ events:
       walk_anime: true
     x: 112
     y: 38
+  15: !ruby/object:RPG::Event
+    id: 15
+    name: Route 8 cutscene
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 207, p: [-1, 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &16 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
+          - &17 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &18 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &19 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*16]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*17]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*18]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*19]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 203, p: [6, 6, 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: Man, this is NOT what I signed up for.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Oh yeah? And what did you sign up for ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['exactly?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: I don''t really know, just not this. I mean, this ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['is flat out grave robbing isn''t it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Nah, I like to think of it as uh. . . some ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['privately funded, impromptu archaeology.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rAnd besides, you''ve heard Cable talk about this ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [stuff before. We're doing some good here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: Yeah I know, she''s a bit of a wiseass but ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [she knows what she's talking about.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rMakes me think the stuff we''re doing will be ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [worth it in the long run.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Ends justify the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [means I suppose.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: I don''t know, guess I have trouble believing ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [it sometimes.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Hey, look on the bright side: we could have ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [been assigned to Port. That guy's a lunatic.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: You''re telling me. But still, I''m not an arch-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [e-ologist. For all I know I'm breaking up someone's]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [family tomb looking for this key.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Okay first of all you said it wrong, and ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [second of all I don't think any of us are. Come to think]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of it, did you even go to school?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: Well I was a communications major.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Communications? Uh huh. And how well''s ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['that working out for you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: Not quite like I imagined I guess.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rAlright, enough talking. I guess we ought to get ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [back in there and find that key.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rHehe. You know, could be worse. I could be an art ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [major! AHAHAHA!]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 8
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &20 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - &21 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
+          - &22 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &23 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &24 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+          - &25 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*22]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*23]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*24]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*25]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: I was an art major.']}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 6
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &26 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - &27 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &28 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &29 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &30 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+          - &31 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*26]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*27]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*28]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*29]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*31]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [140, 140, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 97
+    y: 19
+  16: !ruby/object:RPG::Event
+    id: 16
+    name: Route 8 cutscene
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 207, p: [-1, 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &32 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
+          - &33 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &34 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &35 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &36 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*32]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*33]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*34]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*35]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*36]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 203, p: [6, 6, 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: Man, this is NOT what I signed up for.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Oh yeah? And what did you sign up for ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['exactly?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: I don''t really know, just not this. I mean, this ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['is flat out grave robbing isn''t it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Nah, I like to think of it as uh. . . some ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['privately funded, impromptu archaeology.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rAnd besides, you''ve heard Cable talk about this ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [stuff before. We're doing some good here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: Yeah I know, she''s a bit of a wiseass but ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [she knows what she's talking about.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rMakes me think the stuff we''re doing will be ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [worth it in the long run.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Ends justify the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [means I suppose.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: I don''t know, guess I have trouble believing ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [it sometimes.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Hey, look on the bright side: we could have ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [been assigned to Port. That guy's a lunatic.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: You''re telling me. But still, I''m not an arch-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [e-ologist. For all I know I'm breaking up someone's]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [family tomb looking for this key.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Okay first of all you said it wrong, and ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [second of all I don't think any of us are. Come to think]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of it, did you even go to school?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: Well I was a communications major.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: Communications? Uh huh. And how well''s ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['that working out for you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 1: Not quite like I imagined I guess.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rAlright, enough talking. I guess we ought to get ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [back in there and find that key.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rHehe. You know, could be worse. I could be an art ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [major! AHAHAHA!]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 8
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &37 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - &38 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
+          - &39 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &40 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &41 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+          - &42 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*37]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*38]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*39]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*40]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*41]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*42]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rGrunt 2: I was an art major.']}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 6
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &43 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - &44 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &45 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &46 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &47 !ruby/object:RPG::MoveCommand {code: 44, parameters: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+          - &48 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*43]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*44]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*45]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*46]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*47]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*48]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [140, 140, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 97
+    y: 20
 height: 50
 tileset_id: 34
 width: 120

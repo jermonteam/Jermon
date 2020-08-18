@@ -823,7 +823,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: doorsGoodsprings
+        character_name: doors2
         direction: 2
         opacity: 255
         pattern: 2
@@ -1043,7 +1043,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: doorsGoodsprings
+        character_name: doors2
         direction: 2
         opacity: 255
         pattern: 2
@@ -1263,7 +1263,7 @@ events:
       graphic: !ruby/object:RPG::Event::Page::Graphic
         blend_type: 0
         character_hue: 0
-        character_name: doorsGoodsprings
+        character_name: doors2
         direction: 2
         opacity: 255
         pattern: 2

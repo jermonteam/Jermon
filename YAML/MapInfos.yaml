@@ -373,7 +373,7 @@
 54: !ruby/object:RPG::MapInfo
   expanded: false
   name: World Map
-  order: 69
+  order: 70
   parent_id: 0
   scroll_x: 320
   scroll_y: 240
@@ -473,12 +473,12 @@
   name: Route 7 - Calm Waters
   order: 67
   parent_id: 51
-  scroll_x: 2204
+  scroll_x: 2788
   scroll_y: 640
 69: !ruby/object:RPG::MapInfo
   expanded: true
   name: Seagull Island
-  order: 70
+  order: 71
   parent_id: 0
   scroll_x: 608
   scroll_y: 512
@@ -492,126 +492,133 @@
 71: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 8 - Soul Coast
-  order: 77
+  order: 78
   parent_id: 69
-  scroll_x: 3279
-  scroll_y: 1070
+  scroll_x: 2993
+  scroll_y: 794
 72: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Seagull
-  order: 71
+  order: 72
   parent_id: 69
   scroll_x: 320
   scroll_y: 240
 73: !ruby/object:RPG::MapInfo
   expanded: true
   name: Anor Londo
-  order: 78
+  order: 79
   parent_id: 0
   scroll_x: 1359
   scroll_y: 960
 74: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 1
-  order: 72
+  order: 73
   parent_id: 69
   scroll_x: 320
   scroll_y: 240
 75: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 2
-  order: 73
+  order: 74
   parent_id: 69
   scroll_x: 320
   scroll_y: 480
 76: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 3
-  order: 74
+  order: 75
   parent_id: 69
   scroll_x: 320
   scroll_y: 240
 77: !ruby/object:RPG::MapInfo
   expanded: false
   name: Coxcast Hideout
-  order: 75
+  order: 76
   parent_id: 69
   scroll_x: 1406
   scroll_y: 2049
 78: !ruby/object:RPG::MapInfo
   expanded: false
   name: Pinwheel Maze
-  order: 79
+  order: 80
   parent_id: 73
   scroll_x: 480
   scroll_y: 480
 79: !ruby/object:RPG::MapInfo
   expanded: false
   name: Pinwheel Chamber
-  order: 80
+  order: 81
   parent_id: 73
   scroll_x: 320
   scroll_y: 240
 80: !ruby/object:RPG::MapInfo
   expanded: false
   name: Cathedral
-  order: 81
+  order: 82
   parent_id: 73
   scroll_x: 480
   scroll_y: 560
 81: !ruby/object:RPG::MapInfo
   expanded: false
   name: JermCenter - Anor Londo
-  order: 82
+  order: 83
   parent_id: 73
   scroll_x: 320
   scroll_y: 240
 82: !ruby/object:RPG::MapInfo
   expanded: false
   name: Shoppe
-  order: 83
+  order: 84
   parent_id: 73
   scroll_x: 320
   scroll_y: 240
 83: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 1
-  order: 84
+  order: 85
   parent_id: 73
   scroll_x: 320
   scroll_y: 240
 84: !ruby/object:RPG::MapInfo
   expanded: false
   name: Day Care
-  order: 85
+  order: 86
   parent_id: 73
   scroll_x: 320
   scroll_y: 320
 85: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 2
-  order: 86
+  order: 87
   parent_id: 73
   scroll_x: 320
   scroll_y: 240
 86: !ruby/object:RPG::MapInfo
   expanded: false
   name: Alchemist
-  order: 87
+  order: 88
   parent_id: 73
   scroll_x: 320
   scroll_y: 240
 87: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 9
-  order: 88
+  order: 89
   parent_id: 73
   scroll_x: 320
   scroll_y: 240
 88: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 10 - Wild Waters
-  order: 76
+  order: 77
   parent_id: 69
   scroll_x: 640
   scroll_y: 960
+89: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Fishing Shack
+  order: 69
+  parent_id: 51
+  scroll_x: 320
+  scroll_y: 240
