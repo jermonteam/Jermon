@@ -131,7 +131,7 @@
   order: 20
   parent_id: 0
   scroll_x: 790
-  scroll_y: 976
+  scroll_y: 550
 20: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 2 - Starlet's Thicket
@@ -312,8 +312,8 @@
   name: Route 5 - Haunted Hills
   order: 48
   parent_id: 36
-  scroll_x: 643
-  scroll_y: 2689
+  scroll_x: 960
+  scroll_y: 2056
 46: !ruby/object:RPG::MapInfo
   expanded: false
   name: Red Supply
@@ -509,7 +509,7 @@
   order: 79
   parent_id: 0
   scroll_x: 1359
-  scroll_y: 960
+  scroll_y: 1920
 74: !ruby/object:RPG::MapInfo
   expanded: false
   name: Building 1
@@ -606,14 +606,14 @@
   name: Route 9
   order: 89
   parent_id: 73
-  scroll_x: 320
-  scroll_y: 240
+  scroll_x: 960
+  scroll_y: 2000
 88: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 10 - Wild Waters
   order: 77
   parent_id: 69
-  scroll_x: 640
+  scroll_x: 560
   scroll_y: 960
 89: !ruby/object:RPG::MapInfo
   expanded: false
@@ -622,3 +622,10 @@
   parent_id: 51
   scroll_x: 320
   scroll_y: 240
+90: !ruby/object:RPG::MapInfo
+  expanded: false
+  name: Carnival Town
+  order: 90
+  parent_id: 0
+  scroll_x: 800
+  scroll_y: 480
