@@ -31,6 +31,7 @@
 42,SWIMDREWCREW,,30,,,,Male,,
 43,SWIMBOOMER,,30,,,,Male,,
 44,UNDEAD,,30,,,,Mixed,,
+45,CLOWN,,30,,,,Male,,
 56,EXEC1,Coxcast Executive,100,,,,Male,,
 57,EXEC2,Coxcast Executive,100,,,,Female,,
 58,EXEC3,Coxcast Executive,100,,,,Male,,

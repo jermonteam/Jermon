@@ -607,7 +607,7 @@
   order: 89
   parent_id: 73
   scroll_x: 960
-  scroll_y: 2000
+  scroll_y: 3481
 88: !ruby/object:RPG::MapInfo
   expanded: false
   name: Route 10 - Wild Waters
@@ -627,5 +627,5 @@
   name: Carnival Town
   order: 90
   parent_id: 0
-  scroll_x: 800
+  scroll_x: 1683
   scroll_y: 480
