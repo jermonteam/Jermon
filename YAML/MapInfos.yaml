@@ -606,7 +606,7 @@
   name: Route 9
   order: 89
   parent_id: 73
-  scroll_x: 960
+  scroll_x: 1750
   scroll_y: 3481
 88: !ruby/object:RPG::MapInfo
   expanded: false
