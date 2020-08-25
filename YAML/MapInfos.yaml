@@ -606,7 +606,7 @@
   name: Route 9
   order: 89
   parent_id: 73
-  scroll_x: 1750
+  scroll_x: 809
   scroll_y: 3481
 88: !ruby/object:RPG::MapInfo
   expanded: false
@@ -627,5 +627,5 @@
   name: Carnival Town
   order: 90
   parent_id: 0
-  scroll_x: 1683
+  scroll_x: 1672
   scroll_y: 480
