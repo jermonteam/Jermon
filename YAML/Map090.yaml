@@ -420,6 +420,341 @@ events:
       walk_anime: true
     x: 65
     y: 18
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: Grillmaster
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: owgrillmaster
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 45
+    y: 12
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: Grillmaster Fight
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 314, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Hey! ']}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 8
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &2 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 207, p: [8, 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 8
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &3 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
+          - &4 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
+          - &5 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGrillmaster: Hey.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: It is SO good to see a familiar face. The last ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "dG93biBJIGhhZCB0byBnZXQgdGhyb3VnaCB3YXMgYSBuaWdodG1hcmUuIEhv\nd+KAmXMgaXQ="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['going?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGrillmaster: I could be better.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJKZXJtYTogT2gsIEnigJltIHNvcnJ5IHRvIGhlYXIgdGhhdA=="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJHcmlsbG1hc3RlcjogSXTigJlzIGZpbmUgcmVhbGx5LiBCdXQgeW91IGtu\nb3cgd2hhdD8gSG93IA=="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['about we ride the ferris wheel together?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Uh, sure. That sounds like it could be fun.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbAddDependency2(]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['8,"Grillmaster",3)']}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &6 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &7 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &8 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &9 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &10 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &11 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &12 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &13 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &14 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &15 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &16 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &17 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &18 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &19 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &20 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &21 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &22 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &23 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*7]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*9]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*11]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*12]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*13]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*14]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*15]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*16]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*17]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*18]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*19]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*22]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*23]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbRemoveDependency2(]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['"Grillmaster")']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {a: 255.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 202, p: [8, 0, 52, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 90, 52, 2, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGrillmaster: I brought you up here to have an important ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [conversation with you.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Oh? What is it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJHcmlsbG1hc3RlcjogSeKAmW0ganVzdCBnb2luZyB0byBiZSBmcmFuaywg\nSSBkb27igJl0IHRoaW5rIHlvdSA="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [should keep streaming once you get to Vegas.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XGJKZXJtYTogV2hhdD8gSeKAmW0gbm90IGdvaW5nIHRvIGRvIHRoYXQuIEkg\nbG92ZSBzdHJlYW1pbmcsIA=="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "aXQncyBsaWtlIG15IGVudGlyZSBpbmNvbWUsIGFuZCBJ4oCZZCBiZSBicmVh\na2luZyB0aGUgaGVhcnRz"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of my audience if I just stopped without any warning.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGrillmaster: Jeremy. Your audience are not your ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [friends. The energy they pour into their relationships with]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you is wasted.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bYou are actively worsening their lives by continuing to ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [stream. Every second someone spends glued to their]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [computer screen watching you play some game is a]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [second they could be spending enriching their own lives.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIf you were to stop streaming, they might be sad for a ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['while, but it will ultimately be beneficial to  them. You are']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [not helping them. I know this from experience.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI could not in good conscience keep streaming to an ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [obsessive and impressionable audience. I cannot in]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [good conscience let you. You had your sendoff. You had]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "eW91ciBmdW4uIEJ1dCBub3cgaXTigJlzIHRpbWUgdG8gc3RvcC4="]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &24 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*24]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bJerma: Grillmaster. . .  I. . .']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bGrillmaster: That. Is. Not. My. Name.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:GRILLMASTER)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(:GRILLMASTER,"Grillmasterxbbq",_I("Didn''t you want to be an actor?"),false,3,false,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {a: 255.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 90, 51, 15, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 202, p: [8, 0, 54, 15, 4]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XGJHcmlsbG1hc3RlcjogR29vZGJ5ZSBKZXJlbXkuIEnigJltIHNvcnJ5IHlv\ndSBjYW7igJl0IHNlZSA="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [what I see.]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 8
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &25 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &26 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &27 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &28 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &29 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &30 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &31 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &32 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*25]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*26]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*27]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*28]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*29]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*30]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*31]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*32]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\bGrillmaster: Didn''t you want to be an actor?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: Door exit, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {a: 255.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 90, 51, 15, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 202, p: [8, 0, 54, 15, 4]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XGJHcmlsbG1hc3RlcjogR29vZGJ5ZSBKZXJlbXkuIEnigJltIHNvcnJ5IHlv\ndSBjYW7igJl0IHNlZSA="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [what I see.]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 8
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &33 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &34 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &35 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &36 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &37 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &38 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &39 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &40 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*33]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*34]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*35]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*36]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*37]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*38]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*39]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*40]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 43
+    y: 10
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: Grillmasterwheel
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: owgrillmaster
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 53
+    y: 2
 height: 30
 tileset_id: 36
 width: 95
