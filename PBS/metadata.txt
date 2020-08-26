@@ -193,3 +193,15 @@ ShowArea=true
 #-------------------------------
 [079]
 # Pinwheel Chamber
+#-------------------------------
+[087]
+# Route 9
+Bicycle=true
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[090]
+# Carnival Town
+Bicycle=true
+Outdoor=true
+ShowArea=true
