@@ -1,4 +1,4 @@
-﻿#-------------------------------
+#-------------------------------
 [1]
 Name=Otto
 InternalName=OTTO
@@ -21,7 +21,7 @@ Shape=8
 Kind=Dachschund
 Pokedex=Otto is known for his lovable nature and silly antics.  He has a big heart, and goes on even bigger adventures.
 BattlerPlayerY=0
-BattlerEnemyY=17
+BattlerEnemyY=37
 BattlerAltitude=0
 Evolutions=OTTOUGH,Level,16
 #-------------------------------
@@ -47,7 +47,7 @@ Shape=8
 Kind=Dachschund
 Pokedex=Sometimes in times of need, Otto can grow in strength and size, capable of carrying even the largest tennis balls.
 BattlerPlayerY=0
-BattlerEnemyY=18
+BattlerEnemyY=43
 BattlerAltitude=0
 Evolutions=GODTTO,Level,36
 #-------------------------------
@@ -74,7 +74,7 @@ Shape=8
 Kind=Divine Dachschund
 Pokedex=It's Godtto! May he empower us with his divine licks and holy defiance.
 BattlerPlayerY=0
-BattlerEnemyY=7
+BattlerEnemyY=19
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -100,7 +100,7 @@ Shape=10
 Kind=Aquatic Spy
 Pokedex=Only 1 in every 350 Sphees will survive into adulthood. The strong smell of dried koolaid and chicken tenders often gives their position away to predators.
 BattlerPlayerY=0
-BattlerEnemyY=29
+BattlerEnemyY=66
 BattlerAltitude=0
 Evolutions=SHPEECRAB,Level,24
 #-------------------------------
@@ -127,7 +127,7 @@ Shape=10
 Kind=Aquatic Spy
 Pokedex=Small Jermon that dot the beaches and riversides of Amrej. They tend to come out at night and scavenge the shoreline for AFK players to backcrab.
 BattlerPlayerY=0
-BattlerEnemyY=28
+BattlerEnemyY=55
 BattlerAltitude=0
 Evolutions=ARRRSHPEE,Level,36
 #-------------------------------
@@ -154,7 +154,7 @@ Shape=10
 Kind=Aquatic Spy
 Pokedex=This sneaky Jermon stalks the waterfronts of Amrej, preying on unwary travelers and Jermon alike. Likes American marching band tunes for some reason.
 BattlerPlayerY=0
-BattlerEnemyY=18
+BattlerEnemyY=50
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -181,7 +181,7 @@ Habitat=Mountain
 Kind=This Dude
 Pokedex=Placeholder.
 BattlerPlayerY=19
-BattlerEnemyY=23
+BattlerEnemyY=50
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -208,7 +208,7 @@ Habitat=Mountain
 Kind=This Dude
 Pokedex=While Fireman can heat up to temperatures that rival the surface of the Sun, it typically gives nonthreatening, warm hugs instead.
 BattlerPlayerY=0
-BattlerEnemyY=14
+BattlerEnemyY=32
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -235,7 +235,7 @@ Habitat=Mountain
 Kind=This Dude
 Pokedex=Placeholder.
 BattlerPlayerY=19
-BattlerEnemyY=23
+BattlerEnemyY=32
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -262,7 +262,7 @@ Habitat=Mountain
 Kind=This Dude
 Pokedex=Placeholder.
 BattlerPlayerY=19
-BattlerEnemyY=23
+BattlerEnemyY=30
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -289,7 +289,7 @@ Habitat=Mountain
 Kind=This Dude
 Pokedex=Placeholder.
 BattlerPlayerY=19
-BattlerEnemyY=23
+BattlerEnemyY=15
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -316,7 +316,7 @@ Kind=Balloon
 Pokedex=Vivalloon steals the food supply of those who travel by air. It loves bread, but no one has ever seen it eat any.
 BattlerPlayerY=0
 BattlerEnemyY=17
-BattlerAltitude=11
+BattlerAltitude=25
 Evolutions=MAGILLOON,Item,MAGICHAT
 #-------------------------------
 [13]
@@ -343,7 +343,7 @@ Kind=Magic Air
 Pokedex=This Jermon enjoys carrying travelers acoss long distances, but where did it get that snazzy outfit?
 BattlerPlayerY=0
 BattlerEnemyY=14
-BattlerAltitude=16
+BattlerAltitude=21
 Evolutions=
 #-------------------------------
 [14]
@@ -423,7 +423,7 @@ Habitat=Grassland
 Kind=Fiery Larva
 Pokedex=Flareva seems to hold a tiny fire inside of itself, slowing building up its power until it is ready to go up in smoke.
 BattlerPlayerY=0
-BattlerEnemyY=27
+BattlerEnemyY=60
 BattlerAltitude=0
 Evolutions=WASP,Level,20
 #-------------------------------
@@ -452,7 +452,7 @@ Kind=Angry Wasp
 Pokedex=This tiny bug Jermon seems to have survived an explosion. It still buzzes around in explosive rage.
 BattlerPlayerY=0
 BattlerEnemyY=27
-BattlerAltitude=12
+BattlerAltitude=22
 Evolutions=
 #-------------------------------
 [18]
@@ -482,7 +482,7 @@ Pokedex=This Jermon was created artifically in a science lab. Who made this Jerm
 WildItemCommon=QUICKPOWDER
 WildItemUncommon=METALPOWDER
 BattlerPlayerY=0
-BattlerEnemyY=30
+BattlerEnemyY=64
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -508,7 +508,7 @@ Shape=8
 Kind=Rat
 Pokedex=Despite living in squalid and putrid conditions, the rats seem to follow a strict set of rules.
 BattlerPlayerY=0
-BattlerEnemyY=24
+BattlerEnemyY=52
 BattlerAltitude=0
 Evolutions=BDRAT,Level,18
 #-------------------------------
@@ -534,7 +534,7 @@ Shape=8
 Kind=Rat
 Pokedex=These rats don a celebratory hat and secretly invade people's homes, stealing from their pantries and fridges.
 BattlerPlayerY=0
-BattlerEnemyY=24
+BattlerEnemyY=43
 BattlerAltitude=0
 Evolutions=GIANTRAT,Item,POOPYTOOTHBRUSH
 #-------------------------------
@@ -561,7 +561,7 @@ Shape=8
 Kind=Rat
 Pokedex=The Giant Rat is the sole guardian of the Toothbrush, which carries the genetic code of all life on Earth.
 BattlerPlayerY=0
-BattlerEnemyY=6
+BattlerEnemyY=14
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -588,7 +588,7 @@ Shape=1
 Kind=Pain
 Pokedex=Mister Pain is notorious for abducting its prey, muttering nonsensical advice before offing them.
 BattlerPlayerY=0
-BattlerEnemyY=12
+BattlerEnemyY=28
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -614,7 +614,7 @@ Shape=8
 Kind=Hedgehog
 Pokedex=Once a popular video game character, Sonics have begun appearing in second rate, back alley wrestling matches in order to make ends meet.
 BattlerPlayerY=0
-BattlerEnemyY=7
+BattlerEnemyY=25
 BattlerAltitude=0
 Evolutions=SONICHOUSE,Level,28
 #-------------------------------
@@ -641,7 +641,7 @@ Shape=9
 Kind=Birdhouse
 Pokedex=This lovely Jermon soars the skys looking for other friends. Its speed and large eyes help it find others to shelter. If only they could look past its errant coloring.
 BattlerPlayerY=0
-BattlerEnemyY=15
+BattlerEnemyY=32
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -667,7 +667,7 @@ Shape=8
 Kind=Small Ape
 Pokedex=It treasures books and would spend all day reading if it could. Its favorite stories are about tragic car accidents.
 BattlerPlayerY=0
-BattlerEnemyY=21
+BattlerEnemyY=44
 BattlerAltitude=0
 Evolutions=GROWNAPE,Level,28
 #-------------------------------
@@ -693,7 +693,7 @@ Shape=8
 Kind=Ape
 Pokedex=It has less opportunity to read now that it has adult responsibilities. But when its not busy hunting down unfaithful lovers, it still enjoys reading stories to younger Jermon.
 BattlerPlayerY=0
-BattlerEnemyY=13
+BattlerEnemyY=28
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -719,7 +719,7 @@ Shape=1
 Kind=Cat
 Pokedex=Placeholder
 BattlerPlayerY=0
-BattlerEnemyY=20
+BattlerEnemyY=40
 BattlerAltitude=0
 Evolutions=CATPOLICE,Level,20
 #-------------------------------
@@ -746,7 +746,7 @@ Shape=1
 Kind=Cat
 Pokedex=Placeholder.
 BattlerPlayerY=0
-BattlerEnemyY=24
+BattlerEnemyY=57
 BattlerAltitude=0
 Evolutions=CATUFO,Level,38
 #-------------------------------
@@ -773,8 +773,8 @@ Shape=1
 Kind=Cat
 Pokedex=Placeholder
 BattlerPlayerY=0
-BattlerEnemyY=0
-BattlerAltitude=2
+BattlerEnemyY=21
+BattlerAltitude=20
 Evolutions=
 #-------------------------------
 [30]
@@ -800,8 +800,8 @@ Shape=1
 Kind=Wall
 Pokedex=Placeholder.
 BattlerPlayerY=0
-BattlerEnemyY=8
-BattlerAltitude=0
+BattlerEnemyY=22
+BattlerAltitude=21
 Evolutions=RAWMEATLOAF,Level,30
 #-------------------------------
 [31]
@@ -827,8 +827,8 @@ Shape=1
 Kind=Wall
 Pokedex=Placeholder
 BattlerPlayerY=0
-BattlerEnemyY=8
-BattlerAltitude=0
+BattlerEnemyY=31
+BattlerAltitude=17
 Evolutions=SWEETRIND,Level,42
 #-------------------------------
 [32]
@@ -854,8 +854,8 @@ Shape=1
 Kind=Wall
 Pokedex=Placeholder
 BattlerPlayerY=0
-BattlerEnemyY=0
-BattlerAltitude=0
+BattlerEnemyY=28
+BattlerAltitude=19
 Evolutions=
 #-------------------------------
 [33]
@@ -881,8 +881,8 @@ Shape=1
 Kind=Bat
 Pokedex=Placeholder
 BattlerPlayerY=0
-BattlerEnemyY=0
-BattlerAltitude=1
+BattlerEnemyY=31
+BattlerAltitude=23
 Evolutions=BATBOY,Level,29
 #-------------------------------
 [34]
@@ -908,8 +908,8 @@ Shape=1
 Kind=Bat
 Pokedex=Placeholder
 BattlerPlayerY=0
-BattlerEnemyY=0
-BattlerAltitude=1
+BattlerEnemyY=20
+BattlerAltitude=26
 Evolutions=
 #-------------------------------
 [35]
@@ -934,7 +934,7 @@ Shape=1
 Kind=Comet
 Pokedex=Placeholder
 BattlerPlayerY=15
-BattlerEnemyY=19
+BattlerEnemyY=40
 BattlerAltitude=0
 Evolutions=COGNITE,Level,20
 #-------------------------------
@@ -960,7 +960,7 @@ Shape=1
 Kind=Comet
 Pokedex=Placeholder
 BattlerPlayerY=0
-BattlerEnemyY=9
+BattlerEnemyY=-9
 BattlerAltitude=13
 Evolutions=LUNATE,LevelNight,34,SOLNATE,LevelDay,34
 #-------------------------------
@@ -986,7 +986,7 @@ Shape=1
 Kind=Comet
 Pokedex=Placeholder
 BattlerPlayerY=1
-BattlerEnemyY=5
+BattlerEnemyY=-10
 BattlerAltitude=8
 Evolutions=
 #-------------------------------
@@ -1092,7 +1092,7 @@ Shape=1
 Kind=Bottle
 Pokedex=Placeholder
 BattlerPlayerY=17
-BattlerEnemyY=21
+BattlerEnemyY=37
 BattlerAltitude=0
 Evolutions=DESPEROTTLE,Level,28
 #-------------------------------
@@ -1119,7 +1119,7 @@ Shape=1
 Kind=Bottle
 Pokedex=Placeholder
 BattlerPlayerY=0
-BattlerEnemyY=8
+BattlerEnemyY=20
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -1146,7 +1146,7 @@ Shape=1
 Kind=Mars
 Pokedex=Placeholder
 BattlerPlayerY=13
-BattlerEnemyY=17
+BattlerEnemyY=36
 BattlerAltitude=0
 Evolutions=MARTIAVOLT,Level,29
 #-------------------------------
@@ -1173,7 +1173,7 @@ Shape=1
 Kind=Mars
 Pokedex=Placeholder
 BattlerPlayerY=13
-BattlerEnemyY=17
+BattlerEnemyY=9
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -1199,7 +1199,7 @@ Shape=1
 Kind=Enemy Spider
 Pokedex=Placeholder
 BattlerPlayerY=27
-BattlerEnemyY=31
+BattlerEnemyY=67
 BattlerAltitude=0
 Evolutions=GIGANTARACH,Level,32
 #-------------------------------
@@ -1226,7 +1226,7 @@ Shape=1
 Kind=Enemy Spider
 Pokedex=Placeholder
 BattlerPlayerY=27
-BattlerEnemyY=31
+BattlerEnemyY=23
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -1252,7 +1252,7 @@ Shape=1
 Kind=Cheese Snack
 Pokedex=Placeholder
 BattlerPlayerY=11
-BattlerEnemyY=15
+BattlerEnemyY=29
 BattlerAltitude=0
 Evolutions=SCRAPTAIN,Level,22
 #-------------------------------
@@ -1278,7 +1278,7 @@ Shape=1
 Kind=Cheese Snack
 Pokedex=Placeholder
 BattlerPlayerY=11
-BattlerEnemyY=15
+BattlerEnemyY=37
 BattlerAltitude=0
 Evolutions=CHEEZBRICK,Level,38
 #-------------------------------
@@ -1331,7 +1331,7 @@ Shape=1
 Kind=Cheese Snack
 Pokedex=Placeholder
 BattlerPlayerY=11
-BattlerEnemyY=15
+BattlerEnemyY=40
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -1358,7 +1358,7 @@ Shape=1
 Kind=Cheese Snack
 Pokedex=Placeholder
 BattlerPlayerY=11
-BattlerEnemyY=15
+BattlerEnemyY=29
 BattlerAltitude=0
 Evolutions=
 #-------------------------------
@@ -1384,7 +1384,7 @@ Shape=1
 Kind=Nose
 Pokedex=Placeholder
 BattlerPlayerY=13
-BattlerEnemyY=17
+BattlerEnemyY=40
 BattlerAltitude=0
 Evolutions=PROBOSCHNOZZ,Level,27
 #-------------------------------
@@ -1411,7 +1411,7 @@ Shape=1
 Kind=Nose
 Pokedex=Placeholder
 BattlerPlayerY=13
-BattlerEnemyY=17
+BattlerEnemyY=5
 BattlerAltitude=23
 Evolutions=
 #-------------------------------
@@ -1436,6 +1436,9 @@ Color=Red
 Shape=1
 Kind=Plush Goat
 Pokedex=Placeholder
+BattlerEnemyY=39
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=CAPRICLAW,Level,29
 #-------------------------------
 [55]
@@ -1459,6 +1462,9 @@ Color=Red
 Shape=1
 Kind=Plush Goat
 Pokedex=Placeholder
+BattlerEnemyY=18
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [56]
@@ -1483,6 +1489,9 @@ Color=Red
 Shape=1
 Kind=Spatula
 Pokedex=Placeholder
+BattlerEnemyY=46
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=GRILLICK,Level,25
 #-------------------------------
 [57]
@@ -1507,6 +1516,9 @@ Color=Red
 Shape=1
 Kind=Grill
 Pokedex=Placeholder
+BattlerEnemyY=39
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=BARBECULL,Level,38
 #-------------------------------
 [58]
@@ -1531,6 +1543,9 @@ Color=Red
 Shape=1
 Kind=Grill
 Pokedex=Placeholder
+BattlerEnemyY=30
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [59]
@@ -1555,6 +1570,9 @@ Color=Red
 Shape=1
 Kind=Pottery
 Pokedex=Placeholder
+BattlerEnemyY=10
+BattlerPlayerY=0
+BattlerAltitude=6
 Evolutions=BOOGLEBERRY,Level,30
 #-------------------------------
 [60]
@@ -1579,6 +1597,9 @@ Color=Red
 Shape=1
 Kind=Storyteller
 Pokedex=Placeholder
+BattlerEnemyY=29
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [61]
@@ -1602,6 +1623,9 @@ Color=Red
 Shape=1
 Kind=Invisible
 Pokedex=Placeholder
+BattlerEnemyY=26
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=SNATTAFLANK,Level,31
 #-------------------------------
 [62]
@@ -1625,6 +1649,9 @@ Color=Red
 Shape=1
 Kind=Invisible
 Pokedex=Placeholder
+BattlerEnemyY=27
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [63]
@@ -1648,6 +1675,9 @@ Color=Red
 Shape=1
 Kind=Slug
 Pokedex=Placeholder
+BattlerEnemyY=50
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=JERSNAIL,Level,28
 #-------------------------------
 [64]
@@ -1671,6 +1701,9 @@ Color=Red
 Shape=1
 Kind=Snail
 Pokedex=Placeholder
+BattlerEnemyY=32
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [65]
@@ -1694,6 +1727,9 @@ Color=Red
 Shape=1
 Kind=Construction
 Pokedex=Placeholder
+BattlerEnemyY=37
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=WALLDAD,Level,39
 #-------------------------------
 [66]
@@ -1718,6 +1754,9 @@ Color=Red
 Shape=1
 Kind=Construction
 Pokedex=Placeholder
+BattlerEnemyY=27
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [67]
@@ -1742,6 +1781,9 @@ Color=Red
 Shape=1
 Kind=Dunk
 Pokedex=Placeholder
+BattlerEnemyY=28
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=WOBBEDUNK,Level,28
 #-------------------------------
 [68]
@@ -1766,6 +1808,9 @@ Color=Red
 Shape=1
 Kind=Dunk
 Pokedex=Placeholder
+BattlerEnemyY=20
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [69]
@@ -1790,6 +1835,9 @@ Color=Red
 Shape=1
 Kind=Dunk
 Pokedex=Placeholder
+BattlerEnemyY=47
+BattlerPlayerY=0
+BattlerAltitude=23
 Evolutions=PYROSHARK,Level,32
 #-------------------------------
 [70]
@@ -1814,6 +1862,9 @@ Color=Red
 Shape=1
 Kind=Dunk
 Pokedex=Placeholder
+BattlerEnemyY=19
+BattlerPlayerY=0
+BattlerAltitude=13
 Evolutions=
 #-------------------------------
 [71]
@@ -1838,6 +1889,9 @@ Color=Red
 Shape=1
 Kind=Sentry
 Pokedex=Placeholder
+BattlerEnemyY=47
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=SENTRANTULA,Level,33
 #-------------------------------
 [72]
@@ -1862,6 +1916,9 @@ Color=Red
 Shape=1
 Kind=Sentry
 Pokedex=Placeholder
+BattlerEnemyY=35
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [73]
@@ -1886,6 +1943,9 @@ Color=Red
 Shape=1
 Kind=Beverage
 Pokedex=Placeholder
+BattlerEnemyY=42
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=FRENCHCHAMPAGNE,Level,34
 #-------------------------------
 [74]
@@ -1910,6 +1970,9 @@ Color=Red
 Shape=1
 Kind=Beverage
 Pokedex=Placeholder
+BattlerEnemyY=31
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [75]
@@ -1933,6 +1996,9 @@ Color=Red
 Shape=1
 Kind=Sneaky
 Pokedex=Placeholder
+BattlerEnemyY=27
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=NIMBUSNAKE,Level,33
 #-------------------------------
 [76]
@@ -1956,6 +2022,9 @@ Color=Red
 Shape=1
 Kind=Otherwise
 Pokedex=Placeholder
+BattlerEnemyY=32
+BattlerPlayerY=0
+BattlerAltitude=22
 Evolutions=
 #-------------------------------
 [77]
@@ -1979,6 +2048,9 @@ Color=Red
 Shape=1
 Kind=Apple
 Pokedex=Placeholder
+BattlerEnemyY=28
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=CIDAAH,Level,35
 #-------------------------------
 [78]
@@ -2002,6 +2074,9 @@ Color=Red
 Shape=1
 Kind=Cider
 Pokedex=Placeholder
+BattlerEnemyY=21
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [79]
@@ -2025,6 +2100,9 @@ Color=Red
 Shape=1
 Kind=Gumshoe
 Pokedex=Placeholder
+BattlerEnemyY=22
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=GOOPTEGEDDON,Level,32
 #-------------------------------
 [80]
@@ -2048,6 +2126,9 @@ Color=Red
 Shape=1
 Kind=Gumshoe
 Pokedex=Placeholder
+BattlerEnemyY=29
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [81]
@@ -2072,6 +2153,9 @@ Color=Red
 Shape=1
 Kind=Broccoli
 Pokedex=Placeholder
+BattlerEnemyY=30
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=ALPHAKALE,Level,33
 #-------------------------------
 [82]
@@ -2096,6 +2180,9 @@ Color=Red
 Shape=1
 Kind=Kale
 Pokedex=Placeholder
+BattlerEnemyY=13
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
 #-------------------------------
 [83]
@@ -2120,8 +2207,11 @@ Color=Red
 Shape=1
 Kind=Comb
 Pokedex=Placeholder
+BattlerEnemyY=50
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=STUBBLEBUG,Level,27,
-#-----------------
+#-------------------------------
 [84]
 Name=Stubblebug
 InternalName=STUBBLEBUG
@@ -2144,8 +2234,11 @@ Color=Red
 Shape=1
 Kind=Comb
 Pokedex=Placeholder
+BattlerEnemyY=38
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=STATICOHM,Level,39
-#-----------------
+#-------------------------------
 [85]
 Name=Staticohm
 InternalName=STATICOHM
@@ -2168,8 +2261,11 @@ Color=Red
 Shape=1
 Kind=Comb
 Pokedex=Placeholder
+BattlerEnemyY=42
+BattlerPlayerY=0
+BattlerAltitude=33
 Evolutions=
-#-----------------
+#-------------------------------
 [86]
 Name=Gnot
 InternalName=GNOT
@@ -2191,8 +2287,11 @@ Color=Red
 Shape=1
 Kind=Surprise
 Pokedex=Placeholder
+BattlerEnemyY=27
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=GNOME,Level,34
-#-----------------
+#-------------------------------
 [87]
 Name=Gnome
 InternalName=GNOME
@@ -2214,8 +2313,11 @@ Color=Red
 Shape=1
 Kind=Surprise
 Pokedex=Placeholder
+BattlerEnemyY=24
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [88]
 Name=Savegull
 InternalName=SAVEGULL
@@ -2238,8 +2340,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=45
+BattlerPlayerY=0
+BattlerAltitude=29
 Evolutions=SAVEGULL,Level,35
-#-----------------
+#-------------------------------
 [89]
 Name=Saveguard
 InternalName=SAVEGUARD
@@ -2262,8 +2367,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=17
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [90]
 Name=Byeahby
 InternalName=BYEAHBY
@@ -2286,8 +2394,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=32
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=BYEAHTI,Level,37
-#-----------------
+#-------------------------------
 [91]
 Name=Byeahti
 InternalName=BYEAHTI
@@ -2310,8 +2421,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=23
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [92]
 Name=Popma
 InternalName=POPMA
@@ -2333,8 +2447,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=32
+BattlerPlayerY=0
+BattlerAltitude=28
 Evolutions=SCORPOP,Level,38
-#-----------------
+#-------------------------------
 [93]
 Name=Scorpop
 InternalName=SCORPOP
@@ -2357,8 +2474,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=36
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [94]
 Name=Dunkling
 InternalName=DUNKLING
@@ -2380,8 +2500,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=48
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=DUNKCICLE,Level,36
-#-----------------
+#-------------------------------
 [95]
 Name=Dunkcicle
 InternalName=DUNKCICLE
@@ -2403,8 +2526,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=17
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [96]
 Name=Seaman
 InternalName=SEAMAN
@@ -2426,8 +2552,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=22
+BattlerPlayerY=0
+BattlerAltitude=23
 Evolutions=
-#-----------------
+#-------------------------------
 [97]
 Name=Frogman
 InternalName=FROGMAN
@@ -2450,8 +2579,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=33
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [98]
 Name=Globeflate
 InternalName=GLOBEFLATE
@@ -2474,8 +2606,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=32
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [99]
 Name=Gaiadise
 InternalName=GAIADISE
@@ -2498,8 +2633,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=23
+BattlerPlayerY=0
+BattlerAltitude=17
 Evolutions=
-#-----------------
+#-------------------------------
 [100]
 Name=Monkapole
 InternalName=MONKAPOLE
@@ -2522,8 +2660,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=65
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [101]
 Name=Super Frog
 InternalName=SUPERFROG
@@ -2546,8 +2687,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=34
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [102]
 Name=Jacko
 InternalName=JACKO
@@ -2570,8 +2714,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=32
+BattlerPlayerY=0
+BattlerAltitude=28
 Evolutions=
-#-----------------
+#-------------------------------
 [103]
 Name=Pampokeen
 InternalName=PAMPOKEEN
@@ -2594,8 +2741,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=26
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [104]
 Name=Adam Sandler
 InternalName=ADAMSANDLER
@@ -2617,8 +2767,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=27
+BattlerPlayerY=0
+BattlerAltitude=23
 Evolutions=
-#-----------------
+#-------------------------------
 [105]
 Name=Pilloreo
 InternalName=PILLOREO
@@ -2641,8 +2794,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=34
+BattlerPlayerY=0
+BattlerAltitude=16
 Evolutions=
-#-----------------
+#-------------------------------
 [106]
 Name=Cushenant
 InternalName=CUSHENANT
@@ -2665,8 +2821,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=17
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [107]
 Name=Ringlern
 InternalName=RINGLERN
@@ -2689,8 +2848,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=17
+BattlerPlayerY=0
+BattlerAltitude=14
 Evolutions=
-#-----------------
+#-------------------------------
 [108]
 Name=Saternal
 InternalName=SATERNAL
@@ -2713,8 +2875,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=33
+BattlerPlayerY=0
+BattlerAltitude=22
 Evolutions=
-#-----------------
+#-------------------------------
 [109]
 Name=Fru Fru
 InternalName=FRUFRU
@@ -2736,8 +2901,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=69
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [110]
 Name=Frulien
 InternalName=FRULIEN
@@ -2759,8 +2927,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=18
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [111]
 Name=Oneguy
 InternalName=ONEGUY
@@ -2782,8 +2953,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=31
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [112]
 Name=Garfield
 InternalName=GARFIELD
@@ -2806,8 +2980,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=41
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [113]
 Name=Squeektor
 InternalName=SQUEEKTOR
@@ -2829,8 +3006,11 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=34
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=
-#-----------------
+#-------------------------------
 [114]
 Name=Tyrannascreech
 InternalName=TYRANNASCREECH
@@ -2852,4 +3032,7 @@ Color=Red
 Shape=1
 Kind=Save
 Pokedex=Placeholder
+BattlerEnemyY=23
+BattlerPlayerY=0
+BattlerAltitude=0
 Evolutions=

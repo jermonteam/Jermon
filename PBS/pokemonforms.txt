@@ -1,3 +1,6 @@
 ﻿#-------------------------------
 [RAT-1]
 FormName=!!!!!
+BattlerEnemyY=24
+BattlerPlayerY=0
+BattlerAltitude=0
