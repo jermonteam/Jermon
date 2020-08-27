@@ -196,6 +196,7 @@ ShowArea=true
 #-------------------------------
 [087]
 # Route 9
+Weather=Rain,100
 Bicycle=true
 Outdoor=true
 ShowArea=true
