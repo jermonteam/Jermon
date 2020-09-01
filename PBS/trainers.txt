@@ -82,6 +82,15 @@ SNATTAFLANK,32
 RAWMEATLOAF,33
 GRILLICK,34
 #-------------------------------
+GRILLMASTER
+Grillmasterxbbq,3
+5
+LUNATE,39
+SNATTAFLANK,39
+SCORPOP,39
+SWEETRIND,40
+BARBECULL,40
+#-------------------------------
 ELVIS
 Elves
 1
