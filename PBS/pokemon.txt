@@ -2555,7 +2555,7 @@ Pokedex=Placeholder
 BattlerEnemyY=22
 BattlerPlayerY=0
 BattlerAltitude=23
-Evolutions=
+Evolutions=FROGMAN,Level,38
 #-------------------------------
 [97]
 Name=Frogman
@@ -2609,7 +2609,7 @@ Pokedex=Placeholder
 BattlerEnemyY=32
 BattlerPlayerY=0
 BattlerAltitude=0
-Evolutions=
+Evolutions=GAIADISE,Level,39
 #-------------------------------
 [99]
 Name=Gaiadise
@@ -2663,7 +2663,7 @@ Pokedex=Placeholder
 BattlerEnemyY=65
 BattlerPlayerY=0
 BattlerAltitude=0
-Evolutions=
+Evolutions=SUPERFROG,Level,40
 #-------------------------------
 [101]
 Name=Super Frog
@@ -2717,7 +2717,7 @@ Pokedex=Placeholder
 BattlerEnemyY=32
 BattlerPlayerY=0
 BattlerAltitude=28
-Evolutions=
+Evolutions=PAMPOKEEN,Level,38
 #-------------------------------
 [103]
 Name=Pampokeen
@@ -2797,7 +2797,7 @@ Pokedex=Placeholder
 BattlerEnemyY=34
 BattlerPlayerY=0
 BattlerAltitude=16
-Evolutions=
+Evolutions=CUSHENANT,Lwvel,40
 #-------------------------------
 [106]
 Name=Cushenant
@@ -2851,7 +2851,7 @@ Pokedex=Placeholder
 BattlerEnemyY=17
 BattlerPlayerY=0
 BattlerAltitude=14
-Evolutions=
+Evolutions=SATERNAL,Level,39
 #-------------------------------
 [108]
 Name=Saternal
@@ -2904,7 +2904,7 @@ Pokedex=Placeholder
 BattlerEnemyY=69
 BattlerPlayerY=0
 BattlerAltitude=0
-Evolutions=
+Evolutions=FRULIEN,Level,39
 #-------------------------------
 [110]
 Name=Frulien
@@ -3009,7 +3009,7 @@ Pokedex=Placeholder
 BattlerEnemyY=34
 BattlerPlayerY=0
 BattlerAltitude=0
-Evolutions=
+Evolutions=TYRANNASCREECH,Level,42
 #-------------------------------
 [114]
 Name=Tyrannascreech
