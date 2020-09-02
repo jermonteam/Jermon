@@ -1,13 +1,17 @@
+# Grab That City (50) - Route 10 - Rumble Road (93)
+50,South,471,93,North,0
+# Carnival Town (90) - Route 10 - Rumble Road (93)
+90,South,47,93,North,0
 # Anor Londo (73) - Route 8 - Soul Coast (71)
 73,West,8,71,East,0
 # Seagull Island (69) - Route 8 - Soul Coast (71)
 69,East,0,71,West,0
 # Goodsprings Cemetery (6) - Route 1 - Dusty Trail (11)
 6,North,0,11,South,43
-# Goodsprings (2) - Route 1 - Dusty Trail (11)
-2,North,8,11,South,0
 # Bewwie Town (13) - Route 1 - Dusty Trail (11)
 13,South,8,11,North,0
+# Goodsprings (2) - Route 1 - Dusty Trail (11)
+2,North,8,11,South,0
 # Route 4 - Lakeside Trail (34) - Valentine (33)
 34,South,0,33,North,2
 # Route 3 - Crooked Canyon (35) - Valentine (33)
@@ -32,14 +36,14 @@
 53,East,0,51,West,67
 # Route 9 (87) - Anor Londo (73)
 87,West,0,73,East,38
-# Route 3 - Crooked Canyon (35) - Goodsprings (2)
-35,East,0,2,West,4
-# Balloon Crash Site (10) - Goodsprings (2)
-10,North,0,2,South,3
 # Route 3 - Crooked Canyon (35) - Bewwie Town (13)
 35,East,0,13,West,90
 # Route 2 - Starlet's Thicket (20) - Bewwie Town (13)
 20,South,0,13,North,0
+# Route 3 - Crooked Canyon (35) - Goodsprings (2)
+35,East,0,2,West,4
+# Balloon Crash Site (10) - Goodsprings (2)
+10,North,0,2,South,3
 # Route 2 - Starlet's Thicket (20) - Route 3 - Crooked Canyon (35)
 20,West,190,35,East,0
 # Studiopolis (19) - Route 7 - Calm Waters (68)
