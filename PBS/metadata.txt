@@ -212,3 +212,9 @@ ShowArea=true
 Bicycle=true
 Outdoor=true
 ShowArea=true
+#-------------------------------
+[094]
+# Rumble City
+Bicycle=true
+Outdoor=true
+ShowArea=true
