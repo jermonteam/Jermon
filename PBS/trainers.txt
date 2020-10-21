@@ -66,6 +66,14 @@ BRAWLCOLLI,25
 CATPOLICE,25
 SMILE,28,,,,,,2
 #-------------------------------
+RIVAL
+Twitch Chat,4
+4
+SQUEEKTOR,37
+SHEETO,37
+SUPERFROG,37
+SMILE,40,,,,,,2
+#-------------------------------
 GRILLMASTER
 Grillmasterxbbq,1
 4
@@ -89,7 +97,7 @@ LUNATE,39
 SNATTAFLANK,39
 SCORPOP,39
 SWEETRIND,40
-BARBECULL,40
+BARBECULL,41
 #-------------------------------
 ELVIS
 Elves
