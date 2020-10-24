@@ -4,11 +4,11 @@ PlayerA=POKEMONTRAINER_Jerma,trchar000,boy_bike,boy_surf,boy_run,boy_surf,boy_fi
 PlayerB=TRAINER,trchar001,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,xxx
 TrainerVictoryME=Battle victory trainer.ogg
 WildVictoryME=Battle victory wild.ogg
-TrainerBattleBGM=battle jermon.ogg
+TrainerBattleBGM=Battle trainer.mid
 SurfBGM=Surfing.mid
 BicycleBGM=Bicycle.mid
 Home=3,10,16,8
-WildBattleBGM=battle jermon.ogg
+WildBattleBGM=Battle wild.mid
 #-------------------------------
 [001]
 # Intro

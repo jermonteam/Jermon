@@ -2005,6 +2005,7 @@ Evolutions=NIMBUSNAKE,Level,33
 Name=Nimbusnake
 InternalName=NIMBUSNAKE
 Type1=POISON
+Type2=FLYING
 BaseStats=75,110,70,125,50,70
 GenderRate=Female50Percent
 GrowthRate=Medium
