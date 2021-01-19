@@ -50,3 +50,9 @@
 87,South,4,90,North,0
 # Route 2 - Starlet's Thicket (20) - Studiopolis (19)
 20,North,18,19,South,0
+# Brimstone (105) - Hell (104)
+105,South,0,104,North,45
+# Hell Entrance (107) - Hell (104)
+107,North,0,104,South,32
+# Zeraxos Palace (106) - Brimstone (105)
+106,South,6,105,North,0
