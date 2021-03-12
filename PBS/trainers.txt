@@ -856,36 +856,36 @@ FRUFRU,32
 DISCO
 Disco Diaper
 1
-FRUFRU,38
+PAMPOKEEN,38
 #-------------------------------
 SERPENT
 Time Serpent
 1
-FRUFRU,38
+NIMBUSNAKE,38
 #-------------------------------
 MIKEY
 Miserable Mikey
 1
-FRUFRU,38
+GIANTRAT,38
 #-------------------------------
 PACMAN
 Pac-Man
 1
-FRUFRU,38
+CIDAAH,38
 #-------------------------------
 BURGAH
 Burgah Boy
 1
-FRUFRU,38
+GARFIELD,38
 #-------------------------------
 LEADER_Glueman
 Glueman
 5
-BATBOY,30
-BEANBAGSONIC,30
-EGG,30
-DUOWHINNY,30
-CHEEZBRICK,30
+BATBOY,41
+BEANBAGSONIC,41
+EGG,42
+DUOWHINNY,42
+CHEEZBRICK,44
 #-------------------------------
 SINNERM
 Hell1
@@ -962,7 +962,7 @@ Hell15
 1
 FRUFRU,38
 #-------------------------------
-SINNERM
+SINNERF
 Hell16
 1
 FRUFRU,38
