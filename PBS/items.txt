@@ -560,4 +560,5 @@
 560,HAPPYMEAL,Happy Meal,Happy Meals,8,0,"A Happy Meal from Diamonds R Forevah. You should probably return this to the byeah.",2,0,6,
 561,POOLTUBE,Pool Tube,Pool Tubes,8,0,"An inflatable ring used for navigating the water.",2,0,6,
 562,EUREKA,Eureka Effect,Eureka Effects,8,0,"A retro-futuristic wrench used to instantly transport to areas around Amrej.",2,0,6,
-563,SECRETKEY,Secret Key,Secret Key,8,0,"A mystery key, I think you're supposed to put it in a rock?",2,0,6,
+563,SECRETKEY,Secret Key,Secret Keys,8,0,"A mystery key, I think you're supposed to put it in a rock?",2,0,6,
+564,CRYSTAL,Giant Crystal,Giant Crystals,8,0,"A demonic crystal of impressive size. It radiates infernal energy.",2,0,6,
