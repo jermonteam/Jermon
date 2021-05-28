@@ -1,968 +1,793 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
-LEADER_Dastardly
-Dastardly Trio
-3
-RAT,9
-CAT,11
-RAT,13
-#-------------------------------
-ACTOR
-Leonardo
-2
-PUBLIAPETION,8
-SCHNOZZPASS,9
-#-------------------------------
-ACTRESS
-Gwenyth
-1
-PUBLIAPETION,7
-#-------------------------------
-BOOMER
-Bartholomew
-1
-BABYMAN,6
-#-------------------------------
-COXCASTM
-Frank
-2
-SHPEE,9
-FLAREVA,9
-#-------------------------------
-COXCASTF
-Jill
-1
-SMALLTHROPOD,12
-#-------------------------------
-COXCASTF
-Bertha
-2
-SHPEE,9
-SMALLTHROPOD,10
-#-------------------------------
-COXCASTM
-Roy
-1
-FLAREVA,12
-#-------------------------------
-RIVAL
-Twitch Chat,1
-1
-SMILE,5,,,,,,2
-#-------------------------------
-RIVAL
-Twitch Chat,2
-4
-SPILLET,17
-SCHNOZZPASS,17
-BDRAT,17
-SMILE,20,,,,,,2
-#-------------------------------
-RIVAL
-Twitch Chat,3
-4
-WALLLAD,25
-BRAWLCOLLI,25
-CATPOLICE,25
-SMILE,28,,,,,,2
-#-------------------------------
-RIVAL
-Twitch Chat,4
-4
-SQUEEKTOR,37
-SHEETO,37
-SUPERFROG,37
-SMILE,40,,,,,,2
-#-------------------------------
-GRILLMASTER
-Grillmasterxbbq,1
-4
-SLEEPEOR,19
-SNATTAKITTY,20
-POTTERGEIST,21
-SPATCHKEY,22
-#-------------------------------
-GRILLMASTER
-Grillmasterxbbq,2
-4
-COGNITE,31
-SNATTAFLANK,32
-RAWMEATLOAF,33
-GRILLICK,34
-#-------------------------------
-GRILLMASTER
-Grillmasterxbbq,3
-5
-LUNATE,39
-SNATTAFLANK,39
-SCORPOP,39
-SWEETRIND,40
-BARBECULL,41
-#-------------------------------
-ELVIS
-Elves
-1
-SLEEPEOR,14
-#-------------------------------
-ELVIS
-Elviis
-2
-SLEEPEOR,13
-MARZOLT,12
-#-------------------------------
-LEADER_EasyPete
-Easy Pete
-3
-MARZOLT,16
-SLEEPEOR,17
-DSPONGE,19
-#-------------------------------
-ELVIS
-Elvoos
-1
-MARZOLT,15
-#-------------------------------
-ELVIS
-Elvise
-2
-MARZOLT,13
-SLEEPEOR,14
-#-------------------------------
-ELVIS
-Elvus
-1
-SLEEPEOR,15
-#-------------------------------
-SCHOOLELVIS
-Elviis
-1
-SONIC,11
-#-------------------------------
-SCHOOLELVIS
-Elvise
-1
-PUBLIAPETION,12
-#-------------------------------
-SCHOOLELVIS
-Elvoos
-2
-SONIC,9,,QUICKATTACK,CHARGE,SPARK
-SONIC,10,,QUICKATTACK,CHARGE,SPARK
-#-------------------------------
-SCHOOLELVIS
-Elvus
-2
-BATBY,10
-BATBY,11
-#-------------------------------
-ACTRESS
-Olivia
-2
-VIVALLOON,7
-VIVALLOON,7
-#-------------------------------
-DORKF
-Phoenix
-1
-BATBY,8
-#-------------------------------
-ACTOR
-Brad
-2
-SLEEPEOR,6
-RAT,7,,TACKLE,TAILWHIP,BITE
-#-------------------------------
-DORKM
-Keith
-2
-LILMACK,5
-PUBLIAPETION,6
-#-------------------------------
-BOOMER
-Montgomery
-1
-SONIC,8
-#-------------------------------
-SCHOOLELVIS
-Elveese
-1
-SCHNOZZPASS,13
-#-------------------------------
-SCHOOLELVIS
-Elves
-2
-CAT,10
-RAT,11
-#-------------------------------
-COWBOY
-Biff
-1
-KIDMARK,16
-#-------------------------------
-COWBOY
-Dutch
-1
-CHEESEY,17
-#-------------------------------
-BOOMER
-Bernard
-1
-CAT,17
-#-------------------------------
-COWBOY
-Arthur
-2
-MARZOLT,15
-SCHNOZZPASS,16
-#-------------------------------
-ELVIS
-Elfis
-1
-SPILLET,16
-#-------------------------------
-CRAZIEFILEF
-Gwen
-1
-PUBLIAPETION,17
-#-------------------------------
-BOOMER
-Theodore
-2
-KIDMARK,15
-KIDMARK,15
-#-------------------------------
-COWBOY
-Holiday
-1
-SCHNOZZPASS,17
-#-------------------------------
-COWBOY
-Wyatt
-1
-SONIC,16
-#-------------------------------
-ELVIS
-Elvi
-1
-MARZOLT,17
-#-------------------------------
-DORKF
-Charlotte
-2
-KIDMARK,15
-RAT,15
-#-------------------------------
-COWBOY
-John
-1
-KIDMARK,18
-#-------------------------------
-BOOMER
-Chester
-2
-CHEESEY,15
-BATBY,15
-#-------------------------------
-PROSPECTOR
-Prospector
-3
-BANDOTTLE,17
-BANDOTTLE,18
-BANDOTTLE,18
-#-------------------------------
-BOOMER
-John Thomas
-2
-KIDMARK,17
-JERSLUG,17
-#-------------------------------
-BOOMER
-Abraham
-1
-WALLLAD,19
-#-------------------------------
-BOOMER
-Willis
-1
-VIVALLOON,19
-#-------------------------------
-COWBOY
-Ramon
-2
-SHPEE,16
-SHPEE,18
-#-------------------------------
-COWBOY
-Silvanito
-1
-CHEESEY,19
-#-------------------------------
-COWBOY
-Ramirez
-1
-KIDMARK,19
-#-------------------------------
-COWBOY
-Tuco
-2
-AMPFIB,17
-SHPEE,17
-#-------------------------------
-COWBOY
-Dan
-1
-AMPFIB,19
-#-------------------------------
-BLUSOLLY
-Soldier
-2
-CATPOLICE,20
-JERSLUG,21
-#-------------------------------
-BLUDEMO
-Demoman
-2
-BANDOTTLE,20
-REDBLEND,22
-#-------------------------------
-BLUSCOUT
-Scout
-1
-SONIC,23
-#-------------------------------
-BLUHEAVY
-Heavy
-1
-PUBLIAPETION,23
-#-------------------------------
-BLUENGI
-Engineer
-3
-SCUTTLEGUN,21
-SCUTTLEGUN,21
-SCUTTLEGUN,21
-#-------------------------------
-BLUSNIPER
-Sniper
-2
-BATBY,21
-VIVALLOON,22
-#-------------------------------
-LEADER_Spy
-Spy
-4
-REDBLEND,23
-AMPFIB,24
-PYROFISH,24
-SHPEECRAB,25
-#-------------------------------
-COWBOY
-1
-2
-MRSNAKEMAN,22
-KIDMARK,22
-#-------------------------------
-CRAZIEFILEF
-2
-1
-WALLLAD,23
-#-------------------------------
-BOOMER
-3
-1
-PUBLIAPETION,23
-#-------------------------------
-CRAZIEFILEM
-4
-1
-BATBY,23
-#-------------------------------
-COWBOY
-5
-2
-BANDOTTLE,22
-BANDOTTLE,22
-#-------------------------------
-COWBOY
-6
-1
-CHEESEY,23
-#-------------------------------
-BOOMER
-7
-1
-CAT,24
-#-------------------------------
-DORKF
-8
-2
-SONIC,23
-LILMACK,23
-#-------------------------------
-DREWCREW
-9
-1
-GOOPER,23
-#-------------------------------
-CRAZIEFILEM
-13
-2
-SLEEPEOR,22
-MARZOLT,22
-#-------------------------------
-BOOMER
-14
-1
-SPILLET,23
-#-------------------------------
-DREWCREW
-12
-2
-GOOPER,22
-AMPFIB,22
-#-------------------------------
-DREWCREW
-11
-2
-MRSNAKEMAN,22
-GOOPER,22
-#-------------------------------
-CRAZIEFILEF
-10
-1
-DSPONGE,23
-#-------------------------------
-DREWCREW
-15
-3
-AMPFIB,22
-GOOPER,22
-POTTERGEIST,24
-#-------------------------------
-DREWCREW
-15
-3
-AMPFIB,22
-GOOPER,22
-POTTERGEIST,24
-#-------------------------------
-DREWCREW
-Forest1
-2
-APPLAAH,22
-GOOPER,23
-#-------------------------------
-BOOMER
-Forest2
-1
-BDRAT,24
-#-------------------------------
-DREWCREW
-Forest3
-2
-BRAWLCOLLI,23
-GOOPER,23
-#-------------------------------
-BOOMER
-Forest4
-1
-STACHERPILLAR,25
-#-------------------------------
-DREWCREW
-Forest5
-1
-GOOPER,25
-#-------------------------------
-DORKM
-Forest6
-1
-SCRAPTAIN,25
-#-------------------------------
-DORKF
-Bridge1
-2
-SAVEGULL,24
-SAVEGULL,24
-#-------------------------------
-VROOMER
-Bridge2
-1
-CATPOLICE,25
-#-------------------------------
-VROOMER
-Bridge3
-2
-SONIC,24
-CATPOLICE,24
-#-------------------------------
-VROOMER
-Bridge4
-1
-SONIC,25
-#-------------------------------
-COXCASTM
-Frozen1
-2
-SMALLTHROPOD,24
-FLAREVA,26
-#-------------------------------
-COXCASTF
-Frozen2
-2
-MALIGNIP,24
-SMALLTHROPOD,26
-#-------------------------------
-COXCASTM
-Frozen3
-2
-SHPEECRAB,25
-FLAREVA,25
-#-------------------------------
-COXCASTF
-Frozen4
-1
-MALIGNIP,26
-#-------------------------------
-COXCASTM
-Frozen5
-1
-SHPEECRAB,26
-#-------------------------------
-COXCASTM
-Frozen6
-1
-SMALLTHROPOD,26
-#-------------------------------
-COXCASTF
-Frozen7
-2
-SHPEECRAB,25
-FLAREVA,25
-#-------------------------------
-COXCASTF
-Frozen8
-1
-MALIGNIP,26
-#-------------------------------
-COXCASTM
-Frozen9
-2
-SMALLTHROPOD,24
-FLAREVA,26
-#-------------------------------
-EXEC1
-Port,1
-4
-SCUTTLEGUN,27
-WASP,28
-SHPEECRAB,29
-GIGANTARACH,31
-#-------------------------------
-LEADER_Byeah
-Byeah Number 1
-4
-BDRAT,29
-BOOGLEBERRY,30
-ONEGUY,32
-BYEAHTI,33
-#-------------------------------
-BYEAH
-Byeah Number 2
-2
-BDRAT,25
-BYEAHBY,27
-#-------------------------------
-BYEAH
-Byeah Number 3
-1
-BYEAHBY,28
-#-------------------------------
-BYEAH
-Byeah Number 4
-1
-SNATTAKITTY,28
-#-------------------------------
-BYEAH
-Byeah Number 5
-2
-BYEAHBY,25
-POTTERGEIST,27
-#-------------------------------
-BYEAH
-Byeah Number 6
-1
-BYEAHBY,27
-#-------------------------------
-BYEAH
-Byeah Number 7
-1
-BDRAT,28
-#-------------------------------
-BUCCANEER
-Waters1
-1
-GLOBEFLATE,27
-#-------------------------------
-SWIMBYEAH
-Waters2
-2
-REDBLEND,25
-SAVEGULL,25
-#-------------------------------
-SWIMDREWCREW
-Waters3
-1
-GOOPER,28
-#-------------------------------
-BUCCANEER
-Waters4
-3
-MRSNAKEMAN,24
-SEAMAN,24
-SHPEECRAB,24
-#-------------------------------
-SWIMBOOMER
-Waters5
-1
-HOLYMACK,28
-#-------------------------------
-SWIMDREWCREW
-Waters6
-2
-GOOPER,26
-GOOPER,27
-#-------------------------------
-SWIMBYEAH
-Waters7
-1
-GIANTRAT,26
-#-------------------------------
-BOOMER
-Waters8
-3
-FIREMAN,25
-WATERMAN,25
-ZAPMAN,25
-#-------------------------------
-BUCCANEER
-Waters9
-1
-BANDOTTLE,29
-#-------------------------------
-BYEAH
-Soul1
-3
-LILMACK,26
-BDRAT,26
-BDRAT,26
-#-------------------------------
-BUCCANEER
-Soul2
-2
-MRSNAKEMAN,26
-SAVEGULL,27
-#-------------------------------
-UNDEAD
-Soul3
-2
-SNATTAKITTY,27
-POTTERGEIST,27
-#-------------------------------
-UNDEAD
-Soul4
-3
-MONKAPOLE,25
-SNATTAKITTY,26
-JACKO,27
-#-------------------------------
-UNDEAD
-Soul5
-1
-BOOGLEBERRY,28
-#-------------------------------
-COXCASTM
-Tomb1
-1
-SMALLTHROPOD,29
-#-------------------------------
-COXCASTF
-Tomb2
-3
-WASP,25
-WASP,26
-WASP,27
-#-------------------------------
-COXCASTF
-Tomb3
-2
-CHEESEY,25
-MALIGNIP,28
-#-------------------------------
-COXCASTM
-Tomb4
-4
-SHPEE,26
-SHPEE,26
-SHPEE,26
-SHPEE,26
-#-------------------------------
-COXCASTF
-Tomb5
-2
-SHPEECRAB,28
-SMALLTHROPOD,28
-#-------------------------------
-COXCASTM
-Tomb6
-2
-WASP,28
-MALIGNIP,28
-#-------------------------------
-EXEC2
-Cable,1
-4
-MAGILLOON,35
-SATERNAL,35
-GARFIELD,36
-CHARLIETAN,36
-#-------------------------------
-LEADER_Pinwheel
-Pinwheel
-4
-ADAMSANDLER,36
-CUSHENANT,37
-ARRRSHPEE,38
-PAMPOKEEN,39
-#-------------------------------
-UNDEAD
-Maze1
-2
-PILLOREO,30
-POTTERGEIST,30
-#-------------------------------
-UNDEAD
-Maze2
-1
-JACKO,33
-#-------------------------------
-UNDEAD
-Maze3
-1
-PILLOREO,33
-#-------------------------------
-UNDEAD
-Maze4
-2
-ARRRSHPEE,32
-ARRRSHPEE,32
-#-------------------------------
-UNDEAD
-Maze5
-1
-BOOGLEBERRY,33
-#-------------------------------
-CRAZIEFILEF
-Islands1
-2
-SAVEGULL,33
-SAVEGUARD,33
-#-------------------------------
-BOOMER
-Islands2
-1
-FRENCHCHAMPAGNE,35
-#-------------------------------
-CLOWN
-Islands3
-2
-SHEETO,33
-GROWNAPE,35
-#-------------------------------
-DORKF
-Islands4
-1
-SPILLTRIO,35
-#-------------------------------
-CLOWN
-Islands5
-2
-KIDMARK,33
-WOBBEDUNK,34
-#-------------------------------
-CLOWN
-Islands6
-2
-AMPFIB,33
-CAPRICLAW,34
-#-------------------------------
-CLOWN
-Road1
-2
-GROWNAPE,34
-MAGILLOON,34
-#-------------------------------
-CLOWN
-Road2
-1
-WOBBEDUNK,35
-#-------------------------------
-DORKM
-Road3
-1
-SAVEGUARD,35
-#-------------------------------
-RUMBLER
-Road4
-2
-PENCIL,35
-NIMBUSNAKE,35
-#-------------------------------
-BOOMER
-Road5
-3
-CHEESEY,34
-SCRAPTAIN,35
-MALIGNIP,35
-#-------------------------------
-RUMBLER
-Road6
-3
-HINDQUART,35
-CLUTCHCRACK,35
-BATBY,36
-#-------------------------------
-RUMBLER
-Road7
-1
-BEANBAGSONIC,37
-#-------------------------------
-RUMBLER
-Road8
-2
-SONIC,35
-WALLDAD,36
-#-------------------------------
-CRAZIEFILEF
-Road9
-1
-RAWMEATLOAF,36
-#-------------------------------
-RUMBLER
-Road10
-2
-PROBOSCHNOZZ,35
-FRUFRU,32
-#-------------------------------
-DISCO
-Disco Diaper
-1
-PAMPOKEEN,38
-#-------------------------------
-SERPENT
-Time Serpent
-1
-NIMBUSNAKE,38
-#-------------------------------
-MIKEY
-Miserable Mikey
-1
-GIANTRAT,38
-#-------------------------------
-PACMAN
-Pac-Man
-1
-CIDAAH,38
-#-------------------------------
-BURGAH
-Burgah Boy
-1
-GARFIELD,38
-#-------------------------------
-LEADER_Glueman
-Glueman
-5
-BATBOY,41
-BEANBAGSONIC,41
-EGG,42
-DUOWHINNY,42
-CHEEZBRICK,44
-#-------------------------------
-SINNERM
-Hell1
-1
-FRUFRU,38
-#-------------------------------
-SINNERF
-Hell2
-1
-FRUFRU,38
-#-------------------------------
-SINNERF
-Hell3
-1
-FRUFRU,38
-#-------------------------------
-SINNERM
-Hell4
-1
-FRUFRU,38
-#-------------------------------
-SINNERF
-Hell5
-1
-FRUFRU,38
-#-------------------------------
-SINNERF
-Hell6
-1
-FRUFRU,38
-#-------------------------------
-SINNERM
-Hell7
-1
-FRUFRU,38
-#-------------------------------
-SINNERF
-Hell8
-1
-FRUFRU,38
-#-------------------------------
-SINNERM
-Hell9
-1
-FRUFRU,38
-#-------------------------------
-SINNERM
-Hell10
-1
-FRUFRU,38
-#-------------------------------
-SINNERF
-Hell11
-1
-FRUFRU,38
-#-------------------------------
-SINNERM
-Hell12
-1
-FRUFRU,38
-#-------------------------------
-SINNERF
-Hell13
-1
-FRUFRU,38
-#-------------------------------
-SINNERM
-Hell14
-1
-FRUFRU,38
-#-------------------------------
-SINNERM
-Hell15
-1
-FRUFRU,38
-#-------------------------------
-SINNERF
-Hell16
-1
-FRUFRU,38
+#-------------------------------
+[LEADER_Dastardly,Dastardly Trio]
+LoseText = ""
+Pokemon = RAT,9
+Pokemon = CAT,11
+Pokemon = RAT,13
+#-------------------------------
+[ACTOR,Leonardo]
+LoseText = ""
+Pokemon = PUBLIAPETION,8
+Pokemon = SCHNOZZPASS,9
+#-------------------------------
+[ACTRESS,Gwenyth]
+LoseText = ""
+Pokemon = PUBLIAPETION,7
+#-------------------------------
+[BOOMER,Bartholomew]
+LoseText = ""
+Pokemon = BABYMAN,6
+#-------------------------------
+[COXCASTM,Frank]
+LoseText = ""
+Pokemon = SHPEE,9
+Pokemon = FLAREVA,9
+#-------------------------------
+[COXCASTF,Jill]
+LoseText = ""
+Pokemon = SMALLTHROPOD,12
+#-------------------------------
+[COXCASTF,Bertha]
+LoseText = ""
+Pokemon = SHPEE,9
+Pokemon = SMALLTHROPOD,10
+#-------------------------------
+[COXCASTM,Roy]
+LoseText = ""
+Pokemon = FLAREVA,9
+#-------------------------------
+[RIVAL,Twitch Chat,1]
+LoseText = ""
+Pokemon = SMILE,5,,,,,,2
+#-------------------------------
+[RIVAL,Twitch Chat,2]
+LoseText = ""
+Pokemon = SPILLET,17
+Pokemon = SCHNOZZPASS,17
+Pokemon = BDRAT,17
+Pokemon = SMILE,20,,,,,,2
+#-------------------------------
+[RIVAL,Twitch Chat,3]
+LoseText = ""
+Pokemon = WALLLAD,25
+Pokemon = BRAWLCOLLI,25
+Pokemon = CATPOLICE,25
+Pokemon = SMILE,28,,,,,,2
+#-------------------------------
+[RIVAL,Twitch Chat,4]
+LoseText = ""
+Pokemon = SQUEEKTOR,37
+Pokemon = SHEETO,37
+Pokemon = SUPERFROG,37
+Pokemon = SMILE,40,,,,,,2
+#-------------------------------
+[GRILLMASTER,Grillmasterxbbq,1]
+LoseText = ""
+Pokemon = SLEEPEOR,19
+Pokemon = SNATTAKITTY,20
+Pokemon = POTTERGEIST,21
+Pokemon = SPATCHKEY,22
+#-------------------------------
+[GRILLMASTER,Grillmasterxbbq,2]
+LoseText = ""
+Pokemon = COGNITE,31
+Pokemon = SNATTAFLANK,32
+Pokemon = RAWMEATLOAF,33
+Pokemon = GRILLICK,34
+#-------------------------------
+[GRILLMASTER,Grillmasterxbbq,3]
+LoseText = ""
+Pokemon = LUNATE,39
+Pokemon = SNATTAFLANK,39
+Pokemon = SCORPOP,39
+Pokemon = SWEETRIND,40
+Pokemon = BARBECULL,41
+#-------------------------------
+[ELVIS,Elves]
+LoseText = ""
+Pokemon = SLEEPEOR,14
+#-------------------------------
+[ELVIS,Elviis]
+LoseText = ""
+Pokemon = SLEEPEOR,13
+Pokemon = MARZOLT,12
+#-------------------------------
+[LEADER_EasyPete,Easy Pete]
+LoseText = ""
+Pokemon = MARZOLT,16
+Pokemon = SLEEPEOR,17
+Pokemon = DSPONGE,19
+#-------------------------------
+[ELVIS,Elvoos]
+LoseText = ""
+Pokemon = MARZOLT,15
+#-------------------------------
+[ELVIS,Elvise]
+LoseText = ""
+Pokemon = MARZOLT,13
+Pokemon = SLEEPEOR,14
+#-------------------------------
+[ELVIS,Elvus]
+LoseText = ""
+Pokemon = SLEEPEOR,15
+#-------------------------------
+[SCHOOLELVIS,Elviis]
+LoseText = ""
+Pokemon = SONIC,11
+#-------------------------------
+[SCHOOLELVIS,Elvise]
+LoseText = ""
+Pokemon = PUBLIAPETION,12
+#-------------------------------
+[SCHOOLELVIS,Elvoos]
+LoseText = ""
+Pokemon = SONIC,9
+Pokemon = SONIC,10
+#-------------------------------
+[SCHOOLELVIS,Elvus]
+LoseText = ""
+Pokemon = BATBY,10
+Pokemon = BATBY,11
+#-------------------------------
+[ACTRESS,Olivia]
+LoseText = ""
+Pokemon = VIVALLOON,7
+Pokemon = VIVALLOON,7
+#-------------------------------
+[DORKF,Phoenix]
+LoseText = ""
+Pokemon = BATBY,8
+#-------------------------------
+[ACTOR,Brad]
+LoseText = ""
+Pokemon = SLEEPEOR,6
+Pokemon = RAT,7
+#-------------------------------
+[DORKM,Keith]
+LoseText = ""
+Pokemon = LILMACK,5
+Pokemon = PUBLIAPETION,6
+#-------------------------------
+[BOOMER,Montgomery]
+LoseText = ""
+Pokemon = SONIC,8
+#-------------------------------
+[SCHOOLELVIS,Elveese]
+LoseText = ""
+Pokemon = SCHNOZZPASS,13
+#-------------------------------
+[SCHOOLELVIS,Elves]
+LoseText = ""
+Pokemon = CAT,10
+Pokemon = RAT,11
+#-------------------------------
+[COWBOY,Biff]
+LoseText = ""
+Pokemon = KIDMARK,16
+#-------------------------------
+[COWBOY,Dutch]
+LoseText = ""
+Pokemon = CHEESEY,17
+#-------------------------------
+[BOOMER,Bernard]
+LoseText = ""
+Pokemon = CAT,17
+#-------------------------------
+[COWBOY,Arthur]
+LoseText = ""
+Pokemon = MARZOLT,15
+Pokemon = SCHNOZZPASS,16
+#-------------------------------
+[ELVIS,Elfis]
+LoseText = ""
+Pokemon = SPILLET,16
+#-------------------------------
+[CRAZIEFILEF,Gwen]
+LoseText = ""
+Pokemon = PUBLIAPETION,17
+#-------------------------------
+[BOOMER,Theodore]
+LoseText = ""
+Pokemon = KIDMARK,15
+Pokemon = KIDMARK,15
+#-------------------------------
+[COWBOY,Holiday]
+LoseText = ""
+Pokemon = SCHNOZZPASS,17
+#-------------------------------
+[COWBOY,Wyatt]
+LoseText = ""
+Pokemon = SONIC,16
+#-------------------------------
+[ELVIS,Elvi]
+LoseText = ""
+Pokemon = MARZOLT,17
+#-------------------------------
+[DORKF,Charlotte]
+LoseText = ""
+Pokemon = KIDMARK,15
+Pokemon = RAT,15
+#-------------------------------
+[COWBOY,John]
+LoseText = ""
+Pokemon = KIDMARK,18
+#-------------------------------
+[BOOMER,Chester]
+LoseText = ""
+Pokemon = CHEESEY,15
+Pokemon = BATBY,15
+#-------------------------------
+[PROSPECTOR,Prospector]
+LoseText = ""
+Pokemon = BANDOTTLE,17
+Pokemon = BANDOTTLE,18
+Pokemon = BANDOTTLE,18
+#-------------------------------
+[BOOMER,John Thomas]
+LoseText = ""
+Pokemon = KIDMARK,17
+Pokemon = JERSLUG,17
+#-------------------------------
+[BOOMER,Abraham]
+LoseText = ""
+Pokemon = WALLLAD,19
+#-------------------------------
+[BOOMER,Willis]
+LoseText = ""
+Pokemon = VIVALLOON,19
+#-------------------------------
+[COWBOY,Ramon]
+LoseText = ""
+Pokemon = SHPEE,16
+Pokemon = SHPEE,18
+#-------------------------------
+[COWBOY,Silvanito]
+LoseText = ""
+Pokemon = CHEESEY,19
+#-------------------------------
+[COWBOY,Ramirez]
+LoseText = ""
+Pokemon = KIDMARK,19
+#-------------------------------
+[COWBOY,Tuco]
+LoseText = ""
+Pokemon = AMPFIB,17
+Pokemon = SHPEE,17
+#-------------------------------
+[COWBOY,Dan]
+LoseText = ""
+Pokemon = AMPFIB,19
+#-------------------------------
+[BLUSOLLY,Soldier]
+LoseText = ""
+Pokemon = CATPOLICE,20
+Pokemon = JERSLUG,21
+#-------------------------------
+[BLUDEMO,Demoman]
+LoseText = ""
+Pokemon = BANDOTTLE,20
+Pokemon = REDBLEND,22
+#-------------------------------
+[BLUSCOUT,Scout]
+LoseText = ""
+Pokemon = SONIC,23
+#-------------------------------
+[BLUHEAVY,Heavy]
+LoseText = ""
+Pokemon = PUBLIAPETION,23
+#-------------------------------
+[BLUENGI,Engineer]
+LoseText = ""
+Pokemon = SCUTTLEGUN,21
+Pokemon = SCUTTLEGUN,21
+Pokemon = SCUTTLEGUN,21
+#-------------------------------
+[BLUSNIPER,Sniper]
+LoseText = ""
+Pokemon = BATBY,21
+Pokemon = VIVALLOON,22
+#-------------------------------
+[LEADER_Spy,Spy]
+LoseText = ""
+Pokemon = REDBLEND,23
+Pokemon = AMPFIB,24
+Pokemon = PYROFISH,24
+Pokemon = SHPEECRAB,25
+#-------------------------------
+[COWBOY,1]
+LoseText = ""
+Pokemon = MRSNAKEMAN,22
+Pokemon = KIDMARK,22
+#-------------------------------
+[CRAZIEFILEF,2]
+LoseText = ""
+Pokemon = WALLLAD,23
+#-------------------------------
+[BOOMER,3]
+LoseText = ""
+Pokemon = PUBLIAPETION,23
+#-------------------------------
+[CRAZIEFILEM,4]
+LoseText = ""
+Pokemon = BATBY,23
+#-------------------------------
+[COWBOY,5]
+LoseText = ""
+Pokemon = BANDOTTLE,22
+Pokemon = BANDOTTLE,22
+#-------------------------------
+[COWBOY,6]
+LoseText = ""
+Pokemon = CHEESEY,23
+#-------------------------------
+[BOOMER,7]
+LoseText = ""
+Pokemon = CAT,24
+#-------------------------------
+[DORKF,8]
+LoseText = ""
+Pokemon = SONIC,23
+Pokemon = LILMACK,23
+#-------------------------------
+[DREWCREW,9]
+LoseText = ""
+Pokemon = GOOPER,23
+#-------------------------------
+[CRAZIEFILEM,13]
+LoseText = ""
+Pokemon = SLEEPEOR,22
+Pokemon = MARZOLT,22
+#-------------------------------
+[BOOMER,14]
+LoseText = ""
+Pokemon = SPILLET,23
+#-------------------------------
+[DREWCREW,12]
+LoseText = ""
+Pokemon = GOOPER,22
+Pokemon = AMPFIB,22
+#-------------------------------
+[DREWCREW,11]
+LoseText = ""
+Pokemon = MRSNAKEMAN,22
+Pokemon = GOOPER,22
+#-------------------------------
+[CRAZIEFILEF,10]
+LoseText = ""
+Pokemon = DSPONGE,23
+Pokemon = GOOPER,22
+#-------------------------------
+[DREWCREW,15]
+LoseText = ""
+Pokemon = AMPFIB,22
+Pokemon = GOOPER,22
+Pokemon = POTTERGEIST,24
+#-------------------------------
+[DREWCREW,Forest1]
+LoseText = ""
+Pokemon = APPLAAH,22
+Pokemon = GOOPER,23
+#-------------------------------
+[BOOMER,Forest2]
+LoseText = ""
+Pokemon = BDRAT,24
+#-------------------------------
+[DREWCREW,Forest3]
+LoseText = ""
+Pokemon = BRAWLCOLLI,23
+Pokemon = GOOPER,23
+#-------------------------------
+[BOOMER,Forest4]
+LoseText = ""
+Pokemon = STACHERPILLAR,25
+#-------------------------------
+[DREWCREW,Forest5]
+LoseText = ""
+Pokemon = GOOPER,25
+#-------------------------------
+[DORKM,Forest6]
+LoseText = ""
+Pokemon = SCRAPTAIN,25
+#-------------------------------
+[DORKF,Bridge1]
+LoseText = ""
+Pokemon = SAVEGULL,24
+Pokemon = SAVEGULL,24
+#-------------------------------
+[VROOMER,Bridge2]
+LoseText = ""
+Pokemon = CATPOLICE,25
+#-------------------------------
+[VROOMER,Bridge3]
+LoseText = ""
+Pokemon = SONIC,24
+Pokemon = CATPOLICE,24
+#-------------------------------
+[VROOMER,Bridge4]
+LoseText = ""
+Pokemon = SONIC,25
+#-------------------------------
+[COXCASTM,Frozen1]
+LoseText = ""
+Pokemon = SMALLTHROPOD,24
+Pokemon = FLAREVA,26
+#-------------------------------
+[COXCASTF,Frozen2]
+LoseText = ""
+Pokemon = MALIGNIP,24
+Pokemon = SMALLTHROPOD,26
+#-------------------------------
+[COXCASTM,Frozen3]
+LoseText = ""
+Pokemon = SHPEECRAB,25
+Pokemon = FLAREVA,25
+#-------------------------------
+[COXCASTF,Frozen4]
+LoseText = ""
+Pokemon = MALIGNIP,26
+#-------------------------------
+[COXCASTM,Frozen5]
+LoseText = ""
+Pokemon = SHPEECRAB,26
+#-------------------------------
+[COXCASTM,Frozen6]
+LoseText = ""
+Pokemon = SMALLTHROPOD,26
+#-------------------------------
+[COXCASTF,Frozen7]
+LoseText = ""
+Pokemon = SHPEECRAB,25
+Pokemon = FLAREVA,25
+#-------------------------------
+[COXCASTF,Frozen8]
+LoseText = ""
+Pokemon = MALIGNIP,26
+#-------------------------------
+[COXCASTM,Frozen9]
+LoseText = ""
+Pokemon = SMALLTHROPOD,24
+Pokemon = FLAREVA,26
+#-------------------------------
+[EXEC1,Port,1]
+LoseText = ""
+Pokemon = SCUTTLEGUN,27
+Pokemon = WASP,28
+Pokemon = SHPEECRAB,29
+Pokemon = GIGANTARACH,31
+#-------------------------------
+[LEADER_Byeah,Byeah Number 1]
+LoseText = ""
+Pokemon = BDRAT,29
+Pokemon = BOOGLEBERRY,30
+Pokemon = ONEGUY,32
+Pokemon = BYEAHTI,33
+#-------------------------------
+[BYEAH,Byeah Number 2]
+LoseText = ""
+Pokemon = BDRAT,25
+Pokemon = BYEAHBY,27
+#-------------------------------
+[BYEAH,Byeah Number 3]
+LoseText = ""
+Pokemon = BYEAHBY,28
+#-------------------------------
+[BYEAH,Byeah Number 4]
+LoseText = ""
+Pokemon = SNATTAKITTY,28
+#-------------------------------
+[BYEAH,Byeah Number 5]
+LoseText = ""
+Pokemon = BYEAHBY,25
+Pokemon = POTTERGEIST,27
+#-------------------------------
+[BYEAH,Byeah Number 6]
+LoseText = ""
+Pokemon = BYEAHBY,27
+#-------------------------------
+[BYEAH,Byeah Number 7]
+LoseText = ""
+Pokemon = BDRAT,28
+#-------------------------------
+[BUCCANEER,Waters1]
+LoseText = ""
+Pokemon = GLOBEFLATE,27
+#-------------------------------
+[SWIMBYEAH,Waters2]
+LoseText = ""
+Pokemon = REDBLEND,25
+Pokemon = SAVEGULL,25
+#-------------------------------
+[SWIMDREWCREW,Waters3]
+LoseText = ""
+Pokemon = GOOPER,28
+#-------------------------------
+[BUCCANEER,Waters4]
+LoseText = ""
+Pokemon = MRSNAKEMAN,24
+Pokemon = SEAMAN,24
+Pokemon = SHPEECRAB,24
+#-------------------------------
+[SWIMBOOMER,Waters5]
+LoseText = ""
+Pokemon = HOLYMACK,28
+#-------------------------------
+[SWIMDREWCREW,Waters6]
+LoseText = ""
+Pokemon = GOOPER,26
+Pokemon = GOOPER,27
+#-------------------------------
+[SWIMBYEAH,Waters7]
+LoseText = ""
+Pokemon = GIANTRAT,26
+#-------------------------------
+[BOOMER,Waters8]
+LoseText = ""
+Pokemon = FIREMAN,25
+Pokemon = WATERMAN,25
+Pokemon = ZAPMAN,25
+#-------------------------------
+[BUCCANEER,Waters9]
+LoseText = ""
+Pokemon = BANDOTTLE,29
+#-------------------------------
+[BYEAH,Soul1]
+LoseText = ""
+Pokemon = LILMACK,26
+Pokemon = BDRAT,26
+Pokemon = BDRAT,26
+#-------------------------------
+[BUCCANEER,Soul2]
+LoseText = ""
+Pokemon = MRSNAKEMAN,26
+Pokemon = SAVEGULL,27
+#-------------------------------
+[UNDEAD,Soul3]
+LoseText = ""
+Pokemon = SNATTAKITTY,27
+Pokemon = POTTERGEIST,27
+#-------------------------------
+[UNDEAD,Soul4]
+LoseText = ""
+Pokemon = MONKAPOLE,25
+Pokemon = SNATTAKITTY,26
+Pokemon = JACKO,27
+#-------------------------------
+[UNDEAD,Soul5]
+LoseText = ""
+Pokemon = BOOGLEBERRY,28
+#-------------------------------
+[COXCASTM,Tomb1]
+LoseText = ""
+Pokemon = SMALLTHROPOD,29
+#-------------------------------
+[COXCASTF,Tomb2]
+LoseText = ""
+Pokemon = WASP,25
+Pokemon = WASP,26
+Pokemon = WASP,27
+#-------------------------------
+[COXCASTF,Tomb3]
+LoseText = ""
+Pokemon = CHEESEY,25
+Pokemon = MALIGNIP,28
+#-------------------------------
+[COXCASTM,Tomb4]
+LoseText = ""
+Pokemon = SHPEE,26
+Pokemon = SHPEE,26
+Pokemon = SHPEE,26
+Pokemon = SHPEE,26
+#-------------------------------
+[COXCASTF,Tomb5]
+LoseText = ""
+Pokemon = SHPEECRAB,28
+Pokemon = SMALLTHROPOD,28
+#-------------------------------
+[COXCASTM,Tomb6]
+LoseText = ""
+Pokemon = WASP,28
+Pokemon = MALIGNIP,28
+#-------------------------------
+[EXEC2,Cable,1]
+LoseText = ""
+Pokemon = MAGILLOON,35
+Pokemon = SATERNAL,35
+Pokemon = GARFIELD,36
+Pokemon = CHARLIETAN,36
+#-------------------------------
+[LEADER_Pinwheel,Pinwheel]
+LoseText = ""
+Pokemon = ADAMSANDLER,36
+Pokemon = CUSHENANT,37
+Pokemon = ARRRSHPEE,38
+Pokemon = PAMPOKEEN,39
+#-------------------------------
+[UNDEAD,Maze1]
+LoseText = ""
+Pokemon = PILLOREO,30
+Pokemon = POTTERGEIST,30
+#-------------------------------
+[UNDEAD,Maze2]
+LoseText = ""
+Pokemon = JACKO,33
+#-------------------------------
+[UNDEAD,Maze3]
+LoseText = ""
+Pokemon = PILLOREO,33
+#-------------------------------
+[UNDEAD,Maze4]
+LoseText = ""
+Pokemon = ARRRSHPEE,32
+Pokemon = ARRRSHPEE,32
+#-------------------------------
+[UNDEAD,Maze5]
+LoseText = ""
+Pokemon = BOOGLEBERRY,33
+#-------------------------------
+[CRAZIEFILEF,Islands1]
+LoseText = ""
+Pokemon = SAVEGULL,33
+Pokemon = SAVEGUARD,33
+#-------------------------------
+[BOOMER,Islands2]
+LoseText = ""
+Pokemon = FRENCHCHAMPAGNE,35
+#-------------------------------
+[CLOWN,Islands3]
+LoseText = ""
+Pokemon = SHEETO,33
+Pokemon = GROWNAPE,35
+#-------------------------------
+[DORKF,Islands4]
+LoseText = ""
+Pokemon = SPILLTRIO,35
+#-------------------------------
+[CLOWN,Islands5]
+LoseText = ""
+Pokemon = KIDMARK,33
+Pokemon = WOBBEDUNK,34
+#-------------------------------
+[CLOWN,Islands6]
+LoseText = ""
+Pokemon = AMPFIB,33
+Pokemon = CAPRICLAW,34
+#-------------------------------
+[CLOWN,Road1]
+LoseText = ""
+Pokemon = GROWNAPE,34
+Pokemon = MAGILLOON,34
+#-------------------------------
+[CLOWN,Road2]
+LoseText = ""
+Pokemon = WOBBEDUNK,35
+#-------------------------------
+[DORKM,Road3]
+LoseText = ""
+Pokemon = SAVEGUARD,35
+#-------------------------------
+[RUMBLER,Road4]
+LoseText = ""
+Pokemon = PENCIL,35
+Pokemon = NIMBUSNAKE,35
+#-------------------------------
+[BOOMER,Road5]
+LoseText = ""
+Pokemon = CHEESEY,34
+Pokemon = SCRAPTAIN,35
+Pokemon = MALIGNIP,35
+#-------------------------------
+[RUMBLER,Road6]
+LoseText = ""
+Pokemon = HINDQUART,35
+Pokemon = CLUTCHCRACK,35
+Pokemon = BATBY,36
+#-------------------------------
+[RUMBLER,Road7]
+LoseText = ""
+Pokemon = BEANBAGSONIC,37
+#-------------------------------
+[RUMBLER,Road8]
+LoseText = ""
+Pokemon = SONIC,35
+Pokemon = WALLDAD,36
+#-------------------------------
+[CRAZIEFILEF,Road9]
+LoseText = ""
+Pokemon = RAWMEATLOAF,36
+#-------------------------------
+[RUMBLER,Road10]
+LoseText = ""
+Pokemon = PROBOSCHNOZZ,35
+Pokemon = FRUFRU,32
+#-------------------------------
+[DISCO,Disco Diaper]
+LoseText = ""
+Pokemon = PAMPOKEEN,38
+#-------------------------------
+[SERPENT,Time Serpent]
+LoseText = ""
+Pokemon = NIMBUSNAKE,38
+#-------------------------------
+[MIKEY,Miserable Mikey]
+LoseText = ""
+Pokemon = GIANTRAT,38
+#-------------------------------
+[PACMAN,Pac-Man]
+LoseText = ""
+Pokemon = CIDAAH,38
+#-------------------------------
+[BURGAH,Burgah Boy]
+LoseText = ""
+Pokemon = GARFIELD,38
+#-------------------------------
+[LEADER_Glueman,Glueman]
+LoseText = ""
+Pokemon = BATBOY,41
+Pokemon = BEANBAGSONIC,41
+Pokemon = EGG,42
+Pokemon = DUOWHINNY,42
+Pokemon = CHEEZBRICK,44
+#-------------------------------
+[SINNERM,Hell1]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERF,Hell2]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERF,Hell3]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERM,Hell4]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERF,Hell5]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERF,Hell6]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERM,Hell7]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERF,Hell8]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERM,Hell9]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERM,Hell10]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERF,Hell11]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERM,Hell12]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERF,Hell13]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERM,Hell14]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERM,Hell15]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[SINNERF,Hell16]
+LoseText = ""
+Pokemon = FRUFRU,38

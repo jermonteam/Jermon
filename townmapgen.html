@@ -15,12 +15,29 @@
 </form>
 <hr/>
 <form name="f" action="javascript:void(null)">
+  <table>
+    <tr>
+      <td>Current Position:</td>
+	  <td><input type="text" name="curpos" readonly="readonly"/></td>
+	</tr>
+    <tr>
+      <td>Name:</td>
+	  <td><input type="text" name="locname"/><td>
+	</tr>
+    <tr>
+      <td>Point of Interest:</td>
+	  <td><input type="text" name="poi"/><td>
+	</tr>
+    <tr>
+      <td>Fly Destination:</td>
+	  <td><input type="text" name="healing"/><td>
+	</tr>
+    <tr>
+      <td>Switch:</td>
+	  <td><input type="text" name="swtch"/><td>
+	</tr>
+  </table>
   <div>
-    Current Position: <input type="text" name="curpos" readonly="readonly"/><br/ >
-    Name: <input type="text" name="locname"/><br/ >
-    Point of Interest: <input type="text" name="poi"/><br/ >
-    Fly Destination: <input type="text" name="healing"/><br/ >
-    Switch: <input type="text" name="swtch"/><br/ >
     <input type="button" name="btnSave" value="Save" disabled="disabled"/> 
     <input type="button" name="btnCancel" value="Cancel"/><br/ >
     Single section from townmap.txt (without section heading):<br/ >
@@ -110,9 +127,10 @@
       if (temp.indexOf(',') >= 0) break;
       return temp;
     }
-    temp = temp.replace(/\'/g,"''");
-    temp = temp.replace(/\"/g,"\"\"");
-    return "\"" + temp + "\"";
+ //   temp = temp.replace(/\'/g,"''");
+ //   temp = temp.replace(/\"/g,"\"\"");
+    return temp
+ //   return "\"" + temp + "\"";
   }
 
   function CsvNextToken(dataobj){
@@ -149,11 +167,11 @@
         value = value + c;
         continue;  
       }
-      if ((c == '"') || (c == "'")){
-        inside = true;
-        q = c;
-        continue;
-      }
+//      if ((c == '"') || (c == "'")){
+//        inside = true;
+//        q = c;
+//        continue;
+//      }
       if (c == ',') break;
       value = value + c;
     }
@@ -257,10 +275,10 @@
 
   function genMapPoints(){
     ret=""
-    ret+="Filename="+qstr(getbase(document.images.map.src))+"\r\n"
-    ret+="Name="+qstr(document.mf.name.value)+"\r\n"
+    ret+="Filename = "+qstr(getbase(document.images.map.src))+"\r\n"
+    ret+="Name = "+qstr(document.mf.name.value)+"\r\n"
     for(var i=0;i<mappoints.length;i++){
-      ret+="Point="+[mappoints[i][0],mappoints[i][1],
+      ret+="Point = "+[mappoints[i][0],mappoints[i][1],
            qstr(mappoints[i][2]),qstr(mappoints[i][3]),
            mappoints[i][4][0]!=null?mappoints[i][4][0]:"",
            mappoints[i][4][1]!=null?mappoints[i][4][1]:"",

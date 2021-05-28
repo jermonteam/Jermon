@@ -1,4 +1,5 @@
-﻿#-------------------------------
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
 [<Generics>]
 How are your Pokémon doing?\mMy \TP's really energetic.  It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
 My \TP's looking really awesome.\mI wish I could show you.\mHey, listen!  I almost caught a \TE the other day.\mOh, it was sooooooo close, too!
