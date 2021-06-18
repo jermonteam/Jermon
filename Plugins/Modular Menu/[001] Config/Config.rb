@@ -15,7 +15,7 @@
 #-------------------------------------------------------------------------------
 #  PokeDex
 #-------------------------------------------------------------------------------
-ModularMenu.add_entry(:POKEDEX, _INTL("Pokédex"), "menuPokedex") do |menu|
+ModularMenu.add_entry(:POKEDEX, _INTL("PokÃ©dex"), "menuPokedex") do |menu|
   if Settings::USE_CURRENT_REGION_DEX
     pbFadeOutIn(99999){
       scene = PokemonPokedex_Scene.new
@@ -47,7 +47,7 @@ ModularMenu.add_condition(:POKEDEX) { next $Trainer.pokedex && $Trainer.pokedex.
 #-------------------------------------------------------------------------------
 #  Party Screen
 #-------------------------------------------------------------------------------
-ModularMenu.add_entry(:POKEMON, _INTL("Pokémon"), "menuPokemon") do |menu|
+ModularMenu.add_entry(:POKEMON, _INTL("PokÃ©mon"), "menuPokemon") do |menu|
   sscene = PokemonParty_Scene.new
   sscreen = PokemonPartyScreen.new(sscene,$Trainer.party)
   hiddenmove = nil
@@ -87,7 +87,7 @@ end
 #-------------------------------------------------------------------------------
 #  PokeGear
 #-------------------------------------------------------------------------------
-ModularMenu.add_entry(:POKEGEAR, _INTL("Pokégear"), "menuPokegear") do |menu|
+ModularMenu.add_entry(:POKEGEAR, _INTL("PokÃ©gear"), "menuPokegear") do |menu|
   scene = PokemonPokegear_Scene.new
   screen = PokemonPokegearScreen.new(scene)
   pbFadeOutIn(99999) {
