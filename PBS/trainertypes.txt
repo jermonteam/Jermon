@@ -1,6 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-0,POKEMONTRAINER_Red,Pokémon Trainer,60,,,,Male,,
+0,POKEMONTRAINER_Jerma,Pokémon Trainer,60,,,,Male,,
 1,TRAINER,Trainer,20,,,,Male,,
 2,RIVAL,Rival,60,,,,Mixed,,
 3,GRILLMASTER,Rival,60,,,,Male,,
@@ -60,3 +60,4 @@
 69,ELITEFOUR_Etalyx,Elite Four,100,Battle Elite,,,Male,,
 70,ELITEFOUR_Ster,Elite Four,100,Battle Elite,,,Male,,
 71,CHAMPION,Champion,100,Battle Elite,,,Male,,
+72,POKEMONTRAINER_Red,Pokémon Trainer,60,,,,Male,,

@@ -4,3 +4,31 @@ FormName=!!!!!
 BattlerEnemyY=24
 BattlerPlayerY=0
 BattlerAltitude=0
+#-------------------------------
+[LABO,1]
+FormName = Fishing Lab-0
+Type1 = GHOST
+Type2 = WATER
+BaseStats = 50,65,95,110,110,85
+Pokedex = Placeholder
+#-------------------------------
+[LABO,2]
+FormName = Piano Lab-0
+Type1 = GHOST
+Type2 = FAIRY
+BaseStats = 50,65,95,110,110,85
+Pokedex = Placeholder
+#-------------------------------
+[LABO,3]
+FormName = Blaster Lab-0
+Type1 = GHOST
+Type2 = FIRE
+BaseStats = 50,65,95,110,110,85
+Pokedex = Placeholder
+#-------------------------------
+[LABO,4]
+FormName = Driver Lab-0
+Type1 = GHOST
+Type2 = STEEL
+BaseStats = 50,65,95,110,110,85
+Pokedex = Placeholder

@@ -1,6 +1,6 @@
 ﻿#-------------------------------
 [000]
-PlayerA=POKEMONTRAINER_Red,trchar000,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,xxx
+PlayerA=POKEMONTRAINER_Jerma,trchar000,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,xxx
 PlayerB=TRAINER,trchar001,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,xxx
 TrainerVictoryME=Battle victory trainer.ogg
 WildVictoryME=Battle victory wild.ogg

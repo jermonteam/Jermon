@@ -791,3 +791,31 @@ Pokemon = FRUFRU,38
 [SINNERF,Hell16]
 LoseText = ""
 Pokemon = FRUFRU,38
+#-------------------------------
+[VRVROOMER,VR1]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[MOOCREW,VR2]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[BIONICBOOMER,VR3]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[VRVROOMER,VR4]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[MOOCREW,VR5]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[MOOCREW,VR6]
+LoseText = ""
+Pokemon = FRUFRU,38
+#-------------------------------
+[BIONICBOOMER,VR7]
+LoseText = ""
+Pokemon = FRUFRU,38
