@@ -1,0 +1,952 @@
+#-------------------------------
+[OTTO]
+BattlerEnemyY           = 42
+BattlerAltitude         = 0
+BattlerPlayerX          = 8
+BattlerPlayerY          = 46
+BattlerEnemyX           = 0
+#-------------------------------
+[OTTOUGH]
+BattlerEnemyY           = 38
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 45
+BattlerEnemyX           = 0
+#-------------------------------
+[GODTTO]
+BattlerEnemyY           = 14
+BattlerAltitude         = 0
+BattlerPlayerX          = 6
+BattlerPlayerY          = 35
+BattlerEnemyX           = 1
+#-------------------------------
+[SHPEE]
+BattlerEnemyY           = 62
+BattlerAltitude         = 0
+BattlerPlayerX          = 3
+BattlerPlayerY          = 61
+BattlerEnemyX           = 0
+#-------------------------------
+[SHPEECRAB]
+BattlerEnemyY           = 54
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 57
+BattlerEnemyX           = 3
+#-------------------------------
+[ARRRSHPEE]
+BattlerEnemyY           = 40
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 33
+BattlerEnemyX           = 1
+#-------------------------------
+[BABYMAN]
+BattlerEnemyY           = 46
+BattlerAltitude         = 0
+BattlerPlayerX          = -6
+BattlerPlayerY          = 48
+BattlerEnemyX           = -4
+#-------------------------------
+[FIREMAN]
+BattlerEnemyY           = 27
+BattlerAltitude         = 0
+BattlerPlayerX          = 3
+BattlerPlayerY          = 34
+BattlerEnemyX           = 2
+#-------------------------------
+[WATERMAN]
+BattlerEnemyY           = 30
+BattlerAltitude         = 0
+BattlerPlayerX          = 2
+BattlerPlayerY          = 31
+BattlerEnemyX           = 0
+#-------------------------------
+[ZAPMAN]
+BattlerEnemyY           = 27
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 26
+BattlerEnemyX           = 0
+#-------------------------------
+[SHEETO]
+BattlerEnemyY           = 15
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 17
+BattlerEnemyX           = 0
+#-------------------------------
+[VIVALLOON]
+BattlerEnemyY           = 14
+BattlerAltitude         = 32
+BattlerPlayerX          = 0
+BattlerPlayerY          = -1
+BattlerEnemyX           = 0
+#-------------------------------
+[MAGILLOON]
+BattlerEnemyY           = 49
+BattlerAltitude         = 62
+BattlerPlayerX          = 9
+BattlerPlayerY          = 10
+BattlerEnemyX           = -1
+#-------------------------------
+[LILMACK]
+BattlerEnemyY           = 33
+BattlerAltitude         = 10
+BattlerPlayerX          = 2
+BattlerPlayerY          = 35
+BattlerEnemyX           = -9
+#-------------------------------
+[HOLYMACK]
+BattlerEnemyY           = 5
+BattlerAltitude         = 0
+BattlerPlayerX          = 3
+BattlerPlayerY          = 9
+BattlerEnemyX           = 2
+#-------------------------------
+[FLAREVA]
+BattlerEnemyY           = 56
+BattlerAltitude         = 0
+BattlerPlayerX          = -2
+BattlerPlayerY          = 54
+BattlerEnemyX           = -1
+#-------------------------------
+[WASP]
+BattlerEnemyY           = 45
+BattlerAltitude         = 31
+BattlerPlayerX          = 6
+BattlerPlayerY          = 36
+BattlerEnemyX           = -4
+#-------------------------------
+[SMILE]
+BattlerEnemyY           = 63
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 68
+BattlerEnemyX           = 2
+#-------------------------------
+[RAT]
+BattlerEnemyY           = 53
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 48
+BattlerEnemyX           = 7
+#-------------------------------
+[RAT,1]
+BattlerEnemyY           = 0
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0
+#-------------------------------
+[BDRAT]
+BattlerEnemyY           = 48
+BattlerAltitude         = 0
+BattlerPlayerX          = 4
+BattlerPlayerY          = 39
+BattlerEnemyX           = 0
+#-------------------------------
+[GIANTRAT]
+BattlerEnemyY           = 18
+BattlerAltitude         = 0
+BattlerPlayerX          = -3
+BattlerPlayerY          = 24
+BattlerEnemyX           = -2
+#-------------------------------
+[PAIN]
+BattlerEnemyY           = 22
+BattlerAltitude         = 0
+BattlerPlayerX          = 4
+BattlerPlayerY          = 24
+BattlerEnemyX           = -1
+#-------------------------------
+[SONIC]
+BattlerEnemyY           = 22
+BattlerAltitude         = 0
+BattlerPlayerX          = -2
+BattlerPlayerY          = 22
+BattlerEnemyX           = -1
+#-------------------------------
+[SONICHOUSE]
+BattlerEnemyY           = 36
+BattlerAltitude         = 0
+BattlerPlayerX          = -5
+BattlerPlayerY          = 31
+BattlerEnemyX           = 3
+#-------------------------------
+[PUBLIAPETION]
+BattlerEnemyY           = 45
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 40
+BattlerEnemyX           = 0
+#-------------------------------
+[GROWNAPE]
+BattlerEnemyY           = 28
+BattlerAltitude         = 0
+BattlerPlayerX          = 3
+BattlerPlayerY          = 36
+BattlerEnemyX           = 1
+#-------------------------------
+[CAT]
+BattlerEnemyY           = 40
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 43
+BattlerEnemyX           = -2
+#-------------------------------
+[CATPOLICE]
+BattlerEnemyY           = 56
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 64
+BattlerEnemyX           = 5
+#-------------------------------
+[CATUFO]
+BattlerEnemyY           = 28
+BattlerAltitude         = 26
+BattlerPlayerX          = 2
+BattlerPlayerY          = 13
+BattlerEnemyX           = -4
+#-------------------------------
+[DSPONGE]
+BattlerEnemyY           = 37
+BattlerAltitude         = 31
+BattlerPlayerX          = 1
+BattlerPlayerY          = 33
+BattlerEnemyX           = 3
+#-------------------------------
+[RAWMEATLOAF]
+BattlerEnemyY           = 8
+BattlerAltitude         = 0
+BattlerPlayerX          = -2
+BattlerPlayerY          = 17
+BattlerEnemyX           = 0
+#-------------------------------
+[SWEETRIND]
+BattlerEnemyY           = 8
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 27
+BattlerEnemyX           = 0
+#-------------------------------
+[BATBY]
+BattlerEnemyY           = 36
+BattlerAltitude         = 40
+BattlerPlayerX          = -2
+BattlerPlayerY          = 34
+BattlerEnemyX           = -4
+#-------------------------------
+[BATBOY]
+BattlerEnemyY           = 9
+BattlerAltitude         = 26
+BattlerPlayerX          = -1
+BattlerPlayerY          = 22
+BattlerEnemyX           = 0
+#-------------------------------
+[SLEEPEOR]
+BattlerEnemyY           = 39
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 44
+BattlerEnemyX           = -6
+#-------------------------------
+[COGNITE]
+BattlerEnemyY           = 19
+BattlerAltitude         = 30
+BattlerPlayerX          = -1
+BattlerPlayerY          = 19
+BattlerEnemyX           = 0
+#-------------------------------
+[LUNATE]
+BattlerEnemyY           = 31
+BattlerAltitude         = 35
+BattlerPlayerX          = 1
+BattlerPlayerY          = 11
+BattlerEnemyX           = 0
+#-------------------------------
+[SOLNATE]
+BattlerEnemyY           = 9
+BattlerAltitude         = 21
+BattlerPlayerX          = 0
+BattlerPlayerY          = 7
+BattlerEnemyX           = 2
+#-------------------------------
+[SPILLET]
+BattlerEnemyY           = 19
+BattlerAltitude         = 16
+BattlerPlayerX          = -5
+BattlerPlayerY          = 31
+BattlerEnemyX           = 0
+#-------------------------------
+[SPILLTRIO]
+BattlerEnemyY           = 10
+BattlerAltitude         = 14
+BattlerPlayerX          = 0
+BattlerPlayerY          = 6
+BattlerEnemyX           = 0
+#-------------------------------
+[BANDOTTLE]
+BattlerEnemyY           = 40
+BattlerAltitude         = 0
+BattlerPlayerX          = -12
+BattlerPlayerY          = 41
+BattlerEnemyX           = -1
+#-------------------------------
+[DESPEROTTLE]
+BattlerEnemyY           = 16
+BattlerAltitude         = 0
+BattlerPlayerX          = 2
+BattlerPlayerY          = 24
+BattlerEnemyX           = 0
+#-------------------------------
+[MARZOLT]
+BattlerEnemyY           = 36
+BattlerAltitude         = 0
+BattlerPlayerX          = 3
+BattlerPlayerY          = 43
+BattlerEnemyX           = -5
+#-------------------------------
+[MARTIAVOLT]
+BattlerEnemyY           = 10
+BattlerAltitude         = 0
+BattlerPlayerX          = -3
+BattlerPlayerY          = 32
+BattlerEnemyX           = 1
+#-------------------------------
+[SMALLTHROPOD]
+BattlerEnemyY           = 69
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 53
+BattlerEnemyX           = -8
+#-------------------------------
+[GIGANTARACH]
+BattlerEnemyY           = 24
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 38
+BattlerEnemyX           = 0
+#-------------------------------
+[CHEESEY]
+BattlerEnemyY           = 28
+BattlerAltitude         = 0
+BattlerPlayerX          = -2
+BattlerPlayerY          = 30
+BattlerEnemyX           = 2
+#-------------------------------
+[SCRAPTAIN]
+BattlerEnemyY           = 42
+BattlerAltitude         = 0
+BattlerPlayerX          = -3
+BattlerPlayerY          = 37
+BattlerEnemyX           = 0
+#-------------------------------
+[CHEEZBRICK]
+BattlerEnemyY           = 16
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 15
+BattlerEnemyX           = 0
+#-------------------------------
+[MALIGNIP]
+BattlerEnemyY           = 43
+BattlerAltitude         = 0
+BattlerPlayerX          = -7
+BattlerPlayerY          = 42
+BattlerEnemyX           = -2
+#-------------------------------
+[CHARLIETAN]
+BattlerEnemyY           = 27
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 28
+BattlerEnemyX           = 3
+#-------------------------------
+[SCHNOZZPASS]
+BattlerEnemyY           = 39
+BattlerAltitude         = 0
+BattlerPlayerX          = 2
+BattlerPlayerY          = 44
+BattlerEnemyX           = 6
+#-------------------------------
+[PROBOSCHNOZZ]
+BattlerEnemyY           = 4
+BattlerAltitude         = 15
+BattlerPlayerX          = 0
+BattlerPlayerY          = 7
+BattlerEnemyX           = 0
+#-------------------------------
+[KIDMARK]
+BattlerEnemyY           = 37
+BattlerAltitude         = 0
+BattlerPlayerX          = -6
+BattlerPlayerY          = 37
+BattlerEnemyX           = 0
+#-------------------------------
+[CAPRICLAW]
+BattlerEnemyY           = 17
+BattlerAltitude         = 0
+BattlerPlayerX          = -5
+BattlerPlayerY          = 20
+BattlerEnemyX           = -2
+#-------------------------------
+[SPATCHKEY]
+BattlerEnemyY           = 46
+BattlerAltitude         = 0
+BattlerPlayerX          = -3
+BattlerPlayerY          = 47
+BattlerEnemyX           = -1
+#-------------------------------
+[GRILLICK]
+BattlerEnemyY           = 38
+BattlerAltitude         = 0
+BattlerPlayerX          = -3
+BattlerPlayerY          = 39
+BattlerEnemyX           = -1
+#-------------------------------
+[BARBECULL]
+BattlerEnemyY           = 27
+BattlerAltitude         = 0
+BattlerPlayerX          = -2
+BattlerPlayerY          = 38
+BattlerEnemyX           = 1
+#-------------------------------
+[POTTERGEIST]
+BattlerEnemyY           = 29
+BattlerAltitude         = 23
+BattlerPlayerX          = -1
+BattlerPlayerY          = 45
+BattlerEnemyX           = 0
+#-------------------------------
+[BOOGLEBERRY]
+BattlerEnemyY           = 24
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 30
+BattlerEnemyX           = 1
+#-------------------------------
+[SNATTAKITTY]
+BattlerEnemyY           = 22
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 21
+BattlerEnemyX           = 0
+#-------------------------------
+[SNATTAFLANK]
+BattlerEnemyY           = 18
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 18
+BattlerEnemyX           = 0
+#-------------------------------
+[JERSLUG]
+BattlerEnemyY           = 47
+BattlerAltitude         = 0
+BattlerPlayerX          = -3
+BattlerPlayerY          = 48
+BattlerEnemyX           = -2
+#-------------------------------
+[JERSNAIL]
+BattlerEnemyY           = 27
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 39
+BattlerEnemyX           = 1
+#-------------------------------
+[WALLLAD]
+BattlerEnemyY           = 29
+BattlerAltitude         = 0
+BattlerPlayerX          = -3
+BattlerPlayerY          = 32
+BattlerEnemyX           = 0
+#-------------------------------
+[WALLDAD]
+BattlerEnemyY           = 26
+BattlerAltitude         = 0
+BattlerPlayerX          = 5
+BattlerPlayerY          = 26
+BattlerEnemyX           = 0
+#-------------------------------
+[AMPFIB]
+BattlerEnemyY           = 19
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 21
+BattlerEnemyX           = 3
+#-------------------------------
+[WOBBEDUNK]
+BattlerEnemyY           = 13
+BattlerAltitude         = 0
+BattlerPlayerX          = -5
+BattlerPlayerY          = 18
+BattlerEnemyX           = 0
+#-------------------------------
+[PYROFISH]
+BattlerEnemyY           = 28
+BattlerAltitude         = 13
+BattlerPlayerX          = 4
+BattlerPlayerY          = 26
+BattlerEnemyX           = -6
+#-------------------------------
+[PYROSHARK]
+BattlerEnemyY           = 18
+BattlerAltitude         = 28
+BattlerPlayerX          = 3
+BattlerPlayerY          = 20
+BattlerEnemyX           = -6
+#-------------------------------
+[SCUTTLEGUN]
+BattlerEnemyY           = 50
+BattlerAltitude         = 0
+BattlerPlayerX          = -3
+BattlerPlayerY          = 54
+BattlerEnemyX           = 3
+#-------------------------------
+[SENTRANTULA]
+BattlerEnemyY           = 39
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 32
+BattlerEnemyX           = -3
+#-------------------------------
+[REDBLEND]
+BattlerEnemyY           = 37
+BattlerAltitude         = 0
+BattlerPlayerX          = -6
+BattlerPlayerY          = 40
+BattlerEnemyX           = -1
+#-------------------------------
+[FRENCHCHAMPAGNE]
+BattlerEnemyY           = 26
+BattlerAltitude         = 0
+BattlerPlayerX          = -2
+BattlerPlayerY          = 32
+BattlerEnemyX           = -1
+#-------------------------------
+[MRSNAKEMAN]
+BattlerEnemyY           = 12
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 8
+BattlerEnemyX           = 0
+#-------------------------------
+[NIMBUSNAKE]
+BattlerEnemyY           = 10
+BattlerAltitude         = 27
+BattlerPlayerX          = 0
+BattlerPlayerY          = 34
+BattlerEnemyX           = 0
+#-------------------------------
+[APPLAAH]
+BattlerEnemyY           = 20
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 19
+BattlerEnemyX           = -1
+#-------------------------------
+[CIDAAH]
+BattlerEnemyY           = 18
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 11
+BattlerEnemyX           = 0
+#-------------------------------
+[GOOPER]
+BattlerEnemyY           = 15
+BattlerAltitude         = 0
+BattlerPlayerX          = 3
+BattlerPlayerY          = 22
+BattlerEnemyX           = 0
+#-------------------------------
+[GOOPTEGEDDON]
+BattlerEnemyY           = 28
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 14
+BattlerEnemyX           = -1
+#-------------------------------
+[BRAWLCOLLI]
+BattlerEnemyY           = 18
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 22
+BattlerEnemyX           = 1
+#-------------------------------
+[ALPHAKALE]
+BattlerEnemyY           = 13
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 9
+BattlerEnemyX           = 1
+#-------------------------------
+[STACHERPILLAR]
+BattlerEnemyY           = 49
+BattlerAltitude         = 0
+BattlerPlayerX          = -7
+BattlerPlayerY          = 57
+BattlerEnemyX           = 2
+#-------------------------------
+[STUBBLEBUG]
+BattlerEnemyY           = 34
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 36
+BattlerEnemyX           = 2
+#-------------------------------
+[STATICOHM]
+BattlerEnemyY           = 24
+BattlerAltitude         = 22
+BattlerPlayerX          = 1
+BattlerPlayerY          = 27
+BattlerEnemyX           = -2
+#-------------------------------
+[GNOT]
+BattlerEnemyY           = 23
+BattlerAltitude         = 0
+BattlerPlayerX          = -7
+BattlerPlayerY          = 26
+BattlerEnemyX           = 0
+#-------------------------------
+[GNOME]
+BattlerEnemyY           = 27
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 24
+BattlerEnemyX           = 2
+#-------------------------------
+[SAVEGULL]
+BattlerEnemyY           = 20
+BattlerAltitude         = 23
+BattlerPlayerX          = 0
+BattlerPlayerY          = 24
+BattlerEnemyX           = 0
+#-------------------------------
+[SAVEGUARD]
+BattlerEnemyY           = 10
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 11
+BattlerEnemyX           = -1
+#-------------------------------
+[BYEAHBY]
+BattlerEnemyY           = 33
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 38
+BattlerEnemyX           = 0
+#-------------------------------
+[BYEAHTI]
+BattlerEnemyY           = 18
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 22
+BattlerEnemyX           = 0
+#-------------------------------
+[POPMA]
+BattlerEnemyY           = 15
+BattlerAltitude         = 10
+BattlerPlayerX          = 0
+BattlerPlayerY          = 11
+BattlerEnemyX           = 0
+#-------------------------------
+[SCORPOP]
+BattlerEnemyY           = 34
+BattlerAltitude         = 0
+BattlerPlayerX          = 6
+BattlerPlayerY          = 25
+BattlerEnemyX           = 0
+#-------------------------------
+[DUNKLING]
+BattlerEnemyY           = 47
+BattlerAltitude         = 0
+BattlerPlayerX          = 2
+BattlerPlayerY          = 53
+BattlerEnemyX           = -1
+#-------------------------------
+[DUNKCICLE]
+BattlerEnemyY           = 4
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0
+#-------------------------------
+[SEAMAN]
+BattlerEnemyY           = 26
+BattlerAltitude         = 9
+BattlerPlayerX          = 0
+BattlerPlayerY          = 37
+BattlerEnemyX           = 0
+#-------------------------------
+[FROGMAN]
+BattlerEnemyY           = 30
+BattlerAltitude         = 0
+BattlerPlayerX          = -5
+BattlerPlayerY          = 31
+BattlerEnemyX           = -2
+#-------------------------------
+[GLOBEFLATE]
+BattlerEnemyY           = 32
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 33
+BattlerEnemyX           = 0
+#-------------------------------
+[GAIADISE]
+BattlerEnemyY           = 7
+BattlerAltitude         = 9
+BattlerPlayerX          = 0
+BattlerPlayerY          = 20
+BattlerEnemyX           = 0
+#-------------------------------
+[MONKAPOLE]
+BattlerEnemyY           = 65
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 71
+BattlerEnemyX           = -2
+#-------------------------------
+[SUPERFROG]
+BattlerEnemyY           = 27
+BattlerAltitude         = 0
+BattlerPlayerX          = -2
+BattlerPlayerY          = 33
+BattlerEnemyX           = -1
+#-------------------------------
+[JACKO]
+BattlerEnemyY           = 27
+BattlerAltitude         = 20
+BattlerPlayerX          = 1
+BattlerPlayerY          = 24
+BattlerEnemyX           = 0
+#-------------------------------
+[PAMPOKEEN]
+BattlerEnemyY           = 23
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 17
+BattlerEnemyX           = 1
+#-------------------------------
+[ADAMSANDLER]
+BattlerEnemyY           = 21
+BattlerAltitude         = 22
+BattlerPlayerX          = -3
+BattlerPlayerY          = 29
+BattlerEnemyX           = 0
+#-------------------------------
+[PILLOREO]
+BattlerEnemyY           = 25
+BattlerAltitude         = 17
+BattlerPlayerX          = 0
+BattlerPlayerY          = 37
+BattlerEnemyX           = 0
+#-------------------------------
+[CUSHENANT]
+BattlerEnemyY           = 15
+BattlerAltitude         = 0
+BattlerPlayerX          = 2
+BattlerPlayerY          = 15
+BattlerEnemyX           = -1
+#-------------------------------
+[RINGLERN]
+BattlerEnemyY           = 19
+BattlerAltitude         = 24
+BattlerPlayerX          = 2
+BattlerPlayerY          = 25
+BattlerEnemyX           = 0
+#-------------------------------
+[SATERNAL]
+BattlerEnemyY           = 19
+BattlerAltitude         = 25
+BattlerPlayerX          = 1
+BattlerPlayerY          = 34
+BattlerEnemyX           = 0
+#-------------------------------
+[FRUFRU]
+BattlerEnemyY           = 67
+BattlerAltitude         = 0
+BattlerPlayerX          = 2
+BattlerPlayerY          = 71
+BattlerEnemyX           = -2
+#-------------------------------
+[FRULIEN]
+BattlerEnemyY           = 5
+BattlerAltitude         = 22
+BattlerPlayerX          = -2
+BattlerPlayerY          = 15
+BattlerEnemyX           = 0
+#-------------------------------
+[ONEGUY]
+BattlerEnemyY           = 34
+BattlerAltitude         = 0
+BattlerPlayerX          = -2
+BattlerPlayerY          = 19
+BattlerEnemyX           = 1
+#-------------------------------
+[GARFIELD]
+BattlerEnemyY           = 38
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 42
+BattlerEnemyX           = 2
+#-------------------------------
+[SQUEEKTOR]
+BattlerEnemyY           = 35
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 31
+BattlerEnemyX           = 1
+#-------------------------------
+[TYRANNASCREECH]
+BattlerEnemyY           = 17
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 16
+BattlerEnemyX           = 1
+#-------------------------------
+[PENCIL]
+BattlerEnemyY           = 23
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 29
+BattlerEnemyX           = 1
+#-------------------------------
+[CLUTCHCRACK]
+BattlerEnemyY           = 60
+BattlerAltitude         = 0
+BattlerPlayerX          = 2
+BattlerPlayerY          = 61
+BattlerEnemyX           = -8
+#-------------------------------
+[EGG]
+BattlerEnemyY           = 26
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = 29
+BattlerEnemyX           = 0
+#-------------------------------
+[HINDQUART]
+BattlerEnemyY           = 34
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 35
+BattlerEnemyX           = 8
+#-------------------------------
+[DUOWHINNY]
+BattlerEnemyY           = 25
+BattlerAltitude         = 0
+BattlerPlayerX          = 9
+BattlerPlayerY          = 36
+BattlerEnemyX           = 20
+#-------------------------------
+[BEANBAGSONIC]
+BattlerEnemyY           = 46
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 52
+BattlerEnemyX           = 1
+#-------------------------------
+[PLUSTWO]
+BattlerEnemyY           = 44
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 46
+BattlerEnemyX           = 0
+#-------------------------------
+[MINUSTWO]
+BattlerEnemyY           = 43
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 52
+BattlerEnemyX           = 0
+#-------------------------------
+[MERCURY]
+BattlerEnemyY           = -10
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 28
+BattlerEnemyX           = -4
+#-------------------------------
+[LABO]
+BattlerEnemyY           = -10
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 41
+BattlerEnemyX           = 4
+#-------------------------------
+[LABO,1]
+BattlerEnemyY           = 8
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0
+#-------------------------------
+[LABO,2]
+BattlerEnemyY           = 17
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0
+#-------------------------------
+[LABO,3]
+BattlerEnemyY           = 21
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0
+#-------------------------------
+[LABO,4]
+BattlerEnemyY           = 0
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0
+#-------------------------------
+[GASEIK]
+BattlerEnemyY           = 23
+BattlerAltitude         = 8
+BattlerPlayerX          = -3
+BattlerPlayerY          = 35
+BattlerEnemyX           = 0
+#-------------------------------
+[JIGSOPPET]
+BattlerEnemyY           = 16
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 33
+BattlerEnemyX           = 0
+#-------------------------------
+[D56]
+BattlerEnemyY           = 34
+BattlerAltitude         = 0
+BattlerPlayerX          = -2
+BattlerPlayerY          = 36
+BattlerEnemyX           = 2
+#-------------------------------
+[GR88]
+BattlerEnemyY           = 17
+BattlerAltitude         = 0
+BattlerPlayerX          = 2
+BattlerPlayerY          = 33
+BattlerEnemyX           = 7
+#-------------------------------
+[MAMBASWAG]
+BattlerEnemyY           = 22
+BattlerAltitude         = 0
+BattlerPlayerX          = -4
+BattlerPlayerY          = 32
+BattlerEnemyX           = 0
+#-------------------------------
+[RAZERPENT]
+BattlerEnemyY           = 15
+BattlerAltitude         = 0
+BattlerPlayerX          = 4
+BattlerPlayerY          = -1
+BattlerEnemyX           = 1
+#-------------------------------
+[MURIOUS]
+BattlerEnemyY           = 18
+BattlerAltitude         = 0
+BattlerPlayerX          = -1
+BattlerPlayerY          = -3
+BattlerEnemyX           = -2
