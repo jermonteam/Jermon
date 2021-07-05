@@ -730,92 +730,124 @@ Pokemon = CHEEZBRICK,44
 #-------------------------------
 [SINNERM,Hell1]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = GASEIK,39
+Pokemon = PILLOREO,39
 #-------------------------------
 [SINNERF,Hell2]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = MRSNAKEMAN,41
 #-------------------------------
 [SINNERF,Hell3]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = WASP,40
+Pokemon = PLUSTWO,40
+Pokemon = WASP,40
 #-------------------------------
 [SINNERM,Hell4]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = GRILLICK,42
 #-------------------------------
 [SINNERF,Hell5]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = GASEIK,41
+Pokemon = GASEIK,41
 #-------------------------------
 [SINNERF,Hell6]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = BATBY,40
+Pokemon = BATBOY,43
 #-------------------------------
 [SINNERM,Hell7]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = ADAMSANDLER,42
 #-------------------------------
 [SINNERF,Hell8]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = PLUSTWO,40
+Pokemon = COGNITE,41
 #-------------------------------
 [SINNERM,Hell9]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = BANDOTTLE,41
+Pokemon = REDBLEND,42
 #-------------------------------
 [SINNERM,Hell10]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = RAWMEATLOAF,43
 #-------------------------------
 [SINNERF,Hell11]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = PLUSTWO,40
+Pokemon = MERCURY,42
 #-------------------------------
 [SINNERM,Hell12]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = BATBOY,41
+Pokemon = ADAMSANDLER,41
 #-------------------------------
 [SINNERF,Hell13]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = SONIC,44
 #-------------------------------
 [SINNERM,Hell14]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = MRSNAKEMAN,41
+Pokemon = MRSNAKEMAN,42
 #-------------------------------
 [SINNERM,Hell15]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = JIGSOPPET,43
 #-------------------------------
 [SINNERF,Hell16]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = FRENCHCHAMPAGNE,43
+#-------------------------------
+[LEADER_Zeraxos,Zeraxos]
+LoseText = ""
+Pokemon = FIREMAN,46
+Pokemon = PLUSTWO,46
+Pokemon = LABO,46
+    Form = 3
+Pokemon = PYROSHARK,48
+Pokemon = SOLNATE,48
 #-------------------------------
 [VRVROOMER,VR1]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = CATPOLICE,45
 #-------------------------------
 [MOOCREW,VR2]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = MURIOUS,46
 #-------------------------------
 [BIONICBOOMER,VR3]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = GNOME,44
+Pokemon = D56,45
 #-------------------------------
 [VRVROOMER,VR4]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = CATPOLICE,44
+Pokemon = LABO,44
+    Form = 3
 #-------------------------------
 [MOOCREW,VR5]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = MURIOUS,44
+Pokemon = MAMBASWAG,45
 #-------------------------------
 [MOOCREW,VR6]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = MURIOUS,45
+Pokemon = GOOPER,46
 #-------------------------------
 [BIONICBOOMER,VR7]
 LoseText = ""
-Pokemon = FRUFRU,38
+Pokemon = GARFIELD,47
+#-------------------------------
+[LEADER_Kiwo,Kiwo]
+LoseText = ""
+Pokemon = ZAPMAN,52
+Pokemon = SONICHOUSE,52
+Pokemon = STATICOHM,52
+Pokemon = RAZERPENT,52
+Pokemon = GR88,52
