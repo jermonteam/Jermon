@@ -127,3 +127,11 @@ IsSpecialType = true
 Weaknesses = POISON,STEEL
 Resistances = FIGHTING,BUG,DARK
 Immunities = DRAGON
+#-------------------------------
+[19]
+Name = Dairy
+InternalName = DAIRY
+Weaknesses = BUG,STEEL,FIRE
+Resistances = DAIRY,WATER
+Immunities = DRAGON
+
