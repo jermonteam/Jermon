@@ -64,6 +64,18 @@ module BattleScripts
     "loss" => "You can come back and challenge me any time you want."
   }
   #-----------------------------------------------------------------------------
+  # Kiwo fight
+  KIWO = {
+    "turnStart3" => proc do
+      @scene.pbTrainerSpeak(["Hey there, you're pretty good! You may even. . .",
+                             ". . .",
+							 "Do you feel that?"
+                           ])
+      @battle.pbAbort
+	  
+    end
+  }
+  #-----------------------------------------------------------------------------
   # example Dialga fight
   DIALGA = {
     "turnStart0" => proc do

@@ -143,7 +143,7 @@ Cave,5
 #-------------------------------
 [116] # Field of Dreams
 Land,21
-    30,MAMBASWAG,29,33
-    25,D56,29,33
-    25,MURIOUS,29,33
-    20,LABO,29,33
+    30,MAMBASWAG,31,35
+    25,D56,31,35
+    25,MURIOUS,31,35
+    20,LABO,31,36

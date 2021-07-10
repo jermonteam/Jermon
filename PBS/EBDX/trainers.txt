@@ -1,0 +1,3 @@
+#-------------------------------
+[LEADER_Kiwo,Kiwo]
+BattleScript     = KIWO
