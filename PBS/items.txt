@@ -668,4 +668,5 @@
 652,EUREKA,Eureka Effect,Eureka Effects,8,0,"A retro-futuristic wrench used to instantly transport to areas around Amrej.",2,0,6,
 653,SECRETKEY,Secret Key,Secret Keys,8,0,"A mystery key, I think you're supposed to put it in a rock?",2,0,6,
 654,CRYSTAL,Giant Crystal,Giant Crystals,8,0,"A demonic crystal of impressive size. It radiates infernal energy.",2,0,6,
-655,SHOOTPASS,Shooting Pass,Shooting Passes,8,0,"A pass that lets you shoot in the VR City Shooting Range,",2,0,6,
+655,SHOOTPASS,Shooting Pass,Shooting Passes,8,0,"A pass that lets you shoot in the VR City Shooting Range.",2,0,6,
+656,PHONE,Tellular Cellphone,Tellular Cellphones,8,0,"A TinySoft brand phone used for long distance communication.",2,0,6,
