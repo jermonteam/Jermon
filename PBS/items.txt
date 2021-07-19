@@ -670,3 +670,4 @@
 654,CRYSTAL,Giant Crystal,Giant Crystals,8,0,"A demonic crystal of impressive size. It radiates infernal energy.",2,0,6,
 655,SHOOTPASS,Shooting Pass,Shooting Passes,8,0,"A pass that lets you shoot in the VR City Shooting Range.",2,0,6,
 656,PHONE,Tellular Cellphone,Tellular Cellphones,8,0,"A TinySoft brand phone used for long distance communication.",2,0,6,
+657,THIRDKEY,Coffee Key,Coffee Keys,8,0,"An ancient key. It carries the faint scent of coffee.",2,0,6,
