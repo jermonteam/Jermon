@@ -154,3 +154,10 @@ Land,21
     25,PURRTION,33,37
     25,COGNITE,33,37
     20,ZOOMBRAINI,33,37
+#-------------------------------
+[134] # Forest
+Land,21
+    30,CRUNCHFINCH,19,21
+    25,BUNGER,19,22
+    25,CREEPALOUPE,18,21
+    20,VEGANBILL,18,21
