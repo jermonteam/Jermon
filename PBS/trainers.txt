@@ -43,9 +43,8 @@ Pokemon = SMILE,5,,,,,,2
 [RIVAL,Twitch Chat,2]
 LoseText = ""
 Pokemon = SPILLET,17
-Pokemon = SCHNOZZPASS,17
 Pokemon = BDRAT,17
-Pokemon = SMILE,20,,,,,,2
+Pokemon = SMILE,19,,,,,,2
 #-------------------------------
 [RIVAL,Twitch Chat,3]
 LoseText = ""
@@ -595,6 +594,13 @@ Pokemon = SATERNAL,35
 Pokemon = GARFIELD,36
 Pokemon = CHARLIETAN,36
 #-------------------------------
+[EXEC2,Cable,2]
+LoseText = ""
+Pokemon = MAGILLOON,35
+Pokemon = SATERNAL,35
+Pokemon = GARFIELD,36
+Pokemon = CHARLIETAN,36
+#-------------------------------
 [LEADER_Pinwheel,Pinwheel]
 LoseText = ""
 Pokemon = ADAMSANDLER,36
@@ -851,3 +857,9 @@ Pokemon = SONICHOUSE,52
 Pokemon = STATICOHM,52
 Pokemon = RAZERPENT,52
 Pokemon = GR88,52
+#-------------------------------
+[DASTARDLY,Dastardly]
+LoseText = ""
+Pokemon = RAT,9
+Pokemon = CAT,11
+Pokemon = RAT,13
