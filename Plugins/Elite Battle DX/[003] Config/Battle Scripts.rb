@@ -63,7 +63,7 @@ module BattleScripts
     "faintedOpp" => "Arghh. You did well my friend...",
     "loss" => "You can come back and challenge me any time you want."
   }
-  #-----------------------------------------------------------------------------
+    #-----------------------------------------------------------------------------
   # Kiwo fight
   KIWO = {
     "turnStart3" => proc do

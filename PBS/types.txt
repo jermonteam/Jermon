@@ -42,20 +42,20 @@ Resistances = NORMAL,FLYING,POISON,FIRE
 Name = Bug
 InternalName = BUG
 Weaknesses = FLYING,ROCK,FIRE
-Resistances = FIGHTING,GROUND,GRASS
+Resistances = FIGHTING,GROUND,GRASS,DAIRY
 #-------------------------------
 [7]
 Name = Ghost
 InternalName = GHOST
 Weaknesses = GHOST,DARK
-Resistances = POISON,BUG
+Resistances = POISON,BUG,DAIRY
 Immunities = NORMAL,FIGHTING
 #-------------------------------
 [8]
 Name = Steel
 InternalName = STEEL
 Weaknesses = FIGHTING,GROUND,FIRE
-Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,FAIRY
+Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,FAIRY,DAIRY
 Immunities = POISON
 #-------------------------------
 [9]
@@ -68,7 +68,7 @@ Name = Fire
 InternalName = FIRE
 IsSpecialType = true
 Weaknesses = GROUND,ROCK,WATER
-Resistances = BUG,STEEL,FIRE,GRASS,ICE,FAIRY
+Resistances = BUG,STEEL,FIRE,GRASS,ICE,FAIRY,DAIRY
 #-------------------------------
 [11]
 Name = Water
