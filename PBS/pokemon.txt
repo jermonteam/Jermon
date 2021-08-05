@@ -3147,36 +3147,35 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
 [109]
-Name = Fru Fru
-InternalName = FRUFRU
-Type1 = PSYCHIC
-BaseStats = 55,60,50,35,85,65
+Name = Sinewe
+InternalName = SINEWE
+Type1 = DARK
+BaseStats = 100,45,75,75,120,90
 GenderRate = Female50Percent
 GrowthRate = Medium
 BaseEXP = 165
 EffortPoints = 1,0,0,0,1,0
 Rareness = 210
 Happiness = 70
-Abilities = CONTRARY
-Moves = 1,WRAP,4,CONFUSION,8,TELEPORT,12,HYPNOSIS,16,PSYBEAM,20,POWERSPLIT,24,GUARDSPLIT,28,IMPRISON,32,WISH,36,PSYCHIC,40,CALMMIND,44,DREAMEATER
+Abilities = SYNCHRONIZE
+Moves = 1,SMOG,
 Compatibility = Field
 StepsToHatch = 9120
 Height = 3.0
 Weight = 5.0
 Color = Red
 Shape = Quadruped
-Kind = Sim
+Kind = Chaotic Evil
 Pokedex = Placeholder
 BattlerPlayerX = 0
-BattlerPlayerY = 22
+BattlerPlayerY = 15
 BattlerEnemyX = 0
-BattlerEnemyY = 26
+BattlerEnemyY = 19
 BattlerShadowX = 0
 BattlerShadowSize = 2
-Evolutions = FRULIEN,Level,39
 #-------------------------------
 [110]
-Name = Frulien
+Name = FruFru
 InternalName = FRULIEN
 Type1 = PSYCHIC
 BaseStats = 75,80,70,45,125,100

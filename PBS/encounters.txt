@@ -115,7 +115,7 @@ Water,2
 #-------------------------------
 [077] # Coxcast Hideout
 Cave,5
-    25,FRUFRU,23,26
+    25,FRULIEN,23,26
     25,PILLOREO,23,26
     25,RINGLERN,23,26
     25,BATBY,23,26

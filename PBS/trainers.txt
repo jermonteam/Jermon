@@ -704,7 +704,7 @@ Pokemon = RAWMEATLOAF,36
 [RUMBLER,Road10]
 LoseText = ""
 Pokemon = PROBOSCHNOZZ,35
-Pokemon = FRUFRU,32
+Pokemon = FRULIEN,32
 #-------------------------------
 [DISCO,Disco Diaper]
 LoseText = ""
