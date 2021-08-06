@@ -25,3 +25,6 @@ BattlerEnemyY = 21
 FormName = Driver Lab-0
 Type1 = GHOST
 Type2 = STEEL
+#-------------------------------
+[KATAMARI,1]
+FormName = Ball Form
