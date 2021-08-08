@@ -234,3 +234,4 @@
 232,PRISMARMOR,Prism Armor,"Reduces damage from super-effective attacks."
 233,NEUROFORCE,Neuroforce,"Powers up moves that are super-effective."
 234,STARMAKER,Starmaker,"Picks up items and forms a powerful ball of material while it has a lot of HP."
+235,NEUTRALIZINGGAS,Neutralizing Gas,"Abilities will be nullified or will not be triggered.",
