@@ -1,5 +1,5 @@
 ﻿Name      = v19.1 Hotfixes
-Version   = 1.0.5
+Version   = 1.0.6
 Conflicts = v19 Updates
 Conflicts = v19 Hotfixes
 Website   = https://github.com/Maruno17/pokemon-essentials
@@ -64,6 +64,12 @@ Credits   = Maruno
 # - Fixed the event command "Return to Title Screen"/resting in a
 #   Battle Facility run causing issues when trying to continue the
 #   game again immediately.
+#
+# 1.0.6:
+# - Fixed Pokédex search not considering the properties of alternate
+#   forms of species if they were the ones last looked at.
+# - Fixed bad code in evolution method HappinessMoveType.
+# - Fixed particle effects on events not working.
 #
 #=====================================================================
 #

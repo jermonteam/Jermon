@@ -6,7 +6,7 @@
 # https://github.com/Maruno17/pokemon-essentials
 #==============================================================================
 
-Essentials::ERROR_TEXT += "[v19.1 Hotfixes 1.0.5]\r\n"
+Essentials::ERROR_TEXT += "[v19.1 Hotfixes 1.0.6]\r\n"
 
 #==============================================================================
 # Fix for Vs. animation not playing, and a trainer's trainer type possibly
@@ -541,4 +541,75 @@ def pbCallTitle
   $game_temp.to_title = false if $game_temp
   SaveData.mark_values_as_unloaded
   return __hotfixes__pbCallTitle
+end
+
+#==============================================================================
+# Fixed Pokédex search not considering the properties of alternate forms of
+# species if they were the ones last looked at.
+#==============================================================================
+class PokemonPokedex_Scene
+  def pbGetDexList
+    region = pbGetPokedexRegion
+    regionalSpecies = pbAllRegionalSpecies(region)
+    if !regionalSpecies || regionalSpecies.length == 0
+      # If no Regional Dex defined for the given region, use the National Pokédex
+      regionalSpecies = []
+      GameData::Species.each { |s| regionalSpecies.push(s.id) if s.form == 0 }
+    end
+    shift = Settings::DEXES_WITH_OFFSETS.include?(region)
+    ret = []
+    regionalSpecies.each_with_index do |species, i|
+      next if !species
+      next if !pbCanAddForModeList?($PokemonGlobal.pokedexMode, species)
+      _gender, form = $Trainer.pokedex.last_form_seen(species)
+      species_data = GameData::Species.get_species_form(species, form)
+      color  = species_data.color
+      type1  = species_data.type1
+      type2  = species_data.type2 || type1
+      shape  = species_data.shape
+      height = species_data.height
+      weight = species_data.weight
+      ret.push([species, species_data.name, height, weight, i + 1, shift, type1, type2, color, shape])
+    end
+    return ret
+  end
+end
+
+#==============================================================================
+# Fixed bad code in evolution method HappinessMoveType.
+#==============================================================================
+GameData::Evolution.register({
+  :id            => :HappinessMoveType,
+  :parameter     => :Type,
+  :minimum_level => 1,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    if pkmn.happiness >= 220
+      next pkmn.moves.any? { |m| m && m.type == parameter }
+    end
+  }
+})
+
+#===============================================================================
+# Fixed particle effects on events not working.
+#===============================================================================
+def pbEventCommentInput(*args)
+  parameters = []
+  list = args[0].list   # List of commands for event or event page
+  elements = args[1]    # Number of elements
+  trigger = args[2]     # Trigger
+  return nil if list == nil
+  return nil unless list.is_a?(Array)
+  for item in list
+    next unless item.code == 108 || item.code == 408
+    if item.parameters[0] == trigger
+      start = list.index(item) + 1
+      finish = start + elements
+      for id in start...finish
+        next if !list[id]
+        parameters.push(list[id].parameters[0])
+      end
+      return parameters
+    end
+  end
+  return nil
 end
