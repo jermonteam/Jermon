@@ -509,7 +509,7 @@
 501,FLUFFYTAIL,Fluffy Tail,Fluffy Tails,7,100,"An item that attracts Jermon. Use it to flee from any battle with a wild Jermon.",0,5,0,
 502,POKETOY,Jermo Toy,Jermo Toys,7,100,"An item that attracts Jermon. Use it to flee from any battle with a wild Jermon.",0,5,0,
 #-------------------------------
-503,BICYCLE,Bicycle,Bicycles,8,0,"A folding Bicycle that enables much faster movement than the Running Shoes.",2,0,6,
+503,BICYCLE,Bicycle,Bicycles,8,0,"A folding Bicycle that enables much faster movement than running.",2,0,6,
 504,OLDROD,Old Rod,Old Rods,8,0,"An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Jermon.",2,0,6,
 505,GOODROD,Good Rod,Good Rods,8,0,"A new, good-quality fishing rod. Use it by any body of water to fish for wild aquatic Jermon.",2,0,6,
 506,SUPERROD,Super Rod,Super Rods,8,0,"An awesome, high-tech fishing rod. Use it by any body of water to fish for wild aquatic Jermon.",2,0,6,
@@ -673,3 +673,4 @@
 657,THIRDKEY,Coffee Key,Coffee Keys,8,0,"An ancient key. It carries the faint scent of coffee.",2,0,6,
 658,KEYCARD2,Level 2 Keycard,Level 2 Keycards,8,0,"A keycard that gives you access to more of the Coxcast base.",2,0,6,
 659,KEYCARD3,Level 3 Keycard,Level 3 Keycards,8,0,"A keycard that gives you access to more of the Coxcast base.",2,0,6,
+660,VOUCHER,Level 3 Keycard,Level 3 Keycards,8,0,"A keycard that gives you access to more of the Coxcast base.",2,0,6,
