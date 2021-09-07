@@ -64,7 +64,7 @@ Pokemon = SMILE,40,,,,,,2
 LoseText = ""
 Pokemon = SLEEPEOR,19
 Pokemon = SNATTAKITTY,20
-Pokemon = POTTERGEIST,21
+Pokemon = BUNGER,21
 Pokemon = SPATCHKEY,22
 #-------------------------------
 [GRILLMASTER,Grillmasterxbbq,2]
@@ -81,6 +81,15 @@ Pokemon = SNATTAFLANK,39
 Pokemon = SCORPOP,39
 Pokemon = SWEETRIND,40
 Pokemon = BARBECULL,41
+#-------------------------------
+[COXMASTER,Grillmasterxbbq]
+LoseText = ""
+Pokemon = LUNATE,60
+Pokemon = SNATTAFLANK,60
+Pokemon = SCORPOP,60
+Pokemon = THWOPPER,61
+Pokemon = SWEETRIND,61
+Pokemon = BARBECULL,62
 #-------------------------------
 [ELVIS,Elves]
 LoseText = ""
@@ -454,6 +463,13 @@ Pokemon = WASP,28
 Pokemon = SHPEECRAB,29
 Pokemon = GIGANTARACH,31
 #-------------------------------
+[EXEC1,Port,2]
+LoseText = ""
+Pokemon = SINEWE,55
+Pokemon = WASP,56
+Pokemon = ARRRSHPEE,57
+Pokemon = GIGANTARACH,59
+#-------------------------------
 [LEADER_Byeah,Byeah Number 1]
 LoseText = ""
 Pokemon = BDRAT,29
@@ -596,10 +612,10 @@ Pokemon = CHARLIETAN,36
 #-------------------------------
 [EXEC2,Cable,2]
 LoseText = ""
-Pokemon = MAGILLOON,35
-Pokemon = SATERNAL,35
-Pokemon = GARFIELD,36
-Pokemon = CHARLIETAN,36
+Pokemon = MAGILLOON,56
+Pokemon = SATERNAL,56
+Pokemon = GARFIELD,57
+Pokemon = CHARLIETAN,57
 #-------------------------------
 [LEADER_Pinwheel,Pinwheel]
 LoseText = ""
@@ -866,35 +882,39 @@ Pokemon = RAT,13
 #-------------------------------
 [EXEC3,Ware]
 LoseText = ""
-Pokemon = MAGILLOON,35
-Pokemon = SATERNAL,35
-Pokemon = GARFIELD,36
-Pokemon = CHARLIETAN,36
-Pokemon = CHARLIETAN,36
+Pokemon = ZOOMBRAINI,58
+Pokemon = AMALGAMATHYST,58
+Pokemon = JIGSOPPET,58
+Pokemon = SENTRANTULA,59
+Pokemon = GOOPTEGEDDON,60
 #-------------------------------
 [COXCASTM,Base1]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = SHPEECRAB,47
 #-------------------------------
 [COXCASTF,Base2]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = SMALLTHROPOD,45
+Pokemon = MALIGNIP,46
 #-------------------------------
 [COXCASTF,Base3]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = STUBBLEBUG,46
 #-------------------------------
 [COXCASTM,Base4]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = WASP,43
+Pokemon = WASP,43
+Pokemon = WASP,43
 #-------------------------------
 [COXCASTM,Base5]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = MRSNAKEMAN,47
 #-------------------------------
 [COXCASTF,Base6]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = SMALLTHROPOD,46
+Pokemon = SHPEECRAB,46
 #-------------------------------
 [OFFICERF,Base7]
 LoseText = ""

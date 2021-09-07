@@ -4,6 +4,7 @@
 1,TRAINER,Trainer,20,,,,Male,,
 2,RIVAL,Rival,60,,,,Mixed,,
 3,GRILLMASTER,Rival,60,,,,Male,,
+4,COXMASTER,Coxcast Leader,60,,,,Male,,
 12,OFFICERM,Coxcast Officer,30,,,,Mixed,,
 13,OFFICERF,Coxcast Officer,30,,,,Mixed,,
 14,DENTIST,Dentist,30,,,,Female,,

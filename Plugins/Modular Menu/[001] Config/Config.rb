@@ -87,7 +87,7 @@ end
 #-------------------------------------------------------------------------------
 #  PokeGear
 #-------------------------------------------------------------------------------
-ModularMenu.add_entry(:POKEGEAR, _INTL("Pokégear"), "menuPokegear") do |menu|
+ModularMenu.add_entry(:POKEGEAR, _INTL("DorkPhone"), "menuPokegear") do |menu|
   scene = PokemonPokegear_Scene.new
   screen = PokemonPokegearScreen.new(scene)
   pbFadeOutIn(99999) {
