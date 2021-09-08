@@ -466,7 +466,8 @@ Pokemon = GIGANTARACH,31
 [EXEC1,Port,2]
 LoseText = ""
 Pokemon = SINEWE,55
-Pokemon = WASP,56
+Pokemon = STATICOHM,56
+Pokemon = PETICARROT,56
 Pokemon = ARRRSHPEE,57
 Pokemon = GIGANTARACH,59
 #-------------------------------
@@ -614,7 +615,8 @@ Pokemon = CHARLIETAN,36
 LoseText = ""
 Pokemon = MAGILLOON,56
 Pokemon = SATERNAL,56
-Pokemon = GARFIELD,57
+Pokemon = LABO_2,56
+Pokemon = CEREAGLE,57
 Pokemon = CHARLIETAN,57
 #-------------------------------
 [LEADER_Pinwheel,Pinwheel]

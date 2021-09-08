@@ -5,6 +5,8 @@
 2,RIVAL,Rival,60,,,,Mixed,,
 3,GRILLMASTER,Rival,60,,,,Male,,
 4,COXMASTER,Coxcast Leader,60,,,,Male,,
+10,BANANA,Banana Bros,30,,,,Mixed,,
+11,GAMER,Gamer,30,,,,Mixed,,
 12,OFFICERM,Coxcast Officer,30,,,,Mixed,,
 13,OFFICERF,Coxcast Officer,30,,,,Mixed,,
 14,DENTIST,Dentist,30,,,,Female,,
