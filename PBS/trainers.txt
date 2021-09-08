@@ -918,24 +918,30 @@ Pokemon = SHPEECRAB,46
 #-------------------------------
 [OFFICERF,Base7]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = SINEWE,50
 #-------------------------------
 [OFFICERM,Base8]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = SAMMIT,48
+Pokemon = MAXIMIGHT,47
 #-------------------------------
 [OFFICERM,Base9]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = GASEIK,47
+Pokemon = GASEIK,47
 #-------------------------------
 [OFFICERF,Base10]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = RAZERPENT,49
 #-------------------------------
 [OFFICERM,Base11]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = SMALLTHROPOD,47
+Pokemon = SMALLTHROPOD,47
+Pokemon = RAWMEATLOAF,48
 #-------------------------------
 [OFFICERF,Base12]
 LoseText = ""
-Pokemon = SMALLTHROPOD,29
+Pokemon = SHPEE,48
+Pokemon = SHPEECRAB,47
+Pokemon = ARRRSHPEE,46
