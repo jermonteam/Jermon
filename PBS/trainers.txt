@@ -883,7 +883,7 @@ Pokemon = RAT,13
 [EXEC3,Ware]
 LoseText = ""
 Pokemon = ZOOMBRAINI,58
-Pokemon = AMALGAMATHYST,58
+Pokemon = AMALGATHYST,58
 Pokemon = JIGSOPPET,58
 Pokemon = SENTRANTULA,59
 Pokemon = GOOPTEGEDDON,60
