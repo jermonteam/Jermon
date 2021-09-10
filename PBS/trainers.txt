@@ -947,3 +947,75 @@ LoseText = ""
 Pokemon = SHPEE,48
 Pokemon = SHPEECRAB,47
 Pokemon = ARRRSHPEE,46
+#-------------------------------
+[BANANA,Victory1]
+LoseText = ""
+Pokemon = SHPEE,48
+#-------------------------------
+[GAMER,Victory2]
+LoseText = ""
+Pokemon = SHPEE,48
+#-------------------------------
+[BOOMER,Victory3]
+LoseText = ""
+Pokemon = SHPEE,48
+#-------------------------------
+[BANANA,Victory4]
+LoseText = ""
+Pokemon = SHPEE,48
+#-------------------------------
+[GAMER,Victory5]
+LoseText = ""
+Pokemon = SHPEE,48
+#-------------------------------
+[CRAZIEFILEF,Victory6]
+LoseText = ""
+Pokemon = SHPEE,48
+#-------------------------------
+[BOOMER,Victory7]
+LoseText = ""
+Pokemon = SHPEE,48
+#-------------------------------
+[BANANA,Victory8]
+LoseText = ""
+Pokemon = SHPEE,48
+#-------------------------------
+[GAMER,Victory9]
+LoseText = ""
+Pokemon = SHPEE,48
+#-------------------------------
+[DENTIST,Victory10]
+LoseText = ""
+Pokemon = GIANTRAT,48
+#-------------------------------
+[ELITEFOUR_Joel,Joel]
+LoseText = ""
+Pokemon = SUPERFROG,65
+Pokemon = PETICARROT,65
+Pokemon = ALPHAKALE,65
+Pokemon = LUCHATREEBRE,65
+Pokemon = FUNGETOR,65
+#-------------------------------
+[ELITEFOUR_Criken,Criken]
+LoseText = ""
+Pokemon = SPILLTRIO,65
+Pokemon = JUMPKING,65
+Pokemon = DESPEROTTLE,65
+Pokemon = RAZERPENT,65
+Pokemon = SHELLNOUGHT,65
+#-------------------------------
+[ELITEFOUR_Etalyx,Etalyx]
+LoseText = ""
+Pokemon = SHEETO,65
+Pokemon = CIDAAH,65
+Pokemon = EGG,65
+Pokemon = CRUSTCOCTION,65
+Pokemon = MIDAS9000,65
+#-------------------------------
+[ELITEFOUR_Ster,Ster]
+LoseText = ""
+Pokemon = FRULIEN,65
+Pokemon = MURIOUS,65
+Pokemon = SATERNAL,65
+Pokemon = CATUFO,65
+Pokemon = SOLNATE,65
