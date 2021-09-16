@@ -175,3 +175,17 @@ Land,21
     30,MARZOLT,13,15
     20,ARCHEODE,13,14
     20,PAINTLAD,12,13
+#-------------------------------
+[139] # Victory Road
+Land,21
+    30,JUMPKING,35,39
+    30,SAPBLING,35,39
+    20,VINESHROOM,35,39
+    20,BEAR,35,39
+#-------------------------------
+[140] # Overett Caves
+Cave,5
+    30,CRYOTOID,35,39
+    25,MIDAS3000,35,39
+    25,GREEDRAKE,35,39
+    20,JERMOYALTY,35,39
