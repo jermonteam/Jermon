@@ -1012,10 +1012,19 @@ Pokemon = EGG,65
 Pokemon = CRUSTCOCTION,65
 Pokemon = MIDAS9000,65
 #-------------------------------
-[ELITEFOUR_Ster,Ster]
+[ELITEFOUR_Ster,STAR]
 LoseText = ""
-Pokemon = FRULIEN,65
+Pokemon = BEAR,65
 Pokemon = MURIOUS,65
 Pokemon = SATERNAL,65
 Pokemon = CATUFO,65
 Pokemon = SOLNATE,65
+#-------------------------------
+[CHAMPION,Jex]
+LoseText = ""
+Pokemon = TYRANNASCREECH,65
+Pokemon = CHEEZBRICK,65
+Pokemon = KATAMARI,65
+Pokemon = HOLYMACK,65
+Pokemon = JERMONARCH,65
+Pokemon = GODTTO_1,65

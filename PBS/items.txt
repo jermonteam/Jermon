@@ -674,3 +674,5 @@
 658,KEYCARD2,Level 2 Keycard,Level 2 Keycards,8,0,"A keycard that gives you access to more of the Coxcast base.",2,0,6,
 659,KEYCARD3,Level 3 Keycard,Level 3 Keycards,8,0,"A keycard that gives you access to more of the Coxcast base.",2,0,6,
 660,VOUCHER,Level 3 Keycard,Level 3 Keycards,8,0,"A keycard that gives you access to more of the Coxcast base.",2,0,6,
+661,ONIONRING,Onion Ring,Onion Rings,1,3000,"Pog! It makes certain species of Jermon evolve.",1,0,7,
+662,TOMATO,Tomato Slice,Tomato Slices,1,3000,"A chilled tomato slice. It makes certain species of Jermon evolve.",1,0,7,

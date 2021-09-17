@@ -3,6 +3,9 @@
 [RAT,1]
 FormName = !!!!!
 #-------------------------------
+[GODTTO,1]
+FormName = Godtto
+#-------------------------------
 [LABO,1]
 FormName = Fishing Lab-0
 Type1 = GHOST
