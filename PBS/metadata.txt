@@ -90,6 +90,7 @@ HealingSpot = 13,29,24
 [016]
 # Ragged Shack
 BattleBack = DanceFloor
+Environment = Space
 #-------------------------------
 [017]
 # Flower House
@@ -100,22 +101,32 @@ BattleBack = DanceFloor
 [019]
 # Studiopolis
 Outdoor = true
+BattleBack = City
 #-------------------------------
 [020]
 # Route 2 - Starlet's Thicket
 Outdoor = true
 BattleBack = Field
 #-------------------------------
+[021]
+# Dastardly Den
+BattleBack = 
+Environment = Cave
+#-------------------------------
+[026]
+# Studiopolis WiFi Center
+#-------------------------------
 [032]
 # Schoolhouse
 DarkMap = true
-BattleBack = IndoorB
+BattleBack = CaveDark
 #-------------------------------
 [033]
 # Valentine
 Outdoor = true
 ShowArea = true
 Bicycle = true
+Environment = Rock
 #-------------------------------
 [034]
 # Route 4 - Lakeside Trail
