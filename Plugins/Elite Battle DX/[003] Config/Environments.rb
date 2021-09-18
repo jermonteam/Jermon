@@ -33,6 +33,14 @@ module EnvironmentEBDX
       :oy => 0, :z => 4, :flat => true
     }, "bubbles" => "bubbleDark"
   }
+ #-----------------------------------------------------------------------------
+  VICTORY = {
+    "backdrop" => "Snow", "img003" => {
+      :scrolling => true, :speed => 0.5, :direction => 1,
+      :bitmap => "fog",
+      :oy => 0, :z => 4, :flat => true
+    }, "bubbles" => "bubbleDark"
+  }
   #-----------------------------------------------------------------------------
   WATER = { "backdrop" => "Water", "sky" => true, "water" => true }
   #-----------------------------------------------------------------------------
@@ -73,6 +81,16 @@ module EnvironmentEBDX
     }, "lightsA" => true, "outdoor" => false
   }
   #-----------------------------------------------------------------------------
+  INDOORB = {
+    "backdrop" => "IndoorB", "img001" => {
+      :bitmap => "decor007",
+      :oy => 0, :z => 1, :flat => true, :scrolling => true, :speed => 0.5
+    }, "img002" => {
+      :bitmap => "decor008",
+      :oy => 0, :z => 1, :flat => true, :scrolling => true, :direction => -1
+    }, "lightsA" => true, "outdoor" => false
+  }
+  #-----------------------------------------------------------------------------
   OUTDOOR = {
     "backdrop" => "Field", "sky" => true, "trees" => {
       :elements => 9,
@@ -82,6 +100,8 @@ module EnvironmentEBDX
       :mirror => [false,false,true,true,true,false,false,true,false]
     }
   }
+  #-----------------------------------------------------------------------------
+  CITY = { "backdrop" => "CITY", "sky" => true, "base" => "Concrete" }
   #-----------------------------------------------------------------------------
   DISCO = {
     "backdrop" => "DanceFloor", "img001" => {
@@ -108,6 +128,19 @@ module EnvironmentEBDX
   #-----------------------------------------------------------------------------
   MOUNTAIN = {
     "backdrop" => "Mountain", "sky" => true, "trees" => {
+      :elements => 8, :bitmap => "treeC", :colorize => "slight",
+      :x => [271,78,288,176,42,118,348,321],
+      :y => [117,118,122,122,127,127,128,132],
+      :zoom => [0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,true,true,true,false,false,true,false]
+    }, "img001" => {
+      :bitmap => "mountainC",
+      :x => 192, :y => 107
+    }
+  }
+  #-----------------------------------------------------------------------------
+  SAND = {
+    "backdrop" => "Sand", "sky" => true, "trees" => {
       :elements => 8, :bitmap => "treeC", :colorize => "slight",
       :x => [271,78,288,176,42,118,348,321],
       :y => [117,118,122,122,127,127,128,132],

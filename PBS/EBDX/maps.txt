@@ -14,7 +14,7 @@ BattleEnv       = MOUNTAIN
 BattleEnv       = MOUNTAIN
 #-------------------------------
 [012]
-BattleEnv       = INDOORA
+BattleEnv       = INDOOR
 #-------------------------------
 [032]
 BattleEnv       = INDOORB
@@ -29,13 +29,13 @@ BattleEnv       = SAND
 BattleEnv       = SAND
 #-------------------------------
 [016]
-BattleEnv       = DANCEFLOOR
+BattleEnv       = DIMENSION
 #-------------------------------
 [019]
 BattleEnv       = CITY
 #-------------------------------
 [020]
-BattleEnv       = FIELD
+BattleEnv       = OUTDOOR
 #-------------------------------
 [021]
 BattleEnv       = CAVE
@@ -61,5 +61,104 @@ BattleEnv       = MOUNTAIN
 [048]
 BattleEnv       = CAVE
 #-------------------------------
-[050]
+[052]
+BattleEnv       = FOREST
+#-------------------------------
+[053]
 BattleEnv       = CITY
+#-------------------------------
+[133]
+BattleEnv       = FOREST
+#-------------------------------
+[134]
+BattleEnv       = FOREST
+#-------------------------------
+[051]
+BattleEnv       = CITY
+#-------------------------------
+[056]
+BattleEnv       = INDOORB
+#-------------------------------
+[062]
+BattleEnv       = INDOOR
+#-------------------------------
+[067]
+BattleEnv       = DISCO
+#-------------------------------
+[068]
+BattleEnv       = WATER
+#-------------------------------
+[069]
+BattleEnv       = WATER
+#-------------------------------
+[071]
+BattleEnv       = DARKCAVE
+#-------------------------------
+[077]
+BattleEnv       = DARKCAVE
+#-------------------------------
+[078]
+BattleEnv       = DARKCAVE
+#-------------------------------
+[079]
+BattleEnv       = DARKCAVE
+#-------------------------------
+[087]
+BattleEnv       = OUTDOOR
+#-------------------------------
+[090]
+BattleEnv       = CITY
+#-------------------------------
+[093]
+BattleEnv       = OUTDOOR
+#-------------------------------
+[114]
+BattleEnv       = OUTDOOR
+#-------------------------------
+[131]
+BattleEnv       = INDOORB
+#-------------------------------
+[095]
+BattleEnv       = STAGE
+#-------------------------------
+[104]
+BattleEnv       = MAGMA
+#-------------------------------
+[105]
+BattleEnv       = MAGMA
+#-------------------------------
+[106]
+BattleEnv       = MAGMA
+#-------------------------------
+[107]
+BattleEnv       = MAGMA
+#-------------------------------
+[116]
+BattleEnv       = NET
+#-------------------------------
+[117]
+BattleEnv       = NET
+#-------------------------------
+[136]
+BattleEnv       = INDOORB
+#-------------------------------
+[139]
+BattleEnv       = SNOW
+#-------------------------------
+[140]
+BattleEnv       = VICTORY
+#-------------------------------
+[144]
+BattleEnv       = CHAMPION
+#-------------------------------
+[145]
+BattleEnv       = CHAMPION
+#-------------------------------
+[146]
+BattleEnv       = CHAMPION
+#-------------------------------
+[147]
+BattleEnv       = CHAMPION
+#-------------------------------
+[148]
+BattleEnv       = CHAMPION
