@@ -49,6 +49,9 @@ BattleEnv       = MOUNTAIN
 [034]
 BattleEnv       = MOUNTAIN
 #-------------------------------
+[048]
+BattleEnv       = CAVE
+#-------------------------------
 [049]
 BattleEnv       = CAVE
 #-------------------------------
@@ -57,9 +60,6 @@ BattleEnv       = DARKCAVE
 #-------------------------------
 [045]
 BattleEnv       = MOUNTAIN
-#-------------------------------
-[048]
-BattleEnv       = CAVE
 #-------------------------------
 [052]
 BattleEnv       = FOREST

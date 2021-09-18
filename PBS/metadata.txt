@@ -154,6 +154,10 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
+[048]
+# Route 5 Cave
+Environment = Cave
+#-------------------------------
 [049]
 # Jermite nest
 DarkMap = true
