@@ -83,10 +83,10 @@ module EnvironmentEBDX
   #-----------------------------------------------------------------------------
   INDOORB = {
     "backdrop" => "IndoorB", "img001" => {
-      :bitmap => "decor007",
+      :bitmap => "decor001",
       :oy => 0, :z => 1, :flat => true, :scrolling => true, :speed => 0.5
     }, "img002" => {
-      :bitmap => "decor008",
+      :bitmap => "decor005",
       :oy => 0, :z => 1, :flat => true, :scrolling => true, :direction => -1
     }, "lightsA" => true, "outdoor" => false
   }

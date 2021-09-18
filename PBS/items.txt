@@ -648,11 +648,11 @@
 633,MEGARING,Mega Ring,Mega Rings,8,0,"This ring contains an untold power that somehow enables Jermon carrying Mega Stones to Mega Evolve.",0,0,6,
 #-------------------------------
 634,POOPYTOOTHBRUSH,Poopy Toothbrush,Poopy Toothbrushes,1,0,"A toothbrush with tiny claw and bite marks on it. Looks like it's been through the toilet.",1,0,7,
-635,BEER,Beer,Beers,7,400,"It raises the Attack stat of a Jermon in battle. Has extra effect on bottle-like Jermon.",0,2,0,
+635,BEER,Beer,Beers,7,400,"It raises the Attack stat of a Jermon in battle. Has extra effect on bottle-like Jermon.",0,3,0,
 636,SARSAPARILLA,Sunset Sarsaparilla,Sunset Sarsaparillas,2,450,"A nice sarsaparilla always hits the spot. It restores the HP of one Jermon by 30 points.",1,1,0,
 637,MAGICHAT,Magic Hat,Magic Hats,1,1200,"A red and black magic top hat! Maybe a nice balloon could wear it?",1,0,7,
 638,BURGAH,Burgah,Burgahs,2,300,"A standard burgah. It restores the HP of one Jermon by just 25 points.",1,1,0,
-639,CHEEZIT,Cheez It,Cheez Its,7,450,"It raises the Defense of a Jermon in battle. Has extra effect on cheese-like Jermon.",0,2,0,
+639,CHEEZIT,Cheez It,Cheez Its,7,450,"It raises the Defense of a Jermon in battle. Has extra effect on cheese-like Jermon.",0,3,0,
 640,DOUBLEBURGAH,Double Burgah,Double Burgahs,2,850,"It's a burgah, but two. It restores the HP of one Jermon by 60 points.",1,1,0,
 641,EXPALL,EXP Share,EXP Shares,8,0,"This item enables all non battling Jermon to receive 50% of the experience.",2,0,6,
 642,EXPALLOFF,EXP Share Off,EXP Share Offs,8,0,"This item disables all experience share to all non battling Jermon.",2,0,6,
