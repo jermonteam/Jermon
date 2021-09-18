@@ -154,6 +154,10 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
+[049]
+# Jermite nest
+DarkMap = true
+#-------------------------------
 [050]
 # Grab That City
 Outdoor = true
