@@ -10,6 +10,8 @@
 130,South,0,139,North,37
 # Studiopolis (19) - Route 7 - Calm Waters (68)
 19,North,0,68,South,11
+# Seagull Island (69) - Route 7 - Calm Waters (68)
+69,West,0,68,East,4
 # Patchwork (152) - Route 7 - Calm Waters (68)
 152,West,11,68,East,0
 # Liberty City (51) - Route 7 - Calm Waters (68)
@@ -23,7 +25,7 @@
 # Route 3 - Crooked Canyon (35) - Route 2 - Starlet's Thicket (20)
 35,East,0,20,West,190
 # Route 11 -  (114) - Route 2 - Starlet's Thicket (20)
-114,North,0,20,South,506
+114,North,0,20,South,507
 # Route 1 - Dusty Trail (11) - Bewwie Town (13)
 11,North,0,13,South,8
 # Route 3 - Crooked Canyon (35) - Bewwie Town (13)
@@ -63,13 +65,13 @@
 # Seagull Island (69) - Route 8 - Souls Coast (71)
 69,East,0,71,West,0
 # Route 12 - Wild Waters (88) - Route 8 - Souls Coast (71)
-88,South,32,71,North,0
+88,South,33,71,North,0
 # Patchwork (152) - Route 8 - Souls Coast (71)
-152,South,37,71,North,0
+152,South,38,71,North,0
 # Route 12 - Wild Waters (88) - Seagull Island (69)
-88,South,0,69,North,6
+88,South,0,69,North,5
 # Patchwork (152) - Seagull Island (69)
-152,South,0,69,North,1
+152,South,0,69,North,0
 # Coxcast Base (129) - Route 12 - Wild Waters (88)
 129,South,7,88,North,0
 # Route 6 - Liberty Bridge (53) - Liberty City (51)

@@ -210,7 +210,7 @@ Bicycle = true
 Outdoor = true
 ShowArea = true
 Bicycle = true
-Weather = Storm,100
+Weather = Rain,100
 #-------------------------------
 [078]
 # Pinwheel Maze
