@@ -523,7 +523,7 @@
 514,SILPHSCOPE,Silph Scope,Silph Scopes,8,0,"A scope that makes unseeable Jermon visible. It is made by Silph Co.",0,0,6,
 515,DEVONSCOPE,Devon Scope,Devon Scopes,8,0,"A device by Devon that signals any unseeable Jermon.",0,0,6,
 516,SQUIRTBOTTLE,Squirt Bottle,Squirt Bottles,8,0,"A watering can shaped like a Squirtle. It helps promote healthy growth of Berries planted in soft soil.",0,0,6,
-517,SPRAYDUCK,Sprayduck,Sprayducks,8,0,"A watering can shaped like a Psyduck. It helps promote healthy growth of Berries planted in soft soil.",0,0,6,
+517,SPRAYDUCK,Watering Can,Watering Cans,8,0,"A watering can. It helps promote healthy growth of Berries planted in soft soil.",0,0,6,
 518,WAILMERPAIL,Wailmer Pail,Wailmer Pails,8,0,"A nifty watering pail. Use it to promote strong growth in Berries planted in soft soil.",0,0,6,
 519,GRACIDEA,Gracidea,Gracideas,8,0,"A flower sometimes bundled in bouquets to convey gratitude on special occasions like birthdays.",5,0,6,
 520,AURORATICKET,Aurora Ticket,Aurora Tickets,8,0,"A ticket required to board the ship to Doxy Island. It glows beautifully.",0,0,6,
@@ -676,3 +676,4 @@
 660,VOUCHER,Bike Voucher,Bike Vouchers,8,0,"A voucher for a free bike.",2,0,6,
 661,ONIONRING,Onion Ring,Onion Rings,1,3000,"Pog! It makes certain species of Jermon evolve.",1,0,7,
 662,TOMATO,Tomato Slice,Tomato Slices,1,3000,"A chilled tomato slice. It makes certain species of Jermon evolve.",1,0,7,
+663,VR,VR Helmet,VR Helmets,8,0,"A VR helmet, you cant use this without a console.",2,0,6,
