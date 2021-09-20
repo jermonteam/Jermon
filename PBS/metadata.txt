@@ -225,6 +225,10 @@ ShowArea = true
 Bicycle = true
 Weather = Rain,100
 #-------------------------------
+[088]
+# Route 12 - Wild Waters
+Outdoor = true
+#-------------------------------
 [090]
 # Carnival Town
 Outdoor = true
@@ -245,6 +249,16 @@ Bicycle = true
 #-------------------------------
 [104]
 # Hell
+#-------------------------------
+[114]
+# Route 11 - 
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[129]
+# Coxcast Base
+Outdoor = true
 #-------------------------------
 [130]
 # Castle Griffinsteed

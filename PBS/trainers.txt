@@ -466,11 +466,11 @@ Pokemon = GIGANTARACH,31
 #-------------------------------
 [EXEC1,Port,2]
 LoseText = ""
-Pokemon = SINEWE,55
-Pokemon = STATICOHM,56
-Pokemon = PETICARROT,56
-Pokemon = ARRRSHPEE,57
-Pokemon = GIGANTARACH,59
+Pokemon = SINEWE,49
+Pokemon = STATICOHM,49
+Pokemon = PETICARROT,49
+Pokemon = ARRRSHPEE,49
+Pokemon = GIGANTARACH,49
 #-------------------------------
 [LEADER_Byeah,Byeah Number 1]
 LoseText = ""
@@ -614,11 +614,11 @@ Pokemon = CHARLIETAN,36
 #-------------------------------
 [EXEC2,Cable,2]
 LoseText = ""
-Pokemon = MAGILLOON,56
-Pokemon = SATERNAL,56
-Pokemon = LABO_2,56
-Pokemon = CEREAGLE,57
-Pokemon = CHARLIETAN,57
+Pokemon = MAGILLOON,48
+Pokemon = SATERNAL,48
+Pokemon = LABO_2,48
+Pokemon = CEREAGLE,49
+Pokemon = CHARLIETAN,49
 #-------------------------------
 [LEADER_Pinwheel,Pinwheel]
 LoseText = ""
@@ -872,16 +872,17 @@ Pokemon = GARFIELD,47
 [LEADER_Kiwo,Kiwo]
 LoseText = ""
 Pokemon = ZAPMAN,52
-Pokemon = SONICHOUSE,52
+Pokemon = MARTIAVOLT,52
 Pokemon = STATICOHM,52
 Pokemon = RAZERPENT,52
 Pokemon = GR88,52
 #-------------------------------
 [DASTARDLY,Dastardly]
 LoseText = ""
-Pokemon = RAT,9
-Pokemon = CAT,11
-Pokemon = RAT,13
+Pokemon = GIANTRAT,47
+Pokemon = GROWNAPE,48
+Pokemon = MAXIMIGHT,48
+Pokemon = GIANTRAT,49
 #-------------------------------
 [EXEC3,Ware]
 LoseText = ""
@@ -1015,7 +1016,7 @@ Pokemon = MIDAS9000,65
 #-------------------------------
 [ELITEFOUR_Ster,STAR]
 LoseText = ""
-Pokemon = BEAR,65
+Pokemon = FRULIEN,65
 Pokemon = MURIOUS,65
 Pokemon = SATERNAL,65
 Pokemon = CATUFO,65
