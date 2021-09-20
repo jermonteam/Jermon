@@ -1,45 +1,29 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Brimstone (105) - Hell (104)
-105,South,0,104,North,45
-# Hell Entrance (107) - Hell (104)
-107,North,0,104,South,32
-# Zeraxos Palace (106) - Brimstone (105)
-106,South,6,105,North,0
-# Castle Griffinsteed (130) - Victory Road - Mt. Overett (139)
-130,South,0,139,North,37
-# Studiopolis (19) - Route 7 - Calm Waters (68)
-19,North,0,68,South,11
-# Seagull Island (69) - Route 7 - Calm Waters (68)
-69,West,0,68,East,4
-# Patchwork (152) - Route 7 - Calm Waters (68)
-152,West,11,68,East,0
-# Liberty City (51) - Route 7 - Calm Waters (68)
-51,South,58,68,North,0
-# Patchwork 2 (154) - Route 7 - Calm Waters (68)
-154,East,0,68,West,0
-# Route 2 - Starlet's Thicket (20) - Studiopolis (19)
-20,North,18,19,South,0
-# Bewwie Town (13) - Route 2 - Starlet's Thicket (20)
-13,North,0,20,South,0
-# Route 3 - Crooked Canyon (35) - Route 2 - Starlet's Thicket (20)
-35,East,0,20,West,190
-# Route 11 -  (114) - Route 2 - Starlet's Thicket (20)
-114,North,0,20,South,507
-# Route 1 - Dusty Trail (11) - Bewwie Town (13)
-11,North,0,13,South,8
-# Route 3 - Crooked Canyon (35) - Bewwie Town (13)
-35,East,0,13,West,90
 # Goodsprings (2) - Route 1 - Dusty Trail (11)
 2,North,8,11,South,0
-# Goodsprings Cemetery (6) - Route 1 - Dusty Trail (11)
-6,North,0,11,South,43
 # Route 3 - Crooked Canyon (35) - Goodsprings (2)
 35,East,0,2,West,4
 # Goodsprings Cemetery (6) - Goodsprings (2)
 6,West,0,2,East,0
 # Balloon Crash Site (10) - Goodsprings (2)
 10,North,0,2,South,3
+# Goodsprings Cemetery (6) - Route 1 - Dusty Trail (11)
+6,North,0,11,South,43
+# Route 1 - Dusty Trail (11) - Bewwie Town (13)
+11,North,0,13,South,8
+# Bewwie Town (13) - Route 2 - Starlet's Thicket (20)
+13,North,0,20,South,0
+# Route 3 - Crooked Canyon (35) - Bewwie Town (13)
+35,East,0,13,West,90
+# Studiopolis (19) - Route 7 - Calm Waters (68)
+19,North,0,68,South,11
+# Route 2 - Starlet's Thicket (20) - Studiopolis (19)
+20,North,18,19,South,0
+# Route 3 - Crooked Canyon (35) - Route 2 - Starlet's Thicket (20)
+35,East,0,20,West,190
+# Route 11 -  (114) - Route 2 - Starlet's Thicket (20)
+114,North,0,20,South,507
 # Valentine (33) - Route 3 - Crooked Canyon (35)
 33,East,0,35,West,1
 # Route 4 - Lakeside Trail (34) - Valentine (33)
@@ -50,31 +34,49 @@
 45,West,76,36,East,0
 # Grab That City (50) - Route 5 - Haunted Hills (45)
 50,South,5,45,North,0
-# Rumble City (94) - Route 11 -  (114)
-94,North,31,114,South,0
-# Route 10 - Rumble Road (93) - Rumble City (94)
-93,East,62,94,West,0
-# Carnival Town (90) - Route 10 - Rumble Road (93)
-90,South,47,93,North,0
-# Route 9 (87) - Carnival Town (90)
-87,South,4,90,North,0
-# Anor Londo (73) - Route 9 (87)
-73,East,38,87,West,0
-# Route 8 - Souls Coast (71) - Anor Londo (73)
-71,East,0,73,West,8
-# Seagull Island (69) - Route 8 - Souls Coast (71)
-69,East,0,71,West,0
-# Route 12 - Wild Waters (88) - Route 8 - Souls Coast (71)
-88,South,33,71,North,0
-# Patchwork (152) - Route 8 - Souls Coast (71)
-152,South,38,71,North,0
-# Route 12 - Wild Waters (88) - Seagull Island (69)
-88,South,0,69,North,5
-# Patchwork (152) - Seagull Island (69)
-152,South,0,69,North,0
-# Coxcast Base (129) - Route 12 - Wild Waters (88)
-129,South,7,88,North,0
+# Liberty City (51) - Route 7 - Calm Waters (68)
+51,South,58,68,North,0
 # Route 6 - Liberty Bridge (53) - Liberty City (51)
 53,East,0,51,West,67
 # Patchwork 2 (154) - Liberty City (51)
 154,North,0,51,South,38
+# Seagull Island (69) - Route 7 - Calm Waters (68)
+69,West,0,68,East,4
+# Patchwork (152) - Route 7 - Calm Waters (68)
+152,West,11,68,East,0
+# Patchwork 2 (154) - Route 7 - Calm Waters (68)
+154,East,0,68,West,0
+# Seagull Island (69) - Route 8 - Souls Coast (71)
+69,East,0,71,West,0
+# Route 12 - Wild Waters (88) - Seagull Island (69)
+88,South,0,69,North,5
+# Patchwork (152) - Seagull Island (69)
+152,South,0,69,North,0
+# Route 8 - Souls Coast (71) - Anor Londo (73)
+71,East,0,73,West,8
+# Route 12 - Wild Waters (88) - Route 8 - Souls Coast (71)
+88,South,33,71,North,0
+# Patchwork (152) - Route 8 - Souls Coast (71)
+152,South,38,71,North,0
+# Anor Londo (73) - Route 9 (87)
+73,East,38,87,West,0
+# Route 9 (87) - Carnival Town (90)
+87,South,4,90,North,0
+# Coxcast Base (129) - Route 12 - Wild Waters (88)
+129,South,7,88,North,0
+# Carnival Town (90) - Route 10 - Rumble Road (93)
+90,South,47,93,North,0
+# Route 10 - Rumble Road (93) - Rumble City (94)
+93,East,62,94,West,0
+# Rumble City (94) - Route 11 -  (114)
+94,North,31,114,South,0
+# Brimstone (105) - Hell (104)
+105,South,0,104,North,45
+# Hell Entrance (107) - Hell (104)
+107,North,0,104,South,32
+# Zeraxos Palace (106) - Brimstone (105)
+106,South,6,105,North,0
+# Castle Griffinsteed (130) - Victory Road - Mt. Overett (139)
+130,South,0,139,North,37
+# VR City (112) - Field of Dreams (116)
+112,West,11,116,East,0

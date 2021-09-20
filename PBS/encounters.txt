@@ -147,9 +147,10 @@ Land,21
 #-------------------------------
 [104] # Hell
 Cave,5
-    30,PLUSTWO,29,33
-    25,MERCURY,29,33
-    25,GASEIK,29,33
+    20,PLUSTWO,29,33
+    20,MERCURY,29,33
+    20,GASEIK,29,33
+    20,SINEWE,29,33
     20,ADAMSANDLER,29,33
 #-------------------------------
 [116] # Field of Dreams

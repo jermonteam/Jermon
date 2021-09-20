@@ -278,7 +278,7 @@ Pokemon = REDBLEND,22
 #-------------------------------
 [BLUSCOUT,Scout]
 LoseText = ""
-Pokemon = SONIC,23
+Pokemon = SAMMIT,23
 #-------------------------------
 [BLUHEAVY,Heavy]
 LoseText = ""
@@ -288,7 +288,7 @@ Pokemon = PUBLIAPETION,23
 LoseText = ""
 Pokemon = SCUTTLEGUN,21
 Pokemon = SCUTTLEGUN,21
-Pokemon = SCUTTLEGUN,21
+Pokemon = ARCHEODE,21
 #-------------------------------
 [BLUSNIPER,Sniper]
 LoseText = ""
@@ -453,7 +453,7 @@ Pokemon = MALIGNIP,26
 #-------------------------------
 [COXCASTM,Frozen9]
 LoseText = ""
-Pokemon = SMALLTHROPOD,24
+Pokemon = STACHERPILLAR,24
 Pokemon = FLAREVA,26
 #-------------------------------
 [EXEC1,Port,1]
@@ -650,7 +650,7 @@ Pokemon = BOOGLEBERRY,33
 #-------------------------------
 [CRAZIEFILEF,Islands1]
 LoseText = ""
-Pokemon = SAVEGULL,33
+Pokemon = POGNUS,33
 Pokemon = SAVEGUARD,33
 #-------------------------------
 [BOOMER,Islands2]
@@ -712,7 +712,7 @@ Pokemon = BEANBAGSONIC,37
 #-------------------------------
 [RUMBLER,Road8]
 LoseText = ""
-Pokemon = SONIC,35
+Pokemon = GNOT,35
 Pokemon = WALLDAD,36
 #-------------------------------
 [CRAZIEFILEF,Road9]
@@ -773,7 +773,7 @@ Pokemon = GRILLICK,42
 #-------------------------------
 [SINNERF,Hell5]
 LoseText = ""
-Pokemon = GASEIK,41
+Pokemon = STUBBLEBUG,41
 Pokemon = GASEIK,41
 #-------------------------------
 [SINNERF,Hell6]
@@ -802,7 +802,7 @@ Pokemon = RAWMEATLOAF,43
 [SINNERF,Hell11]
 LoseText = ""
 Pokemon = PLUSTWO,40
-Pokemon = MERCURY,42
+Pokemon = BUNGER,42
 #-------------------------------
 [SINNERM,Hell12]
 LoseText = ""
@@ -811,7 +811,7 @@ Pokemon = ADAMSANDLER,41
 #-------------------------------
 [SINNERF,Hell13]
 LoseText = ""
-Pokemon = SONIC,44
+Pokemon = SONICHOUSE,44
 #-------------------------------
 [SINNERM,Hell14]
 LoseText = ""
@@ -820,20 +820,20 @@ Pokemon = MRSNAKEMAN,42
 #-------------------------------
 [SINNERM,Hell15]
 LoseText = ""
-Pokemon = JIGSOPPET,43
+Pokemon = JIGSOPPET,41
 #-------------------------------
 [SINNERF,Hell16]
 LoseText = ""
 Pokemon = FRENCHCHAMPAGNE,43
 #-------------------------------
-[LEADER_Zeraxos,Zeraxos]
+[LEADER_Zeraxos,Zeraxos and Demon Grandpa]
 LoseText = ""
-Pokemon = FIREMAN,46
-Pokemon = PLUSTWO,46
+Pokemon = MERCURY,46
+Pokemon = MCDOUBLET,46
 Pokemon = LABO,46
     Form = 3
-Pokemon = PYROSHARK,48
-Pokemon = SOLNATE,48
+Pokemon = PYROSHARK,46
+Pokemon = SOLNATE,46
 #-------------------------------
 [VRVROOMER,VR1]
 LoseText = ""
