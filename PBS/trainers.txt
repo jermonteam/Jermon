@@ -363,7 +363,7 @@ Pokemon = GOOPER,22
 [CRAZIEFILEF,10]
 LoseText = ""
 Pokemon = DSPONGE,23
-Pokemon = GOOPER,22
+Pokemon = CREEPALOUPE,22
 #-------------------------------
 [DREWCREW,15]
 LoseText = ""
@@ -378,7 +378,7 @@ Pokemon = GOOPER,23
 #-------------------------------
 [BOOMER,Forest2]
 LoseText = ""
-Pokemon = BDRAT,24
+Pokemon = POGNUS,24
 #-------------------------------
 [DREWCREW,Forest3]
 LoseText = ""
@@ -391,7 +391,8 @@ Pokemon = STACHERPILLAR,25
 #-------------------------------
 [DREWCREW,Forest5]
 LoseText = ""
-Pokemon = GOOPER,25
+Pokemon = SAMMIT,23
+Pokemon = GOOPER,23
 #-------------------------------
 [DORKM,Forest6]
 LoseText = ""
