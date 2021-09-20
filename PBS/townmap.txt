@@ -1,12 +1,26 @@
 ﻿#-------------------------------
 [0]
-Filename=mapRegion0.png
-Name=Amrej
-Point=15,5,"Seagull Island",,069,014,011,
-Point=6,6,"Grab That City",,050,020,016,
-Point=11,12,"Bewwie Town",,013,029,025,
-Point=11,9,Studiopolis,,019,045,050,
-Point=5,12,Teufort,,036,041,017,
-Point=11,3,"Liberty City",,051,028,079,
-Point=10,17,Goodsprings,,002,013,038,
-Point=4,16,Valentine,,033,026,014,
+Filename = mapRegion0.png
+Name = Amrej
+Point = 8,3,Liberty City,,,,,
+Point = 8,2,Liberty City,,,,,
+Point = 9,3,Liberty City,,051,028,079,
+Point = 9,2,Liberty City,,,,,
+Point = 10,3,Liberty City,,,,,
+Point = 10,2,Liberty City,,,,,
+Point = 15,5,Seagull Island,,069,014,011,
+Point = 14,5,Seagull Island,,,,,
+Point = 4,6,Grab That City,,050,020,016,
+Point = 3,12,Teufort,,036,041,017,
+Point = 2,12,Teufort,,,,,
+Point = 2,13,Teufort,,,,,
+Point = 3,13,Teufort,,,,,
+Point = 2,16,Valentine,,033,026,014,
+Point = 9,12,Bewwie Town,,013,029,025,
+Point = 9,16,Goodsprings,,002,013,038,
+Point = 8,9,Studiopolis,,019,045,050,
+Point = 21,5,Anor Londo,,073,023,027,
+Point = 23,12,Carnival Town,,090,077,015,
+Point = 25,15,Rumble City,,094,023,036,
+Point = 27,11,Gamer Den,,114,014,039,
+Point = 27,2,Castle Griffinsteed,,130,013,008,
