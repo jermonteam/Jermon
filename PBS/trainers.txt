@@ -84,12 +84,12 @@ Pokemon = BARBECULL,41
 #-------------------------------
 [COXMASTER,Grillmasterxbbq]
 LoseText = ""
-Pokemon = LUNATE,60
-Pokemon = SNATTAFLANK,60
-Pokemon = SCORPOP,60
-Pokemon = THWOPPER,61
-Pokemon = SWEETRIND,61
-Pokemon = BARBECULL,62
+Pokemon = LUNATE,51
+Pokemon = SNATTAFLANK,51
+Pokemon = SCORPOP,51
+Pokemon = THWOPPER,52
+Pokemon = SWEETRIND,52
+Pokemon = BARBECULL,53
 #-------------------------------
 [ELVIS,Elves]
 LoseText = ""
@@ -886,11 +886,11 @@ Pokemon = GIANTRAT,49
 #-------------------------------
 [EXEC3,Ware]
 LoseText = ""
-Pokemon = ZOOMBRAINI,58
-Pokemon = AMALGATHYST,58
-Pokemon = JIGSOPPET,58
-Pokemon = SENTRANTULA,59
-Pokemon = GOOPTEGEDDON,60
+Pokemon = ZOOMBRAINI,51
+Pokemon = AMALGATHYST,51
+Pokemon = JIGSOPPET,51
+Pokemon = SENTRANTULA,51
+Pokemon = GOOPTEGEDDON,51
 #-------------------------------
 [COXCASTM,Base1]
 LoseText = ""
