@@ -267,6 +267,24 @@ ShowArea = true
 Bicycle = true
 Weather = Snow,100
 #-------------------------------
+[134]
+# Hidden Grove
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[135]
+# Detonation Site
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[137]
+# Sand Pit
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
 [139]
 # Victory Road - Mt. Overett
 Outdoor = true
