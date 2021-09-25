@@ -44,7 +44,7 @@ Land,21
     25,JERSLUG,15,17
     25,AMPFIB,15,17
     25,WALLLAD,14,16
-    25,SHPEE,15,17
+    25,CRUNCHFINCH,15,17
 #-------------------------------
 [035] # Route 3 - Crooked Canyon
 Land,21
@@ -63,16 +63,16 @@ Land,21
 [045] # Route 5 - Haunted Hills
 Land,21
     30,MRSNAKEMAN,16,19
-    25,CHEESEY,16,19
+    25,SAMMIT,16,19
     25,WALLLAD,16,19
-    20,KIDMARK,17,20
+    20,POGNUS,17,20
 #-------------------------------
 [048] # Route 5 Cave
 Cave,5
-    25,BATBY,16,19
+    25,BILLDA,16,19
     25,POTTERGEIST,16,19
     25,DSPONGE,16,19
-    25,MARZOLT,17,20
+    25,ARCHEODE,17,20
 #-------------------------------
 [049] # Jermite Nest
 Cave,1
@@ -186,7 +186,7 @@ Land,21
     30,JUMPKING,35,39
     30,SAPBLING,35,39
     20,VINESHROOM,35,39
-    20,BEAR,35,39
+    20,KATAMARI,35,39
 #-------------------------------
 [140] # Overett Caves
 Cave,5

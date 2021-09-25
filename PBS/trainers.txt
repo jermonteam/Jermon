@@ -129,7 +129,7 @@ Pokemon = PUBLIAPETION,12
 #-------------------------------
 [SCHOOLELVIS,Elvoos]
 LoseText = ""
-Pokemon = SONIC,9
+Pokemon = ARCHEODE,9
 Pokemon = SONIC,10
 #-------------------------------
 [SCHOOLELVIS,Elvus]
@@ -197,7 +197,7 @@ Pokemon = PUBLIAPETION,17
 [BOOMER,Theodore]
 LoseText = ""
 Pokemon = KIDMARK,15
-Pokemon = KIDMARK,15
+Pokemon = CRUNCHFINCH,15
 #-------------------------------
 [COWBOY,Holiday]
 LoseText = ""
@@ -218,7 +218,7 @@ Pokemon = RAT,15
 #-------------------------------
 [COWBOY,John]
 LoseText = ""
-Pokemon = KIDMARK,18
+Pokemon = CRUNCHFINCH,18
 #-------------------------------
 [BOOMER,Chester]
 LoseText = ""
@@ -233,7 +233,7 @@ Pokemon = BANDOTTLE,18
 #-------------------------------
 [BOOMER,John Thomas]
 LoseText = ""
-Pokemon = KIDMARK,17
+Pokemon = ARCHEODE,17
 Pokemon = JERSLUG,17
 #-------------------------------
 [BOOMER,Abraham]
@@ -305,7 +305,7 @@ Pokemon = SHPEECRAB,25
 [COWBOY,1]
 LoseText = ""
 Pokemon = MRSNAKEMAN,22
-Pokemon = KIDMARK,22
+Pokemon = SAMMIT,22
 #-------------------------------
 [CRAZIEFILEF,2]
 LoseText = ""
@@ -321,7 +321,7 @@ Pokemon = BATBY,23
 #-------------------------------
 [COWBOY,5]
 LoseText = ""
-Pokemon = BANDOTTLE,22
+Pokemon = POGNUS,22
 Pokemon = BANDOTTLE,22
 #-------------------------------
 [COWBOY,6]
@@ -369,7 +369,7 @@ Pokemon = CREEPALOUPE,22
 LoseText = ""
 Pokemon = AMPFIB,22
 Pokemon = GOOPER,22
-Pokemon = POTTERGEIST,24
+Pokemon = BILLDA,24
 #-------------------------------
 [DREWCREW,Forest1]
 LoseText = ""
@@ -545,7 +545,7 @@ Pokemon = ZAPMAN,25
 #-------------------------------
 [BUCCANEER,Waters9]
 LoseText = ""
-Pokemon = BANDOTTLE,29
+Pokemon = SEAMAN,29
 #-------------------------------
 [BYEAH,Soul1]
 LoseText = ""
@@ -932,7 +932,7 @@ Pokemon = MAXIMIGHT,47
 [OFFICERM,Base9]
 LoseText = ""
 Pokemon = GASEIK,47
-Pokemon = GASEIK,47
+Pokemon = PURRTION,47
 #-------------------------------
 [OFFICERF,Base10]
 LoseText = ""
@@ -952,81 +952,98 @@ Pokemon = ARRRSHPEE,46
 #-------------------------------
 [BANANA,Victory1]
 LoseText = ""
-Pokemon = SHPEE,48
+Pokemon = FROGMAN,47
+Pokemon = GNOME,47
+Pokemon = BATBOY,47
+Pokemon = DUOWHINNY,47
 #-------------------------------
 [GAMER,Victory2]
 LoseText = ""
-Pokemon = SHPEE,48
+Pokemon = GAIADISE,46
+Pokemon = FUNQO,46
+Pokemon = MASTEROKE,47
+Pokemon = SONICHOUSE,48
 #-------------------------------
 [BOOMER,Victory3]
 LoseText = ""
-Pokemon = SHPEE,48
+Pokemon = PENCIL,48
+Pokemon = FRENCHCHAMPAGNE,48
 #-------------------------------
 [BANANA,Victory4]
 LoseText = ""
-Pokemon = SHPEE,48
+Pokemon = WALLDAD,47
+Pokemon = SAVEGUARD,47
+Pokemon = GROWNAPE,48
+Pokemon = SUPERFROG,48
 #-------------------------------
 [GAMER,Victory5]
 LoseText = ""
-Pokemon = SHPEE,48
+Pokemon = PLUSTWO,48
+Pokemon = MINUSTWO,48
+Pokemon = PLUSTWO,48
+Pokemon = MINUSTWO,48
 #-------------------------------
 [CRAZIEFILEF,Victory6]
 LoseText = ""
-Pokemon = SHPEE,48
+Pokemon = MAGILLOON,49
 #-------------------------------
 [BOOMER,Victory7]
 LoseText = ""
-Pokemon = SHPEE,48
+Pokemon = LUCHATREEBRE,48
+Pokemon = BEANBAGSONIC,48
 #-------------------------------
 [BANANA,Victory8]
 LoseText = ""
-Pokemon = SHPEE,48
+Pokemon = CREWLIVERANCE,49
+Pokemon = SPILLTRIO,49
 #-------------------------------
 [GAMER,Victory9]
 LoseText = ""
-Pokemon = SHPEE,48
+Pokemon = ALPHAKALE,48
+Pokemon = PYROSHARK,48
+Pokemon = SENTRANTULA,48
 #-------------------------------
 [DENTIST,Victory10]
 LoseText = ""
-Pokemon = GIANTRAT,48
+Pokemon = GIANTRAT,49
 #-------------------------------
 [ELITEFOUR_Joel,Joel]
 LoseText = ""
-Pokemon = SUPERFROG,65
-Pokemon = PETICARROT,65
-Pokemon = ALPHAKALE,65
-Pokemon = LUCHATREEBRE,65
-Pokemon = FUNGETOR,65
+Pokemon = SUPERFROG,55
+Pokemon = PETICARROT,55
+Pokemon = ALPHAKALE,55
+Pokemon = LUCHATREEBRE,55
+Pokemon = FUNGETOR,55
 #-------------------------------
 [ELITEFOUR_Criken,Criken]
 LoseText = ""
-Pokemon = SPILLTRIO,65
-Pokemon = JUMPKING,65
-Pokemon = DESPEROTTLE,65
-Pokemon = RAZERPENT,65
-Pokemon = SHELLNOUGHT,65
+Pokemon = SPILLTRIO,55
+Pokemon = JUMPKING,55
+Pokemon = DESPEROTTLE,55
+Pokemon = SENTRANTULA,55
+Pokemon = SHELLNOUGHT,55
 #-------------------------------
 [ELITEFOUR_Etalyx,Etalyx]
 LoseText = ""
-Pokemon = SHEETO,65
-Pokemon = CIDAAH,65
-Pokemon = EGG,65
-Pokemon = CRUSTCOCTION,65
-Pokemon = MIDAS9000,65
+Pokemon = SHEETO,55
+Pokemon = CIDAAH,55
+Pokemon = EGG,55
+Pokemon = CRUSTCOCTION,55
+Pokemon = MIDAS9000,55
 #-------------------------------
 [ELITEFOUR_Ster,STAR]
 LoseText = ""
-Pokemon = FRULIEN,65
-Pokemon = MURIOUS,65
-Pokemon = SATERNAL,65
-Pokemon = CATUFO,65
-Pokemon = SOLNATE,65
+Pokemon = FRULIEN,55
+Pokemon = MURIOUS,55
+Pokemon = SATERNAL,55
+Pokemon = CATUFO,55
+Pokemon = SOLNATE,55
 #-------------------------------
 [CHAMPION,Jex]
 LoseText = ""
-Pokemon = TYRANNASCREECH,65
-Pokemon = CHEEZBRICK,65
-Pokemon = KATAMARI,65
-Pokemon = HOLYMACK,65
-Pokemon = JERMONARCH,65
-Pokemon = GODTTO_1,65
+Pokemon = TYRANNASCREECH,57
+Pokemon = CHEEZBRICK,57
+Pokemon = KATAMARI,57
+Pokemon = HOLYMACK,57
+Pokemon = JERMONARCH,57
+Pokemon = GODTTO_1,57
