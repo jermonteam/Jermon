@@ -663,7 +663,7 @@
 647,OUTFIT1,Odd Michael Costume,Odd Michael Costumes,6,0,"An odd costume with a fashionable hat.",0,0,6,
 648,OUTFIT2,Soldier Costume,Soldier Costumes,6,0,"An old helmet, ignore the stains.",0,0,6,
 649,SAPPER,Sapper,Sappers,8,0,"A sapper used to destroy engineer buildings.",0,0,6,
-650,HAPPYMEAL,Happy Meal,Happy Meals,8,0,"A Happy Meal from Diamonds R Forevah. You should probably return this to the byeah.",2,0,6,
+650,HAPPYMEAL,Happy Meal,Happy Meals,8,0,"A Happy Meal from Diamonds R Forevah. You should probably return this to the byeah.",0,0,6,
 651,POOLTUBE,Pool Tube,Pool Tubes,8,0,"An inflatable ring used for navigating the water.",0,0,6,
 652,EUREKA,Eureka Effect,Eureka Effects,8,0,"A retro-futuristic wrench used to instantly transport to areas around Amrej.",2,0,6,
 653,SECRETKEY,Secret Key,Secret Keys,8,0,"A mystery key, I think you're supposed to put it in a rock?",0,0,6,
