@@ -877,6 +877,14 @@ Pokemon = STATICOHM,52
 Pokemon = RAZERPENT,52
 Pokemon = GR88,52
 #-------------------------------
+[LEADER_Kiwo,Kiwo,1]
+LoseText = ""
+Pokemon = ZAPMAN,52
+Pokemon = MARTIAVOLT,52
+Pokemon = STATICOHM,52
+Pokemon = RAZERPENT,53
+Pokemon = GR88,53
+#-------------------------------
 [DASTARDLY,Dastardly]
 LoseText = ""
 Pokemon = GIANTRAT,47
