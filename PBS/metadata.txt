@@ -255,7 +255,7 @@ Bicycle = true
 Outdoor = true
 ShowArea = true
 Bicycle = true
-SnapEdges = true
+SnapEdges = false
 #-------------------------------
 [129]
 # Coxcast Base
