@@ -877,7 +877,7 @@ Pokemon = STATICOHM,52
 Pokemon = RAZERPENT,52
 Pokemon = GR88,52
 #-------------------------------
-[LEADER_Kiwo,Kiwo,1]
+[LEADER_Kiwo_1,Kiwo]
 LoseText = ""
 Pokemon = ZAPMAN,52
 Pokemon = MARTIAVOLT,52
