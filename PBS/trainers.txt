@@ -960,56 +960,56 @@ Pokemon = ARRRSHPEE,46
 #-------------------------------
 [BANANA,Victory1]
 LoseText = ""
-Pokemon = FROGMAN,47
-Pokemon = GNOME,47
-Pokemon = BATBOY,47
-Pokemon = DUOWHINNY,47
+Pokemon = FROGMAN,49
+Pokemon = GNOME,49
+Pokemon = BATBOY,49
+Pokemon = DUOWHINNY,49
 #-------------------------------
 [GAMER,Victory2]
 LoseText = ""
-Pokemon = GAIADISE,46
-Pokemon = FUNQO,46
-Pokemon = MASTEROKE,47
-Pokemon = SONICHOUSE,48
+Pokemon = GAIADISE,48
+Pokemon = FUNQO,48
+Pokemon = MASTEROKE,49
+Pokemon = SONICHOUSE,51
 #-------------------------------
 [BOOMER,Victory3]
 LoseText = ""
-Pokemon = PENCIL,48
-Pokemon = FRENCHCHAMPAGNE,48
+Pokemon = PENCIL,51
+Pokemon = FRENCHCHAMPAGNE,51
 #-------------------------------
 [BANANA,Victory4]
 LoseText = ""
-Pokemon = WALLDAD,47
-Pokemon = SAVEGUARD,47
-Pokemon = GROWNAPE,48
-Pokemon = SUPERFROG,48
+Pokemon = WALLDAD,49
+Pokemon = SAVEGUARD,49
+Pokemon = GROWNAPE,50
+Pokemon = SUPERFROG,50
 #-------------------------------
 [GAMER,Victory5]
 LoseText = ""
-Pokemon = PLUSTWO,48
-Pokemon = MINUSTWO,48
-Pokemon = PLUSTWO,48
-Pokemon = MINUSTWO,48
+Pokemon = PLUSTWO,49
+Pokemon = MINUSTWO,49
+Pokemon = PLUSTWO,49
+Pokemon = MINUSTWO,49
 #-------------------------------
 [CRAZIEFILEF,Victory6]
 LoseText = ""
-Pokemon = MAGILLOON,49
+Pokemon = MAGILLOON,52
 #-------------------------------
 [BOOMER,Victory7]
 LoseText = ""
-Pokemon = LUCHATREEBRE,48
-Pokemon = BEANBAGSONIC,48
+Pokemon = LUCHATREEBRE,50
+Pokemon = BEANBAGSONIC,50
 #-------------------------------
 [BANANA,Victory8]
 LoseText = ""
-Pokemon = CREWLIVERANCE,49
-Pokemon = SPILLTRIO,49
+Pokemon = CREWLIVERANCE,50
+Pokemon = SPILLTRIO,50
 #-------------------------------
 [GAMER,Victory9]
 LoseText = ""
-Pokemon = ALPHAKALE,48
-Pokemon = PYROSHARK,48
-Pokemon = SENTRANTULA,48
+Pokemon = ALPHAKALE,49
+Pokemon = PYROSHARK,49
+Pokemon = SENTRANTULA,51
 #-------------------------------
 [DENTIST,Victory10]
 LoseText = ""
