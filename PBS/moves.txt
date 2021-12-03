@@ -695,7 +695,7 @@
 676,WITHDRAW,Withdraw,01D,0,WATER,Status,0,40,0,User,0,d,"The user withdraws its body into its hard shell, raising its Defense stat."
 #-------------------------------
 677,UPINSMOKE,Up In Smoke,0E0,250,FIRE,Special,100,5,0,AllNearOthers,0,bef,"The user goes up in smoke to inflict damage on those around it. The user faints upon using this move."
-678,FONDUESHOT,Fondue Shot,00A,80,DAIRY,Special,100,15,30,NearOther,0,befg,"The user shoots boiling cheese at its target. It may also leave the target with a burn."
+678,FONDUESHOT,Fondue Shot,00A,85,DAIRY,Special,100,15,30,NearOther,0,befg,"The user shoots boiling cheese at its target. It may also leave the target with a burn."
 679,MILDSLICE,Mild Slice,000,40,DAIRY,Physical,100,35,0,NearOther,0,abef,"The target is attacked with a slash of mild cheese."
 680,CHEDDARSLICE,Cheddar Slice,000,70,DAIRY,Physical,100,20,0,NearOther,0,abefh,"The target is attacked with a slash of sharp cheese. Critical hits land more easily."
 681,CURDLE,Curdle,005,90,DAIRY,Special,100,10,30,NearOther,0,befn,"Spoiled milk is hurled at the target. It may also poison the target."
@@ -704,3 +704,4 @@
 685,LASAGNABREAK,Lasagna Break,0D5,0,DAIRY,Status,0,10,0,User,0,d,"The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP."
 686,MELT,Melt,030,0,DAIRY,Status,0,20,0,User,0,d,"The user melts its body to become slippery. This sharply raises the Speed stat."
 687,SHRED,Shred,03C,120,DAIRY,Physical,100,5,0,NearOther,0,abef,"The user goes all out against the foe without concern for its own body. It also cuts the user's Defense and Sp. Def."
+688,STICKYPOWDER,Sticky Powder,044,60,DAIRY,Special,100,20,10,NearOther,0,bef,"A spray of cheese powder pounds the target. It may also lower its Speed stat."
