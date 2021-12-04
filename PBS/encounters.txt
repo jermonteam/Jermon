@@ -43,7 +43,7 @@ Cave,5
 Land,21
     25,JERSLUG,15,17
     25,AMPFIB,15,17
-    25,WALLLAD,14,16
+    25,PRAYPHID,14,16
     25,CRUNCHFINCH,15,17
 #-------------------------------
 [035] # Route 3 - Crooked Canyon
