@@ -129,7 +129,7 @@ Bicycle = true
 Environment = Rock
 #-------------------------------
 [034]
-# Route 4 - Lakeside Trail
+# Route 4 - Sunflower Fields
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -293,3 +293,7 @@ ShowArea = true
 Bicycle = true
 Weather = Blizzard,100
 Environment = Snow
+#-------------------------------
+[148]
+# Champion Chamber
+Weather = Snow,100
