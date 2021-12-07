@@ -32,3 +32,5 @@ Type2 = STEEL
 [KATAMARI,1]
 FormName = Ball Form
 BaseStats = 50,140,140,30,140,140
+Height = 4.57
+Weight = 451
