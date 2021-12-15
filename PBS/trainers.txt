@@ -1055,3 +1055,12 @@ Pokemon = KATAMARI,57
 Pokemon = HOLYMACK,57
 Pokemon = JERMONARCH,57
 Pokemon = GODTTO_1,57
+#-------------------------------
+[TWITCH,Chat]
+LoseText = ""
+Pokemon = SMILE,58
+Pokemon = SMILE,58
+Pokemon = SMILE,58
+Pokemon = SMILE,58
+Pokemon = SMILE,58
+Pokemon = SMILE,58

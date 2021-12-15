@@ -5,6 +5,7 @@
 2,RIVAL,Rival,60,,,,Mixed,,
 3,GRILLMASTER,Rival,60,,,,Male,,
 4,COXMASTER,Coxcast Leader,60,,,,Male,,
+5,TWITCH,Twitch,60,,,,Mixed,,
 9,LEADER_Kiwo_1,Gym Leader,100,Battle Gym Leader,,,Female,,
 10,BANANA,Banana Bros,30,,,,Mixed,,
 11,GAMER,Gamer,30,,,,Mixed,,
