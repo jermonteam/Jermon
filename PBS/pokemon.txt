@@ -292,35 +292,6 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
 [11]
-Name = Sheeto
-InternalName = SHEETO
-Type1 = FAIRY
-BaseStats = 55,50,95,90,80,115
-GenderRate = AlwaysMale
-GrowthRate = Parabolic
-BaseEXP = 170
-EffortPoints = 0,0,0,0,1,0
-Rareness = 100
-Happiness = 70
-Abilities = PIXILATE
-Moves = 1,GROWL,1,DISARMINGVOICE,4,BABYDOLLEYES,8,ECHOEDVOICE,12,SUPERSONIC,16,CHARM,20,SWIFT,24,CHATTER,28,MIMIC,32,UPROAR,36,HYPERVOICE,40,SYNCHRONOISE,44,SCREECH,48,BOOMBURST
-Compatibility = Monster
-StepsToHatch = 5355
-Height = .51
-Weight = 13
-Color = Yellow
-Shape = HeadLegs
-Habitat = Mountain
-Kind = Instrument
-Pokedex = The voice of this Jermon is controversial amongst trainers: some love its voice for its squeaky charm, others hate it for being grating and annoying.
-BattlerPlayerX = 0
-BattlerPlayerY = 4
-BattlerEnemyX = 0
-BattlerEnemyY = 8
-BattlerShadowX = 0
-BattlerShadowSize = 2
-#-------------------------------
-[12]
 Name = Vivalloon
 InternalName = VIVALLOON
 Type1 = FLYING
@@ -349,7 +320,7 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = MAGILLOON,Level,27
 #-------------------------------
-[13]
+[12]
 Name = Magilloon
 InternalName = MAGILLOON
 Type1 = FLYING
@@ -378,7 +349,7 @@ BattlerEnemyY = 12
 BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
-[14]
+[13]
 Name = Lilmack
 InternalName = LILMACK
 Type1 = WATER
@@ -407,7 +378,7 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = HOLYMACK,Level,28
 #-------------------------------
-[15]
+[14]
 Name = Holymack
 InternalName = HOLYMACK
 Type1 = WATER
@@ -436,7 +407,7 @@ BattlerEnemyY = 14
 BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
-[16]
+[15]
 Name = Flareva
 InternalName = FLAREVA
 Type1 = BUG
@@ -467,7 +438,7 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = WASP,Level,20
 #-------------------------------
-[17]
+[16]
 Name = Wasplode
 InternalName = WASP
 Type1 = BUG
@@ -497,11 +468,10 @@ BattlerEnemyY = 20
 BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
-[18]
+[17]
 Name = Colonthesis
 InternalName = SMILE
 Type1 = NORMAL
-Type2 = DARK
 BaseStats = 78,78,78,78,78,78
 GenderRate = Genderless
 GrowthRate = Medium
@@ -529,7 +499,7 @@ BattlerEnemyY = 29
 BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
-[19]
+[18]
 Name = Rat
 InternalName = RAT
 Type1 = DARK
@@ -558,7 +528,7 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = BDRAT,Level,18
 #-------------------------------
-[20]
+[19]
 Name = Birthday Rat
 InternalName = BDRAT
 Type1 = DARK
@@ -587,7 +557,7 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = GIANTRAT,Level,34
 #-------------------------------
-[21]
+[20]
 Name = Giant Rat
 InternalName = GIANTRAT
 Type1 = DARK
@@ -615,7 +585,7 @@ BattlerEnemyY = 6
 BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
-[22]
+[21]
 Name = Mister Pain
 InternalName = PAIN
 Type1 = DARK
@@ -644,7 +614,7 @@ BattlerEnemyY = 12
 BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
-[23]
+[22]
 Name = Sonic
 InternalName = SONIC
 Type1 = ELECTRIC
@@ -673,7 +643,7 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = SONICHOUSE,Level,28
 #-------------------------------
-[24]
+[23]
 Name = Sonichouse
 InternalName = SONICHOUSE
 Type1 = ELECTRIC
@@ -702,7 +672,7 @@ BattlerEnemyY = 15
 BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
-[25]
+[24]
 Name = Publiapetion
 InternalName = PUBLIAPETION
 Type1 = NORMAL
@@ -731,7 +701,7 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = GROWNAPE,Level,28
 #-------------------------------
-[26]
+[25]
 Name = Grownape
 InternalName = GROWNAPE
 Type1 = NORMAL
@@ -759,7 +729,7 @@ BattlerEnemyY = 13
 BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
-[27]
+[26]
 Name = Kittlien
 InternalName = CAT
 Type1 = PSYCHIC
@@ -788,7 +758,7 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = CATPOLICE,Level,20
 #-------------------------------
-[28]
+[27]
 Name = Constabby
 InternalName = CATPOLICE
 Type1 = PSYCHIC
@@ -818,7 +788,7 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = CATUFO,Level,38
 #-------------------------------
-[29]
+[28]
 Name = Cosmeow
 InternalName = CATUFO
 Type1 = PSYCHIC
@@ -847,7 +817,7 @@ BattlerEnemyY = 16
 BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
-[30]
+[29]
 Name = DSponge
 InternalName = DSPONGE
 Type1 = ROCK
@@ -877,8 +847,8 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 Evolutions = RAWMEATLOAF,Level,30
 #-------------------------------
-[31]
-Name = Raw Meatloaf
+[30]
+Name = RawMeatloaf
 InternalName = RAWMEATLOAF
 Type1 = BUG
 Type2 = PSYCHIC
@@ -905,9 +875,9 @@ BattlerEnemyX = 0
 BattlerEnemyY = 8
 BattlerShadowX = 0
 BattlerShadowSize = 2
-Evolutions = SWEETRIND,Level,42
+Evolutions = SWEETRIND,LevelDay,42,COSMICCALAMDY,LevelNight,42
 #-------------------------------
-[32]
+[31]
 Name = SweetRind
 InternalName = SWEETRIND
 Type1 = GRASS
@@ -920,7 +890,7 @@ EffortPoints = 0,0,0,3,0,0
 Rareness = 45
 Happiness = 70
 Abilities = SOLIDROCK
-Moves = 1,GIGADRAIN,1,ABSORB,1,PROTECT,4,CONFUSION,7,ENDEAVOR,10,PSYBEAM,14,ROCKTOMB,17,ROUND,21,PSYSHOCK,25,LIGHTSCREEN,25,REFLECT,29,PAINSPLIT,32,IRONDEFENSE,36,PSYCHIC,40,SIGNALBEAM,44,GIGADRAIN
+Moves = 1,GIGADRAIN,1,ABSORB,1,PROTECT,4,CONFUSION,7,ENDEAVOR,10,PSYBEAM,14,ROCKTOMB,17,ROUND,21,PSYSHOCK,25,LIGHTSCREEN,25,REFLECT,29,PAINSPLIT,32,IRONDEFENSE,36,PSYCHIC,40,SIGNALBEAM,44,GIGADRAIN,48,ENERGYBALL
 Compatibility = Amorphous
 StepsToHatch = 9120
 Height = 2
@@ -929,6 +899,34 @@ Color = Green
 Shape = Head
 Kind = Wall
 Pokedex = This jermon will haunt trainers who refuse to catch it, following them to the ends of the earth. It smells like watermelon.
+BattlerPlayerX = 0
+BattlerPlayerY = 4
+BattlerEnemyX = 0
+BattlerEnemyY = 8
+BattlerShadowX = 0
+BattlerShadowSize = 2
+#-------------------------------
+[32]
+Name = CosmicCalamdy
+InternalName = COSMICCALAMDY
+Type1 = PSYCHIC
+BaseStats = 65,70,125,50,95,100
+GenderRate = Female50Percent
+GrowthRate = Parabolic
+BaseEXP = 195
+EffortPoints = 0,0,0,3,0,0
+Rareness = 45
+Happiness = 70
+Abilities = SOLIDROCK
+Moves = 1,GIGADRAIN,1,ABSORB,1,PROTECT,4,CONFUSION,7,ENDEAVOR,10,PSYBEAM,14,ROCKTOMB,17,ROUND,21,PSYSHOCK,25,LIGHTSCREEN,25,REFLECT,29,PAINSPLIT,32,IRONDEFENSE,36,PSYCHIC,40,SIGNALBEAM,44,CALMMIND,48,FUTURESIGHT
+Compatibility = Amorphous
+StepsToHatch = 9120
+Height = 2
+Weight = 69
+Color = Purple
+Shape = Head
+Kind = Wall
+Pokedex = Placeholder.
 BattlerPlayerX = 0
 BattlerPlayerY = 4
 BattlerEnemyX = 0
@@ -4980,29 +4978,29 @@ BattlerShadowX = 0
 BattlerShadowSize = 2
 #-------------------------------
 [172]
-Name = Placeholder4
-InternalName = PLACEHOLDER4
-Type1 = PSYCHIC
-Type2 = FIGHTING
-BaseStats = 80,120,90,50,65,95
-GenderRate = Female50Percent
-GrowthRate = Medium
-BaseEXP = 165
-EffortPoints = 0,0,0,0,0,0
-Rareness = 210
+Name = Sheeto
+InternalName = SHEETO
+Type1 = FAIRY
+BaseStats = 55,50,95,90,80,115
+GenderRate = AlwaysMale
+GrowthRate = Parabolic
+BaseEXP = 170
+EffortPoints = 0,0,0,0,1,0
+Rareness = 100
 Happiness = 70
-Abilities = SUPERLUCK
-Moves = 1,TACKLE,
-Compatibility = Field
-StepsToHatch = 9120
-Height = 3.0
-Weight = 5.0
-Color = Red
-Shape = Quadruped
-Kind = Sleeping Bear
-Pokedex = Placeholder
+Abilities = PIXILATE
+Moves = 1,GROWL,1,DISARMINGVOICE,4,BABYDOLLEYES,8,ECHOEDVOICE,12,SUPERSONIC,16,CHARM,20,SWIFT,24,CHATTER,28,MIMIC,32,UPROAR,36,HYPERVOICE,40,SYNCHRONOISE,44,SCREECH,48,BOOMBURST
+Compatibility = Monster
+StepsToHatch = 5355
+Height = .51
+Weight = 13
+Color = Yellow
+Shape = HeadLegs
+Habitat = Mountain
+Kind = Instrument
+Pokedex = The voice of this Jermon is controversial amongst trainers: some love its voice for its squeaky charm, others hate it for being grating and annoying.
 BattlerPlayerX = 0
-BattlerPlayerY = 10
+BattlerPlayerY = 4
 BattlerEnemyX = 0
 BattlerEnemyY = 8
 BattlerShadowX = 0

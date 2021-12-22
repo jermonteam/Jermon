@@ -677,3 +677,4 @@
 661,ONIONRING,Onion Ring,Onion Rings,1,3000,"Pog! It makes certain species of Jermon evolve.",1,0,7,
 662,TOMATO,Tomato Slice,Tomato Slices,1,3000,"A chilled tomato slice. It makes certain species of Jermon evolve.",1,0,7,
 663,VR,VR Helmet,VR Helmets,8,0,"A VR helmet, you cant use this without a console.",0,0,6,
+664,JEXEAGLE,Jex Eagle,Jex Eagles,8,0,"An eagle representing your victory.",0,0,6,

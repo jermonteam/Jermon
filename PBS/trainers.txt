@@ -60,6 +60,13 @@ Pokemon = SHEETO,37
 Pokemon = SUPERFROG,37
 Pokemon = SMILE,40,,,,,,2
 #-------------------------------
+[RIVAL,Twitch Chat,5]
+LoseText = ""
+Pokemon = SQUEEKTOR,37
+Pokemon = SHEETO,37
+Pokemon = SUPERFROG,37
+Pokemon = SMILE,40,,,,,,2
+#-------------------------------
 [GRILLMASTER,Grillmasterxbbq,1]
 LoseText = ""
 Pokemon = SLEEPEOR,19
@@ -1041,7 +1048,7 @@ Pokemon = MIDAS9000,55
 #-------------------------------
 [ELITEFOUR_Ster,STAR]
 LoseText = ""
-Pokemon = FRULIEN,55
+Pokemon = COSMICCALAMDY,55
 Pokemon = MURIOUS,55
 Pokemon = SATERNAL,55
 Pokemon = CATUFO,55
