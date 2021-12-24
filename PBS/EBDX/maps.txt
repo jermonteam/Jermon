@@ -162,3 +162,12 @@ BattleEnv       = CHAMPION
 #-------------------------------
 [148]
 BattleEnv       = CHAMPION
+#-------------------------------
+[161]
+BattleEnv       = DIMENSION
+#-------------------------------
+[163]
+BattleEnv       = DIMENSION
+#-------------------------------
+[165]
+BattleEnv       = MAGMA

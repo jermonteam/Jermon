@@ -834,6 +834,10 @@ Pokemon = JIGSOPPET,41
 LoseText = ""
 Pokemon = FRENCHCHAMPAGNE,43
 #-------------------------------
+[MILKMAN,Milkman]
+LoseText = ""
+Pokemon = CRUNCHFINCH,10
+#-------------------------------
 [LEADER_Zeraxos,Zeraxos and Demon Grandpa]
 LoseText = ""
 Pokemon = MERCURY,46
