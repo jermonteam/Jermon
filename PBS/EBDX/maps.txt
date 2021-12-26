@@ -171,3 +171,6 @@ BattleEnv       = DIMENSION
 #-------------------------------
 [165]
 BattleEnv       = MAGMA
+#-------------------------------
+[166]
+BattleEnv       = VICTORY

@@ -164,7 +164,7 @@ Land,21
 Land,21
     30,ARCHEODE,33,37
     25,PURRTION,33,37
-    25,COGNITE,33,37
+    25,KATAMARI,33,37
     20,ZOOMBRAINI,33,37
 #-------------------------------
 [134] # Hidden Grove
@@ -186,7 +186,7 @@ Land,21
     30,JUMPKING,35,39
     30,SAPBLING,35,39
     20,VINESHROOM,35,39
-    20,KATAMARI,35,39
+    20,BEAR,35,39
 #-------------------------------
 [140] # Overett Caves
 Cave,5

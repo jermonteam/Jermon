@@ -34,3 +34,15 @@ FormName = Ball Form
 BaseStats = 50,140,140,30,140,140
 Height = 4.57
 Weight = 451
+#-------------------------------
+[JUP,1]
+FormName = JUP2
+BaseStats = 80,55,65,50,70,65
+#-------------------------------
+[JUP,2]
+FormName = JUP3
+BaseStats = 100,65,80,55,85,80
+#-------------------------------
+[JUP,3]
+FormName = JUP4
+BaseStats = 120,75,95,60,100,95
