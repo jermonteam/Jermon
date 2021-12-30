@@ -679,3 +679,8 @@
 663,VR,VR Helmet,VR Helmets,8,0,"A VR helmet, you cant use this without a console.",0,0,6,
 664,JEXEAGLE,Jex Eagle,Jex Eagles,8,0,"An eagle representing your victory.",0,0,6,
 665,JUPSPLICER,JUP Splicer,JUP Splicers,8,0,"A splicer that fuses JUPs together. Use on unfused JUP quarters first.",5,0,6,
+666,CROWBAR,Crowbar,Crowbars,8,0,"An old crowbar used for possibly nefarious purposes.",0,0,6,
+667,ROCKKEY,Front Door Rock Key,Front Door Rock Keys,8,0,"The key to the front door of the Rock House.",0,0,6,
+668,ROCKKEY2,Back Door Rock Key,Back Door Rock Keys,8,0,"The key to the back door of the Rock House.",0,0,6,
+669,FLOWERKEY,Back Door Flower Key,Back Door Flower Keys,8,0,"The key to the back door of the Flower House.",0,0,6,
+670,FIRSTVAULTKEY,First Vault Key,First Vault Keys,8,0,"A symbol of peace.",0,0,6,
