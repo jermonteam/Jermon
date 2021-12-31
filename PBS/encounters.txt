@@ -55,10 +55,11 @@ Land,21
 #-------------------------------
 [044] # Sewers
 Land,21
-    30,PYROFISH,15,17
-    30,SCUTTLEGUN,15,17
-    25,REDBLEND,14,16
-    15,SHPEE,15,17
+    25,PYROFISH,15,17
+    25,SCUTTLEGUN,15,17
+    20,REDBLEND,14,16
+    20,MADUMPY,14,16
+    10,SHPEE,15,17
 #-------------------------------
 [045] # Route 5 - Haunted Hills
 Land,21
@@ -82,8 +83,9 @@ Cave,1
 Land,21
     25,APPLAAH,18,21
     25,STACHERPILLAR,18,21
-    25,BRAWLCOLLI,18,21
-    25,SMALLTHROPOD,18,21
+    20,BRAWLCOLLI,18,21
+    20,SMALLTHROPOD,18,21
+    20,GNOT,18,21
 #-------------------------------
 [053] # Route 6 - Liberty Bridge
 Land,21
@@ -94,9 +96,11 @@ Land,21
 #-------------------------------
 [056] # Frozen Warehouse
 Cave,5
-    35,DUNKLING,18,21
-    35,POPMA,18,21
-    30,BYEAHBY,18,21
+    20,DUNKLING,18,21
+    20,POPMA,18,21
+    20,BYEAHBY,18,21
+    20,MINUSTWO,18,21
+    20,BUTTERLUST,18,21
 #-------------------------------
 [068] # Route 7 - Calm Waters
 Water,2
@@ -107,10 +111,11 @@ Water,2
 #-------------------------------
 [071] # Route 8 - Soul Coast
 Land,21
-    30,MONKAPOLE,21,24
-    30,SNATTAKITTY,21,24
-    25,JACKO,21,24
-    15,PAIN,21,24
+    25,MONKAPOLE,21,24
+    25,SNATTAKITTY,21,24
+    20,JACKO,21,24
+    20,SAPBLING,21,24
+    10,PAIN,21,24
 Water,2
     25,SAVEGULL,21,24
     25,LILMACK,21,24
@@ -122,13 +127,13 @@ Cave,5
     25,FRULIEN,23,26
     25,PILLOREO,23,26
     25,RINGLERN,23,26
-    25,BATBY,23,26
+    25,BEAR,23,26
 #-------------------------------
 [087] # Route 9
 Land,21
     25,SHEETO,25,29
     25,SQUEEKTOR,25,29
-    25,STUBBLEBUG,25,29
+    25,SANDSTALE,25,29
     25,GARFIELD,25,29
 #-------------------------------
 [088] # Route 12 - Wild Waters
@@ -162,7 +167,7 @@ Land,21
 #-------------------------------
 [114] # Route 11
 Land,21
-    30,ARCHEODE,33,37
+    30,WALLYWHEAT,33,37
     25,PURRTION,33,37
     25,KATAMARI,33,37
     20,ZOOMBRAINI,33,37
@@ -186,7 +191,7 @@ Land,21
     30,JUMPKING,35,39
     30,SAPBLING,35,39
     20,VINESHROOM,35,39
-    20,BEAR,35,39
+    20,JUP,35,39
 #-------------------------------
 [140] # Overett Caves
 Cave,5

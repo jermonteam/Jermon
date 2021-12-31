@@ -1288,11 +1288,11 @@ BattlerPlayerY          = -3
 BattlerEnemyX           = -2
 #-------------------------------
 [JUP]
-BattlerEnemyY           = 34
+BattlerEnemyY           = 57
 BattlerAltitude         = 19
-BattlerPlayerX          = -5
-BattlerPlayerY          = 10
-BattlerEnemyX           = -3
+BattlerPlayerX          = -9
+BattlerPlayerY          = 19
+BattlerEnemyX           = -4
 #-------------------------------
 [GREENSCREEN]
 BattlerEnemyY           = 9
@@ -1349,3 +1349,59 @@ BattlerAltitude         = 0
 BattlerPlayerX          = 0
 BattlerPlayerY          = 28
 BattlerEnemyX           = -4
+#-------------------------------
+[GODTTO,1]
+BattlerEnemyY           = 0
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0
+#-------------------------------
+[COSMICCALAMDY]
+BattlerEnemyY           = 8
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 4
+BattlerEnemyX           = 0
+#-------------------------------
+[SANDSTALE]
+BattlerEnemyY           = 21
+BattlerAltitude         = 0
+BattlerPlayerX          = 1
+BattlerPlayerY          = 28
+BattlerEnemyX           = -2
+#-------------------------------
+[PRAYPHID]
+BattlerEnemyY           = 46
+BattlerAltitude         = 0
+BattlerPlayerX          = -6
+BattlerPlayerY          = 56
+BattlerEnemyX           = -16
+#-------------------------------
+[HELIANTIS]
+BattlerEnemyY           = 20
+BattlerAltitude         = 0
+BattlerPlayerX          = -19
+BattlerPlayerY          = 39
+BattlerEnemyX           = -19
+#-------------------------------
+[JUP,1]
+BattlerEnemyY           = 0
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0
+#-------------------------------
+[JUP,2]
+BattlerEnemyY           = 0
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0
+#-------------------------------
+[JUP,3]
+BattlerEnemyY           = 0
+BattlerAltitude         = 0
+BattlerPlayerX          = 0
+BattlerPlayerY          = 0
+BattlerEnemyX           = 0

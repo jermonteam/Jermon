@@ -62,10 +62,13 @@ Pokemon = SMILE,40,,,,,,2
 #-------------------------------
 [RIVAL,Twitch Chat,5]
 LoseText = ""
-Pokemon = SQUEEKTOR,37
-Pokemon = SHEETO,37
-Pokemon = SUPERFROG,37
-Pokemon = SMILE,40,,,,,,2
+Pokemon = SMILE,57
+Pokemon = SMILE,57
+Pokemon = SMILE,57
+Pokemon = SMILE,57
+Pokemon = SMILE,57
+Pokemon = SMILE,57
+
 #-------------------------------
 [GRILLMASTER,Grillmasterxbbq,1]
 LoseText = ""
@@ -337,7 +340,7 @@ Pokemon = CHEESEY,23
 #-------------------------------
 [BOOMER,7]
 LoseText = ""
-Pokemon = CAT,24
+Pokemon = PRAYPHID,24
 #-------------------------------
 [DORKF,8]
 LoseText = ""
@@ -623,7 +626,7 @@ Pokemon = CHARLIETAN,36
 LoseText = ""
 Pokemon = MAGILLOON,48
 Pokemon = SATERNAL,48
-Pokemon = LABO_2,48
+Pokemon = HELIANTIS,48
 Pokemon = CEREAGLE,49
 Pokemon = CHARLIETAN,49
 #-------------------------------
@@ -645,7 +648,7 @@ Pokemon = JACKO,33
 #-------------------------------
 [UNDEAD,Maze3]
 LoseText = ""
-Pokemon = PILLOREO,33
+Pokemon = SANDSTALE,33
 #-------------------------------
 [UNDEAD,Maze4]
 LoseText = ""
@@ -1060,18 +1063,18 @@ Pokemon = SOLNATE,55
 #-------------------------------
 [CHAMPION,Jex]
 LoseText = ""
-Pokemon = TYRANNASCREECH,57
-Pokemon = CHEEZBRICK,57
-Pokemon = KATAMARI,57
-Pokemon = HOLYMACK,57
-Pokemon = JERMONARCH,57
-Pokemon = GODTTO_1,57
+Pokemon = TYRANNASCREECH,56
+Pokemon = CHEEZBRICK,56
+Pokemon = KATAMARI,56
+Pokemon = HOLYMACK,56
+Pokemon = JERMONARCH,56
+Pokemon = GODTTO_1,56
 #-------------------------------
 [TWITCH,Chat]
 LoseText = ""
-Pokemon = SMILE,58
-Pokemon = SMILE,58
-Pokemon = SMILE,58
-Pokemon = SMILE,58
-Pokemon = SMILE,58
-Pokemon = SMILE,58
+Pokemon = SMILE,57
+Pokemon = SMILE,57
+Pokemon = SMILE,57
+Pokemon = SMILE,57
+Pokemon = SMILE,57
+Pokemon = SMILE,57
