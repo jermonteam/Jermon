@@ -684,3 +684,4 @@
 668,ROCKKEY2,Back Door Rock Key,Back Door Rock Keys,8,0,"The key to the back door of the Rock House.",0,0,6,
 669,FLOWERKEY,Back Door Flower Key,Back Door Flower Keys,8,0,"The key to the back door of the Flower House.",0,0,6,
 670,FIRSTVAULTKEY,First Vault Key,First Vault Keys,8,0,"A symbol of peace.",0,0,6,
+671,PACKAGE,Package,Packages,8,0,"A medium sized cardboard box with some weight to it. I wonder what's inside?",0,0,6,

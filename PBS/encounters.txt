@@ -103,7 +103,7 @@ Cave,5
     20,BUTTERLUST,18,21
 #-------------------------------
 [068] # Route 7 - Calm Waters
-Water,2
+Water,4
     25,SAVEGULL,21,24
     25,GOOPER,21,24
     25,GLOBEFLATE,21,24
@@ -116,7 +116,7 @@ Land,21
     20,JACKO,21,24
     20,SAPBLING,21,24
     10,PAIN,21,24
-Water,2
+Water,4
     25,SAVEGULL,21,24
     25,LILMACK,21,24
     25,GLOBEFLATE,21,24
